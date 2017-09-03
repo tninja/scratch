@@ -1,4 +1,7 @@
 
+(require 'elpy)
+(require 'osx-lib)
+
 (defun osx-lib-say-rnd (msg-list)
   (interactive)
   (let* ((l (length msg-list))
