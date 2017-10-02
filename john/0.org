@@ -282,18 +282,71 @@
 |            | 1:20pm 3 Oz                        | 1:20pm 40min                   |                       |                          |                 |
 |            | 3:30pm 3.5 Oz                      | 4pm 1h40min                    |                       |                          |                 |
 |            | 8:50pm 5 Oz                        |                                |                       |                          |                 |
-| 2017-09-26 | 9:00am 3 Oz                        | 20min in the morning           |                       |                          |                 |
+| 2017-09-26 | 9:00am 3 Oz                        | 20min in the morning           |                       | 21.5 Oz + 2 spoon beef   | day: 3h         |
 |            | 2:30am 4 Oz                        | 2h in the noon                 |                       |                          |                 |
 |            | 12:00pm 5 Oz                       | 6pm 40min                      |                       |                          |                 |
 |            | 3:30pm 2 spoon beef                |                                |                       |                          |                 |
 |            | 4:20pm 4 Oz                        |                                |                       |                          |                 |
 |            | 9:00pm 5.5 Oz                      |                                |                       |                          |                 |
-| 2017-09-27 | 0:00am 3 Oz                        |                                |                       |                          |                 |
-|            | 2:50am 2 Oz                        |                                |                       |                          |                 |
+| 2017-09-27 | 0:00am 3 Oz                        |                                |                       | 23.3 Oz                  | day: 3h20min    |
+|            | 2:50am 2 Oz                        |                                |                       | 2 spoon oatmeal          |                 |
 |            | 6:30am 1.8 Oz                      |                                |                       |                          |                 |
-|            | 7:00am 1.9 Oz                      | 20min in the morning           |                       |                          |                 |
-|            | 9:20                               |                                |                       |                          |                 |
-|            |                                    |                                |                       |                          |                 |
-|            |                                    |                                |                       |                          |                 |
+|            | 7:00am 1.9 Oz                      | 9:20am 20min                   |                       |                          |                 |
+|            | 11:00am 5.1 Oz                     |                                |                       |                          |                 |
+|            | 6:30pm 5 Oz, 2 spoon oatmeal       | 1:30pm 3h                      |                       |                          |                 |
+|            | 10:30pm 4.5 Oz                     |                                |                       |                          |                 |
+| 2017-09-28 | 2:30am 4.6 Oz                      |                                |                       | 25.4 Oz                  | day: 2h30min    |
+|            | 5:20am 1.8 Oz                      |                                |                       | 2 spoon oatmeal          |                 |
+|            | 9:00am 3 spoon beef, 1 Oz          | 9:30am 30min                   |                       | 3 spoon beef             |                 |
+|            | 10:30am 3.5 Oz                     | 12:00pm 2h                     |                       |                          |                 |
+|            | 3:40pm 5 Oz                        |                                |                       |                          |                 |
+|            | 5pm 5 Oz, 2 spoon oatmeal          |                                |                       |                          |                 |
+|            | 8:30pm 4.5 Oz                      |                                |                       |                          |                 |
+| 2017-09-29 | 0:00am 2 Oz                        |                                |                       | 27 Oz                    |                 |
+|            | 2:10am 3.1 Oz                      |                                |                       | 4 spoon beef             |                 |
+|            | 5am 4 Oz                           |                                |                       |                          |                 |
+|            | 6:20am 2 Oz                        |                                |                       |                          |                 |
+|            | 8:50am 4 spoon beef                |                                |                       |                          |                 |
+|            | 9:30am 3.9 Oz                      |                                |                       |                          |                 |
+|            | 12:30pm 4 Oz                       |                                | 11点在湖边游乐园玩    |                          |                 |
+|            | 3pm-6pm 4 Oz                       |                                |                       |                          |                 |
+|            | 9pm 1 Oz                           |                                |                       |                          |                 |
+|            | 11:15pm 3 Oz                       |                                |                       |                          |                 |
+| 2017-09-30 | 4am 4.5 Oz                         |                                |                       | 25 Oz                    | day: 2h40min    |
+|            | 9am 4.5 Oz                         |                                |                       | 2 spoon vegetable        |                 |
+|            | 10:30am 2 spoon vegetable          | 10:30am 2h                     |                       |                          |                 |
+|            | 12:00pm 6 Oz                       | 40 min in the afternoon        |                       |                          |                 |
+|            | 4pm 4 Oz                           |                                |                       |                          |                 |
+|            | 8:30pm 6 Oz                        |                                |                       |                          |                 |
+| 2017-10-01 | 2:50am 4.5 Oz                      |                                |                       |                          |                 |
+|            | 6am 3.5 Oz                         |                                |                       |                          |                 |
+|            | 9am 3.7 Oz                         |                                |                       |                          |                 |
+|            | 10:30am 5 Oz                       |                                |                       |                          |                 |
+|            | 1:30pm 3 spoon vegetable           |                                |                       |                          |                 |
+|            | 3:30                               |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 
+* Food for sto
+
+** Good for pupu
+
+- pear
+- prune
+- oatmeal
+- prune juice
+  - mix with water if it is too thick
+- extra water, enough water
+
+** Bad for pupu
+
+- apple
+- banana
+- white rice
+  
+** Medicine
+
+- Miralax
+  - 1 bottle once a day
+  - 0.5 once a day
+
+- glycein suppository for infant if > 10 days
