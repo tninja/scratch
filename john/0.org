@@ -318,15 +318,33 @@
 |            | 12:00pm 6 Oz                       | 40 min in the afternoon        |                       |                          |                 |
 |            | 4pm 4 Oz                           |                                |                       |                          |                 |
 |            | 8:30pm 6 Oz                        |                                |                       |                          |                 |
-| 2017-10-01 | 2:50am 4.5 Oz                      |                                |                       |                          |                 |
-|            | 6am 3.5 Oz                         |                                |                       |                          |                 |
+| 2017-10-01 | 2:50am 4.5 Oz                      |                                |                       | 24.7 Oz                  |                 |
+|            | 6am 3.5 Oz                         |                                |                       | 3 spoon vegetable        |                 |
 |            | 9am 3.7 Oz                         |                                |                       |                          |                 |
 |            | 10:30am 5 Oz                       |                                |                       |                          |                 |
 |            | 1:30pm 3 spoon vegetable           |                                |                       |                          |                 |
-|            | 3:30                               |                                |                       |                          |                 |
+|            | 3:30pm 3.9 Oz                      |                                |                       |                          |                 |
+|            | 6:10pm 1.1 Oz                      |                                |                       |                          |                 |
+|            | 7:20pm 2.5 Oz                      |                                |                       |                          |                 |
+|            | 11:00pm 2.5 Oz                     |                                |                       |                          |                 |
+| 2017-10-02 | 2.5 Oz in the morning              | 1h in the morning              | pupu 干结             |                          |                 |
+|            | 2 spoon oatmeal in the morning     |                                |                       |                          |                 |
+|            | 11:40am 2.5 Oz                     |                                |                       |                          |                 |
+|            | 3 Oz in the afternoon              | 1h in the noon                 |                       |                          |                 |
+|            | 6:00pm 3.5 Oz                      | 2h in the afternoon            |                       |                          |                 |
+|            | 8:30pm 4 Oz                        |                                |                       |                          |                 |
+| 2017-10-03 | 2:10am 1 Oz                        |                                | pupu a lot 干结       |                          |                 |
+|            | 2:30am 5 Oz                        |                                |                       |                          |                 |
+|            | 4.8 Oz in the morning              | 30min in the morning           |                       |                          |                 |
+|            | 10:30am 3 spoon pear               |                                |                       |                          |                 |
+|            | 1:20pm 4 Oz                        | 1.5h in the noon               |                       |                          |                 |
+|            |                                    |                                |                       |                          |                 |
+|            |                                    |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 
 * Food for sto
+
+- Check target
 
 ** Good for pupu
 
