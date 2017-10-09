@@ -347,9 +347,35 @@
 |            | 4pm 4 Oz                           | 1h in the noon                 |                       |                          |                 |
 |            | 6pm 1 Oz                           | 1h in the afternoon            |                       |                          |                 |
 |            | 8:20pm 5 Oz                        |                                |                       |                          |                 |
-| 2017-10-05 | 0am 4.1 Oz                         |                                |                       |                          |                 |
-|            | 3:30am 4 Oz                        |                                |                       |                          |                 |
-|            |                                    |                                |                       |                          |                 |
+| 2017-10-05 | 0am 4.1 Oz                         |                                |                       | 26.8 Oz                  | day: 4h         |
+|            | 3:30am 4 Oz                        |                                |                       | 3 spoon oatmeal          |                 |
+|            | 7am 3 Oz                           | 9am 1h                         |                       |                          |                 |
+|            | 3 Oz in the morning                |                                |                       |                          |                 |
+|            | 3 spoon oatmeal in the morning     |                                |                       |                          |                 |
+|            | 12:30pm 1 Oz                       |                                |                       |                          |                 |
+|            | 3pm 3 Oz                           |                                |                       |                          |                 |
+|            | 4:35pm 3.8 Oz                      | 3h in the afternoon            |                       |                          |                 |
+|            | 8:30pm 4.9 Oz                      |                                |                       |                          |                 |
+| 2017-10-06 | 0:50am 3 Oz                        |                                |                       | 25.9 Oz                  | 1h50min         |
+|            | 2:30am 2 Oz                        |                                |                       | 4-5 spoon oatmeal        |                 |
+|            | 5:50am 5.2 Oz                      |                                |                       |                          |                 |
+|            | 9:00 am 3.2 Oz                     | 9:40am 40min                   |                       |                          |                 |
+|            | 11:00am 1.7 Oz                     |                                |                       |                          |                 |
+|            | 4-5 spoon oatmeal in the morning   | 12:00pm 30min                  |                       |                          |                 |
+|            | 2pm 2.7 Oz                         | 2:20pm 40min                   |                       |                          |                 |
+|            | 5:30pm 4.5 Oz                      |                                |                       |                          |                 |
+|            | 8:00pm 3.6 Oz                      |                                |                       |                          |                 |
+|            | 11:00pm 1 Oz                       |                                |                       |                          |                 |
+| 2017-10-07 | 2:00am 3.5 Oz                      |                                |                       | 24.2 Oz                  | day: 2h         |
+|            | 6:30am 3.5 Oz                      |                                | pupu in the morning   |                          |                 |
+|            | 8:45am 2.9 Oz                      | 2h in the morning              |                       |                          |                 |
+|            | 11:40am 3.9 Oz                     |                                |                       |                          |                 |
+|            | 1:30pm 3.9 Oz                      |                                |                       |                          |                 |
+|            | 7:30pm 3.5 Oz                      |                                |                       |                          |                 |
+|            | 11:30pm 3 Oz                       |                                |                       |                          |                 |
+| 2017-10-08 | 4:00am 1.3 Oz                      |                                |                       |                          |                 |
+|            | 3.2 Oz in the morning              |                                |                       |                          |                 |
+|            | 9:30am 1 Oz, half cup oatmeal      |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 
