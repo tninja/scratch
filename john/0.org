@@ -399,11 +399,15 @@
 |            | 6pm 4 Oz                           |                                |                       |                          |                 |
 |            | 8pm 1.5 Oz                         |                                |                       |                          |                 |
 |            | 11:15pm 4.6 Oz                     |                                |                       |                          |                 |
-| 2017-10-11 | 4:30am 4 Oz                        |                                |                       |                          |                 |
-|            | 8:30am 4.5 Oz                      |                                |                       |                          |                 |
-|            | 12pm 5 Oz, half bowl oatmeal       | 10:10am 1.5h                   | 7:30pm pupu           |                          |                 |
+| 2017-10-11 | 4:30am 4 Oz                        |                                |                       | 21.5 Oz                  |                 |
+|            | 8:30am 4.5 Oz                      |                                |                       | half bowl oatmeal        |                 |
+|            | 12pm 5 Oz, half bowl oatmeal       | 10:10am 1.5h                   | 7:30pm pupu a lot     | half bowl vegetable      |                 |
 |            | 4:00pm half bowl vegetable         |                                |                       |                          |                 |
 |            | 6pm 5 Oz                           |                                | 1.5 Oz water          |                          |                 |
+|            | 11:30pm 3 Oz                       |                                |                       |                          |                 |
+| 2017-10-12 | 3:20am 5 Oz                        |                                |                       |                          |                 |
+|            | 6:30am 3 Oz                        |                                |                       |                          |                 |
+|            |                                    |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 
 * Food for sto
