@@ -405,8 +405,25 @@
 |            | 4:00pm half bowl vegetable         |                                |                       |                          |                 |
 |            | 6pm 5 Oz                           |                                | 1.5 Oz water          |                          |                 |
 |            | 11:30pm 3 Oz                       |                                |                       |                          |                 |
-| 2017-10-12 | 3:20am 5 Oz                        |                                |                       |                          |                 |
-|            | 6:30am 3 Oz                        |                                |                       |                          |                 |
+| 2017-10-12 | 3:20am 5 Oz                        |                                |                       | 21.6 Oz                  | day: 2.5h       |
+|            | 6:30am 3 Oz                        |                                |                       | 1.5 bowl of oatmeal      |                 |
+|            | 8:15am 3.5 Oz, a bowl of oatmeal   | 11:10am 1.5h                   |                       |                          |                 |
+|            | 4pm 2.1 Oz                         | 2:00pm 1h                      |                       |                          |                 |
+|            | 5pm 3 Oz                           |                                | close to 1 Oz Water   |                          |                 |
+|            | 7pm 1 Oz + half bowl oatmeal       |                                |                       |                          |                 |
+|            | 8:30pm 4 Oz                        |                                |                       |                          |                 |
+| 2017-10-13 | 0:30am 3 Oz                        |                                |                       | 14.5 Oz                  | day: 3h         |
+|            | 2:50am 1 Oz                        |                                |                       | a bowl of oatmeal        |                 |
+|            | 8:30am 2 Oz + half bowl oatmeal    | 0.5h in the morning            |                       | 2 spoon vegetable        |                 |
+|            | 1pm 3.5 Oz + 2 spoon vegetable     | 11:30am 1h20min                |                       |                          |                 |
+|            | 6pm 5 Oz, half bowl oatmeal        | 1h15min in the afternoon       |                       |                          |                 |
+| 2017-10-14 | 0am 5.1 Oz                         |                                |                       | 18.1 Oz                  | day: 3.5h       |
+|            | 8:20am 3 Oz + half bowl oatmeal    | 2.5h in the morning            |                       | a bowl of oatmeal        |                 |
+|            | 12:30pm 5.5 Oz, half bowl oatmeal  | 3:40pm 1h                      |                       |                          |                 |
+|            | 11:30pm 4.5 Oz                     |                                |                       |                          |                 |
+| 2017-10-15 | 3:30 am 3.8 Oz                     |                                |                       |                          |                 |
+|            | 8am 4 Oz                           |                                | 8:30am pupu a lot     |                          |                 |
+|            | 9am a little bit oat meal          |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 |            |                                    |                                |                       |                          |                 |
 
