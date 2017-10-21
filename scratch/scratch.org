@@ -1,0 +1,32 @@
+
+你好 屠乐谦
+
+你昨晚睡得好不好呀
+
+你今天想吃什么呀
+
+你今天想去哪里玩呀
+
+我们放首歌听吧好不好
+
+** Kotlin REPL key binding
+
+| Key     | Function                        |
+|---------+---------------------------------|
+| C-c C-z | Start REPL                      |
+| C-c C-n | Send current line to REPL       |
+| C-c C-r | Send selected region to REPL    |
+| C-c C-c | Send current code block to REPL |
+| C-c C-b | Send whole buffer to REPL       |
+
+智慧是什么呢?《圣经?旧约》上说：“智慧是追求成功的艺术，是为了获得所期望的结果而制订正确计划的艺术。”智慧“来源于人的心，心是人做出道德和理智解决的所在”。
+
+ftp://ftp1.linuxidc.com
+
+Fine dining restaurants are full service restaurants with specific dedicated meal courses. Décor of such restaurants features higher-quality materials, with establishments having certain rules of dining which visitors are generally expected to follow, often including a dress code.
+
+We thank the editor and two anonymous reviewers for their actions after
+
+What are you going to do today
+
+We thank the maker of the emacs

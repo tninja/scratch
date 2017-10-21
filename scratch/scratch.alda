@@ -1,0 +1,124 @@
+
+electric-guitar-clean: o3
+g8 a b > c d e f+ g | a b > c d e f+ g4
+g8 f+ e d c < b a g | f+ e d c < b a g4
+<< g1/>g/>g/b/>d/g
+
+piano:
+  (note (pitch :c))
+
+  (do (volume 50) (octave 6))
+
+  (chord (note (pitch :c))
+         (note (pitch :e))
+         (note (pitch :g)))
+
+  (for [letter [:c :d :e :f :g]]
+    (note (pitch letter)
+          (duration (note-length 8))))
+
+cello:
+  o3
+  (alda-code (apply str (repeat 7 "e8 f g ")))
+
+bassoon:
+  o3
+  (alda-code (apply str (repeatedly 5 #(str (rand-nth "abcdefg") \space))))
+
+piano:
+  (schedule #(println "playing c")) c8
+  (schedule #(println "playing d")) d
+  (schedule #(println "playing e")) e
+  (schedule #(println "playing f")) f
+  (schedule #(println "playing g")) g2
+
+electric-guitar-clean:
+	a8 b8 c8
+
+## example 1
+
+trumpet:
+o4 c d e f g a b > c d e f g a b > c
+
+trombone:
+o3 e f g a b > c d e f g a b > c d e
+
+## example 2
+	
+trumpet: o4 c d e f g a b > c
+trombone: o3 e f g a b > c d e
+
+trumpet: d e f g a b > c
+trombone: f g a b > c d e
+
+
+## example 3
+
+trumpet/trombone: c d e f g f e d c
+
+
+violin: (tempo 100)
+viola: (tempo 112)
+cello: (tempo 124)
+violin/viola/cello: e f g e8 f8 g8
+
+
+
+violin "violin-1":
+  o4 f2   g4 a   b-2   a
+
+violin "violin-2":
+  o4 c2   e4 f   f2    f
+
+viola:
+  o3 a2 > c4 c   d2    c
+
+cello:
+  o3 f2   c4 f < b-2 > f
+
+鹏鹏是个好喵喵
+
+
+piano:
+  V1: c d e f g1
+  V2: e f g a b1
+  V3: g a b > c d1
+  V0: c e g > c2.
+
+piano: c d e f
+
+	
+(tempo 160) o4 c4. d16 e f+4 a | g e c < g > | c4. d16 e f+4 d | g8 f+ g a b4 g | a-4. g16 f e-4 f | g g8 a b-4 g | b-16 > c8. < g4 b-16 > c8. g4 | f+8 g16 f+ e8 f+ g e c < g
+V1: o4 e2 g4 f | e2 d | e4 g8 f e4 c | d d8 c d2 | e4. f8 g4 g8 f | e4 f8 e d2 | e4 g8 f8 e4 f8 d8 | c4 e8 d8 c2 V2: o3 c4 g e g | < b > g d g | < a > e < f > c | < g > g d g | c4 g e g | d a < b > g | < a > e < f > c | c < g8 f e2
+
+
+violin/viola/cello "strings": g1~1~1
+strings.cello: < c1~1~1
+
+accordion:
+	c500ms/e/g
+	c1s/f/a
+	c2s/e/g
+
+piano: c d e f
+
+g ab b &gt; c
+
+piano: o0 c &gt; c &gt; c &gt; c &gt; c &gt; c &gt; c &gt; c &gt; c &gt; c
+
+piano: o4 c++++-+-+-+
+
+### try 10,000 reasons
+
+cello: r2 e4 e8 d8 b2 a8 b8 a8 g8 e8 ~ e4 d8 e8 g8 d8 b8 ~ b4 g4 a2 b8 d8 e4 e8 d8 b2 e4 
+
+cello: c16
+
+### ryu
+
+cello: r2 r4 r8 b16 d16 e2 r8 e8 g8 
+
+	
+    a4. g16 [ fis16 ] g4 e4 | % 7
+    fis2 r8 g8 [ a8 e8 ] | % 8
+    r4 c'2 a8 -. [ g8 ] \pageBreak | % 9
