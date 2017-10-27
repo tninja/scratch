@@ -234,3 +234,12 @@ missing = total - (sum(nums) - dups)
 
 [dups, missing]
 
+## practice numpy & scipy (for sparse matrix)
+
+import numpy as np
+
+zm = np.zeros((4,4))
+
+zm[0,0]
+
+[1,2,3,4][0]

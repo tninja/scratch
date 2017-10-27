@@ -15,3 +15,7 @@ class Solution {
         return 1;
     }
 }
+
+import Cocoa
+
+print("Hello world")
