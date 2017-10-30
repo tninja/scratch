@@ -498,7 +498,16 @@
 |            | 11:50am half bowl oatmeal, 2.5 Oz   |                                |                         |                          |                 |
 |            | 3:30pm half bowl oatmeal, 5 Oz      | 30min                          |                         |                          |                 |
 | 2017-10-28 | 6:50am half bowl oatmeal, 2 Oz      |                                |                         |                          |                 |
-|            |                                     |                                |                         |                          |                 |
+|            | 2 Oz in the morning                 | 1.5h in the morning            |                         |                          |                 |
+|            | 12:30pm 4 Oz                        |                                |                         |                          |                 |
+|            | 2:30pm a little bit pumpkin         |                                |                         |                          |                 |
+|            | 2:30pm half bowl oatmeal, 2 Oz      | 0.5h in the noon               |                         |                          |                 |
+|            | 6pm 4 Oz, half bowl oatmeal         |                                |                         |                          |                 |
+|            | 10pm 2 Oz                           |                                |                         |                          |                 |
+| 2017-10-29 | 7am half bowal oatmeal, 4 Oz        |                                |                         |                          |                 |
+|            | 4pm 2 bottle 液体奶                 |                                |                         |                          |                 |
+|            | 4pm a little bit pumpkin oatmeal    |                                |                         |                          |                 |
+|            | 7:30pm 4.5 Oz                       |                                |                         |                          |                 |
 |            |                                     |                                |                         |                          |                 |
 
 * Food for sto
