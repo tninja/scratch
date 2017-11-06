@@ -518,25 +518,21 @@
 |            | 7:20pm half bowl oatmeal, 3.5 Oz       |                                | 7:30pm pupu             |                          |                 |
 | 2017-10-31 | 7:30am half bowl oatmeal, 3 Oz         | 1.5h in the morning            |                         |                          |                 |
 |            | 12:00pm half egg, a little bit oatmeal | 1h in the noon                 |                         |                          |                 |
-|            | 3:00pm half bowl oatmeal, 4.4 Oz       |                                |                         |                          |                 |
-|            | 4:30pm 酸奶                            |                                |                         |                          |                 |
-|            | 7:00pm a bowl oatmeal, 5 Oz            |                                |                         |                          |                 |
-| 2017-11-01 | half bowl oatmeal in the morning, 4 Oz |                                |                         |                          |                 |
-|            | 3 Oz in the noon                       | 1h in the afternoon            |                         |                          |                 |
-|            | 4:30pm a bowl of oatmeal, 3.5 Oz       |                                |                         |                          |                 |
-|            | 8pm a bowl of oatmeal, 3 Oz            |                                | 11:20pm pupu            |                          |                 |
-|            | 11:30pm 2 Oz                           |                                |                         |                          |                 |
-| 2017-11-02 | 6:30am 3 Oz                            |                                |                         |                          |                 |
-|            | 9:20am a little bit oatmeal, 1 Oz      |                                |                         |                          |                 |
-|            | 12:00pm one egg                        | 1h in the morning              |                         |                          |                 |
-|            | 5:00pm half bowl oatmeal, 2 Oz         | 1h in the noon                 |                         |                          |                 |
-| 2017-11-03 | 0:40am 2 Oz                            |                                |                         |                          |                 |
-|            | 7:30am a bowl of oatmeal, 3 Oz         | 9:30am: 1.5h                   |                         |                          |                 |
-|            | 12:00pm one egg                        | 40min in the noon              |                         |                          |                 |
-|            | 2:00pm half bowl oatmeal, 2 Oz         | 5pm 30min                      |                         |                          |                 |
-|            | 6:30pm half bowl oatmeal, 2.5 Oz       |                                |                         |                          |                 |
 |            |                                        |                                |                         |                          |                 |
-| 2017-11-04 | 8am half bowl oatmeal, 4 Oz            |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+| 2017-11-01 |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+| 2017-11-02 |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+| 2017-11-03 |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+|            |                                        |                                |                         |                          |                 |
+| 2017-11-04 |                                        |                                |                         |                          |                 |
 |            |                                        |                                |                         |                          |                 |
 |            |                                        |                                |                         |                          |                 |
 |            |                                        |                                |                         |                          |                 |

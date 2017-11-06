@@ -1,0 +1,26 @@
+
+acoustic-bass/piano:
+cr16 = [c16 r16]
+amr16 = [a-16 r16]
+besr16 = [b/e-16 r16]
+gr16 = [g16 r16]
+motif01 = [cr16 * 4 | <g16 g16 g16 a-16 r16 b16>]
+motif02 = cr16 * 6 | e-16 r16 f16 r16
+motif03 = [
+motif02 * 4
+<a-16> r16 amr16 * 5 | b/e-16 r16 cr16
+besr16 * 6 | c16 r16 d16 r16
+]
+motif04 = [<g16> r16 gr16 * 5 b16 r16 d16 r16]
+# [cr16 motif01 c16 c16 motif01] * 2
+# motif03 * 2
+motif04 * 2
+
+c16 f16 \rest c'16 [ c16 c,16 ] r16 c'16 r16 c,16 r16 c'16 r16
+c,16 r16 c'16 r16 | \barNumberCheck #20
+bes,16 r16 bes'16 [ bes16 bes,16 ] r16 bes'16 r16 bes,16 r16
+bes'16 r16 bes,16 r16 bes'16 r16 \pageBreak | % 21
+
+c16 f16 >c16< c16 [<c16> r16 >c16< r16] * 3
+
+piano: f d f a d f e d #c a c e a g f e

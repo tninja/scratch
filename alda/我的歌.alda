@@ -55,4 +55,23 @@ r4 r4 r8 c8 c8 c8 | c8 c8 c8 d8 e4 d4 | c4 r4 r4 e8 g8
 a4 a8 g8 e4 r4 | d8~e8~d8 c8 <a4> r4 | <a8> c8 g8 e8~e4 c8 d8~ | d4 r4 r4 e8 g8
 a4 a8 g8 e4 r4 | a4 b4 e4. c8 | c8 d8 e8 d8~d4 c8 c8~c4 r4 r4 r4
 
+## 一千年以后
+
+midi-bright-acoustic-piano/acoustic-bass/violin:
+(tempo! 80)
+g8 c16 d16 e8 a8 g4 r4 | f8 e16 c16~c8 e8 d4 r4 | g8 c16 d16 e8 a8 b8. g16~g8 e16 a16~a4 r4
+# 心跳乱了节奏 梦也不自由 爱时的绝对承诺 不说 沉到一千年以后
+b16 b16 b16 >c16 d16 c16< b8 | >c8< b16 >c16~c16 e8.< b8 a16 b16~b16 g8. | a16 a16 b16 >c16 d16 c16 d16 f16 e8 d16 d16 d8~e16~c16<
+# 放任无奈 淹没尘埃 我在废墟之中守着你走来
+>c8< b16 >c16~c16 e8.< b8 a16 b16~b16 g8 a16~a8 >c4.< | >c16 c16 c16 d16 e16 d8 c16~c8 d8~d4< 
+# 我的泪光承载不了哦 所有一切你要的爱
+r8 b8 >c16 d8. e8 d16 c16~c8< g8 >d4.< >e16 d16 c8< b16 a16~a8 e8 b4.
+# 因为在一千年以后 世界早已没有我
+>c16< b16 a8 b16 >c16~c16 d8.< g8 >e8 e8. e16 f8 e8 c16 d8. d4<
+# 无法深情挽着你的手 浅吻你额头
+b16 >c16 d8 e8 d16 c16~c8 g8 d4~d16 d16 e16 d16 | c8< b16 a16~a16 >d8.< b4. >c16< b16
+# 别等到一千年以后 所有人都遗忘了我
+a8 g16 a16~a16 >c8.< g8 >d8 c8 e16 e16< | >f16~d8.~d8 c16~d16 d8~d8~c8 d8~c8~<e8~e8>c8~c8< r4 r4
+# 那时红色黄昏的沙漠 能有谁 解开刹那千年的寂寞	
+
 piano: o4 c1/e-/g/b
