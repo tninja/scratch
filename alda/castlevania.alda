@@ -13,10 +13,15 @@ besr16 * 6 | c16 r16 d16 r16
 ]
 motif04 = [<g16> r16 gr16 * 5 b16 r16 d16 r16]
 [cr16 motif01 c16 c16 motif01] * 2
+<<<<<<< HEAD
 # motif03 * 2
 # motif04 * 2
 # c16 f16 >c16< c16 [<c16> r16 >c16< r16] * 3
 # <b/e-16> r16 >b/e-16< r16 b/e-16 [<b/e-16> r16 >b/e-16< r16] * 3
+=======
+motif03 * 2
+# motif04 * 2
+>>>>>>> db6a2e78b8442300dc90ddc468bda7b3b43bc118
 
 as,16 r16 as'16 [ as16 as,16 ] r16 as'16 r16 as,16 r16 as'16 r16 as,16 r16 as'16 r16 | % 22
 g,16 r16 g'16 [ g16 g,16 ] r16 g'16 r16 g,16 r16 g'16 r16 g,16 r16 g'16 r16 \break | % 23

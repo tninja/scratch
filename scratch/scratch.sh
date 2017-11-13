@@ -24,3 +24,6 @@ ls
 
 export TESTVAR="helloworld"
 echo $TESTVAR
+
+# Either of these
+pip3 install rope jedi flake8 importmagic autopep8 yapf

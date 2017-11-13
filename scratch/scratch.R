@@ -97,3 +97,25 @@ geom_christmas_tree <- function(mapping = NULL, data = NULL, stat = "identity",
 ### http://smarterpoland.pl/index.php/2015/12/geom_christmas_tree-a-new-geom-for-ggplot2-v2-0/
 
 ggplot(mpg, aes(displ, hwy, fill=manufacturer)) + geom_christmas_tree(size=3)
+
+## About house
+
+### 1. calculate what kind of house we can buy
+
+cash = 300
+applestock = 300
+airbnbstock = 400
+stock.sell.pct = 0.50
+
+downpay.rate = 0.20
+buffer = 100
+
+(cash + applestock * stock.sell.pct - buffer) / downpay.rate
+(cash + (applestock + airbnbstock) * stock.sell.pct - buffer) / downpay.rate
+
+### 2. calculate how many we can get from house
+
+current rent price for the current house:
+~ $4200: https://www.zillow.com/homedetails/833-Columba-Ln-Foster-City-CA-94404/15629197_zpid/
+- So yearly cost is still 15K + 12K + 3K = 30K
+- Will generate probably 4K per month (pre-tax) when I am 50
