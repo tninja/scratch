@@ -243,3 +243,73 @@ zm = np.zeros((4,4))
 zm[0,0]
 
 [1,2,3,4][0]
+
+class Solution(object):
+    def validPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        for ix in range(len(s)):
+            before = s[:ix]; after = s[(ix+1):]
+            rs = before + after
+            if self.isPalindrome(rs):
+                return True
+        return False
+
+    def isPalindrome(self, s):
+        rs = self.reverseString(s)
+        return s == rs
+
+    def reverseString(self, s):
+        rs = s[::-1]
+        return rs
+
+s = Solution()
+
+abca
+acba
+
+class Solution(object):
+    def calPoints(self, ops):
+        """
+        :type ops: List[str]
+        :rtype: int
+        """
+        score_stack = []
+        for ch in ops:
+            if '+' == ch:
+                cur_score = score_stack[-2] + score_stack[-1]
+                score_stack.append(cur_score)
+            elif 'C' == ch:
+                score_stack = score_stack[:-1]
+            elif 'D' == ch:
+                cur_score = score_stack[-1] * 2
+                score_stack.append(cur_score)
+            else:
+                cur_score = int(ch)
+                score_stack.append(cur_score)
+        return sum(score_stack)
+
+s = Solution()
+
+s.calPoints(["5","2","C","D","+"])
+
+s.calPoints(["5","-2","4","C","D","9","+","+"])
+
+def testTypeHint(a: str) -> str:
+    return "this is a string: %s" % a
+
+import pandas as pd
+from pandas import DataFrame
+import numpy as np
+
+def testTypeHint2(df: DataFrame) -> int:
+    return df.size
+
+dates = pd.date_range('20130101', periods=6)
+df = pd.DataFrame(np.random.randn(6,4), index=dates, columns=list('ABCD'))
+testTypeHint2(df)
+
+def what_happens(df: DataFrame) -> int:
+    return df.abs(123)

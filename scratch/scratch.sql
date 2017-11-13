@@ -23,19 +23,19 @@ drop table tdm_utf8;
 CREATE SCHEMA cd;
 
 CREATE TABLE cd.members
-    (
-       memid integer NOT NULL, 
-       surname character varying(200) NOT NULL, 
-       firstname character varying(200) NOT NULL, 
-       address character varying(300) NOT NULL, 
-       zipcode integer NOT NULL, 
-       telephone character varying(20) NOT NULL, 
-       recommendedby integer,
-       joindate timestamp not null,
-       CONSTRAINT members_pk PRIMARY KEY (memid),
-       CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby)
-            REFERENCES cd.members(memid) ON DELETE SET NULL
-    );
+  (
+	memid integer NOT NULL, 
+	surname character varying(200) NOT NULL, 
+	firstname character varying(200) NOT NULL, 
+	address character varying(300) NOT NULL, 
+	zipcode integer NOT NULL, 
+	telephone character varying(20) NOT NULL, 
+	recommendedby integer,
+	joindate timestamp not null,
+	CONSTRAINT members_pk PRIMARY KEY (memid),
+	CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby)
+	REFERENCES cd.members(memid) ON DELETE SET NULL
+	);
 
 \d+ cd.members
 
@@ -52,19 +52,19 @@ from table1 AS t0
 where t0.abc = x and t0.def = y
 
 CREATE TABLE cd.members
-    (
-       memid integer NOT NULL, 
-       surname character varying(200) NOT NULL, 
-       firstname character varying(200) NOT NULL, 
-       address character varying(300) NOT NULL, 
-       zipcode integer NOT NULL, 
-       telephone character varying(20) NOT NULL, 
-       recommendedby integer,
-       joindate timestamp not null,
-       CONSTRAINT members_pk PRIMARY KEY (memid),
-       CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby)
-            REFERENCES cd.members(memid) ON DELETE SET NULL
-    );
+  (
+	memid integer NOT NULL, 
+	surname character varying(200) NOT NULL, 
+	firstname character varying(200) NOT NULL, 
+	address character varying(300) NOT NULL, 
+	zipcode integer NOT NULL, 
+	telephone character varying(20) NOT NULL, 
+	recommendedby integer,
+	joindate timestamp not null,
+	CONSTRAINT members_pk PRIMARY KEY (memid),
+	CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby)
+	REFERENCES cd.members(memid) ON DELETE SET NULL
+	);
 
 -- Thanks lord, we are able to connect to postgresql
 

@@ -12,9 +12,9 @@ motif02 * 4
 besr16 * 6 | c16 r16 d16 r16
 ]
 motif04 = [<g16> r16 gr16 * 5 b16 r16 d16 r16]
-# [cr16 motif01 c16 c16 motif01] * 2
-# motif03 * 2
-motif04 * 2
+[cr16 motif01 c16 c16 motif01] * 2
+motif03 * 2
+# motif04 * 2
 
 c16 f16 \rest c'16 [ c16 c,16 ] r16 c'16 r16 c,16 r16 c'16 r16
 c,16 r16 c'16 r16 | \barNumberCheck #20
