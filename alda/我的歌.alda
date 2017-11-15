@@ -147,11 +147,17 @@ violin:(vol 50) violin_motif0 e4 r8 e8~c4 r8 c8~g4 <g4> c4 <c4>
 
 ## 10000 reaons 双手简谱
 ## http://www.everyonepiano.cn/Number-2716-1-10000-Reasons--Bless-the-Lord--Matt-Redman%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1%E9%A2%84%E8%A7%881.html
-piano: <c4 c8 g8 c4> r4 | <d8 e8 d8 c8 <a4> e8 <a8>> | <[c8 <a8>] * 2 <g8> c4> | <<g4 r4 b4 r4>>
-midi-piano: <f4 a4 e4 r4> | <g4 g4 c4 a4 f4 g4 c4 r4 c4 r4 <g4> r4
 midi-bright-acoustic-piano: <a4> r4 r4 r4 r4 r4 <e4> r4 r4 r4 <e4> r4 <d4 r4 d4 r4>
+midi-piano: <f4 a4 e4 r4> | <g4 g4 c4 a4 f4 g4 c4 r4 c4 r4 <g4> r4
+piano: <c4 c8 g8 c4> r4 | <d8 e8 d8 c8 <a4> e8 <a8>> | <[c8 <a8>] * 2 <g8> c4> | <<g4 r4 b4 r4>>
 guitar: <<<f4. f8 c4 r4 | g4. g8 a4 r4 | f4 r4 c4 r4 g4 r4 r4 r4>>> 
 acoustic-guitar: r4 * 4 | r4 * 4 | <<f4 r4 c4 r4 | g4 r4 * 3>>
-	
+
+midi-bright-acoustic-piano: r4 * 2 <e4> r4 | r4 * 4 | r4 * 2 <e4> r4 | <d4~d8~d8~d4>
+midi-piano: <f4 g4 c4 r4> | <d4> r4 * 3 | <f4 g4 c4 r4> | <c4 c8 <g8 g4>> r4
+piano: <c8 <a8> c8 <a8 f4>> r4 | <<b8> e8 d8 c8 <a4>> r4 | <c8 <a8> c8 <a8 f4> c4> | <<g4 g8 b8 b4>> r4
+guitar: <<f4 r4 c4 r4>> | <<g4 r4 e4 r4>> | <<f4 r4 c4 r4>> | <<g4>> r4 * 3
+acoustic-guitar: <<f4 r4 c4 r4>> | <<b4 r4 a4 r4>> | <<f4 r4 c4 r4>> | <<g4>> r4 * 3
+
 ## 和弦
 piano: o4 c1/e-/g/b
