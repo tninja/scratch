@@ -132,32 +132,40 @@ violin_motif1 = violin_motif0 r4 f8 e8 d8 c8
 piano: piano_motif1 e4.~ d8 d4 r4
 acoustic-bass: bass_motif1 c4. <b8 b4> r4
 violin: (vol 50) violin_motif1 c4. <g8 g4 a8 b8>
-
+## -
 piano: piano_motif1 d4. c8 c4 r4
 acoustic-bass: bass_motif1 <b4. e8 e4> r4
 violin: (vol 50) violin_motif1 <g4 g4> c4 c4
-
+## -
 piano: d4 d4 e4 c4 d4 e8 f8 e4 r4 d4 e8 f8 e4 d4 c4 d4 <g4> e4
 acoustic-bass: <b4 b4> c4 <a4> <b4> c8 d8 c4 c4 <b4> c8 d8 c4 <b4> <a4 f4 g4> c4
 violin:(vol 50) [g4 <g4> g4 <g8 g8>] * 2 | <g4 g4 g4 g4> <a4 d4 g4 g8 g8>
-
+## -
 piano: piano_motif1 d4. c8 c4 r4
 acoustic-bass: bass_motif1 <b4. e8 e4> r4
 violin:(vol 50) violin_motif0 e4 r8 e8~c4 r8 c8~g4 <g4> c4 <c4>
 
 ## 10000 reaons 双手简谱
 ## http://www.everyonepiano.cn/Number-2716-1-10000-Reasons--Bless-the-Lord--Matt-Redman%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1%E9%A2%84%E8%A7%881.html
-midi-bright-acoustic-piano: <a4> r4 r4 r4 r4 r4 <e4> r4 r4 r4 <e4> r4 <d4 r4 d4 r4>
-midi-piano: <f4 a4 e4 r4> | <g4 g4 c4 a4 f4 g4 c4 r4 c4 r4 <g4> r4
-piano: <c4 c8 g8 c4> r4 | <d8 e8 d8 c8 <a4> e8 <a8>> | <[c8 <a8>] * 2 <g8> c4> | <<g4 r4 b4 r4>>
-guitar: <<<f4. f8 c4 r4 | g4. g8 a4 r4 | f4 r4 c4 r4 g4 r4 r4 r4>>> 
-acoustic-guitar: r4 * 4 | r4 * 4 | <<f4 r4 c4 r4 | g4 r4 * 3>>
+piano_motif0 = c8/f8 <a8> c8/g8 <a8>
+piano_motif1 = piano_motif0 <<g4>/c4/e4>
+guitar_motif1 = <<<f4>/f4 r4 <c4>/c4 r4>>
+piano: <c4/a4/f4 c8/f8 g8 c4/e4> r4 | <d8/g8 e8 d8/g8 c8 <a4>/c4/e4 e8/a8 <a8>> | piano_motif1 <c4> | <<g4>/c4/d4 r4 <b4/g4>/d4 r4>
+guitar: <<<f4. f8 c4 r4 | g4. g8 a4 r4>>> | guitar_motif1 | <<<g4/>g4< r4 * 3>>> 
+## ---
+piano: piano_motif1 r4 | <<b8>/d8 e8 d8 c8 <a4>> r4 | piano_motif1 <c4> | <<g4>/c4/d4 <g8>/c8/d8 <b8/g8>/d8 <b4/g4>/d4> r4
+guitar: guitar_motif1 | <<<b4>/g4 r4 <a4>/e4 r4>> | guitar_motif1 | <<<g4>/g4>> r4 * 3
+## ---
+piano: piano_motif0 c4/e4 r4 | <c4/a4 c4/b4 c4/e4> r4 | <f8/a8 c8 f4/a4 d8/g8 <b8> d4/g4> | piano_motif1
+guitar:<<<f4>/f4 r4 <a4>/a4 r4 | <f4>/f4 <g4>/g4 <a4>/a4 r4 | <f4>/f4 r4 <g4>/g4 r4 | c4. <c8 c4> r4>>
 
-midi-bright-acoustic-piano: r4 * 2 <e4> r4 | r4 * 4 | r4 * 2 <e4> r4 | <d4~d8~d8~d4>
-midi-piano: <f4 g4 c4 r4> | <d4> r4 * 3 | <f4 g4 c4 r4> | <c4 c8 <g8 g4>> r4
-piano: <c8 <a8> c8 <a8 f4>> r4 | <<b8> e8 d8 c8 <a4>> r4 | <c8 <a8> c8 <a8 f4> c4> | <<g4 g8 b8 b4>> r4
-guitar: <<f4 r4 c4 r4>> | <<g4 r4 e4 r4>> | <<f4 r4 c4 r4>> | <<g4>> r4 * 3
-acoustic-guitar: <<f4 r4 c4 r4>> | <<b4 r4 a4 r4>> | <<f4 r4 c4 r4>> | <<g4>> r4 * 3
+## In Christ alone
+piano_motif1 = d4/<a4>/<f4> r4 d4/<a4>/<f4> | <a4>/<f4> r4 c4/<a4> | c4/<g4>/<e4> r4 c4/<f4>
+guitar_motif1 = <<g4~r4~g8~g8>> | <c4>/<<d4>> r4 * 2 | <<c4>> r4 <<g4>> 
+piano: r4 * 3 | piano_motif1
+guitar: r4 * 3 | guitar_motif1
+piano: c4/<g4>/<e4> r4 * 2 | piano_motif1
+guitar: <c4> r4 * 2 | guitar_motif1
 
 ## 和弦
 piano: o4 c1/e-/g/b

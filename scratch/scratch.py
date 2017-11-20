@@ -313,3 +313,4 @@ testTypeHint2(df)
 
 def what_happens(df: DataFrame) -> int:
     return df.abs(123)
+
