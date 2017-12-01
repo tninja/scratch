@@ -1,4 +1,5 @@
-
+## doc: http://alda.readthedocs.io/en/latest/
+	
 # 当阳常志此心丹
 piano/celesta/guitar/acoustic-bass/violin:
 >e8 g4.~g4< r4 | e8 g4.~g4 r4 | <e8 g4.~g4> r4 <g4> r4 r4 r4
@@ -158,6 +159,9 @@ guitar: guitar_motif1 | <<<b4>/g4 r4 <a4>/e4 r4>> | guitar_motif1 | <<<g4>/g4>> 
 ## ---
 piano: piano_motif0 c4/e4 r4 | <c4/a4 c4/b4 c4/e4> r4 | <f8/a8 c8 f4/a4 d8/g8 <b8> d4/g4> | piano_motif1
 guitar:<<<f4>/f4 r4 <a4>/a4 r4 | <f4>/f4 <g4>/g4 <a4>/a4 r4 | <f4>/f4 r4 <g4>/g4 r4 | c4. <c8 c4> r4>>
+## --
+piano: <[a4/f4/c4] * 2 g2.67/e2.67/c2.67 c8 | b4/g4/d4 b8/g8 d8 a4/e4/c4 r4 | [a8/f4 c8] * 2 g4/e4/c4 r4 | [b8/g8 d8] * 2 >c4</a4/e4 r4>
+guitar: <<<f4 f4 c4 r4 | g4 r4 a4 r4 | f4. f8 c4 r4 | g4. g8 a4 r4>>>
 ## TO BE CONTINUED
 
 ## In Christ alone
@@ -169,6 +173,13 @@ piano: c4/<g4>/<e4> r4 * 2 | piano_motif1
 guitar: <c4> r4 * 2 | guitar_motif1
 ## TO BE CONTINUED
 
+## 主祷文4声部: https://www.zanmeishi.com/tab/10403.html
+piano:
+V1: e4 r4 * 3 | d4 r4 e4 e4 | f4 r4 e4~d4 | e4 r4 * 3
+V2: c4 r4 * 3 | <b4> r4 c4 * 2 | d4 r4 c4~<b4> | c4 r4 * 3
+V3: g4 r4 * 3 | g4 r4 g4 * 2 | a4 r4 g4 r4 | g4 r4 * 3
+V4: c4 r4 * 3 | <g4> r4 c4 * 2 | <f4> r4 <g4> r4 | c4 r4 * 3
+	
 ## Corridor of time
 # https://musescore.com/user/64079/scores/1150461
 
@@ -176,4 +187,4 @@ guitar: <c4> r4 * 2 | guitar_motif1
 # https://musescore.com/mindi_crayon/scores/4230606
 	
 ## 和弦
-piano: o4 c1/e-/g/b
+piano: o4 e-2.67/b2.67
