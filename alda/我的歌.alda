@@ -179,6 +179,14 @@ V1: e4 r4 * 3 | d4 r4 e4 e4 | f4 r4 e4~d4 | e4 r4 * 3
 V2: c4 r4 * 3 | <b4> r4 c4 * 2 | d4 r4 c4~<b4> | c4 r4 * 3
 V3: g4 r4 * 3 | g4 r4 g4 * 2 | a4 r4 g4 r4 | g4 r4 * 3
 V4: c4 r4 * 3 | <g4> r4 c4 * 2 | <f4> r4 <g4> r4 | c4 r4 * 3
+
+## 主祷文双手简谱
+motif_v21=>[b16>c16<]*2 [g16a16]*2 [d16e16]*2<
+motif_v31=c8 g8~g4 g4 g4
+piano:
+V1: r4 * 12
+V2: r4 >motif_v21< | >a4 a4 a4.< r8 | r4 motif_v21
+V3: motif_v31 | <f8> c8 e8 d8 <a8> e8 d8 <a8> | <motif_v31>
 	
 ## Corridor of time
 # https://musescore.com/user/64079/scores/1150461

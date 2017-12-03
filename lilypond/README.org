@@ -73,6 +73,13 @@ Firstly download mscz file format
 #+end_src
 
 * Lilypond
+  
+** Install from cask
+
+#+name: install
+#+begin_src sh :session *README.org* :cache yes :exports both :results output none :eval never :ravel
+  brew cask install https://raw.githubusercontent.com/caskroom/homebrew-cask/v0.60.1/Casks/lilypond.rb
+#+end_src
 
 ** Emacs
 
@@ -87,3 +94,12 @@ Firstly download mscz file format
 ** org-mode integration
 
 - (Yet to explore) http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-lilypond.html
+
+#+begin_src lilypond :file Mixolydian.png
+  \relative c' { 
+	g a b c d e f g f e d c b a g a b c d e f g f e d c b a g1 
+  }
+#+end_src
+
+#+results:
+[[file:Mixolydian.png]]
