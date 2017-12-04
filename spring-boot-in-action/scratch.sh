@@ -11,3 +11,5 @@ spring init -dweb,data-jpa,h2,thymeleaf --build gradle readinglist
 
 cd readinglist
 ./gradlew clean build
+
+./gradlew bootRun
