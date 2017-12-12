@@ -1,0 +1,168 @@
+% Created 2017-12-08 Fri 21:05
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Kang Tu}
+\date{\textit{<2016-11-06 Sun>}}
+\title{README}
+\hypersetup{
+ pdfauthor={Kang Tu},
+ pdftitle={README},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.1.1 (Org mode 8.3.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{What is Lilypond?}
+\label{sec:org6aec680}
+
+\begin{itemize}
+\item \url{https://en.wikipedia.org/wiki/LilyPond}
+\item \url{http://lilypond.org/}
+\end{itemize}
+
+\section{Quick start}
+\label{sec:org09422b3}
+
+\subsection{Install stuffs needed}
+\label{sec:org9a155a0}
+
+\subsubsection{required softwares}
+\label{sec:orgefbf4ed}
+
+\begin{itemize}
+\item use lyp: \url{https://github.com/noteflakes/lyp}
+\begin{itemize}
+\item lyp install lilypond. Currently it is 18.20
+\item uninstall homebrew gs, use lyp version of gs
+\end{itemize}
+\item homebrew version is inactive now :(.
+\begin{itemize}
+\item homebrew cask version of lilypond: brew cask install lilypond (however 19 version \textbf{NOT} working)
+\end{itemize}
+\item timidity (command line tool to play midi): brew install timidity
+\end{itemize}
+
+\subsubsection{soundfonts (optional, if you want a better midi library than system default you might want to try this)}
+\label{sec:org7a54830}
+
+\begin{itemize}
+\item \url{https://musescore.org/zh-hans/\%E7\%94\%A8\%E6\%88\%B7\%E6\%89\%8B\%E5\%86\%8C/soundfont-\%E9\%9F\%B3\%E8\%89\%B2\%E5\%BA\%93}
+\item \url{https://zdoom.org/wiki/Sound\_fonts}
+\item \url{http://timidity.s11.xrea.com/files/readme\_cfgp.htm}
+\item \url{http://www.synthfont.com/soundfonts.html}
+\item best soundfont? \url{https://musescore.org/en/node/103046}
+
+\item Update timidity configuration to use downloaded soundfonts
+\begin{itemize}
+\item modify the timidity.cfg to make it looks like
+\end{itemize}
+\end{itemize}
+
+\begin{verbatim}
+dir /Users/tninja/local/usr/share/soundfonts/
+soundfont FluidR3_GM.sf2
+\end{verbatim}
+
+\subsection{Get music score resources}
+\label{sec:org1df4d1b}
+
+\subsubsection{\href{https://musescore.com}{Musescore}}
+\label{sec:orgf11c8b9}
+
+\begin{itemize}
+\item Install musescore: (to convert musescore file format to lilypond)
+\end{itemize}
+
+\begin{enumerate}
+\item Examples
+\label{sec:orga1ec7fe}
+
+\begin{itemize}
+\item 10000 reasons: \url{https://musescore.com/user/442966/scores/1183611}
+\item ryu theme: \url{https://musescore.com/user/2960946/scores/950351}
+\item lost painting from castlevania: \url{https://musescore.com/user/9475036/scores/2683096}
+\end{itemize}
+
+\item Download and convert to lilypond mode
+\label{sec:org253ad30}
+
+Firstly download mscz file format
+
+\begin{verbatim}
+## Convert to xml
+/Applications/MuseScore\ 2.app/Contents/MacOS/mscore The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.mscz -o The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.xml
+
+## Convert to .ly: lilypond
+musicxml2ly The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.xml
+
+#### Modify the file to fix the problem
+
+## Compile the .ly and generate midi
+lilypond -dmidi-extension=mid The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.ly 
+\end{verbatim}
+\end{enumerate}
+
+\section{Lilypond}
+\label{sec:orgc9ebe96}
+
+\subsection{Install}
+\label{sec:org9369ffd}
+
+\begin{itemize}
+\item use lyp: \url{https://github.com/noteflakes/lyp}
+\begin{itemize}
+\item lyp install lilypond. Currently it is 18.20
+\item uninstall homebrew gs, use lyp version of gs
+\end{itemize}
+\item homebrew version is inactive now :(.
+\end{itemize}
+
+\subsection{Emacs}
+\label{sec:orgada08ec}
+
+\begin{itemize}
+\item (Yet to explore) lilypond-mode.el, which is available in lilypond installation
+\end{itemize}
+
+\subsubsection{How to use lilypond-mode}
+\label{sec:org0184734}
+
+\begin{itemize}
+\item play the whole buffer: C-c RET
+
+\item play code chunk in midi?
+\end{itemize}
+
+\subsection{org-mode integration}
+\label{sec:org95056d1}
+
+\begin{itemize}
+\item (Yet to explore) \url{http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-lilypond.html}
+\end{itemize}
+
+\begin{verbatim}
+\relative c' { 
+  g a b c d e f g f e d c b a g a b c d e f g f e d c b a g1 
+}
+\end{verbatim}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{Mixolydian.pdf}
+\end{center}
+\end{document}

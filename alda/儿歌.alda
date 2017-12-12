@@ -28,8 +28,25 @@ g4 [>c8< a8] g4 g4 | [e8 g8] [a8 >c8<] g4 g4
 a4 [g8 e8] d4 d4 | e4 [g8 e8] [d8 e8] c4
 a4 g4 a4 g4 e4 a4 g4
 [g8 g8] [e8 d8] c4. | [c8 c8] [d8 e8] c4.
+
+## 小兔子乖乖双手简谱:
+## http://www.everyonepiano.cn/Number-1177-1-%E7%BB%8F%E5%85%B8%E5%84%BF%E6%AD%8C%E5%B0%8F%E5%85%94%E5%AD%90%E4%B9%96%E4%B9%96%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1%E9%A2%84%E8%A7%881.html
+piano: g4 [>c8< a8] g4 g4 | [e8 g8] [a8 >c8<] g4 g4 
+guitar: c4 r4 r4 <g4> | c4 r4 r4 <e4>
+##
+piano: a4 [g8 e8] d4 d4 | e4 [g8 e8] [d8 e8] c4
+guitar: <a4> r4 r4 <g4> | <c4> r4 r4 <d8 e8>
+##
+piano: r4 g4 >g4< r4 | r4 >c4 g4< r4
+guitar: <g4> c8 <a8 g4 g4> | <e8 g8 a8> c8 <g4 g4>
+##
+piano: r4 >c4 d4< r4 | r4 >c4 c4< r4
+guitar: <a4 g8 e8 d4 d4> | <e4 g8 e8 d8 e8 c4>
+##
+piano: [a8 g8] * 2 e8 a8 g4 | d8 g8 d8 e8 c4 >c4<
+guitar: <[a8 g8] * 2 e8 a8 g4 | d8 g8 d8 e8 c4 c4>
 	
-## 采蘑菇的小姑娘
+## 采蘑菇的小姑娘双手简谱
 ## https://www.google.com/search?q=%E9%87%87%E8%98%91%E8%8F%87%E7%9A%84%E5%B0%8F%E5%A7%91%E5%A8%98+%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1&client=firefox-b-1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwih5rqDpeXXAhWk6YMKHTyND_sQ_AUICigB&biw=1152&bih=592#imgrc=6rnTScq7l3llMM:
 guitar_motif1 = [<<a4> r4 c4/e4 r4>]
 guitar_motif2 = [<<a4> r4 c4/d4 r4>]
@@ -66,3 +83,30 @@ V2: <a4> piano_v2_motif1 | <g4> d4 <g4> c4 | <g4> piano_v2_motif2 | <a4> c4/e4 c
 ## --
 V1: >>c4 c8. c16< b4 g4< | >a8 a8 a8 g8 a8. g16 e4< | piano_v1_motif2
 V2: <a4> c4/e4 <g4> <b4>/d4 | <a4> piano_v2_motif1 | <g4> piano_v2_motif2 | <a4>/c4 <g4>/<b4> <a4>/c4 r4
+
+## 摇篮曲: http://www.everyonepiano.cn/Number-170-1-%E6%91%87%E7%AF%AE%E6%9B%B2-lullaby-%E8%88%92%E4%BC%AF%E7%89%B9%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1%E9%A2%84%E8%A7%881.html
+piano_v2_motif1 = <<<g4> [d4/g4/b4] * 2>>
+piano_v2_motif2 = <<c4> [<e4>/<g4>/c4] * 2>
+piano_v2_motif3 = <<<f4>> [<f4>/<a4>/c4] * 2>
+piano_v2_motif4 = [piano_v2_motif2 | piano_v2_motif3]
+piano:
+[
+## page 1
+V1: r4 r4 e8 e8 | a4. e8 e4 | g4 g4 e8 g8 | >c4< b4. a8
+V2: r4 r4 r4 | <<c4> [<g4>/e4/c4] * 2> | <<<e4>> [<<g4>/<b4>/e4>] * 2> | <<<f4>> [<f4>/<a4>/c4] * 2>
+## --
+V1: a4 g4 d8 e8 | f4 d4 d8 e8 | f4 f4 d8 f8 | b8 a8 g4 b4
+V2: piano_v2_motif1 | <<<g4>> [<<f4>/<a4>/d4>] * 2> | <<<d4> [<<f4>/<a4>/d4>] * 2> | piano_v2_motif1
+## --
+V1: >c4 c4< c8 c8 | >c4 c4< a8 f8 | g4 g4 e8 c8 | f4 g4 a4
+V2: piano_v2_motif4 * 2
+## --
+V1: g4 g4 c8 c8 | >c4 c4< a8 f8 | f4 f4 d8 f8 | f4 e4 d4
+V2: piano_v2_motif1 | piano_v2_motif3 | piano_v2_motif2 | <<<g4> d4/g4/b4> <f4>/<g4>/<b4>/d4>
+## page 2
+V1: c4 * 3
+V2: piano_v2_motif2
+] * 2 # repeat twice
+## --
+V1: c4 * 3 | r4 * 3
+V2: piano_v2_motif2 | [<<c4>/<g4>/c4>] * 2 r4  

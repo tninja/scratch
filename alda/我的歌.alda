@@ -181,6 +181,7 @@ V4: c4 r4 * 3 | <g4> r4 c4 * 2 | <f4> r4 <g4> r4 | c4 r4 * 3
 motif_v21=>[b16>c16<]*2 [g16a16]*2 [d16e16]*2<
 motif_v31=c8 g8~g4 g4 g4
 piano:
+(tempo! 80)
 V1: r4 * 12
 V2: r4 >motif_v21< | >a4 a4 a4.< r8 | r4 motif_v21
 V3: motif_v31 | <f8> c8 e8 d8 <a8> e8 d8 <a8> | <motif_v31>
@@ -190,6 +191,15 @@ V3: motif_v31 | <f8> c8 e8 d8 <a8> e8 d8 <a8> | <motif_v31>
 
 ## 10000 reasons
 # https://musescore.com/mindi_crayon/scores/4230606
+
+## frog's theme
+# https://musescore.com/user/7749801/scores/2242511
+
+## Psalm 39 Prayer for Wisdom and Forgiveness
+# https://musescore.com/user/8206176/scores/1860771
+
+## Benediction
+# https://musescore.com/user/24941881/scores/4537966
 	
 ## 和弦
 piano: o4 e-2.67/b2.67

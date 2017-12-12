@@ -23,7 +23,11 @@
 
 *** required softwares
 
-- Install lilypond: brew cask install lilypond
+- use lyp: https://github.com/noteflakes/lyp
+  - lyp install lilypond. Currently it is 18.20
+  - uninstall homebrew gs, use lyp version of gs
+- homebrew version is inactive now :(.
+  - homebrew cask version of lilypond: brew cask install lilypond (however 19 version *NOT* working)
 - timidity (command line tool to play midi): brew install timidity
 
 *** soundfonts (optional, if you want a better midi library than system default you might want to try this)
@@ -59,27 +63,27 @@
 Firstly download mscz file format
 
 #+name: convert
-#+begin_src shell :session *shell* :cache yes :exports both :results output none :eval never :ravel
-  ## Convert to xml
-  /Applications/MuseScore\ 2.app/Contents/MacOS/mscore The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.mscz -o The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.xml
+#+BEGIN_SRC shell
+## Convert to xml
+/Applications/MuseScore\ 2.app/Contents/MacOS/mscore The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.mscz -o The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.xml
 
-  ## Convert to .ly: lilypond
-  musicxml2ly The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.xml
+## Convert to .ly: lilypond
+musicxml2ly The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.xml
 
-  #### Modify the file to fix the problem
+#### Modify the file to fix the problem
 
-  ## Compile the .ly and generate midi
-  lilypond -dmidi-extension=mid The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.ly 
-#+end_src
+## Compile the .ly and generate midi
+lilypond -dmidi-extension=mid The_Lost_Painting_from_Castlevania_Symphony_of_the_Night.ly 
+#+END_SRC
 
 * Lilypond
   
-** Install from cask
+** Install
 
-#+name: install
-#+begin_src sh :session *README.org* :cache yes :exports both :results output none :eval never :ravel
-  brew cask install https://raw.githubusercontent.com/caskroom/homebrew-cask/v0.60.1/Casks/lilypond.rb
-#+end_src
+- use lyp: https://github.com/noteflakes/lyp
+  - lyp install lilypond. Currently it is 18.20
+  - uninstall homebrew gs, use lyp version of gs
+- homebrew version is inactive now :(.
 
 ** Emacs
 
@@ -95,11 +99,11 @@ Firstly download mscz file format
 
 - (Yet to explore) http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-lilypond.html
 
-#+begin_src lilypond :file Mixolydian.png
+#+begin_src lilypond :file Mixolydian.pdf
   \relative c' { 
 	g a b c d e f g f e d c b a g a b c d e f g f e d c b a g1 
   }
 #+end_src
 
 #+results:
-[[file:Mixolydian.png]]
+[[file:Mixolydian.pdf]]
