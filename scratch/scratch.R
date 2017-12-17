@@ -107,8 +107,8 @@ applestock = 300
 airbnbstock = 400
 stock.sell.pct = 0.50
 
-downpay.rate = 0.20
-buffer = 100
+downpay.rate = 0.25
+buffer = 150
 
 (cash + applestock * stock.sell.pct - buffer) / downpay.rate
 (cash + (applestock + airbnbstock) * stock.sell.pct - buffer) / downpay.rate

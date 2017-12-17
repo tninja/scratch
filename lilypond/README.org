@@ -107,3 +107,53 @@ lilypond -dmidi-extension=mid The_Lost_Painting_from_Castlevania_Symphony_of_the
 
 #+results:
 [[file:Mixolydian.pdf]]
+
+#+begin_src lilypond :file Twotiger.pdf
+  global = {
+	\key c \major
+	\time 2/4
+  }
+
+  upper = \absolute {
+	\clef "bass"
+	c8 d8 e8 c8 | c8 d8 e8 c8 | e8 f8 g4 | e8 f8 g4
+	g16 a16 g16 f16 e8 c8 | g16 a16 g16 f16 e8 c8 | c8 g,8 c4 | c8 g,8 c4 
+  }
+
+  lower_motif = \absolute { c,8 g,8 c,8 g,8 }
+
+  lower = \absolute {
+	\clef "bass"
+	\lower_motif | \lower_motif | \lower_motif | \lower_motif
+	\lower_motif | \lower_motif | \lower_motif | c,8 g,8 c,4 
+  }
+
+  %% aligning lyrics to a melody: http://lilypond.org/doc/v2.19/Documentation/learning/aligning-lyrics-to-a-melody
+  %% 每一个单词/中文字 对一个音符
+  verse = \new Lyrics \lyricsto "one" {
+	\lyricmode {
+	  两 只 老 虎 | 两 只 老 虎 | 跑 得 快 | 跑 得 快
+	  一 只 没 有 耳 朵 | 一 只 没 有 尾 巴 | 真 奇 怪 | 真 奇 怪
+	}
+  }
+
+  \score
+  {
+	\new PianoStaff
+	<<
+	  \set PianoStaff.instrumentName = "Piano"
+	  \new Voice = "one" {
+		\upper
+	  }
+	  \new Voice = "two" {
+		\lower
+	  }
+	  \verse
+	>>
+	\midi { }
+	\layout { }
+  }
+#+end_src
+
+#+results:
+[[file:Twotiger.pdf]]

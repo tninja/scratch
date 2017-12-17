@@ -1,5 +1,7 @@
 auto y=1+1;
 
+
+
 int testme(int x) {
   return x+1;
 }
@@ -18,8 +20,7 @@ cout << "123";
 
 // Manning: FP in C++
 
-std::vector<int>
-count_lines_in_files(const std::vector<std::string> &files)
+std::vector<int> count_lines_in_files(const std::vector<std::string> &files)
 {
   std::vector<int> results; char c = 0;
   for (const auto &file: files) {
