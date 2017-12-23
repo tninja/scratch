@@ -1,0 +1,246 @@
+\pdfminorversion=5
+\RequirePackage[rgb,pdftex,dvipsnames,x11names]{xcolor}
+\documentclass[tikz,border=5pt]{standalone}
+\usetikzlibrary{calc,intersections,backgrounds}
+\pgfdeclarelayer{foreground}
+\pgfdeclarelayer{pen}
+\pgfdeclarelayer{corff}
+\pgfsetlayers{background,corff,main,pen,foreground}
+\makeatletter
+% adapted (simplified version) from tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+  \tikzset{%
+    on foreground layer/.style={%
+          execute at begin scope={%
+            \pgfonlayer{foreground}%
+            \let\tikz@options=\pgfutil@empty%
+            \tikzset{every on foreground layer/.try,#1}%
+            \tikz@options%
+          },
+          execute at end scope={\endpgfonlayer}
+    },
+    on pen layer/.style={
+          execute at begin scope={%
+            \pgfonlayer{pen}%
+            \let\tikz@options=\pgfutil@empty%
+            \tikzset{every on pen layer/.try,#1}%
+            \tikz@options%
+          },
+          execute at end scope={\endpgfonlayer}
+    },
+    on corff layer/.style={
+          execute at begin scope={%
+            \pgfonlayer{corff}%
+            \let\tikz@options=\pgfutil@empty%
+            \tikzset{every on corff layer/.try,#1}%
+            \tikz@options%
+          },
+          execute at end scope={\endpgfonlayer}
+    },
+    stripiau cwt/.style={draw=#1, very thin, shorten >=-5mm, shorten <=-5mm, double=#1, double distance=3.5mm},
+    stripiau corff/.style={very thin, draw=#1, fill=#1},
+    trwyn/.style={circle, yshift=1.25mm, minimum width=2.5mm, inner sep=0pt},
+    llenwi cath/.style={fill=#1},
+    llygaid/.style n args=2{inner color=#1, outer color=#2, ultra thick, draw},
+    pics/cath b/.style n args=5{
+      code={
+        [ultra thick]
+        \begin{pgfonlayer}{pen}% ref. workaround from http://tex.stackexchange.com/a/218166/ (Mark Wibrow)
+          \begin{scope}[very thin]% [on pen layer={very thin}]
+          \path [clip]
+            (0,10mm) coordinate (pen1) arc (90:65:19mm and 20mm) coordinate [pos=.75] (pp1) coordinate (pen2)
+              arc (65:45:19mm and 20mm)  coordinate (pen3)
+              arc (45:-60:19mm and 20mm) coordinate [pos=.05] (pp4) coordinate [pos=.4] (pp5) coordinate [pos=.45] (pp8) coordinate [pos=.75] (pp9)  coordinate (pen8)
+              arc (-60:-90:19mm and 20mm) coordinate (pen10)
+              arc (-90:-120:19mm and 20mm) coordinate (pen9)
+              arc (-120:-225:19mm and 20mm) coordinate [pos=.25] (pp10) coordinate [pos=.55] (pp11) coordinate [pos=.6] (pp6) coordinate [pos=.95] (pp7) coordinate (pen4)
+              arc (-225:-245:19mm and 20mm) coordinate (pen5)
+              arc (-245:-270:19mm and 20mm) coordinate [pos=.25] (pp2)
+              ;
+          \path [stripiau corff=#1]
+            (pp2) [out=-45, in=95] to ($(pen1) - (0,10mm)$) coordinate (pp3) [out=85, in=-135] to (pp1) |- +(5mm,5mm) -| cycle
+            (pp4) [out=-135, in=25] to +(-7.5mm,-4mm) [out=-25, in=115] to (pp5) -| +(5mm,5mm) |- cycle
+            (pp7) [out=-45, in=155] to +(7.5mm,-4mm) [out=-155, in=65] to (pp6) -| +(-5mm,5mm) |- cycle
+            (pp8) [out=-135, in=-25] to +(-17.5mm,0mm) [out=-45, in=115] to (pp9) -| +(5mm,5mm) |- cycle
+            (pp11) [out=-45, in=-155] to +(17.5mm,0mm) [out=-135, in=65] to (pp10) -| +(-5mm,5mm) |- cycle
+            ;
+          \end{scope}
+        \end{pgfonlayer}
+        \path
+          (pen2) ++(4mm,7.5mm) coordinate (pen6)
+          (pen5) ++(-4mm,7.5mm) coordinate (pen7);
+        \path [rounded corners=1pt, llenwi cath=#2]
+          (pen1) arc (90:65:19mm and 20mm)
+            [out=80, in=-110] to (pen6) [out=-80, in=85] to
+          (pen3) arc (45:-225:19mm and 20mm)
+            [out=95, in=-100] to (pen7) [out=-70, in=100] to
+          (pen5) arc (-245:-270:19mm and 20mm);
+        \begin{scope}[on foreground layer={ultra thick}]
+          \draw [rounded corners=1pt, ultra thick]
+            (pen1) arc (90:65:19mm and 20mm)
+              [out=80, in=-110] to (pen6) [out=-80, in=85] to
+            (pen3) arc (45:-225:19mm and 20mm)
+              [out=95, in=-100] to (pen7) [out=-70, in=100] to
+            (pen5) arc (-245:-270:19mm and 20mm);
+        \end{scope}
+      \path [llenwi cath=#2]% corff
+          (pp8) [out=35, in=100] to coordinate [pos=.075] (corff7) coordinate [pos=.1] (corff8) coordinate [pos=.2] (corff9) coordinate [pos=.225] (corff10) coordinate [pos=.325] (corff11) coordinate [pos=.35] (corff12) coordinate [pos=.45] (corff13) coordinate [pos=.475] (corff14) coordinate [pos=.575] (corff15) coordinate [pos=.6] (corff16) coordinate [pos=.7] (corff17) coordinate [pos=.725] (corff18) coordinate [pos=.825] (corff19) coordinate [pos=.86] (corff20) coordinate [pos=.96] (corff21) ++(75mm,-15mm) coordinate (corff5)
+            [out=-80, in=-85] to coordinate [pos=.6] (corff6) coordinate [pos=.7] (corff22) coordinate [pos=.775] (corff23) coordinate [pos=.825] (corff24) coordinate [pos=.875] (corff27) coordinate [pos=.9] (corff25) coordinate [pos=.985] (corff26) (pen9);
+         \begin{scope}[ultra thick]% stripiau'r corff
+            \clip
+              (pp8) [out=35, in=100] to (corff5)
+                [out=-80, in=-85] to (pen9) |- cycle;
+            \path [stripiau corff=#1]
+              (pp8) [out=-95, in=65] to ++(7.5mm,-15mm) [out=45, in=-175] to (corff7)
+              (corff8) [out=-85, in=50] to ++(7.5mm,-17.5mm) [out=45, in=-135] to (corff9)
+              (corff10) [out=-90, in=60] to ++(5mm,-20mm) [out=50, in=-140] to (corff11)
+              (corff12) [out=-100, in=55] to ++(2.5mm,-20mm) [out=50, in=-145] to (corff13)
+              (corff14) [out=-110, in=50] to ++(0,-20mm) [out=40, in=-155] to (corff15)
+              (corff16) [out=-115, in=40] to ++(-3.5mm,-18.5mm) [out=30, in=-170] to (corff17)
+              (corff18) [out=-135, in=20] to ++(-7.5mm,-16.5mm) [out=10, in=-180] to (corff19)
+              (corff20) [out=-170, in=-5] to ++(-10mm,-12.5mm) [out=-15, in=140] to (corff21)
+              (corff26) [out=-45, in=-135] to ++(20mm,-1.5mm) [out=-115, in=45] to (corff25) -- +(-5mm,0) |- cycle
+              (corff27) [out=40, in=-115] to ++(20mm,7.5mm) [out=-105, in=65] to (corff24) -- +(-5mm,0) |- cycle;
+         \end{scope}
+        \draw [ultra thick, name path=corff]
+          (pp8) [out=35, in=100] to ++(75mm,-15mm)
+            [out=-80, in=-85] to coordinate [pos=.6] (corff6) (pen9);
+        \draw [ultra thick, llenwi cath=#2]% coesau
+          (corff22) ++(17.5mm,12.5mm) coordinate (coes1)
+          (corff23) ++(12.5mm,15mm) coordinate (coes2)
+          (coes1) [out=-120, in=35] to (corff22) [out=-145, in=5] to ++(-20mm,-7.5mm) [out=-175, in=0] to ++(-5mm,0) arc (-90:90:-5mm and 3mm) coordinate (coes9) [out=0, in=-175] to ++(5mm,0) coordinate (coes11) [out=5, in=-145] to (corff23) [out=35, in=-100] to (coes2);
+        \begin{pgfonlayer}{background}% ref. workaround from http://tex.stackexchange.com/a/218166/ (Mark Wibrow)
+          \begin{scope}
+            \draw [ultra thick, llenwi cath=#2]% coesau
+              (corff23) [out=-145, in=5] to (coes11) [out=-175, in=0] to (coes9) arc (-90:90:-4mm and 2.5mm) [out=0, in=-145] to (corff24)
+              ;
+          \end{scope}
+        \end{pgfonlayer}
+        \path [llenwi cath=#2]% llenwi'r cwt
+          (corff5) [out=-80, in=-15] to ($(corff6) + (0,-2.5mm)$) coordinate (cwt5)
+            [out=165, in=-90] to ++(-5mm,5mm) coordinate (cwt6)
+            [out=90, in=170] to ++(7.5mm,5mm) coordinate (cwt7)
+            [out=-10, in=-95] to ($(corff5) + (-15mm,-2.5mm)$) coordinate (cwt8)
+          ;
+        \begin{scope}[ultra thick]% stripiau'r cwt
+          \clip (corff5) [out=-80, in=-15] to
+              coordinate [pos=.1] (cwt9)
+              coordinate [pos=.15] (cwt10a)
+              coordinate [pos=.25] (cwt11a)
+              coordinate [pos=.345] (cwt12a)
+              coordinate [pos=.44] (cwt13a)
+              coordinate [pos=.53] (cwt14a)
+              coordinate [pos=.62] (cwt15a)
+              coordinate [pos=.71] (cwt16a)
+              coordinate [pos=.805] (cwt17a)
+              coordinate [pos=.9] (cwt18a)
+              coordinate [pos=1] (cwt19a)
+              (cwt5)
+            [out=165, in=-90] to
+              coordinate [pos=.45] (cwt20a)
+              (cwt6)
+            [out=90, in=170] to
+              coordinate [pos=.65] (cwt20b)
+              (cwt7)
+            [out=-10, in=-95] to
+              coordinate [pos=.025] (cwt19b)
+              coordinate [pos=.125] (cwt18b)
+              coordinate [pos=.225] (cwt17b)
+              coordinate [pos=.325] (cwt16b)
+              coordinate [pos=.425] (cwt15b)
+              coordinate [pos=.525] (cwt14b)
+              coordinate [pos=.625] (cwt13b)
+              coordinate [pos=.725] (cwt12b)
+              coordinate [pos=.825] (cwt11b)
+              coordinate [pos=.925] (cwt10b)
+              (cwt8)
+            |- (corff21) -- cycle;
+          \path [stripiau corff=#1]
+            (corff5) [out=110, in=10] to ++(-7.5mm,-3.5mm) [out=0, in=120] to (cwt9);
+          \path [llenwi cath=#1]
+            (cwt20a) [out=80, in=-80] to (cwt20b) [out=170, in=90] to (cwt6) [out=-90, in=165] to cycle
+            ;
+          \foreach \i in {10,...,19}
+            \draw [stripiau cwt=#1] (cwt\i a) [out=90, in=-60] to (cwt\i b);
+        \end{scope}
+        \draw [ultra thick, name path=cwt]
+          (corff5) [out=-80, in=-15] to (cwt5)
+            [out=165, in=-90] to (cwt6)
+            [out=90, in=170] to (cwt7)
+            [out=-10, in=-95] to (cwt8)
+          ;
+         \begin{scope}[on foreground layer={ultra thick}]
+          \draw
+            (pen10) -- ++(0,7.5mm) coordinate (ceg1)
+              [out=-45, in=180] to +(5mm,-2.5mm) coordinate (ceg2)
+              [out=0, in=-100] to +(2.5mm,3.5mm) coordinate (ceg3)
+             ;
+          \draw
+            (ceg1)
+              [out=-135, in=0] to +(-5mm,-2.5mm) coordinate (ceg4)
+              [out=180, in=-80] to +(-2.5mm,3.5mm) coordinate (ceg5)
+            ;
+          \path (ceg1)
+            node (trwyn1) [trwyn, anchor=west] {}
+            node (trwyn2) [trwyn, anchor=east] {};
+          \draw
+            ($(trwyn1)!1/2!(trwyn2)$) coordinate (trwyn) [out=10,in=140] to +(25mm,7.5mm)
+            (trwyn) [out=-10, in=120] to +(.5mm,-5mm)
+            (trwyn) [out=-40, in=130] to +(-1.5mm,-5mm)
+            ;
+          \draw
+            (trwyn) [out=170,in=40] to +(-25mm,7.5mm)
+            (trwyn) [out=-170, in=60] to +(-.5mm,-5mm)
+            (trwyn) [out=-140, in=50] to +(1.5mm,-5mm)
+            ;
+          \path (ceg1)
+            node (trwyn1) [trwyn, draw, ball color=#5, anchor=west] {}
+            node (trwyn2) [trwyn, draw, ball color=#5, anchor=east] {};
+         \end{scope}
+          \draw [llygaid={#3}{#4}]
+          ({$(pen1)!2/5!(pen10)$} -| {$(pen8)!3/4!(pen4)$}) coordinate (llygad chwith)
+            ++(-5mm,0) coordinate (llygad chwith 1) [out=20, in=180] to ++(6mm,2.5mm) coordinate (llygad chwith 2) [out=0, in=120] to ++(4mm,-2.5mm)
+            [out=-120, in=0] to ++(-4mm,-2.5mm) [out=180, in=-20] to ++(-6mm,2.5mm)
+          ;
+          \draw [llygaid={#3}{#4}]
+            ({$(pen1)!2/5!(pen10)$} -| {$(pen9)!3/4!(pen3)$}) coordinate (llygad de)
+              ++(5mm,0) coordinate (llygad de 1) [out=160, in=0] to ++(-6mm,2.5mm) coordinate (llygad de 2) [out=180, in=40] to ++(-4mm,-2.5mm)
+              [out=-40, in=180] to ++(4mm,-2.5mm) [out=0, in=-160] to ++(6mm,2.5mm)
+          ;
+          \fill [ball color=black] (llygad chwith 1 -| llygad chwith 2) circle (2.5mm);
+          \fill [ball color=black] (llygad de 1 -| llygad de 2) circle (2.5mm);
+          \begin{scope}[on foreground layer={ultra thick}]
+            \draw [shorten >=1pt]
+              ($(pen2)!7/10!(pen3)$) coordinate (clust1) [out=125, in=-80] to (pen6);
+            \draw [shorten >=1pt]
+              ($(pen5)!7/10!(pen4)$) coordinate (clust2) [out=55, in=-100] to (pen7);
+          \end{scope}
+          \begin{scope}% llenwi clust de
+            \clip (clust1) [out=125, in=-80] to (pen6) [out=-110, in=80] to (pen2) |- cycle;
+            \path [stripiau corff=#1, rounded corners=1pt]
+              (clust1) [out=125, in=-80] to (pen6) [out=-110, in=80] to (pen2) arc (65:45:19mm and 20mm)
+              ;
+          \end{scope}
+          \begin{scope}% llenwi clust chwith
+            \clip (clust2) [out=55, in=-100] to (pen7) [out=-70, in=100] to (pen5) |- cycle;
+            \path [stripiau corff=#1, rounded corners=1pt]
+              (clust2) [out=55, in=-100] to (pen7) [out=-70, in=100] to (pen5) arc (-245:-225:19mm and 20mm)
+              ;
+          \end{scope}
+          % dim yn ddefnyddiol ar hyn o bryd ond gobeithio bynnan nhw ar ôl iddyn nhw fix the bug!
+          \coordinate (-pen) at (pen1);
+          \coordinate (-clust chwith) at (pen7);
+          \coordinate (-clust de) at (pen6);
+        }
+    },
+}
+\makeatother
+\begin{document}
+  \colorlet{lliw llygaid3}{Chartreuse1}
+  \colorlet{lliw llygaid4}{Green4}
+  \colorlet{lliw trwyn1}{LightPink2}
+  \colorlet{cath5}{LavenderBlush3}
+  \colorlet{cath6}{LavenderBlush4}
+  \begin{tikzpicture}
+    \pic {cath b={cath6}{cath5}{lliw llygaid3}{lliw llygaid4}{lliw trwyn1}};
+  \end{tikzpicture}
+\end{document}

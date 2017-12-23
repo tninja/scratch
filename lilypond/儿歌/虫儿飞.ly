@@ -15,12 +15,12 @@ upper = \absolute {
   \repeat unfold 2 \uppermotifone | f4. f'8 a'4 a'4 | \uppermotifone
   \repeat volta 2 { 
 	a'4 a'8 a'8 bes'4 c''4 | a'4 a'4 f'4 f'4 | f'4 f'8 f'8 g'4 a'4 | a'4 a'4 e'4 e'4
-	d'4 a'4 g'4 g'4 | d'4 a'4 g'4 g'4 | d'4 a'4 g'4. f'8 | { f'4 f'4 f'4 f'4 }
+	d'4 a'4 g'4 g'4 | d'4 a'4 g'4 g'4 | d'4 a'4 g'4. f'8 | \tuplet 4/4 { f'4 f'4 f'4 f'4 }
 	f'4 f'4 f'4 f'4
   }
   f'4 f'4 a'4 g'4 | c''4 c''4 c''4 b'8 a'8 | g'4 g'4 g'4 c''8 bes'8
   a'4 bes'8 c'8 r4 a'4 | g'4 g'4 r4 r8 f'8 | d'4 g'4 g'4. f'8 | c'4 g'4 f'4 f'4
-  bes'8 a'8 bes'8 a'8 f'4 r4 | bes'8 a'8 bes'8 a'8 f'4. g'8 | { f'4 f'4 f'4 f'4 } | f'4 f'4 f'4 f'4
+  bes'8 a'8 bes'8 a'8 f'4 r4 | bes'8 a'8 bes'8 a'8 f'4. g'8 | \tuplet 4/4 { f'4 f'4 f'4 f'4 } | f'4 f'4 f'4 f'4
 }
 
 lowermotifone = { f,8 c8 f8 a8 f,8 c8 f8 a8 }

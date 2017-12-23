@@ -1,0 +1,799 @@
+#+TITLE:     diary.org
+#+AUTHOR:    Tu
+#+EMAIL:     tninja@gmail.com
+#+DATE:      2012-08-08 Wed
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:
+#+LINK_HOME:
+#+XSLT:
+#+OPTIONS: toc:nil
+
+#+STYLE: <link rel="stylesheet" type="text/css" href="stefan.css" />
+
+#+COLUMNS: %31ITEM %TODO %3PRIORITY %TAGS
+
+* 2017
+** 2017-01 January
+*** 2017-01-13 Friday
+**** Work [0/0]
+***** Ouyang's problem
+****** Background
+- One feature to classify samples
+- High precision, low recall
+- Predicted positive values were audit
+****** Goal
+- Improve the recall
+- Use other features
+   [2017-01-13 Fri 19:17]
+*** 2017-01-15 Sunday
+**** Work [0/0]
+***** Summarise 2017 tax
+   [2017-01-15 Sun 17:19]
+*** 2017-01-16 Monday
+**** Study [0/0]
+***** Setting up emacs C++ environment and play with it
+- For beginner: http://www.caole.net/diary/emacs_write_cpp.html
+- cmake-ide: https://github.com/atilaneves/cmake-ide
+- cling: https://github.com/vgvassilev/cling
+  - cling-mode: https://github.com/brianqq/inferior-cling
+   [2017-01-16 Mon 17:48]
+*** 2017-01-28 Saturday
+**** Study [0/0]
+***** C++ 11
+- [ ] 基本程序结构
+- [ ] 数据结构
+- [ ] 函数式编程
+***** Jenkins groovy DSL & Okehee's code
+   [2017-01-28 Sat 08:32]
+** 2017-02 February
+*** 2017-02-07 Tuesday
+**** Work [0/0]
+***** Brew can start service
+- brew services start postgresql
+- brew services start cassandra
+   [2017-02-07 Tue 06:40]
+*** 2017-02-16 Thursday
+**** Study [0/0]
+***** docker craft
+- Install docker on ubuntu: https://github.com/docker/dockercraft
+- Follow instruction of docker craft:
+***** OpenStreetMap + LIDAR (3d) data
+- OpenStreetMap: https://www.linuxbabe.com/linux-server/openstreetmap-tile-server-ubuntu-16-04
+****** Postgres 9.6
+sudo add-apt-repository "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main"
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install postgresql-9.6
+***** Tool
+- Geocraft: https://github.com/cgutteridge/geocraft
+***** Data
+- California coastal mapping: http://www.opc.ca.gov/2012/03/coastal-mapping-lidar-data-available/
+  - Land cover
+- osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto-2.41.0/openstreetmap-carto.style planet-latest.osm.pbf
+  - the world is too large -_- I don't have enough space
+  - US West firstly: http://download.geofabrik.de/north-america.html
+***** minecraft-data-conversion
+- https://www.safe.com/solutions/for-applications/minecraft-data-conversion/
+**** Note [/]
+***** Plan to stop using social network
+	  DEADLINE: <2017-02-22 Wed> SCHEDULED: <2017-02-19 Sun>
+***** Open street map
+- might be useful to do localized news in future
+  geolocation: http://www.hostip.info/
+  free version: geolite2 City: http://pgloader.io/howto/geolite.html
+  ubuntu got this database in APT (geoip-database, geoip-database-extra)
+- load to postgre
+  - http://pgloader.io/howto/geolite.html
+***** QGIS
+- http://gis.stackexchange.com/questions/133033/installing-the-latest-qgis-version-on-ubuntu-14-04
+- sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+[2017-02-16 Thu 19:07]
+*** 2017-02-25 Saturday
+**** Study [0/0]
+***** Postgis
+- Query objects within distance: http://postgis.net/2013/08/26/tip_ST_DWithin/
+[2017-02-25 Sat 19:02]
+** 2017-03 March
+*** 2017-03-09 Thursday
+**** Life [2/2]
+***** DONE Looking into camera
+- [X] Desktop app: https://home.nest.com/camera/5ad82bd31b164383ba1d6a1d5a35c5ad
+- [X] iPhone app: done. Need to add Peng to family member
+***** DONE 购物
+	  SCHEDULED: <2017-03-09 Thu 10am>
+- [ ] 买睡衣：可去梅西，买两件
+- [X] 买食物
+- [ ] 非杏仁的开心果
+**** Study [/]
+***** Deep learning applied to John's picture
+****** Neural-Style
+- Torch version (much more stars): https://github.com/jcjohnson/neural-style
+- Tensorflow version: https://github.com/anishathalye/neural-style
+****** Object detection
+   [2017-03-09 Thu 08:59]
+*** 2017-03-11 Saturday
+**** Life [5/6]
+***** DONE 婴儿睡眠书籍 [/]
+- [[https://www.amazon.com/Becoming-Baby-Wise-Giving-Nighttime/dp/1932740139/ref=sr_1_3?s=books&ie=UTF8&qid=1489258057&sr=1-3&keywords=baby+sleep][On Becoming Baby Wise: Giving Your Infant the Gift of Nighttime Sleep]]
+  - [[file:/Users/kangtu/Documents/ebooks/Baby/%E4%BB%8E%E9%9B%B6%E5%B2%81%E5%BC%80%E5%A7%8B.epub][中文版]]
+- [[https://www.amazon.com/Happiest-Block-Revised-Updated-Second/dp/0553393235/ref=sr_1_6?s=books&ie=UTF8&qid=1489258057&sr=1-6&keywords=baby+sleep][The Happiest Baby on the Block; Fully Revised and Updated Second Edition: The New Way to Calm Crying and Help Your Newborn Baby Sleep Longer]]
+  - [[http://v.youku.com/v_show/id_XNzQ5NzMyNTY=.html][youku视频]]
+  - 中文版：[[https://book.douban.com/subject/5248426/][豆瓣]]
+- [[https://www.amazon.com/Healthy-Sleep-Habits-Happy-Child/dp/0449004023/ref=sr_1_12?s=books&ie=UTF8&qid=1489258057&sr=1-12&keywords=baby+sleep][Healthy Sleep Habits, Happy Child]]
+***** DONE 婴儿哺乳书籍 [/]
+- [[https://www.amazon.com/Womanly-Art-Breastfeeding-Completely-Revised/dp/0345518446/ref=sr_1_9?s=books&ie=UTF8&qid=1489264372&sr=1-9&keywords=baby+breastfeeding][The Womanly Art of Breastfeeding: Completely Revised and Updated 8th Edition]]
+***** DONE 宝宝的体重秤
+- https://www.amazon.com/Health-meter-Toddler-Scale-Growth/dp/B0009MFUZE/ref=sr_1_2_s_it?s=hpc&ie=UTF8&qid=1489278409&sr=1-2&keywords=baby+weight
+***** DONE 宝宝的保险
+***** DONE 表妹的苹果手表
+***** CANCELLED 检查冲奶粉的方法
+**** Other
+- $311税前(85折)苹果手表for王阿姨的儿子
+- $500 (ipad) or $330 (ipad air) (75折) 小娘娘
+   [2017-03-11 Sat 10:42]
+*** 2017-03-12 Sunday
+**** Study [/]
+***** Setup the server with cable
+***** Play with deep learning
+****** Models
+****** Magxxx
+****** 3rd party ones
+   [2017-03-12 Sun 15:55]
+*** 2017-03-14 Tuesday
+**** Study [0/0]
+***** im2txt
+- https://github.com/tensorflow/models/tree/master/im2txt
+- download pre-trained model: https://github.com/tensorflow/models/issues/466
+- use 0.12 version of tensorflow and git reset --hard 9997b25: https://github.com/tensorflow/models/issues/466
+***** txtSummary
+- https://github.com/tensorflow/models/tree/master/textsum
+**** Note
+***** Moving by word command in shell
+- M-b, M-f
+   [2017-03-14 Tue 17:15]
+*** 2017-03-16 Thursday
+**** Note
+***** Google test
+- https://github.com/google/googletest
+   [2017-03-16 Thu 08:39]
+*** 2017-03-19 Sunday
+**** Life
+***** Wage for Aunt Wang
+- start night: 2017-03-07
+- end night: 2017-03-20
+- last: 14 days
+#+name: aunt.wang.wage
+#+begin_src R :session *diary.org* :cache yes :exports both :results output raw
+  4500 / 26 * 14 - 369.51
+#+end_src
+
+#+results[261ef0ab7e21f50b1a2553b457a363d656b151e6]: aunt.wang.wage
+[1] 2053.567
+
+   [2017-03-19 Sun 16:57]
+*** 2017-03-20 Monday
+**** Note
+- Install jenkins on ubuntu: https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu
+   [2017-03-20 Mon 07:43]
+*** 2017-03-27 Monday
+**** Study [/]
+***** The design of design
+****** Key questions
+- Design is a process to reach the goal given constraints
+- Goal
+- Constraints
+  - time is also a constraints
+  - It might change because of tech revolution.
+   [2017-03-27 Mon 07:32]
+*** 2017-03-30 Thursday
+**** Study
+#+name: aunt.wang.wage.2
+#+begin_src R :session *diary.org* :cache yes :exports both :results output raw
+  4500 / 26 * 11
+#+end_src
+
+#+results[95c117039ef657e9f0f5426cbdef90326a135029]: aunt.wang.wage.2
+[1] 1903.846
+
+   [2017-03-30 Thu 20:35]
+** 2017-04 April
+*** 2017-04-08 Saturday
+**** Note
+- I want to learn other data engineering related stuffs
+  - cassandra
+  - solr
+  - kafka
+- I need practice to get some experience. and I can do it on my ubuntu
+	 [2017-04-08 Sat 18:38]
+*** 2017-04-22 Saturday
+**** Study
+***** Leetcode [0/1]
+- 556. Next Greater Element III
+**** Life [2/2]
+***** DONE Report accident to AAA and ask for repair
+	  :LOGBOOK:
+	  CLOCK: [2017-04-22 Sat 12:05]--[2017-04-22 Sat 14:01] =>  1:56
+	  :END:
+- claim number: 1002-04-0994
+***** DONE [#B] AAA yearly fee continues
+   [2017-04-22 Sat 11:15]
+*** 2017-04-30 Sunday
+**** Study [0/0]
+***** Leetcode
+***** ArnoldC                                                           :fun:
+   [2017-04-30 Sun 15:29]
+   [[file:~/org/diary.org::*Wage%20for%20Aunt%20Wang][Wage for Aunt Wang]]
+** 2017-05 May
+*** 2017-05-07 Sunday
+**** Work [/]
+***** WAITING Buy ticket for Mom in law
+ - chase redeem travel
+   - 2017-08-07 around
+   - zhengzhou -> beijing -> SFO
+***** .SCHEMATIC file
+- https://fileinfo.com/extension/schematic
+****** MCEdit: https://github.com/mcedit/mcedit2
+**** Note
+***** Aunt info                                                        :aunt:
+- Birth day: 1960-10-16
+- Passport number: E59806970
+	 [2017-05-07 Sun 09:52]
+*** 2017-05-13 Saturday
+**** Note
+- 善者吾善之，不善者吾亦善之，德善
+   [2017-05-13 Sat 16:50]
+Check my E
+** 2017-06 June
+*** 2017-06-18 Sunday
+**** Note 
+***** Why I should be in charge of the Java Reader API
+- 9-10 months experience with the current design
+- Data scientist background, familiar with how to use these reader for adhoc application
+- Experience with design pattern
+***** 我过于急躁了，应该以大局为重
+   [2017-06-18 Sun 21:49]
+** 2017-07 July
+*** 2017-07-15 Saturday
+**** 靠着神加给的力量，我可以抵制所有social network
+   [2017-07-15 Sat 21:26]
+*** 2017-07-29 Saturday
+**** Study [0/0]
+***** Leetcode [/]
+	  :LOGBOOK:
+	  CLOCK: [2017-07-29 Sat 10:31]--[2017-07-29 Sat 11:01] =>  0:30
+	  :END:
+***** Reading [/]
+- [ ] Unix编程艺术
+- [ ] SICP
+- [ ] Code complete
+***** Make Jenkins (sys-report) system run on AWS + github
+**** Life [/]
+***** Dispute 罚单
+***** 找墨西哥园丁
+- 650-458-1612
+- Javier gardening & landscaping
+- 550 1st ave #7, San Mateo CA, 94401
+   [2017-07-29 Sat 10:30]
+*** 2017-07-30 Sunday
+**** Note 
+- 为了提交性价比高的结果，有时候未必要100%正确
+- 要考虑很多其他因素，比如
+  - 简单性
+  - 一致性
+	 [2017-07-30 Sun 18:27]
+[[gnus:INBOX#ce3dd4b9-4240-4dd8-92e3-c4bcc7bfba9b@tensorflow.org][Email from tnishimura via Discuss: Does Tensorflow Serving suppor]]
+** 2017-08 August
+*** 2017-08-02 Wednesday
+**** Note 
+***** 非常好的关于智慧的文章                                         :wisdom:
+- http://big5.xuefo.net/nr/article12/123071.html
+   [2017-08-02 Wed 06:48]
+*** 2017-08-04 Friday
+**** Note [0/0]
+***** Way to detect error in data pipeline [0/0]
+- Anormaly detection
+- Logic correctness need to be verified by hand
+  - Seldom unit-test
+	 [2017-08-04 Fri 18:32]
+*** 2017-08-05 Saturday
+**** Work [0/0] 
+***** Hot news retweeter (on AWS)
+- [ ] Periodically unfollow everyone who is not following me
+- [ ] Enable follow other people again!
+   [2017-08-05 Sat 15:59]
+*** 2017-08-06 Sunday
+**** Life [2/2]
+- [X] 理发
+- [X] 买咖啡
+   [2017-08-06 Sun 08:21]
+*** 2017-08-09 Wednesday
+**** Life [0/2] 
+***** TODO 送姑妈去机场
+***** TODO 接丈母娘
+**** Note [/]
+- org-mode English auto-completion.
+   [2017-08-09 Wed 07:47]
+*** 2017-08-11 Friday
+*** 2017-08-13 Sunday
+**** Work [0/2]
+***** TODO Review other people
+***** TODO Self-review
+**** Study [0/2] 
+***** BLOCKED Leetcode
+- [ ] p646 - DP would result in time exceeded
+***** TODO Reading books
+	  :LOGBOOK:
+	  CLOCK: [2017-12-05 Tue 11:13]
+	  CLOCK: [2017-08-13 Sun 15:51]--[2017-12-05 Tue 11:13] => 2731:22
+	  :END:
+- [ ] SICP
+- [ ] Code complete
+   [2017-08-13 Sun 11:18]
+*** 2017-08-19 Saturday
+**** Study [0/0]
+***** Leetcode [/]
+***** SICP with elisp
+**** Life [0/0] 
+***** Shopping [4/4]
+- [X] iPad: 亚马逊上买个壳
+- [X] 妈妈的手机
+- [X] Replace 莲蓬头 at HomeDepot
+- [X] 去Target买墙纸
+   [2017-08-19 Sat 09:15]
+*** 2017-08-26 Saturday
+**** Study & Work [0/4]
+***** TODO [#A] Leetcode
+- [X] P654
+***** TODO [#B] Help Pengpeng on Renjin & Zeppelin 
+***** TODO [#B] Churn prediction evaluator
+***** TODO [#B] Reading
+- [ ] Code complete
+**** Life [0/1]
+***** TODO Branch & Stanford shopping center
+	  SCHEDULED: <2017-08-26 Sat 9:30am>
+   [2017-08-26 Sat 06:46]
+*** 2017-08-27 Sunday
+**** Study & Work [0/0] 
+***** TODO [#A] Leetcode
+***** TODO [#B] Churn prediction evaluator
+***** TODO [#B] Reading
+- [ ] 如何阅读一本书
+- [ ] Code complete
+***** Figure out the speak / sound (alda) binding to coding: send block / send buffer
+   [2017-08-27 Sun 10:07]
+** 2017-09 September
+*** 2017-09-09 Saturday
+**** Study [0/0] 
+***** Music
+   [2017-09-09 Sat 20:48]
+*** 2017-09-23 Saturday
+**** Study [1/1] 
+***** DONE [#A] Load Duo's data in postgres
+	  DEADLINE: <2017-09-24 Sun>
+- [X] Check postgres process
+- [X] Connect to postgres remotely
+  - http://blog.bigbinary.com/2016/01/23/configure-postgresql-to-allow-remote-connection.html
+- [X] Load data into postgres:
+  https://github.com/lukasmartinelli/pgfutter
+******* Postgres password
+- 20170923
+   [2017-09-23 Sat 20:32]
+*** 2017-09-24 Sunday
+**** Study [/] 
+***** How to import kindle content to ibook
+******* Research tool on github
+- Kindle related
+  - Load from kindle repository
+- iBook related
+  - Push to ibook
+- Format transformation: ebook_convert of calibre
+******* Python script to do the work
+- Import books (mobi) from kindle repository or kindle device
+- Convert into epub using calibre maybe
+- Export to ibook
+***** Note
+****** Kindle Cloud API                                               :ibook:
+- https://github.com/msuozzo/Lector
+   [2017-09-24 Sun 09:44]
+** 2017-10 October
+*** 2017-10-05 Thursday
+**** Note 
+***** Postgres 10 released
+- https://www.postgresql.org/docs/10/static/release-10.html
+   [2017-10-05 Thu 07:36]
+*** 2017-10-14 Saturday
+**** Study [0/3]
+***** BLOCKED Siri API on Mac OSX
+***** TODO [#A] ggtag
+- Install ggtag with ctags
+  - https://github.com/leoliu/ggtags/wiki/Install-Global-with-support-for-exuberant-ctags
+***** TODO [#B] Leetcode
+**** Note
+***** company-ngram
+Hello world! This is my first program. Why I cannot finish the lord of the ring?
+   [2017-10-14 Sat 09:43]
+*** 2017-10-15 Sunday
+**** Leetcode 
+**** Gymboree classes, ? aclock at next Saturday
+- 650 358 9943
+**** Logging John's data
+**** Pandoc support the simple cli parameters
+- pandoc 建筑的永恒之道.epub -o 建筑的永恒之道.org
+   [2017-10-15 Sun 08:01]
+*** 2017-10-18 Wednesday
+**** Life 
+***** 办理宝宝出生证明和护照
+- https://www.guruin.com/articles/1932
+- 宝宝材料 [/]
+- 父母材料 [/]
+  - 身份证
+  - 绿卡
+  - 护照
+   [2017-10-18 Wed 09:09]
+*** 2017-10-21 Saturday
+**** Study [0/0] 
+***** Sourcekittendaemon                                              :swift:
+- https://github.com/terhechte/SourceKittenDaemon/blob/master/Protocol.org
+   [2017-10-21 Sat 18:22]
+** 2017-11 November
+*** 2017-11-01 Wednesday
+**** Life [0/0]
+***** Reading class at foster city library
+- Thanks lord 
+**** Note
+***** Image tagging
+- Suggestion from my wife: Download imagenet model and apply
+***** Airbnb interview
+- Code test: online judge
+- 1 round, if not very good in first round, will take 2nd
+- Might ask work experience, but don't take much time on this, it might impact other
+   [2017-11-01 Wed 19:08]
+*** 2017-11-04 Saturday
+**** Life [0/0] 
+***** HOND CRV registration
+***** HOA: 11,12,01: $585
+   [2017-11-04 Sat 13:00]
+*** 2017-11-05 Sunday
+**** Note [0/0] 
+***** Lilypond
+- Homebrew lilypond is removed, the cask version doesn't work
+- Lyp version works: https://github.com/noteflakes/lyp, not depend on linuxbrew
+	- Lyp install lilypond at $HOME/.lyp
+   [2017-11-05 Sun 13:45]
+*** 2017-11-11 Saturday
+**** Study [0/0] 
+***** Python improvement
+- Design pattern: Python in practice + Head first design pattern
+  - python-patterns: https://github.com/faif/python-patterns
+- Functional programming in python
+- Python unit test (or test driven development)
+- Python data science toolbox (pandas + numpy + scipy + tensorflow etc)
+   [2017-11-11 Sat 18:00]
+*** 2017-11-18 Saturday
+**** Note 
+***** numpy
+- delete row, delete column: https://stackoverflow.com/questions/3877491/deleting-rows-in-numpy-array
+- sum one row: https://stackoverflow.com/questions/4001067/sum-one-row-of-a-numpy-array
+   [2017-11-18 Sat 08:03]
+*** 2017-11-19 Sunday
+**** Info about Youtube 
+- Youtube
+- 分组情况 / 最近做什么事情
+  - 有专门的data eng组
+- 中国人多么
+  - 挺多
+- 招什么样的人，目前是否持续招人
+- 工作压力如何
+- 程序设计语言
+  - C++, java, python
+   [2017-11-19 Sun 17:00]
+*** 2017-11-20 Monday
+**** Work [/]
+***** 刷题google
+***** 递交简历
+**** Note [1/2]
+- [X] SICP: 构造复杂的抽象
+- [ ] 我们真的需要复杂的抽象么？砍需求
+   [2017-11-20 Mon 08:32]
+*** 2017-11-21 Tuesday
+**** Work [/]
+***** Google刷题
+**** Life [2/2] 
+***** [#A] 打电话给麦麦家about daycare事宜
+- 等待他们的电话回复
+***** 去home depot购买东西
+- [X] 厨房的灯泡 - 带一个去
+- [ ] 水龙头 => 如何找人更换 -> 等待金师傅上门拜访: 510-688-0602
+- [ ] 马桶 => 如何找人更换
+- [ ] 马桶厕纸架
+***** [#C] 去costco买东西
+- [ ] 马桶抽纸
+- [ ] 一包拖鞋，如果需要的话
+***** DONE 晚饭去大华边西湖云吞买烧鸭
+- 6点以后太湖云吞买不到烧鸭，得去cooking papa
+***** DONE 晚上7点墨西哥清洁工拜访
+- 第一次150元，3个人，2小时
+- 鹏鹏要求每月一次
+   [2017-11-21 Tue 08:17]
+**** Note 
+***** 为什么数据结构比算法重要？
+- 个人感悟：因为数据结构可以观察，比较简单，而算法更加耗费脑子，更复杂
+- 也相当于函数式，提供更多的中间结果以供观察，就好像print log
+- 这也依旧about复杂度
+***** Spring Microservices in Action
+- https://www.safaribooksonline.com/library/view/spring-microservices-in/9781617293986/kindle_split_003.html
+   [2017-11-21 Tue 21:36]
+*** 2017-11-22 Wednesday
+**** Note 
+- How to check if a numpy matrix is empty?
+  - check h, w = m.shape, if 0 == h _/OR/_ 0 == w
+- 希望我的代码能够服务很多人...
+- 符合自己个人的兴趣，也好
+- 图书，音乐，游戏，等等
+- 个人的兴趣与服务大众的交集
+- 理想很丰满，现实很骨感
+- 有衣有食，就当知足
+   [2017-11-22 Wed 10:04]
+**** Note 
+- 不值得为了节省两行代码而使得code难以理解
+   [2017-11-22 Wed 11:20]
+*** 2017-11-23 Thursday
+**** 制定感恩节旅行计划 [0/0]
+***** 气温
+- Santa Cruz: 20
+- Gilroy: 22
+***** 购物
+- 妈妈
+  - 衣服
+	- 风衣
+  - 靴子
+  - 品牌洗发水
+- 宝宝
+  - 帽子
+  - 衣服
+- 鹏鹏
+  - 练瑜伽的裤子
+  - 风衣 
+- 我自己
+  - 绿皮：带帽子，结实
+  - 自己的鞋子: 斯凯奇
+- 爸爸妈妈
+  - 斯凯奇鞋子
+- 家里公用
+  - 拖鞋：自己用的，质量好一些，木屐
+  - 夏威夷用登机箱
+*** 2017-11-24 Friday
+**** Note 
+- 有娃以后，应该减少长途出行，特别是和别的家人一起出行，因为以孩子为中心，已经不能精确计划行程，孩子是很大的不确定因素
+- 自家出行应准备
+  - 孩子的东西
+  - 我们的东西
+	- 电器
+	- 洗漱用品
+	- 睡衣睡裤
+	- 证件
+	[2017-11-24 Fri 18:55]
+*** 2017-11-25 Saturday
+**** Study 
+***** Youtube video to midi
+#+begin_src sh :session *diary.org* :cache yes :exports both :results output none :eval never :ravel
+  ## download video
+  brew install youtube-dl
+  cd tmp
+  youtube-dl https://www.youtube.com/watch\?v\=wWSgze_kQuU ## megaman x corrupted
+
+  ## extract audio track
+  brew install ffmpeg
+  ffmpeg -i \(NEW\)\ Mega\ Man\ X\ Corrupted\ -\ Music\ Preview,\ Opening\ Stage\ \(X\)-wWSgze_kQuU.mp4 -q:a 0 -map a megaman_x_corrupted.mp3
+
+  ## convert to midi
+  ffmpeg -i megaman_x_corrupted.mp3 -acodec pcm_u8 -ar 22050 megaman_x_corrupted.wav
+  brew install waon
+#+end_src
+**** Things to do for daycare
+- 妈妈申请延期(1个月到3个月)
+- 刘老师家幼儿园: 4月中旬有名额
+- Costco幼儿园: 2月下旬有名额，屠康周一早上去交钱排队，确定入学时间
+- 鹏鹏申请两周（或者更久)的产假，从2月初到2月底
+- 屠康明早去参加maimai家的教会活动，弄清楚孩子上幼儿园的条件
+   [2017-11-25 Sat 09:51]
+*** 2017-11-26 Sunday
+**** Life [1/4] 
+***** TODO Google interview刷题
+***** BLOCKED 去maimai家教会，确实弄清孩子上幼儿园条件
+- 我们未必能保证长期去这里，因为我们有很多朋友在基督一家了
+- 他们没有给我们3月入学的保证
+***** DONE 去大华边上买咖啡
+- 买菜
+- 用掉优惠券
+- 买咖啡
+***** TODO 请邓天硕帮助投简历
+****** Youtube
+- https://careers.google.com/jobs#!t=jo&jid=/youtube/software-engineer-youtube-1600-amphitheatre-pkwy-mountain-view-ca-385820148&
+- https://careers.google.com/jobs#!t=jo&jid=/youtube/software-engineer-youtube-901-cherry-ave-san-bruno-ca-usa-1744490093&
+****** 好话
+- Kang has strong passion and genuine curiosity in technology. We share the same interests in data analytics, programming languages and Emacs. I like discussing technical problems and exchanging ideas with him during lunch and after work. He always has lots of interesting ideas to share. He is knowledgeable in lots of programming languages, e.g. java, python, scala, R, lisp, and is always passionate to learn new languages.
+
+- Productivity: He delivered a few high-impact projects at Apple. For example, he is the primary contributor of trending article backend algorithm and data pipeline. Trending articles are currently shown on iPhone news widget and read by millions of iPhone users everyday. He is the lead architect of A/B testing spark data processing framework for his organization. He got 1st tier (exceeded expectation) of "result" rate in his two years annual review in data infrastructure team at Apple.
+
+- Creativity: Kang can think out of the box and provide effective solutions (that often surprise other people) to challenging technical problems. He got 1st tier (exceeded expectation) of "innovation" rate in all his three years annual review in Apple. Another example is he designed and implemented the time series outlier detection and automated root cause analysis algorithm in Twitter.
+
+- Profession: He has years of experiences in data analytics, with proved records in applying statistics and machine learning in real world problems. He also did great work in academia with highly(1500+) cited publications.
+	[2017-11-26 Sun 08:37]
+**** Note 
+- 智慧书：对你看来有利之事，宁信其无；对你看来不利之事，宁信其有
+- 我的人生到目前为止
+  - Acquire技能，特别是计算机技能
+	- acquire有价值有意义的技能
+	- acquire有较为长久生命力的技能
+	- acquire应用面广的技术
+	- 系统，成体系的acquire技能
+	- 通过学习理论知识，修炼内功来掌握
+  - 利用技能，做对人对社会有用的事情
+    - 技能需要能scalable，这样能够做对很多人有用的事情
+- Next: How to serve the data. Serve data as source
+  - 这样任何人都可以取到我们的数据
+	[2017-11-26 Sun 15:29]
+*** 2017-11-28 Tuesday
+**** Note 
+- 双手简谱的话，一定要刚开始就对齐，不然后续很麻烦
+   [2017-11-28 Tue 05:34]
+   [[file:~/git/scratch/alda/castlevania.alda::r16%20<c16>%20d16~e-16~d16%20r16%20c16%20e-8%20r16%20c8%20d8~c8]]
+*** 2017-11-30 Thursday
+**** Work [0/0]
+***** Reply to google recruiter
+Hi Jeanie,
+
+Thanks for the quick reply and the detailed job information. Among the two options, I think Quantitative Analyst would be a better fit for me since I prefer to focus on the technical tool kit.
+
+And I wonder if there are opportunities for engineering role with data or machine learning involved (for example, machine learning engineer). In the past three years at Apple, I've been mainly working as an engineer in a data infrastructure team. I am the primary contributor of Trending Articles back-end, which generates the news feed shown on iPhone news widget. I also built the A/B testing data pipeline, machine learning pipeline, zeppelin data exploration servers for the Apple News team.
+
+Thanks
+
+Kang
+   [2017-11-30 Thu 20:35]
+** 2017-12 December
+*** 2017-12-02 Saturday
+**** Things to do [2/6]
+***** NEXT 邮寄鞋子和西洋参给爸爸妈妈
+- 邮局开门时间: 9am-2pm
+***** WAITING 给杨子涵买iPhone 8
+- 什么颜色？银色
+***** DONE 换机油，去san mateo
+***** DONE 刷leetcode题
+- 试图刷了4道题，1道超时，1道还有错误
+***** TODO 学Spring
+***** TODO 搞搞音乐
+**** Note
+- 有些话好说不好听，愚昧人闭口不言也可称为智慧
+- 尽量减少变量作用域，即使增加代码长度甚至引入一些重复
+  - 目的是为了使得程序容易理解
+   [2017-12-02 Sat 08:37]
+*** 2017-12-03 Sunday
+**** Things to do [0/5]
+***** NEXT 邮寄鞋子和西洋参给爸爸妈妈
+- 邮局今日不开门。明天早上8点半做这件事情
+***** WAITING 给杨子涵买iPhone 8
+- 什么颜色？银色
+***** TODO 刷leetcode题
+***** TODO 学Spring
+- [[file:~/git/scratch/spring-boot-in-action/scratch.sh][file:~/git/scratch/spring-boot-in-action/scratch.sh]]
+***** TODO 搞搞音乐
+- pandoc can convert html page to epub
+  - lilypond: pandoc -f html -t epub http://lilypond.org/doc/v2.19/Documentation/learning-big-page.html -o lilypond.epub
+**** Note
+- 明日检查iPhoneX的availability
+   [2017-12-03 Sun 09:40]
+*** 2017-12-05 Tuesday
+**** Things to do today 
+***** TODO 刷leetcode题
+	  :LOGBOOK:
+	  CLOCK: [2017-12-05 Tue 11:14]--[2017-12-05 Tue 11:43] =>  0:29
+	  :END:
+***** TODO [#C] 完成legacy job migration
+- why html not generated and email not sent
+- migrate to PV6 from PV8 
+***** TODO 搞搞音乐
+- alda
+  - 小兔子乖乖双手简谱
+- lilypond
+  - lilypond gs issue, maybe fix it with python / sed or sth
+***** 购买iphone
+****** DONE 杨子涵: iPhone 8，银色，plus
+****** Pengpeng: iphone X
+****** DONE 其他人
+- [X] 阿里的scientist
+- [X] Fangwei
+   [2017-12-05 Tue 10:28]
+**** Note 
+- 自定义语言不太合适，原因是因为缺乏相应的语法检查器
+- 就用同种语言定义high level的操作符，保证可读性就好
+  - 这样的话，IDE能发挥作用
+- 可以把一些不太需要语法检查器的元素expose成参数放在yml里
+- clojure最后就是搞出一大堆的DSL :( 悲剧
+ [2017-12-05 Tue 11:25]
+*** 2017-12-06 Wednesday
+**** Things to do [0/0] 
+***** 刷题leetcode
+- 用java, spring-boot刷题
+***** 搞搞音乐
+- alda
+  - heart of fire
+- lilypond
+  - lilypond gs issue, maybe fix it with python / sed or sth
+   [2017-12-06 Wed 09:13]
+*** 2017-12-09 Saturday
+**** Things to do [1/5]
+***** DONE 购买物品
+- [X] iPhoneX
+- [X] Macbook
+- [X] 捐助信息给pengpeng
+***** TODO [#A] 刷题leetcode
+- 用java
+- refactor之前的代码，用一个spring project来管理所有leetcode google面试题目
+***** TODO [#B] 完成legacy job migration
+- why html not generated and email not sent
+- migrate to PV6 from PV8 
+***** TODO [#C] 继续学习Spring
+***** TODO [#C] 学习lilypond，按照教材，从简单到复杂
+- [X] 修复本机的lilypond
+- [ ] 可以找乐谱学习lilypond
+**** Note
+***** 关于单元测试
+- 我已经知道如何给小函数和小对象构造单元测试
+- 如何给中等抽象规模的函数和对象构造单元测试？
+  - 那就要有能力创建中等规模的对象和函数
+	- 甚至Mock出中等规模的对象和函数
+	 [2017-12-09 Sat 08:16]
+*** 2017-12-10 Sunday
+**** Things to do today 
+***** Lilypond learning
+- lilypond got trending github repo: https://github.com/trending/lilypond?since=weekly
+   [2017-12-10 Sun 08:38]
+*** 2017-12-16 Saturday
+**** Things to do [/]
+***** 抄写完两只老虎的谱子with lilypond
+***** 刷一道leetcode
+   [2017-12-16 Sat 20:18]
+*** 2017-12-18 Monday
+**** Things to do today [0/1] 
+***** TODO 楼上有老鼠响声 [1/2]
+****** WAITING Call Attic crew                                    :房顶:老鼠:
+	   SCHEDULED: <2017-12-22 Fri 11am-1pm>
+ - 房顶又有声音 主卧更衣室楼上
+ - https://www.yelp.com/biz/attic-crew-palo-alto
+ - (800) 558-5857 
+ - Scheduled
+****** DONE 购买驱鼠器
+***** 抄谱子with Lilypond
+- [[file:~/git/scratch/lilypond/%E5%84%BF%E6%AD%8C/%E4%B8%8A%E5%AD%A6%E6%AD%8C.ly::versetwo%20=%20\new%20Lyrics%20\lyricsto%20"one"%20{][上学歌]]
+  - 双lyric
+***** 去图书馆复印材料
+- http://www.china-embassy.org/chn/lszj/qz/t1234521.htm
+- [ ] 签证申请表及照片1份
+  - 签证申请表: http://www.china-embassy.org/chn/lszj/bgxz/P020130830121570742708.pdf
+- [-] 邀请函（我们可以写）[1/1]
+  - [X] 找来Template
+	- http://tipsbbs.com/archive/index.php?thread-477.html
+邀请人: 屠康 住址: 安徽省滁州市蓝天路55号1幢3单元902室，邮编239000 电话: 13155009041
+
+被邀请人: 屠乐谦 男, 2017年03月05日生, 为邀请人的儿子
+
+邀请人邀请被邀请人于2018年4月到2018年5月(如果确切日期不定，至少写月份)来安徽省滁州市探亲(旅游), 所有费用由邀请人(被邀请人)支付(或被邀请人支付来回机票, 邀请人支付国内花费).
+
+宝宝的爷爷奶奶年纪大了不能坐飞机来美国, 希望带宝宝回国见宝宝的爷爷奶奶.
+
+2017年12月18日
+  - [X] 修改，发到gmail
+  - [ ] 打印一下签个字
+- [ ] 父母绿卡和护照的原件和复印件1份
+***** 刷leetcode题目
+- https://leetcode.com/problems/license-key-formatting/description/
+	 [2017-12-18 Mon 08:56]

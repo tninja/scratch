@@ -110,3 +110,10 @@ V2: piano_v2_motif2
 ## --
 V1: c4 * 3 | r4 * 3
 V2: piano_v2_motif2 | [<<c4>/<g4>/c4>] * 2 r4  
+
+## 我爱我的幼儿园
+piano: 
+c8 d8 e8 f8 | g8 g8 g4 | g8 g8 e8 c8 | d8 e8 d4
+# 我爱我的幼儿园，幼儿园里朋友多
+c8 d8 e8 f8 | g8 g8 g4 | g8 g8 e8 c8 | d8 e8 c4
+# 又唱歌来又跳舞，大家一起真快乐

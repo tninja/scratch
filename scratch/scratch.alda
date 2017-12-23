@@ -149,7 +149,7 @@ midi-bright-acoustic-piano/acoustic-bass: (tempo! 90)
 	
 ## 小兔子乖乖
 
-midi-bright-acoustic-piano/electric-guitar-clean/trumpet:
+midi-bright-acoustic-piano/electric-guitar-clean/trumpet/midi-melodic-tom:
 g4 [>c8< a8] g4 g4 | [e8 g8] [a8 >c8<] g4 g4 
 a4 [g8 e8] d4 d4 | e4 [g8 e8] [d8 e8] c4
 a4 g4 a4 g4 e4 a4 g4
@@ -204,3 +204,12 @@ piano: c d e
 e f g
 c d e
 
+## 屠乐谦是我们家的乖宝宝
+	
+## 汪汪汪汪汪汪汪汪汪汪汪汪
+
+## 喵喵喵喵喵喵喵喵喵喵喵喵
+	
+midi-breath-noise: c d e
+
+midi-melodic-tom: c d e f g
