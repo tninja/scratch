@@ -105,6 +105,7 @@ verseen = \new Lyrics \lyricsto "one" {
   >>
   \midi {
 	\tempo 2 = 72
+	%% convert to mp3 (for iphone) timidity ./Aimee生日快乐歌.midi -Ow -o - | lame - -b 64 Aimee生日快乐歌.mp3
   }
   \layout { }
 }
