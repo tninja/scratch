@@ -10,7 +10,7 @@
   maintainerEmail = "tninja@gmail.com"
   lastupdated = "2017/Dec/22"
   title = "生日快乐 钢琴谱"
-  subtitle = "John祝Amiee姐姐生日快乐"
+  subtitle = "John祝Aimee姐姐生日快乐"
 }
 
 global = {
@@ -80,11 +80,11 @@ versecn = \new Lyrics \lyricsto "one" {
 verseen = \new Lyrics \lyricsto "one" {
   \lyricmode {
 	Hap -- py birth -- day to you , | hap -- py birth -- day to you ,
-	Hap -- py birth -- day to Amiee , | hap -- py birth -- day to you !
+	Hap -- py birth -- day to Aimee , | hap -- py birth -- day to you !
 	Hap -- py birth -- day to you , | hap -- py birth -- day to you ,
-	Hap -- py birth -- day to Amiee , | hap -- py birth -- day to you !
+	Hap -- py birth -- day to Aimee , | hap -- py birth -- day to you !
 	Hap -- py birth -- day to you , | hap -- py birth -- day to you ,
-	Hap -- py birth -- day to Amiee , | hap -- py birth -- day to you !
+	Hap -- py birth -- day to Aimee , | hap -- py birth -- day to you !
   }
 }
 
