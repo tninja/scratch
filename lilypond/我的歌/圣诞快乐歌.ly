@@ -10,7 +10,7 @@
   maintainerEmail = "tninja@gmail.com"
   lastupdated = "2017/Dec/22"
   title = "圣诞快乐 钢琴谱"
-  subtitle = "鹏鹏和康康家2017年圣诞快乐"
+  subtitle = "鹏鹏康康家2017年圣诞快乐"
 }
 
 global = {
@@ -23,14 +23,23 @@ upper = \absolute {
   \time 4/4
   <a e'>4 f4 <c f a>4 c'4 | <f a e'>8 d'8 c'8 b8 <c dis a>4 b4 | <c a>4 g4 e4 c4 | <c d>4 <c d>4 d4 d4
   c4 e4 <c g>4 c'4 | <c g>8 f8 e8 d8 c4 d4 | c4 e4 <c g>4 c'4 | <c g>4 d8 c8 b,4 b,4
+  e4 g4 <e c'>4 e'4 | <f d'>8 c'8 b8 a8 g4 f4 | e4 e4 <d g>4 d'4 | <c f b>8 a8 g8 f8 e4 d4
+  c4 e4 <c g>4 c'4 | <c g>8 f8 e8 d8 c4 d4 | c4 e4 <c g>4 c'4 | <c g>4 d8 c8 b,4 r4
+  e4 g4 <e c'>4 e'4 | <f d'>8 c'8 b8 a8 <d gis>4 b4 | \repeat unfold 2 { <e a c'>4 } <dis gis>4 | <d g c'>4 <d g c'>4 <e a c'>4 c4
 }
 
 lowermotifone = { <c, e, g,>4. b,,8 <a,, g,>4 <a,, g,>4 }
+lowermotiftwo = { <d, a,>4 <d, a,>4 <f, a,>4 b,4 }
+lowermotifthree = { <d, a,>4 <d, a,>4 <g,, f,>4 <g,, f,>4 }
+lowermotiffour = { <c, g, b,>4 <c, g, b,>4 <a,, g,>4 <a,, g,>4 }
 lower = \absolute {
   \clef "bass"
   \time 4/4
   <f, c>4 <f, c>4 d,4 d,4 | <g, d>4 <g, d>4 fis,4 fis,4 | g,4 g,4 <a,, f, a,>4 <a,, f, a,>4 | <d, f, a,>4 <d, f, a,>4 <g,, b,, f,>4 <g,, b,, f,>4
-  \lowermotifone | <d, a,>4 <d, a,>4 <f, a,>4 b,4 | \lowermotifone | <d, a,>4 <d, a,>4 <g,, f,>4 <g,, f,>4
+  \lowermotifone | \lowermotiftwo | \lowermotifone | \lowermotifthree
+  \lowermotiffour | <d, c>4 <d, c>4 <g,, b,, f,>4 <g,, b,, f,>4 | <c, g, b,>4 c,,4 <e, g,>4 <e, g,>4 | d,4 d,4 <g,, b,, f,>4 <g,, b,, f,>4
+  \lowermotifone | \lowermotiftwo | \lowermotifone | \lowermotifthree
+  \lowermotiffour | <d, c>4 <d, c>4 <e, b,>4 gis,4 | a,,4 e,4 g,4 <gis,, f,>4 | <g,, f,>4 d,4 <c, ais,>4 <c, ais,>4 
 }
 
 %% aligning lyrics to a melody: http://lilypond.org/doc/v2.19/Documentation/learning/aligning-lyrics-to-a-melody

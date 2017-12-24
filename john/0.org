@@ -566,10 +566,11 @@
 
 * Prepare breakfast and dinner for baby
 
-** Breakfast
+** 主食
    
+- 奶
 - 面条（鸡汤，鱼汤)
 - 糊糊：老婆买了带益生菌的糊糊
 - 蒸鸡蛋
 
-** Dinner
+** 水果

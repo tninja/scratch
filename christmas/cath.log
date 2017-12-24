@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2016.5.22)  22 DEC 2017 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2016.5.22)  24 DEC 2017 08:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **\nonstopmode\input cath.tex
 (./cath.tex
 ! Undefined control sequence.
-l.2 \RequirePackage
+l.4 \RequirePackage
                    [rgb,pdftex,dvipsnames,x11names]{xcolor}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14,7 +14,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.3 \documentclass
+l.5 \documentclass
                   [tikz,border=5pt]{standalone}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -23,7 +23,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.4 \usetikzlibrary
+l.6 \usetikzlibrary
                    {calc,intersections,backgrounds}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -32,7 +32,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.5 \pgfdeclarelayer
+l.7 \pgfdeclarelayer
                     {foreground}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -41,7 +41,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.6 \pgfdeclarelayer
+l.8 \pgfdeclarelayer
                     {pen}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -50,7 +50,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.7 \pgfdeclarelayer
+l.9 \pgfdeclarelayer
                     {corff}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -59,8 +59,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.8 \pgfsetlayers
-                 {background,corff,main,pen,foreground}
+l.10 \pgfsetlayers
+                  {background,corff,main,pen,foreground}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -68,8 +68,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.9 \makeatletter
-                 
+l.11 \makeatletter
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -77,7 +77,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.11   \tikzset
+l.13   \tikzset
                {%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -86,7 +86,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.14             \pgfonlayer
+l.16             \pgfonlayer
                             {foreground}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -95,7 +95,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.15             \let\tikz@options=\pgfutil
+l.17             \let\tikz@options=\pgfutil
                                            @empty%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -104,7 +104,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.16             \tikzset
+l.18             \tikzset
                          {every on foreground layer/.try,#1}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -113,7 +113,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.16 ... \tikzset{every on foreground layer/.try,#
+l.18 ... \tikzset{every on foreground layer/.try,#
                                                   1}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -121,7 +121,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.19 ...      execute at end scope={\endpgfonlayer
+l.21 ...      execute at end scope={\endpgfonlayer
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -130,7 +130,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.23             \pgfonlayer
+l.25             \pgfonlayer
                             {pen}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -139,7 +139,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.24             \let\tikz@options=\pgfutil
+l.26             \let\tikz@options=\pgfutil
                                            @empty%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -148,7 +148,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.25             \tikzset
+l.27             \tikzset
                          {every on pen layer/.try,#1}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -157,7 +157,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.25 ...        \tikzset{every on pen layer/.try,#
+l.27 ...        \tikzset{every on pen layer/.try,#
                                                   1}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -165,7 +165,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.28 ...      execute at end scope={\endpgfonlayer
+l.30 ...      execute at end scope={\endpgfonlayer
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -174,7 +174,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32             \pgfonlayer
+l.34             \pgfonlayer
                             {corff}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -183,7 +183,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.33             \let\tikz@options=\pgfutil
+l.35             \let\tikz@options=\pgfutil
                                            @empty%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -192,7 +192,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.34             \tikzset
+l.36             \tikzset
                          {every on corff layer/.try,#1}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -201,7 +201,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 ...      \tikzset{every on corff layer/.try,#
+l.36 ...      \tikzset{every on corff layer/.try,#
                                                   1}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -209,7 +209,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.37 ...      execute at end scope={\endpgfonlayer
+l.39 ...      execute at end scope={\endpgfonlayer
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -218,7 +218,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.39     stripiau cwt/.style={draw=#
+l.41     stripiau cwt/.style={draw=#
                                     1, very thin, shorten >=-5mm, shorten <=...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -226,7 +226,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.39 ..., shorten >=-5mm, shorten <=-5mm, double=#
+l.41 ..., shorten >=-5mm, shorten <=-5mm, double=#
                                                   1, double distance=3.5mm},
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -234,7 +234,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.40     stripiau corff/.style={very thin, draw=#
+l.42     stripiau corff/.style={very thin, draw=#
                                                  1, fill=#1},
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -242,7 +242,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.40 ...u corff/.style={very thin, draw=#1, fill=#
+l.42 ...u corff/.style={very thin, draw=#1, fill=#
                                                   1},
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -250,7 +250,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.42     llenwi cath/.style={fill=#
+l.44     llenwi cath/.style={fill=#
                                    1},
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -258,7 +258,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.43     llygaid/.style n args=2{inner color=#
+l.45     llygaid/.style n args=2{inner color=#
                                               1, outer color=#2, ultra thick...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -266,7 +266,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.43 ...yle n args=2{inner color=#1, outer color=#
+l.45 ...yle n args=2{inner color=#1, outer color=#
                                                   2, ultra thick, draw},
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -274,7 +274,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.47         \begin
+l.49         \begin
                    {pgfonlayer}{pen}% ref. workaround from http://tex.stacke...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -283,7 +283,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48           \begin
+l.50           \begin
                      {scope}[very thin]% [on pen layer={very thin}]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -292,7 +292,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.49           \path
+l.51           \path
                      [clip]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -301,7 +301,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59           \path
+l.61           \path
                      [stripiau corff=#1]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -310,7 +310,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.59           \path [stripiau corff=#
+l.61           \path [stripiau corff=#
                                       1]
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -318,7 +318,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (5.82938pt too wide) in paragraph at lines 2--66
+Overfull \hbox (5.82938pt too wide) in paragraph at lines 4--68
 []\tenrm [rgb,pdftex,dvipsnames,x11names]xcolor [tikz,border=5pt]standalone cal
 c,intersections,backgrounds fore-|
 
@@ -331,7 +331,7 @@ c,intersections,backgrounds fore-|
 .etc.
 
 
-Overfull \hbox (136.30193pt too wide) in paragraph at lines 2--66
+Overfull \hbox (136.30193pt too wide) in paragraph at lines 4--68
 \tenrm ground pen corff back-ground,corff,main,pen,foreground on fore-ground la
 yer/.style=execute at be-gin scope=foregroundoptions=@emptyevery|
 
@@ -344,7 +344,7 @@ yer/.style=execute at be-gin scope=foregroundoptions=@emptyevery|
 .etc.
 
 
-Overfull \hbox (101.96837pt too wide) in paragraph at lines 2--66
+Overfull \hbox (101.96837pt too wide) in paragraph at lines 4--68
 \tenrm on fore-ground layer/.try,1@@options, ex-e-cute at end scope= , on pen l
 ayer/.style= ex-e-cute at be-gin scope=penoptions=@emptyevery|
 
@@ -357,7 +357,7 @@ ayer/.style= ex-e-cute at be-gin scope=penoptions=@emptyevery|
 .etc.
 
 
-Overfull \hbox (77.52385pt too wide) in paragraph at lines 2--66
+Overfull \hbox (77.52385pt too wide) in paragraph at lines 4--68
 \tenrm on pen layer/.try,1@@options, ex-e-cute at end scope= , on corff layer/.
 style= ex-e-cute at be-gin scope=corffoptions=@emptyevery|
 
@@ -372,9 +372,9 @@ style= ex-e-cute at be-gin scope=corffoptions=@emptyevery|
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )
 (\end occurred inside a group at level 3)
 
-### simple group (level 3) entered at line 45 ({)
-### simple group (level 2) entered at line 44 ({)
-### simple group (level 1) entered at line 11 ({)
+### simple group (level 3) entered at line 47 ({)
+### simple group (level 2) entered at line 46 ({)
+### simple group (level 1) entered at line 13 ({)
 ### bottom level</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
