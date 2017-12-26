@@ -27,3 +27,10 @@ echo $TESTVAR
 
 # Either of these
 pip3 install rope jedi flake8 importmagic autopep8 yapf
+
+# Convert a couple of mobi to epub
+# pandoc -t epub Manning.Spring.Boot.in.Action.2015.12.mobi -o Manning.Spring.Boot.in.Action.2015.12.epub
+
+ebook-convert Manning.Spring.Boot.in.Action.2015.12.mobi Manning.Spring.Boot.in.Action.2015.12.epub
+
+ebook-convert Manning.Spring.in.Action.4th.Edition.2014.11.epub
