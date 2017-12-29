@@ -40,10 +40,10 @@ verse = \new Lyrics \lyricsto "one" {
 	\new Voice = "one" {
 	  \upper
 	}
+	\verse
 	\new Voice = "two" {
 	  \lower
 	}
-	\verse
   >>
   \midi { }
   \layout { }

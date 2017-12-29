@@ -11,7 +11,7 @@ global = {
 
 uppermotifone = { c8 d8 e8 f8 }
 upper = \absolute {
-  \clef "treble"
+  \clef "bass"
   \uppermotifone | g4 e8 c8 | c'4 a8 f8 | g8 g8 e4
   \uppermotifone | g8 e8 d8 c8 | d4 e4 | d4 g4 
   \uppermotifone | g4 e8 c8 | c'4 a8 f8 | g4 e4
@@ -22,7 +22,7 @@ lowermotifone = \repeat unfold 2 { c,8 <g, e,>8 }
 lowermotiftwo = \repeat unfold 2 { c,8 <a, f,>8 }
 lowermotifthree = { g,,8 <d, f,>8 g,,8 <c, e,>8 } 
 lower = \absolute {
-  \clef "treble"
+  \clef "bass"
   \lowermotifone | \lowermotifone | \lowermotiftwo | \lowermotifone
   \lowermotifone | \lowermotifone | \lowermotifthree | \repeat unfold 2 { g,,8 <b,, d,>8 }
   \lowermotifone | \lowermotifone | \lowermotiftwo | \lowermotifone

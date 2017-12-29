@@ -11,7 +11,7 @@ global = {
 
 uppermotifone = { a'4 a'4 f'4 f'4 }
 upper = \absolute {
-  \clef "bass"
+  \clef "treble"
   \repeat unfold 2 \uppermotifone | f4. f'8 a'4 a'4 | \uppermotifone
   \repeat volta 2 { 
 	a'4 a'8 a'8 bes'4 c''4 | a'4 a'4 f'4 f'4 | f'4 f'8 f'8 g'4 a'4 | a'4 a'4 e'4 e'4

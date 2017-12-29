@@ -146,21 +146,26 @@ violin:(vol 50) violin_motif0 e4 r8 e8~c4 r8 c8~g4 <g4> c4 <c4>
 ## 10000 reaons 双手简谱
 ## http://www.everyonepiano.cn/Number-2716-1-10000-Reasons--Bless-the-Lord--Matt-Redman%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1%E9%A2%84%E8%A7%881.html
 piano_motif0 = c8/f8 <a8> c8/g8 <a8>
-piano_motif1 = piano_motif0 <<g4>/c4/e4>
-guitar_motif1 = <<<f4>/f4 r4 <c4>/c4 r4>>
-piano: <c4/a4/f4 c8/f8 g8 c4/e4> r4 | <d8/g8 e8 d8/g8 c8 <a4>/c4/e4 e8/a8 <a8>> | piano_motif1 <c4> | <<g4>/c4/d4 r4 <b4/g4>/d4 r4>
-guitar: <<<f4. f8 c4 r4 | g4. g8 a4 r4>>> | guitar_motif1 | <<<g4/>g4< r4 * 3>>> 
+piano_motif1 = piano_motif0 <<g2>/c2/e2>
+guitar_motif1 = <<<f2>/f2 <c2>/c2>>
+piano: <c4/a4/f4 c8/f8 g8 c2/e2> | <d8/g8 e8 d8/g8 c8 <a4>/c4/e4 e8/a8 <a8>> | piano_motif1 <c4> | <<g2>/c2/d2 <b2/g2>/d2>
+guitar: <<<f4. f8 c2 | g4. g8 a2>>> | guitar_motif1 | <<<g1>/g1>> 
 ## ---
-piano: piano_motif1 r4 | <<b8>/d8 e8 d8 c8 <a4>> r4 | piano_motif1 <c4> | <<g4>/c4/d4 <g8>/c8/d8 <b8/g8>/d8 <b4/g4>/d4> r4
-guitar: guitar_motif1 | <<<b4>/g4 r4 <a4>/e4 r4>> | guitar_motif1 | <<<g4>/g4>> r4 * 3
+piano: piano_motif1 | <<b8>/d8 e8 d8 c8 <a2>> | piano_motif1 <c4> | <<g4>/c4/d4 <g8>/c8/d8 <b8/g8>/d8 <b2/g2>/d2>
+guitar: guitar_motif1 | <<<b2>/g2 <a2>/e2>> | guitar_motif1 | <<<g1>/g1>>
 ## ---
-piano: piano_motif0 c4/e4 r4 | <c4/a4 c4/b4 c4/e4> r4 | <f8/a8 c8 f4/a4 d8/g8 <b8> d4/g4> | piano_motif1
-guitar:<<<f4>/f4 r4 <a4>/a4 r4 | <f4>/f4 <g4>/g4 <a4>/a4 r4 | <f4>/f4 r4 <g4>/g4 r4 | c4. <c8 c4> r4>>
+piano: piano_motif0 <c2/e2> | <c4/a4 c4/b4 c2/e2> | <f8/a8 c8 f4/a4 d8/g8 <b8> d4/g4> | piano_motif1
+guitar:<<<f2>/f2 <a2>/a2 | <f4>/f4 <g4>/g4 <a2>/a2 | <f2>/f2 <g2>/g2 | c4. <c8 c2>>>
 ## --
-piano: <[a4/f4/c4] * 2 g2.67/e2.67/c2.67 c8 | b4/g4/d4 b8/g8 d8 a4/e4/c4 r4 | [a8/f4 c8] * 2 g4/e4/c4 r4 | [b8/g8 d8] * 2 >c4</a4/e4 r4>
-guitar: <<<f4 f4 c4 r4 | g4 r4 a4 r4 | f4. f8 c4 r4 | g4. g8 a4 r4>>>
-## TO BE CONTINUED
-
+piano: <[a4/f4/c4] * 2 g2.67/e2.67/c2.67 c8 | b4/g4/d4 b8/g8 d8 a2/e2/c2 | [a8/f4 c8] * 2 g2/e2/c2 | [b8/g8 d8] * 2 >c2</a2/e2>
+guitar: <<<f4 f4 c2 | g2 a2 | f4. f8 c2 | g4. g8 a2>>>
+## --
+piano: <c8/f8/a8 c8 f8/a8 c8 c4/e4/g4 e8/g8 c8> | <<b4>/d4/g4 <b8> d8> | <<a1>/c1/e1> | <<b4>/c4/g4 c8/g8 <a8> c4/e4 <c8/e8> g8> 
+guitar: <<<f4. f8 c2 | g2 | <a1>/a1 | f2 c4. c8>>>
+## --
+piano: <<g4>/c4/d4 <g4/b4>/d4> | <<g2>/c2/e2> <<g8>/c8/e8 <g8> c8/g8 <g8>> | <c8/g8/a8 c8 c8/g8/a8 g8 c4/e4 c4/e4 g8> | <<b8>/d8/g8> e8 d8 c8 <<a4>/c4/e4> <c4/e4/a4>
+guitar: <<<g4 g4 | c2~c8 c8 c8 c8> | <f2>/f2 <c2>/c2 | <b2>/g2 <a2>/e2>>
+	
 ## In Christ alone
 piano_motif1 = d4/<a4>/<f4> r4 d4/<a4>/<f4> | <a4>/<f4> r4 c4/<a4> | c4/<g4>/<e4> r4 c4/<f4>
 guitar_motif1 = <<g4~r4~g8~g8>> | <c4>/<<d4>> r4 * 2 | <<c4>> r4 <<g4>> 

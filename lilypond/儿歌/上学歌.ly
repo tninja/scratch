@@ -9,7 +9,7 @@ global = {
 
 uppermotifone = { a'4 a'4 f'4 f'4 }
 upper = \absolute {
-  \clef "treble"
+  \clef "bass"
   \repeat volta 2 {
 	c8 d8 e8 c8 | g4 g4 | a8 a8 c'8 a8 | g4 g4 | a8 a8 c'8
 	g8 a8 g4 | a8 g8 e8 g8 | e8 c8 d8 e8 | c4 c4
