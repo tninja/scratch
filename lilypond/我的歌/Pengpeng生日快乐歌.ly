@@ -96,12 +96,14 @@ verseen = \new Lyrics \lyricsto "one" {
   \new PianoStaff
   <<
 	\set PianoStaff.instrumentName = "Piano"
+    \numericTimeSignature
 	\new Voice = "one" {
 	  \upper
 	}
 	\versecn
 	\verseen
 	\new Voice = "two" {
+	  \set Voice.midiMaximumVolume = #0.5
 	  \lower
 	}
   >>
