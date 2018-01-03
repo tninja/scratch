@@ -6,20 +6,20 @@
 (require 'lilypond-mode)
 
 ;; TODO: lilypond-templates need to be refined
-(load-library "~/.emacs.d/plugins/lilypond-templates/lilypond-skeletons.el")
-(require 'lilypond-skeletons)
+;; (load-library "~/.emacs.d/plugins/lilypond-templates/lilypond-skeletons.el")
+;; (require 'lilypond-skeletons)
 
 ;; lyqi
-(load-library "~/.emacs.d/plugins/lyqi/lp-base.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-pitchnames.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-custom.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-words.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-syntax.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-midi.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-indent.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi-editing-commands.el")
-(load-library "~/.emacs.d/plugins/lyqi/lyqi.el")
-(require 'lyqi)
+;; (load-library "~/.emacs.d/plugins/lyqi/lp-base.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-pitchnames.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-custom.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-words.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-syntax.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-midi.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-indent.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi-editing-commands.el")
+;; (load-library "~/.emacs.d/plugins/lyqi/lyqi.el")
+;; (require 'lyqi)
 
 ;; (add-to-list 'auto-mode-alist '("\\.ly$" . lyqi-mode))
 ;; (add-to-list 'auto-mode-alist '("\\.ily$" . lyqi-mode))

@@ -157,3 +157,13 @@ lilypond -dmidi-extension=mid The_Lost_Painting_from_Castlevania_Symphony_of_the
 
 #+results:
 [[file:Twotiger.pdf]]
+
+* Timidity
+
+- Configure soundfont
+  - create ~/.timidity.cfg with: soundfont ~/.gervill/soundbank-emg.sf2
+
+
+- More soundfont
+  - https://wiki.archlinux.org/index.php/timidity#SoundFonts
+  - http://freepats.zenvoid.org/
