@@ -37,11 +37,13 @@ lowermotiftwo = { c8 a4 a8~a8 a4 a8 }
 lower = \absolute {
   \clef "bass"
   \time 4/4
+  %% page 1
   \repeat unfold 4 { \lowermotifone } | \break % 1
   \repeat unfold 2 \lowermotifone | \repeat unfold 2 \lowermotiftwo | \break % 5
   d8 a4 a8~a8 a4 a8 | b,8 g4 g8~g8 g4 g8 | \lowermotifone | c8 g4 g8 c8 g8 b,8 g8 | \break % 9
   a,8 e4 e8~e8 e4 e8 | a,8 e4 e8 a,8 e8 g,8 e8 | f,8 c4 c8~c8 c4 c8 | f,8 c4 c8 f,8 c8 e,8 c8 | \break % 13
   d,8 a,4 a,8 c,8 a,4 a,8 | b,,8 g,4 g,8~g,8 g,4 g,8 | \repeat unfold 2 \lowermotifone | \break % 17
+  %% page 2
 }
 
 \score
