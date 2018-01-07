@@ -20,6 +20,13 @@ restsection = { r4 r4 r4 r4 }
 uppermotifzero = { e'8 f'8 g'8 g'8~g'8 e'4 g'8~ }
 uppermotifone = { f'8 g'8 a'8 a'8~a'8 f'4 a'8~ }
 uppermotiftwo = { r8 d'''8 g''8 d''8~d''8 g''8 d''8 g'8 }
+upperpatternone = #(define-music-function
+					(parser location note)
+					(ly:pitch?)
+					(make-relative (note) note
+					 #{
+					 $note 8 $note 8 ~ $note 8
+					 #}))
 upper = \absolute {
   \clef "treble"
   \time 4/4
