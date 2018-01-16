@@ -12,4 +12,34 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 25.3.1 (Org mode 9.0.9)
 
-* Mary 处
+* Daycare
+  
+** Mary daycare
+
+- 2018-01-29开始，咨询是否可以提前到2018-01-22
+
+* Life at home
+
+** 饮食
+
+*** 早饭
+
+ - 蒸鸡蛋
+
+*** 午饭
+
+ - 奶
+
+*** 晚饭
+
+ - 稀饭 / 面条
+
+** 洗澡
+
+** 穿衣服
+
+** 睡觉
+
+** 玩
+
+** 学习

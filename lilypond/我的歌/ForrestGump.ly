@@ -37,11 +37,13 @@ upper = \absolute {
   a'8 b'8 c''8 c''8~c''8 a'4 c''8~ | c''4 a'8 c''8~c''8 a'4. | \uppermotifone | a'1 | % 13
   f'8 g'8 a'8 a'8~a'8 f'4 d'8~ | d'4 e'8 f'8~f'8 d'4. | c'1 | r4 r4 r8 g,8 c8 d8 | % 17
   %% page 2
+  \clef "bass"
   \transpose c' c \uppermotifzero | g4 c'8 g8~g8 e4. | <c f>8 g8 a8 a8~a8 f4 <c a>8~ <c a>1 | % 21
   <d f>8 g8 a8 <f a>8~<f a>8 f4 a8~ | a4 d'8 b8~b8 g4. | e8 f8 g8 g8~g8 c'4 g8~ | g2 <g, c>4 <b, d>4 | % 25
   <c a>8 b8 c'8 <e c'>8 <e c'>8 a4 <e c'>8~ | <e c'>4 a8 <e c'>8~<e c'>8 a4. | <c f>8 g8 a8 <c a>8~<c a>8 f4 <c a>8~ | <c a>1 | % 29
   <d f>8 g8 a8 <d a>8~<d a>8 f4 <a, d>8~ | <b, d>4 e8 f8~f8 d4. | e'8 f'8 g'8 g'8~g'8 c''4 g'8~ | g'1 | % 33
   e8 f8 g8 g8~g8 c'4 g8~ | \tuplet 3/2 { g8 c8 d8 } \tuplet 3/2 { e8 f8 g8 } \tuplet 3/2 { a8 b8 c'8 } \tuplet 3/2 { d'8 e'8 f'8 } |
+  \clef "treble"
   <c'' e''>8 <d'' f''>8 <e'' g''>8 q~q <c'' e''>4 <e'' g''>8~ | q4 <e'' c''>8 <e'' g''>8~q <c'' e''>4. | %37
   %% page 3
   <a' f''>8 <b' g''>8 <c'' a''>8 q~q <c'' f''>4 <c'' a''>8~ | <c'' a''>1 | <d'' f''>8 <e'' g''>8 <f'' a''>8 q~q <d'' f''>4 <f'' a''>8~ | q4 <b'' d'''>8 <g'' b''>8~q <d'' g''>4. | % 41
@@ -70,6 +72,7 @@ lower = \absolute {
   a,8 e4 e8~e8 e4 e8 | a,8 e4 e8 a,8 e8 g,8 e8 | f,8 c4 c8~c8 c4 c8 | f,8 c4 c8 f,8 c8 e,8 c8 | % 13
   d,8 a,4 a,8 c,8 a,4 a,8 | b,,8 g,4 g,8~g,8 g,4 g,8 | \repeat unfold 2 \lowermotifone | % 17
   %% page 2
+  \clef "bass_8"
   c,,8 g,,8 c,8 e,8 e,8 c,8 g,8 e,8 | c,,8 a,,8 c,8 e,8~e,8 c,8 g,8 e,8 | \repeat unfold 2 \lowermotifthree | % 21
   d,,8 a,,8 d,8 f,8 c,,8 a,,8 c,8 f,8 | b,,,8 g,,8 b,,8 d,8~d,8 g,8 d,8 b,,8 | c,,8 g,,8 c,8 e,8 e,8 c,8 g,8 e,8 | c,,8 g,,8 c,8 e,8 <c,, c,>4 <b,,, b,,>4 | % 25
   a,,,8 e,,8 a,,8 c,8 c,8 a,,8 e,8 c,8 | a,,,8 e,,8 a,,8 c,8 <a,, e,>4 <g,,, g,,>4 | f,,,8 f,,8 a,,8 c,8 f,4 c,,4 | f,,,8 f,,8 a,,8 c,8 <f,,, f,,>4 <e,,, e,,>4 | % 29
@@ -77,6 +80,7 @@ lower = \absolute {
   \transpose c, c,, \lowermotiffour | c,,8 g,,8 c,8 e,8 e,8 g,,8 c,,8 d,,8 | % 37
   \repeat unfold 2 \lowermotiffive |
   %% page 3
+  \clef "bass"
   c,8 a,8 c8 f8 c8 f8 c8 a,8 | c,8 a,8 c8 f8 c8 f8 a,8 d,8 | d,8 a,8 d8 f8 d8 f8 d8 f,8 | g,,8 d,8 g,8 b,8~b,8 g,8 d8 b,8 | % 41
   \lowermotiffive | c,8 g,8 c8 e8 c,8 g,8 b,,8 g,,8 | a,,8 e,8 a,8 c8 a,8 c8 a,8 e,8 | a,,8 e,8 a,8 c8 a,,8 e,8 g,,8 e,8 | % 45
   f,,8 c,8 f,8 a,8 c8 a,8 f8 c8 | f,,8 c,8 f,8 a,8 f,,8 c,8 e,,8 c,8 | d,,8 d,8 f,8 a,8~a,8 f,8 d8 a,8 | g,,8 d,8 g,8 b,8~b,8 g,8 d4 | % 49

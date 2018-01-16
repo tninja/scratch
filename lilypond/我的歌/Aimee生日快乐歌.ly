@@ -38,7 +38,7 @@ upper = \absolute {
   \clef "bass"
   \time 3/4
   % e'4 c'4 \tuplet 2/1 { d'4 d'8 } \repeat unfold2 { \tuplet 3/1 { e32 g32 c'4 } } r16
-  e'4 c'4 { d'4 d'8 } \repeat unfold2 { { e32 g32 c'4 } } r16
+  e'4 c'4 { d'4 d'8 } \repeat unfold 2 { { e32 g32 c'4 } } r16
 }
 
 lowermotifone = { c,8 g,8 c8 d8 e4 }
