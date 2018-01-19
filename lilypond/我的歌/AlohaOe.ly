@@ -8,8 +8,16 @@
   maintainerEmail = "tninja@gmail.com"
   lastupdated = "2018/Jan/15"
   title = "Aloha 'Oe"
-  subtitle = "https://en.wikipedia.org/wiki/Aloha_%CA%BBOe"
-  composer = "Liliuokalani"
+  subtitle = "夏威夷骊歌"
+  composer = "Liliuokalani (利留卡拉尼女王)"
+}
+
+\markup {
+  \fill-line {
+	\center-align {
+	  \epsfile #X #100 #"mauismall.eps"
+	}
+  }
 }
 
 global = {
@@ -30,7 +38,7 @@ upper = \absolute {
   %% page 2
   e2~e4 c4 | b,4. a,8 b,4 c4 | d4 d4 f4 f4 | e1 | % 21
   c2 r4 g,4 | a,2 c2 | f2~f4 a,4 | g,2 c2 | % 25
-  e2~e4 c4 | b,2~b,4 c4 | e4 d2 b,4 | c1~ |
+  e2~e4 c4 | b,2~b,4 c4 | e4 d2 b,4 | c1~ | % 29
   c2 r4 r4 |
 }
 
@@ -75,4 +83,12 @@ lower = \absolute {
 	\tempo 2 = 72
   }
   \layout { }
+}
+
+\markup {
+  \fill-line {
+	\center-align {
+	  \epsfile #X #30 #"Liliuokalani.eps"
+	}
+  }
 }
