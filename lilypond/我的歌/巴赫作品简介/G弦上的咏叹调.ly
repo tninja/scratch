@@ -43,12 +43,14 @@ uppersectiontwo = {
 upper = \absolute {
   \clef "bass"
   \time 4/4
-  %% page 1
-  \repeat unfold 2 \uppersectionone
-  \repeat volta 2 \uppersectiontwo
-  \alternative {
-	{ b,16~a,16 a,32 b,32 c16 c8 b,16 a,16 | g,2 }
-	{ c32~ b,32 a,8 b,8 b,16. a,32 b,16 c16 c2 }
+  \unfoldRepeats { %% http://lilypond.org/doc/v2.18/Documentation/notation/repeats-in-midi
+	%% page 1
+	\repeat unfold 2 \uppersectionone
+	\repeat volta 2 \uppersectiontwo
+	\alternative {
+	  { b,16~a,16 a,32 b,32 c16 c8 b,16 a,16 | g,2 }
+	  { c32~ b,32 a,8 b,8 b,16. a,32 b,16 c16 c2 }
+	}
   }
 }
 
