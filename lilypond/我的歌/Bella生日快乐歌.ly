@@ -123,6 +123,7 @@ verseen = \new Lyrics \lyricsto "one" {
   \fill-line {
 	\center-align {
 	  \epsfile #X #80 #"1stbirthday.eps"
+	  %% convert Bella.JPG bella.eps
 	}
   }
 }
