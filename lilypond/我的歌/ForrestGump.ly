@@ -34,7 +34,7 @@ upper = \absolute {
   \repeat unfold 4 { \restsection } | % 1
   \uppermotifzero | g'8 c''8~c''8 g'8~g'8 e'4. | \uppermotifone | a'1 | % 5
   \uppermotifone | a'8 d''8~d''8 b'8~b'8 g'4. | e'8 f'8 g'8 g'8~g'8 c''4 g'8~ | g'1 | % 9
-  a'8 b'8 c''8 c''8~c''8 a'4 c''8~ | c''4 a'8 c''8~c''8 a'4. | \uppermotifone | a'1 | % 13
+  a'8 b'8 \upperpatternone c'' a'4 c''8~ | c''4 a'8 c''8~c''8 a'4. | \uppermotifone | a'1 | % 13
   f'8 g'8 a'8 a'8~a'8 f'4 d'8~ | d'4 e'8 f'8~f'8 d'4. | c'1 | r4 r4 r8 g,8 c8 d8 | % 17
   %% page 2
   \clef "bass"
@@ -50,9 +50,9 @@ upper = \absolute {
   <c'' e''>8 <d'' f''>8 <e'' g''>8 q~q <g'' c'''>4 <e'' g''>8~ | q1 | <c'' a''>8 <d'' b''>8 <e'' c'''>8 q~q <c'' a''>4 <e'' c'''>8~ | q4 <c'' a''>8 <e'' c'''>8~q <c'' a''>4. | % 45
   <a' f''>8 <b' g''>8 <c'' a''>8 q~q <a' f''>4 <c'' a''>8~ | q1 | <d'' f''>8 <e'' g''>8 <f'' a''> q~q <d'' f''>4 <b' d''>8~ | q4 e''8 f''8~f''8 d''4. | % 49
   \repeat unfold 2 { c''1 | \uppermotiftwo | } % 53
-  <g' d''>4. <c'' e''>8~q2 | \uppermotiftwo | <c'' e''>8 f''8 g''8 g''8~g''8 d'''4 g''8 | <c'' f''>2 <c'' g''>2 | %57
+  <g' d''>4. <c'' e''>8~q2 | \uppermotiftwo | <c'' e''>8 f''8 \upperpatternone g'' d'''4 g''8 | <c'' f''>2 <c'' g''>2 | %57
   %% page 4
-  <c'' e''>8 f''8 g''8 g''8~g''8 d'''4 g''8 | <c'' f''>2 <c'' g''>2 | <c'' e''>8 f''8 g''8 g''8~g''8 <g'' d'''>4 b''8 | <f'' a''>2 <f'' b''>2 | %61
+  <c'' e''>8 f''8 \upperpatternone g'' d'''4 g''8 | <c'' f''>2 <c'' g''>2 | <c'' e''>8 f''8 \upperpatternone g'' <g'' d'''>4 b''8 | <f'' a''>2 <f'' b''>2 | %61
   <e'' g'' c'''>1 | % 65
 }
 

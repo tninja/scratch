@@ -34,3 +34,11 @@ pip3 install rope jedi flake8 importmagic autopep8 yapf
 ebook-convert Manning.Spring.Boot.in.Action.2015.12.mobi Manning.Spring.Boot.in.Action.2015.12.epub
 
 ebook-convert Manning.Spring.in.Action.4th.Edition.2014.11.epub
+
+## merge 圣经之轮
+
+cd ~/Downloads
+
+pdftk 圣经之轮_诗篇1.pdf 圣经之轮_诗篇2.pdf 圣经之轮_诗篇3.pdf 圣经之轮_诗篇4.pdf 圣经之轮_诗篇5.pdf cat output 圣经之轮_诗篇.pdf
+
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=圣经之轮_诗篇.pdf 圣经之轮_诗篇1.pdf 圣经之轮_诗篇2.pdf 圣经之轮_诗篇3.pdf 圣经之轮_诗篇4.pdf 圣经之轮_诗篇5.pdf
