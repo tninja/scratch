@@ -8,11 +8,20 @@
   source = "http://m.gepuwang.net/gangqinpu/4974.html"
   maintainer = "Kang Tu"
   maintainerEmail = "tninja@gmail.com"
-  lastupdated = "2017/Dec/22"
+  lastupdated = "2018/Dec/22"
   title = "生日快乐 钢琴谱"
   subtitle = "祝乖老婆鹏鹏生日快乐"
   subsubtitle = "乖鹏鹏是我们家的宝贝"
   footer = "乖老婆鹏鹏生日快乐"
+}
+
+\markup {
+  \fill-line {
+	\center-align {
+	  \epsfile #X #80 #"pengpeng_beach.eps"
+	  % convert pengpeng_beach.jpg pengpeng_beach.eps
+	}
+  }
 }
 
 global = {
@@ -112,4 +121,13 @@ verseen = \new Lyrics \lyricsto "one" {
 	%% convert to mp3 (for iphone) timidity ./Pengpeng生日快乐歌.midi -Ow -o - | lame - -b 64 Pengpeng生日快乐歌.mp3
   }
   \layout { }
+}
+
+\markup {
+  \fill-line {
+	\center-align {
+	  \epsfile #X #80 #"birthday_cake_with_candles.eps"
+	  %% convert Subramanian.JPG bella.eps
+	}
+  }
 }

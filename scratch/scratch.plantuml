@@ -1,0 +1,59 @@
+@startuml
+
+allow_mixing
+
+skinparam handwritten true
+
+rectangle "Users" {
+actor Customer
+actor "Warehouse worker"
+actor "Truck driver"
+}
+
+rectangle "OLTP systems" {
+rectangle {
+agent "Ecommerce site"
+database "Sales DB"
+}
+
+rectangle {
+agent "Stock-keeping app"
+database "Inventory DB"
+}
+
+rectangle {
+agent "Vehicle route planner"
+database "Geo DB"
+}
+}
+
+Customer --> "Ecommerce site"
+"Ecommerce site" --> "Sales DB"
+
+"Warehouse worker" --> "Stock-keeping app"
+"Stock-keeping app" --> "Inventory DB"
+
+"Truck driver" --> "Vehicle route planner"
+"Vehicle route planner" --> "Geo DB"
+
+rectangle "OLAP systems" {
+component "transform 1"
+component "transform 2"
+component "transform 3"
+database "Data warehouse"
+actor "Business analyst"
+}
+
+"Sales DB" --> "transform 1": "extract"
+
+"Inventory DB" --> "transform 2": "extract"
+
+"Geo DB" --> "transform 3": "extract"
+
+"transform 1" --> "Data warehouse": "load"
+"transform 2" --> "Data warehouse": "load"
+"transform 3" --> "Data warehouse": "load"
+
+"Business analyst" -> "Data warehouse": query
+
+@enduml

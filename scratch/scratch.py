@@ -314,3 +314,34 @@ testTypeHint2(df)
 def what_happens(df: DataFrame) -> int:
     return df.abs(123)
 
+from graphviz import Source
+dotfile = '/Users/tninja/git/spring-guides/gs-spring-boot/initial/build/reports/dependency-graph/dependency-graph.dot'
+g = Source.from_file(filename=dotfile)
+
+import networkx
+import pygraphviz
+
+g = networkx.drawing.nx_agraph.read_dot(dotfile)
+
+in_degree_dict = dict(g.in_degree())
+out_degree_dict = dict(g.out_degree())
+
+keys = list(in_degree_dict.keys())
+
+in_degree_list = [in_degree_dict[key] for key in keys]
+out_degree_list = [out_degree_dict[key] for key in keys]
+
+import pandas as pd
+
+df = pd.DataFrame.from_dict({'in_degree':in_degree_list, 'out_degree':out_degree_list})
+df.index = keys
+df = df.assign(stability=df.in_degree-df.out_degree)
+df = df.sort_values(by='stability', ascending=False)
+
+import networkx as nx
+G = nx.Graph()
+G.add_edge(0, 2, weight=4)
+G.add_edge((0, 0), (2, 2), weight=5)
+G.add_edge((0, 1), (2, 2), weight=(5, None))
+
+print set([[1, 2], [2, 3]])

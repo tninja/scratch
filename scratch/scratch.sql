@@ -30,7 +30,7 @@ CREATE TABLE cd.members
 	address character varying(300) NOT NULL, 
 	zipcode integer NOT NULL, 
 	telephone character varying(20) NOT NULL, 
-	recommendedby integer,
+	recommendedby INTEGER,
 	joindate timestamp not null,
 	CONSTRAINT members_pk PRIMARY KEY (memid),
 	CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby)
@@ -88,3 +88,11 @@ SELECT COUNT(*) FROM redfin;
 \d redfin;
 
 SELECT sale_type, city, address, favorite, price FROM redfin LIMIT 10;
+
+\d+
+
+\c sandbox
+
+\l+
+
+SELECT 1, 'a'
