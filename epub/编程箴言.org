@@ -1,0 +1,1144 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:nil todo:t |:t
+#+TITLE: 编程箴言
+#+DATE: <2020-07-04 Sat>
+#+AUTHOR: 先贤
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+
+* Alan Perlis
+ 
+** Wikiquote 
+
+    I think that it's extraordinarily important that we in computer science keep fun in computing. When it started out, it was an awful lot of fun. Of course, the paying customers got shafted every now and then, and after a while we began to take their complaints seriously. We began to feel as if we really were responsible for the successful, error-free perfect use of these machines. I don't think we are. I think we're responsible for stretching them, setting them off in new directions, and keeping fun in the house. I hope the field of computer science never loses its sense of fun. Above all, I hope we don't become missionaries. Don't feel as if you're Bible salesmen. The world has too many of those already. What you know about computing other people will learn. Don't feel as if the key to successful computing is only in your hands. What's in your hands, I think and hope, is intelligence: the ability to see the machine as more than when you were first led up to it, that you can make it more.
+        Quoted in The Structure and Interpretation of Computer Programs by Hal Abelson, Gerald Jay Sussman and Julie Sussman (McGraw-Hill, 2nd edition, 1996).
+
+    We toast the Lisp programmer who pens his thoughts within nests of parentheses.
+        Quoted in The Structure and Interpretation of Computer Programs.
+
+*** The Synthesis of Algorithmic Systems, 1966
+
+1966 Turing Award lecture [1], Journal of the ACM 14 (1), January 1967, pp. 1–9.
+
+    Both knowledge and wisdom extend man's reach. Knowledge led to computers, wisdom to chopsticks.
+    There is an appreciated substance to the phrase "ALGOL-like" which is often used in arguments about programming, languages and computation. ALGOL appears to be a durable model, and even flourishes under surgery — be it explorative, plastic, or amputative.
+    The vision we have of conversational programming takes in much more than rapid turn around time and convenient debugging aids: our most interesting programs are never wrong and never final. [...] What is new is the requirement to make variable in our languages what we had previously taken as fixed. I do not refer to new data classes now, but to variables whose values are programs or parts of programs, syntax or parts of syntax, and regimes of control.
+    This language [LISP] induces humorous arguments among programmers, often being damned and praised for the same feature.
+    Programmers should never be satisfied with languages which permit them to program everything, but to program nothing of interest easily.
+    Computer science is a restless infant and its progress depends as much on shifts in point of view as on the orderly development of our current concepts.
+
+*** Epigrams on Programming, 1982 (part)
+
+ACM SIGPLAN Notices 17 (9), September 1982, pp. 7–13 [2].
+
+    1: One man's constant is another man's variable.
+
+    3: Syntactic sugar causes cancer of the semi-colons.
+
+    8: A programming language is low level when its programs require attention to the irrelevant.
+
+    11: If you have a procedure with 10 parameters, you probably missed some.
+
+    16: Every program has (at least) two purposes: the one for which it was written and another for which it wasn't.
+
+    19: A language that doesn't affect the way you think about programming, is not worth knowing.
+
+    31: Simplicity does not precede complexity, but follows it.
+
+    39: A picture is worth 10K words - but only those to describe the picture. Hardly any sets of 10K words can be adequately described with pictures.
+
+    41: Some programming languages manage to absorb change, but withstand progress.
+
+    42: You can measure a programmer's perspective by noting his attitude on the continuing vitality of FORTRAN.
+
+    55: LISP programmers know the value of everything and the cost of nothing.
+
+    57: It is easier to change the specification to fit the program than vice versa.
+
+    58: Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
+
+    59: In English every word can be verbed. Would that it were so in our programming languages.
+
+    64: Often it is means that justify ends: Goals advance technique and technique survives even when goal structures crumble.
+
+    75: The computing field is always in need of new cliches: Banality sooths our nerves.
+
+    79: A year spent in artificial intelligence is enough to make one believe in God.
+
+    80: Prolonged contact with the computer turns mathematicians into clerks and vice versa.
+
+    95: Don't have good ideas if you aren't willing to be responsible for them.
+
+    101 Dealing with failure is easy: Work hard to improve. Success is also easy to handle: You've solved the wrong problem. Work hard to improve.
+
+    116: You think you know when you learn, are more sure when you can write, even more when you can teach, but certain when you can program.
+
+    117: It goes against the grain of modern education to teach children to program. What fun is there to making plans, acquiring discipline in organizing thoughts, devoting attention to detail and, learning to be self-critical?
+
+** Epigrams on Programming
+
+Alan J. Perlis
+Yale University
+This text has been published in SIGPLAN Notices Vol. 17, No. 9, September 1982, pages 7 - 13. I'm offering it here online until ACM stops me.
+
+The phenomena surrounding computers are diverse and yield a surprisingly rich base for launching metaphors at individual and group activities. Conversely, classical human endeavors provide an inexhaustible source of metaphor for those of us who are in labor within computation. Such relationships between society and device are not new, but the incredible growth of the computer's influence (both real and implied) lends this symbiotic dependency a vitality like a gangly youth growing out of his clothes within an endless puberty.
+
+The epigrams that follow attempt to capture some of the dimensions of this traffic in imagery that sharpens, focuses, clarifies, enlarges and beclouds our view of this most remarkable of all mans' artifacts, the computer.
+
+    One man's constant is another man's variable.
+
+    Functions delay binding: data structures induce binding. Moral: Structure data late in the programming process.
+
+    Syntactic sugar causes cancer of the semi-colons.
+
+    Every program is a part of some other program and rarely fits.
+
+    If a program manipulates a large amount of data, it does so in a small number of ways.
+
+    Symmetry is a complexity reducing concept (co-routines include sub-routines); seek it everywhere.
+
+    It is easier to write an incorrect program than understand a correct one.
+
+    A programming language is low level when its programs require attention to the irrelevant.
+
+    It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures.
+
+    Get into a rut early: Do the same processes the same way. Accumulate idioms. Standardize. The only difference (!) between Shakespeare and you was the size of his idiom list - not the size of his vocabulary.
+
+    If you have a procedure with 10 parameters, you probably missed some.
+
+    Recursion is the root of computation since it trades description for time.
+
+    If two people write exactly the same program, each should be put in micro-code and then they certainly won't be the same.
+
+    In the long run every program becomes rococo - then rubble.
+
+    Everything should be built top-down, except the first time.
+
+    Every program has (at least) two purposes: the one for which it was written and another for which it wasn't.
+
+    If a listener nods his head when you're explaining your program, wake him up.
+
+    A program without a loop and a structured variable isn't worth writing.
+
+    A language that doesn't affect the way you think about programming, is not worth knowing.
+
+    Wherever there is modularity there is the potential for misunderstanding: Hiding information implies a need to check communication.
+
+    Optimization hinders evolution.
+
+    A good system can't have a weak command language.
+
+    To understand a program you must become both the machine and the program.
+
+    Perhaps if we wrote programs from childhood on, as adults we'd be able to read them.
+
+    One can only display complex information in the mind. Like seeing, movement or flow or alteration of view is more important than the static picture, no matter how lovely.
+
+    There will always be things we wish to say in our programs that in all known languages can only be said poorly.
+
+    Once you understand how to write a program get someone else to write it.
+
+    Around computers it is difficult to find the correct unit of time to measure progress. Some cathedrals took a century to complete. Can you imagine the grandeur and scope of a program that would take as long?
+
+    For systems, the analogue of a face-lift is to add to the control graph an edge that creates a cycle, not just an additional node.
+
+    In programming, everything we do is a special case of something more general - and often we know it too quickly.
+
+    Simplicity does not precede complexity, but follows it.
+
+    Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.
+
+    The 11th commandment was "Thou Shalt Compute" or "Thou Shalt Not Compute" - I forget which.
+
+    The string is a stark data structure and everywhere it is passed there is much duplication of process. It is a perfect vehicle for hiding information.
+
+    Everyone can be taught to sculpt: Michelangelo would have had to be taught how not to. So it is with the great programmers.
+
+    The use of a program to prove the 4-color theorem will not change mathematics - it merely demonstrates that the theorem, a challenge for a century, is probably not important to mathematics.
+
+    The most important computer is the one that rages in our skulls and ever seeks that satisfactory external emulator. The standardization of real computers would be a disaster - and so it probably won't happen.
+
+    Structured Programming supports the law of the excluded muddle.
+
+    Re graphics: A picture is worth 10K words - but only those to describe the picture. Hardly any sets of 10K words can be adequately described with pictures.
+
+    There are two ways to write error-free programs; only the third one works.
+
+    Some programming languages manage to absorb change, but withstand progress.
+
+    You can measure a programmer's perspective by noting his attitude on the continuing vitality of FORTRAN.
+
+    In software systems it is often the early bird that makes the worm.
+
+    Sometimes I think the only universal in the computing field is the fetch-execute-cycle.
+
+    The goal of computation is the emulation of our synthetic abilities, not the understanding of our analytic ones.
+
+    Like punning, programming is a play on words.
+
+    As Will Rogers would have said, "There is no such thing as a free variable."
+
+    The best book on programming for the layman is "Alice in Wonderland"; but that's because it's the best book on anything for the layman.
+
+    Giving up on assembly language was the apple in our Garden of Eden: Languages whose use squanders machine cycles are sinful. The LISP machine now permits LISP programmers to abandon bra and fig-leaf.
+
+    When we understand knowledge-based systems, it will be as before - except our finger-tips will have been singed.
+
+    Bringing computers into the home won't change either one, but may revitalize the corner saloon.
+
+    Systems have sub-systems and sub-systems have sub-systems and so on ad infinitum - which is why we're always starting over.
+
+    So many good ideas are never heard from again once they embark in a voyage on the semantic gulf.
+
+    Beware of the Turing tar-pit in which everything is possible but nothing of interest is easy.
+
+    A LISP programmer knows the value of everything, but the cost of nothing.
+
+    Software is under a constant tension. Being symbolic it is arbitrarily perfectible; but also it is arbitrarily changeable.
+
+    It is easier to change the specification to fit the program than vice versa.
+
+    Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
+
+    In English every word can be verbed. Would that it were so in our programming languages.
+
+    Dana Scott is the Church of the Lattice-Way Saints.
+
+    In programming, as in everything else, to be in error is to be reborn.
+
+    In computing, invariants are ephemeral.
+
+    When we write programs that "learn", it turns out we do and they don't.
+
+    Often it is means that justify ends: Goals advance technique and technique survives even when goal structures crumble.
+
+    Make no mistake about it: Computers process numbers - not symbols. We measure our understanding (and control) by the extent to which we can arithmetize an activity.
+
+    Making something variable is easy. Controlling duration of constancy is the trick.
+
+    Think of all the psychic energy expended in seeking a fundamental distinction between "algorithm" and "program".
+
+    If we believe in data structures, we must believe in independent (hence simultaneous) processing. For why else would we collect items within a structure? Why do we tolerate languages that give us the one without the other?
+
+    In a 5 year period we get one superb programming language. Only we can't control when the 5 year period will begin.
+
+    Over the centuries the Indians developed sign language for communicating phenomena of interest. Programmers from different tribes (FORTRAN, LISP, ALGOL, SNOBOL, etc.) could use one that doesn't require them to carry a blackboard on their ponies.
+
+    Documentation is like term insurance: It satisfies because almost no one who subscribes to it depends on its benefits.
+
+    An adequate bootstrap is a contradiction in terms.
+
+    It is not a language's weaknesses but its strengths that control the gradient of its change: Alas, a language never escapes its embryonic sac.
+
+    It is possible that software is not like anything else, that it is meant to be discarded: that the whole point is to always see it as soap bubble?
+
+    Because of its vitality, the computing field is always in desperate need of new cliches: Banality soothes our nerves.
+
+    It is the user who should parameterize procedures, not their creators.
+
+    The cybernetic exchange between man, computer and algorithm is like a game of musical chairs: The frantic search for balance always leaves one of the three standing ill at ease.
+
+    If your computer speaks English it was probably made in Japan.
+
+    A year spent in artificial intelligence is enough to make one believe in God.
+
+    Prolonged contact with the computer turns mathematicians into clerks and vice versa.
+
+    In computing, turning the obvious into the useful is a living definition of the word "frustration".
+
+    We are on the verge: Today our program proved Fermat's next-to-last theorem!
+
+    What is the difference between a Turing machine and the modern computer? It's the same as that between Hillary's ascent of Everest and the establishment of a Hilton hotel on its peak.
+
+    Motto for a research laboratory: What we work on today, others will first think of tomorrow.
+
+    Though the Chinese should adore APL, it's FORTRAN they put their money on.
+
+    We kid ourselves if we think that the ratio of procedure to data in an active data-base system can be made arbitrarily small or even kept small.
+
+    We have the mini and the micro computer. In what semantic niche would the pico computer fall?
+
+    It is not the computer's fault that Maxwell's equations are not adequate to design the electric motor.
+
+    One does not learn computing by using a hand calculator, but one can forget arithmetic.
+
+    Computation has made the tree flower.
+
+    The computer reminds one of Lon Chaney - it is the machine of a thousand faces.
+
+    The computer is the ultimate polluter. Its feces are indistinguishable from the food it produces.
+
+    When someone says "I want a programming language in which I need only say what I wish done," give him a lollipop.
+
+    Interfaces keep things tidy, but don't accelerate growth: Functions do.
+
+    Don't have good ideas if you aren't willing to be responsible for them.
+
+    Computers don't introduce order anywhere as much as they expose opportunities.
+
+    When a professor insists computer science is X but not Y, have compassion for his graduate students.
+
+    In computing, the mean time to failure keeps getting shorter.
+
+    In man-machine symbiosis, it is man who must adjust: The machines can't.
+
+    We will never run out of things to program as long as there is a single program around.
+
+    Dealing with failure is easy: Work hard to improve. Success is also easy to handle: You've solved the wrong problem. Work hard to improve.
+
+    One can't proceed from the informal to the formal by formal means.
+
+    Purely applicative languages are poorly applicable.
+
+    The proof of a system's value is its existence.
+
+    You can't communicate complexity, only an awareness of it.
+
+    It's difficult to extract sense from strings, but they're the only communication coin we can count on.
+
+    The debate rages on: Is PL/I Bactrian or Dromedary?
+
+    Whenever two programmers meet to criticize their programs, both are silent.
+
+    Think of it! With VLSI we can pack 100 ENIACs in 1 sq.cm.
+
+    Editing is a rewording activity.
+
+    Why did the Roman Empire collapse? What is the Latin for office automation?
+
+    Computer Science is embarrassed by the computer.
+
+    The only constructive theory connecting neuroscience and psychology will arise from the study of software.
+
+    Within a computer natural language is unnatural.
+
+    Most people find the concept of programming obvious, but the doing impossible.
+
+    You think you know when you learn, are more sure when you can write, even more when you can teach, but certain when you can program.
+
+    It goes against the grain of modern education to teach children to program. What fun is there in making plans, acquiring discipline in organizing thoughts, devoting attention to detail and learning to be self-critical?
+
+    If you can imagine a society in which the computer-robot is the only menial, you can imagine anything.
+
+    Programming is an unnatural act.
+
+    Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.
+
+    In seeking the unattainable, simplicity only gets in the way.
+
+
+
+    If there are epigrams, there must be meta-epigrams.
+
+    Epigrams are interfaces across which appreciation and insight flow.
+
+    Epigrams parameterize auras.
+
+    Epigrams are macros, since they are executed at read time.
+
+    Epigrams crystallize incongruities.
+
+    Epigrams retrieve deep semantics from a data base that is all procedure.
+
+    Epigrams scorn detail and make a point: They are a superb high-level documentation.
+
+    Epigrams are more like vitamins than protein.
+
+    Epigrams have extremely low entropy.
+
+    The last epigram? Neither eat nor drink them, snuff epigrams. 
+
+
+Herbert Klaeren
+(klaeren@informatik.uni-tuebingen.de) This page last modified on Di 26 M�r 10:00:06 1996   
+
+
+* Edsger W. Dijkstra
+  
+** Quotes by Dijkstra
+
+    Quotes are arranged in chronological order
+
+*** 1960s
+
+    For a number of years I have been familiar with the observation that the quality of programmers is a decreasing function of the density of go to statements in the programs they produce. More recently I discovered why the use of the go to statement has such disastrous effects, and I became convinced that the go to statement should be abolished from all "higher level" programming languages.
+
+    Our intellectual powers are rather geared to master static relations and ... our powers to visualize processes evolving in time are relatively poorly developed. For that reason we should do (as wise programmers aware of our limitations) our utmost to shorten the conceptual gap between the static program and the dynamic process, to make the correspondence between the program (spread out in text space) and the process (spread out in time) as trivial as possible.
+        Dijkstra (1968) "A Case against the GO TO Statement" cited in: Bill Curtis (1981) Tutorial, human factors in software development. p. 109.
+
+    Testing shows the presence, not the absence of bugs
+        Dijkstra (1969) J.N. Buxton and B. Randell, eds, Software Engineering Techniques, April 1970, p. 16. Report on a conference sponsored by the NATO Science Committee, Rome, Italy, 27–31 October 1969. Possibly the earliest documented use of the famous quote.
+
+*** 1970s
+
+    A convincing demonstration of correctness being impossible as long as the mechanism is regarded as a black box, our only hope lies in not regarding the mechanism as a black box.
+        Dijkstra (1970) "Notes On Structured Programming" (EWD249), Section 3 ("On The Reliability of Mechanisms"), p. 5.
+
+    When we take the position that it is not only the programmer's responsibility to produce a correct program but also to demonstrate its correctness in a convincing manner, then the above remarks have a profound influence on the programmer's activity: the object he has to produce must be usefully structured.
+        Dijkstra (1970) "Notes On Structured Programming" (EWD249), Section 3 ("On The Reliability of Mechanisms"), p. 6.
+
+    The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos as effectively as possible.
+        Dijkstra (1970) "Notes On Structured Programming" (EWD249), Section 3 ("On The Reliability of Mechanisms"), p. 7.
+
+    Program testing can be used to show the presence of bugs, but never to show their absence!
+        Dijkstra (1970) "Notes On Structured Programming" (EWD249), Section 3 ("On The Reliability of Mechanisms"), corollary at the end.
+
+    The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
+        Dijkstra (1972) The Humble Programmer (EWD340).
+
+    Another two years later, in 1957, I married and Dutch marriage rites require you to state your profession and I stated that I was a programmer. But the municipal authorities of the town of Amsterdam did not accept it on the grounds that there was no such profession. And, believe it or not, but under the heading “profession” my marriage act shows the ridiculous entry “theoretical physicist”!
+        Dijkstra (1972) The Humble Programmer (EWD340).
+
+    Automatic computers have now been with us for a quarter of a century. They have had a great impact on our society in their capacity of tools, but in that capacity their influence will be but a ripple on the surface of our culture, compared with the much more profound influence they will have in their capacity of intellectual challenge without precedent in the cultural history of mankind.
+        Dijkstra (1972) The Humble Programmer (EWD340).
+
+    After having programmed for some three years, I had a discussion with A. van Wijngaarden, who was then my boss at the Mathematical Center in Amsterdam, a discussion for which I shall remain grateful to him as long as I live. The point was that I was supposed to study theoretical physics at the University of Leiden simultaneously, and as I found the two activities harder and harder to combine, I had to make up my mind, either to stop programming and become a real, respectable theoretical physicist, or to carry my study of physics to a formal completion only, with a minimum of effort, and to become....., yes what? A programmer? But was that a respectable profession? For after all, what was programming? Where was the sound body of knowledge that could support it as an intellectually respectable discipline? I remember quite vividly how I envied my hardware colleagues, who, when asked about their professional competence, could at least point out that they knew everything about vacuum tubes, amplifiers and the rest, whereas I felt that, when faced with that question, I would stand empty-handed. Full of misgivings I knocked on van Wijngaarden’s office door, asking him whether I could “speak to him for a moment”; when I left his office a number of hours later, I was another person. For after having listened to my problems patiently, he agreed that up till that moment there was not much of a programming discipline, but then he went on to explain quietly that automatic computers were here to stay, that we were just at the beginning and could not I be one of the persons called to make programming a respectable discipline in the years to come? This was a turning point in my life and I completed my study of physics formally as quickly as I could. One moral of the above story is, of course, that we must be very careful when we give advice to younger people; sometimes they follow it!
+        Dijkstra (1972) The Humble Programmer (EWD340).
+
+    On Our Inability To Do Much.
+        Dijkstra (1972) "Structured Programming", Chapter title in O.J. Dahl, E.W. Dijkstra, and C.A.R. Hoare. Academic Press, 1972 ISBN 0122005503.
+
+    Please don't fall into the trap of believing that I am terribly dogmatic about [the go to statement]. I have the uncomfortable feeling that others are making a religion out of it, as if the conceptual problems of programming could be solved by a simple trick, by a simple form of coding discipline!
+        Dijkstra (1973) in personal communication to Donald Knuth, quoted in Knuth's "Structured Programming with go to Statements".
+
+    Don't blame me for the fact that competent programming, as I view it as an intellectual possibility, will be too difficult for "the average programmer" — you must not fall into the trap of rejecting a surgical technique because it is beyond the capabilities of the barber in his shop around the corner.
+        Dijkstra (1975) Comments at a Symposium (EWD 512).
+
+    Are you quite sure that all those bells and whistles, all those wonderful facilities of your so-called "powerful" programming languages belong to the solution set rather than to the problem set?
+        Dijkstra (1976) A Discipline of Programming, Prentice-Hall, 1976, p. xiv.
+
+    Several people have told me that my inability to suffer fools gladly is one of my main weaknesses.
+        Dijkstra (1978) The pragmatic engineer versus the scientific designer (EWD 690).
+
+    Write a paper promising salvation, make it a 'structured' something or a 'virtual' something, or 'abstract', 'distributed' or 'higher-order' or 'applicative' and you can almost be certain of having started a new cult.
+        Dijkstra (1979) My hopes of computing science (EWD 709).
+
+    For me, the first challenge for computing science is to discover how to maintain order in a finite, but very large, discrete universe that is intricately intertwined. And a second, but not less important challenge is how to mould what you have achieved in solving the first problem, into a teachable discipline: it does not suffice to hone your own intellect (that will join you in your grave), you must teach others how to hone theirs. The more you concentrate on these two challenges, the clearer you will see that they are only two sides of the same coin: teaching yourself is discovering what is teachable.
+        Dijkstra (1979) My hopes of computing science (EWD 709).
+
+*** The Humble Programmer (1972)
+Brainpower is by far our scarcest resource.
+
+1972 Turing Award Lecture[1], Communications of the ACM 15 (10), October 1972: pp. 859–866.
+
+    As a result of a long sequence of coincidences I entered the programming profession officially on the first spring morning of 1952, and as far as I have been able to trace, I was the first Dutchman to do so in my country.
+
+    We must be very careful when we give advice to younger people: sometimes they follow it!
+
+    We must not forget that it is not our [computing scientists'] business to make programs, it is our business to design classes of computations that will display a desired behaviour.
+
+    The major cause [of the software crisis] is that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem. In this sense the electronic industry has not solved a single problem, it has only created them, it has created the problem of using its products.
+
+    FORTRAN's tragic fate has been its wide acceptance, mentally chaining thousands and thousands of programmers to our past mistakes.
+
+    LISP has been jokingly described as "the most intelligent way to misuse a computer". I think that description a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts.
+
+    When FORTRAN has been called an infantile disorder, full PL/1, with its growth characteristics of a dangerous tumor, could turn out to be a fatal disease.
+
+    Using PL/1 must be like flying a plane with 7000 buttons, switches and handles to manipulate in the cockpit.
+
+    If you want more effective programmers, you will discover that they should not waste their time debugging, they should not introduce the bugs to start with.
+
+    Program testing can be a very effective way to show the presence of bugs, but it is hopelessly inadequate for showing their absence.
+        Compare more succinct phrasings cited above.
+
+    The effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer.
+
+How do we tell truths that might hurt? (1975)
+
+How do we tell truths that might hurt? (numbered EWD498, written 1975) was written as a series of aphorisms, and is the source of several popular quotations. It was also published in Selected Writings on Computing: A Personal Perspective.
+
+    The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense.
+
+    APL is a mistake, carried through to perfection. It is the language of the future for the programming techniques of the past: it creates a new generation of coding bums.
+
+    FORTRAN, 'the infantile disorder', by now nearly 20 years old, is hopelessly inadequate for whatever computer application you have in mind today: it is now too clumsy, too risky, and too expensive to use.
+
+    In the good old days physicists repeated each other's experiments, just to be sure. Today they stick to FORTRAN, so that they can share each other's programs, bugs included.
+
+    It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration.
+
+    Besides a mathematical inclination, an exceptionally good mastery of one's native tongue is the most vital asset of a competent programmer.
+
+    Simplicity is prerequisite for reliability.
+
+    Programming is one of the most difficult branches of applied mathematics; the poorer mathematicians had better remain pure mathematicians.
+
+    We can found no scientific discipline, nor a hearty profession, on the technical mistakes of the Department of Defense and, mainly, one computer manufacturer.
+
+    About the use of language: it is impossible to sharpen a pencil with a blunt axe. It is equally vain to try to do it with ten blunt axes instead.
+
+*** 1980s
+
+    Thank goodness we don't have only serious problems, but ridiculous ones as well.
+        Dijkstra (1982) "A Letter to My Old Friend Jonathan" (EWD475) p. 101 in Dijkstra, Edsger (1982). Selected Writings on Computing. Berlin: Springer-Verlag. ISBN 9780387906522.
+
+    [Though computer science is a fairly new discipline, it is predominantly based on the Cartesian world view. As Edsgar W. Dijkstra has pointed out] A scientific discipline emerges with the - usually rather slow! - discovery of which aspects can be meaningfully 'studied in isolation for the sake of their own consistency.
+        Dijkstra (1982) as cited in: Douglas Schuler, Douglas Schuler Jonathan Jacky (1989) Directions and Implications of Advanced Computing, 1987. Vol 1, p. 84.
+
+    How do we convince people that in programming simplicity and clarity —in short: what mathematicians call "elegance"— are not a dispensable luxury, but a crucial matter that decides between success and failure?
+        Source: EWD648.
+
+    I think of the company advertising "Thought Processors" or the college pretending that learning BASIC suffices or at least helps, whereas the teaching of BASIC should be rated as a criminal offence: it mutilates the mind beyond recovery.
+        Dijkstra (1984) Source: The threats to computing science (EWD898).
+
+    The question of whether Machines Can Think... is about as relevant as the question of whether Submarines Can Swim.
+        Dijkstra (1984) The threats to computing science (EWD898).
+
+    Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.
+        Dijkstra (1984) On the nature of Computing Science (EWD896).
+
+    Probably I am very naive, but I also think I prefer to remain so, at least for the time being and perhaps for the rest of my life.
+        (Refering to his conclusion to the Barber paradox or Russell's paradox.)
+        Dijkstra (1985) Where is Russell's paradox? (EWD 923A).
+
+    A confusion of even longer standing came from the fact that the unprepared included the electronic engineers that were supposed to design, build and maintain the machines. The job was actually beyond the electronic technology of the day, and, as a result, the question of how to get and keep the physical equipment more or less in working condition became in the early days the all-overriding concern. As a result, the topic became – primarily in the USA – prematurely known as ‘computer science’ – which, actually, is like referring to surgery as ‘knife science’ – and it was firmly implanted in people’s minds that computing science is about machines and their peripheral equipment. Quod non [Latin: "Which is not true"]. We now know that electronic technology has no more to contribute to computing than the physical equipment. We now know that programmable computer is no more and no less than an extremely handy device for realizing any conceivable mechanism without changing a single wire, and that the core challenge for computing science is hence a conceptual one, viz., what (abstract) mechanisms we can conceive without getting lost in the complexities of our own making.
+        Dijkstra (1986) On a cultural gap (EWD 924).
+
+    When we had no computers, we had no programming problem either. When we had a few computers, we had a mild programming problem. Confronted with machines a million times as powerful, we are faced with a gigantic programming problem.
+        Dijkstra (1986) Visuals for BP's Venture Research Conference (EWD 963).
+
+    My point today is that, if we wish to count lines of code, we should not regard them as "lines produced" but as "lines spent": the current conventional wisdom is so foolish as to book that count on the wrong side of the ledger.
+        Dijkstra (1988) "On the cruelty of really teaching computing science (EWD1036).
+
+    As economics is known as "The Miserable Science", software engineering should be known as "The Doomed Discipline", doomed because it cannot even approach its goal since its goal is self-contradictory. (...) Software engineering has accepted as its charter "How to program if you cannot.
+        Dijkstra (1988) "On the cruelty of really teaching computing science (EWD1036).
+
+    The problems of the real world are primarily those you are left with when you refuse to apply their effective solutions.
+        Dijkstra (1988) "On the cruelty of really teaching computing science (EWD1036).
+
+*** 1990s
+
+A picture may be worth a thousand words, a formula is worth a thousand pictures.
+
+    When I came back from Munich, it was September, and I was Professor of Mathematics at the Eindhoven University of Technology. Later I learned that I had been the Department's third choice, after two numerical analysts had turned the invitation down; the decision to invite me had not been an easy one, on the one hand because I had not really studied mathematics, and on the other hand because of my sandals, my beard and my "arrogance" (whatever that may be).
+        Dijkstra (1993) "From my Life" (EWD 1166).
+
+    In the wake of the Cultural Revolution and now of the recession I observe a mounting pressure to co-operate and to promote "teamwork". For its anti-individualistic streak, such a drive is of course highly suspect; some people may not be so sensitive to it, but having seen the Hitlerjugend in action suffices for the rest of your life to be very wary of "team spirit". Very.
+        Dijkstra (1994) "The strengths of the academic enterprise" (EWD 1175).
+
+    I mean, if 10 years from now, when you are doing something quick and dirty, you suddenly visualize that I am looking over your shoulders and say to yourself "Dijkstra would not have liked this", well, that would be enough immortality for me.
+        Dijkstra (1995) "Introducing a course on calculi" (EWD 1213).
+
+    A picture may be worth a thousand words, a formula is worth a thousand pictures.
+        Dijkstra (EWD1239: A first exploration of effective reasoning)
+
+    It is time to unmask the computing community as a Secret Society for the Creation and Preservation of Artificial Complexity.
+        Dijkstra (1996) "The next fifty years" (EWD 1243a).
+
+    Elegance is not a dispensable luxury but a quality that decides between success and failure.
+    Industry suffers from the managerial dogma that for the sake of stability and continuity, the company should be independent of the competence of individual employees. Hence industry rejects any methodological proposal that can be viewed as making intellectual demands on its work force. Since in the US the influence of industry is more pervasive than elsewhere, the above dogma hurts American computing science most. The moral of this sad part of the story is that as long as computing science is not allowed to save the computer industry, we had better see to it that the computer industry does not kill computing science.
+        Dijkstra (1999) "Computing Science: Achievements and Challenges" (EWD 1284).
+
+    May, in spite of all distractions generated by technology, all of you succeed in turning information into knowledge, knowledge into understanding, and understanding into wisdom.
+        Dijkstra (1998) [2]
+
+*** 2000s
+
+    The required techniques of effective reasoning are pretty formal, but as long as programming is done by people that don't master them, the software crisis will remain with us and will be considered an incurable disease. And you know what incurable diseases do: they invite the quacks and charlatans in, who in this case take the form of Software Engineering gurus.
+        Dijkstra (2000) "Answers to questions from students of Software Engineering" (EWD 1305).
+
+    It is not the task of the University to offer what society asks for, but to give what society needs.
+        Dijkstra (2000), "Answers to questions from students of Software Engineering" (EWD 1305).
+
+    There are very different programming styles. I tend to see them as Mozart versus Beethoven. When Mozart started to write, the composition was finished. He wrote the manuscript and it was 'aus einem Guss' (from one cast). In beautiful handwriting, too. Beethoven was a doubter and a struggler who started writing before he finished the composition and then glued corrections onto the page. In one place he did this nine times. When they peeled them, the last version proved identical to the first one.
+        Dijkstra (2001) Source: Denken als discipline, a program from Dutch public TV broadcaster VPRO from April 10th, 2001 about Dijkstra
+
+    What is the shortest way to travel from Rotterdam to Groningen, in general: from given city to given city. It is the algorithm for the shortest path, which I designed in about twenty minutes. One morning I was shopping in Amsterdam with my young fiancée, and tired, we sat down on the café terrace to drink a cup of coffee and I was just thinking about whether I could do this, and I then designed the algorithm for the shortest path. As I said, it was a twenty-minute invention. In fact, it was published in ’59, three years late. The publication is still readable, it is, in fact, quite nice. One of the reasons that it is so nice was that I designed it without pencil and paper. I learned later that one of the advantages of designing without pencil and paper is that you are almost forced to avoid all avoidable complexities. Eventually that algorithm became, to my great amazement, one of the cornerstones of my fame.
+        Dijkstra (2001), in an interview with Philip L. Frana. (OH 330; Communications of the ACM 53(8):41–47)
+
+*** Unknown date
+
+    In short, I suggest that the programmer should continue to understand what he is doing, that his growing product remains firmly within his intellectual grip. It is my sad experience that this suggestion is repulsive to the average experienced programmer, who clearly derives a major part of his professional excitement from not quite understanding what he is doing. In this streamlined age, one of our most undernourished psychological needs is the craving for Black Magic and apparently the automatic computer can satisfy this need for the professional software engineer, who is secretly enthralled by the gigantic risks he takes in his daring irresponsibility. For his frustrations I have no remedy......
+    This is generally true: any sizeable piece of program, or even a complete program package, is only a useful tool that can be used in a reliable fashion, provided that the documentation pertinent for the user is much shorter than the program text. If any machine or system requires a very thick manual, its usefulness becomes for that very circumstance subject to doubt!
+        Dijkstra, "On the reliability of programs" (EWD 303).
+
+** Quotes about Dijkstra
+
+    The precious gift that this Turing Award acknowledges is Dijkstra's style: his approach to programming as a high, intellectual challenge; his eloquent insistence and practical demonstration that programs should be composed correct, not just debugged into correctness; and his illuminating perception of problems at the foundations of program design.
+        M.D. Mcllroy (1972) at the presentation of the lecture on August 14, 1972, at the ACM Annual Conference in Boston, cited in E.G. Dijkstra (1972) "The Humble Programmer". 1972 ACM Turing Award Lecture. in: Communications of the ACM 15 (10), October 1972: pp. 859–866.
+
+    A revolution is taking place in the way we write programs and teach programming, because we are beginning to understand the associated mental processes more deeply. It is impossible to read the recent [E. W. Dijkstra, O.-J. Dahl, and C. A. R. Hoare] book Structured Programming, without having it change your life. The reason for this revolution and its future prospects have been aptly described by E.W. Dijkstra in his 1972 Turing Award Lecture, The Humble Programmer.
+        Donald Knuth (1974), in Structured Programming with Go To Statements. (Computing Surveys 6 (4): 261–301).
+
+    The working vocabulary of programmers everywhere is studded with words originated or forcefully promulgated by E. W. Dijkstra—display, deadly embrace, semaphore, go-to-less programming, structured programming. But his influence on programming is more pervasive than any glossary can possibly indicate.
+        David Gries (1978), in Programming Methodology: A Collection of Articles by Members of IFIP WG2.3 (New York: Springer Verlag), p. 7.
+
+    Edsger W. Dijkstra's 1969 "Structured Programming" article precipitated a decade of intense focus on programming techniques that has fundamentally altered human expectations and achievements in software development. Before this decade of intense focus, programming was regarded as a private, puzzle-solving activity of writing computer instructions to work as a program. After this decade, programming could be regarded as a public, mathematics-based activity of restructuring specifications into programs. Before, the challenge was in getting programs to run at all, and then in getting them further debugged to do the right things. After, programs could be expected to both run and do the right things with little or no debugging. Before, it was common wisdom that no sizable program could be error-free. After, many sizable programs have run a year or more with no errors detected. These expectations and achievements are not universal because of the inertia of industrial practices. But they are well-enough established to herald fundamental change in software development.
+        Harlan Mills (1986). Structured Programming: Retrospect and Prospect. (IEEE Software 3(6): 58-66, November 1986)
+
+    The difference between a computer programmer and a computer scientist is a job-title thing. Edsgar Dijkstra wants proudly to be called a "computer programmer," although he hasn't touched a computer now for some years. (...) His great strength is that he is uncompromising. It would make him physically ill to think of programming in C++.
+        Donald Knuth (1996), in an interview by Jack Woehr of Dr. Dobb's Journal.
+
+    You probably know that arrogance, in computer science, is measured in nanodijkstras.
+        Alan Kay, keynote speech at OOPSLA 1997 (video).
+
+    ...I also discovered books of two great computer scientists from whose work I learned the scientific foundation of my trade: Donald Knuth and Edsger Dijkstra. Knuth taught me the answers. Dijkstra taught me the questions. Time and time again I come back to their works for new insights.
+        Alexander Stepanov (1997), in an interview with Graziano Lo Russo of Edizioni Infomedia srl.
+
+    The first classic is one of the great works in computer programming: E. W. Dijkstra, Cooperating Sequential Processes (1965). Here Dijkstra lays the conceptual foundation for abstract concurrent programming.
+        Per Brinch Hansen, in The Origin of Concurrent Programming: From Semaphores to Remote Procedure Calls (Springer, 2002)
+
+    The Edsger W. Dijkstra Prize in Distributed Computing is named for Edsger Wybe Dijkstra (1930-2002), a pioneer in the area of distributed computing. His foundational work on concurrency primitives (such as the semaphore), concurrency problems (such as mutual exclusion and deadlock), reasoning about concurrent systems, and self-stabilization comprises one of the most important supports upon which the field of distributed computing is built. No other individual has had a larger influence on research in principles of distributed computing. The prize is given for outstanding papers on the principles of distributed computing, whose significance and impact on the theory and/or practice of distributed computing have been evident for at least a decade.
+        Edsger W. Dijkstra Prize in Distributed Computing (ACM Symposium on Principles of Distributed Computing), the citation for the prize
+
+    Most experienced IT professionals will agree that developing and adhering to a standard architecture is key to the success of large-scale software development. Computer pioneer Edsger Dijkstra validated this notion when he developed THE operating system in 1968. Since then, layered architectures have proved their viability in technological domains, such as hardware and networking. Layering has proved itself in the operating system domain; however, the same benefits are available when applied to e-commerce or to thin client–oriented applications. Layered architectures have become essential in supporting the iterative development process by promoting reusability, scalability, and maintainability.
+        Kyle Brown, Gary Craig, Greg Hester et al. (2003). Enterprise Java Programming with IBM WebSphere, 2nd Edition (IBM Press), p. 5
+
+    Edsger Dijkstra, one of the giants of our field and a passionate believer in the mathematical view of programs and programming (...) Over the previous quarter-century, he had formulated many of the great intellectual challenges of the field as programming—the goto statement, structured programming, concurrent processes, semaphores, deadlocks, recursive programming in Algol, and deriving correct programs.
+        Peter J. Denning, former ACM president, in The Field of Programmers Myth (Communications of the ACM, 47 (7) pp. 15-20, 2004)
+
+    Of great influence to Pascal was Structured Programming, put forth by E. W. Dijkstra. This method of proceeding in a design would obliviously be greatly encouraged by the use of a Structured Language, a language with a set of constructs that could freely be combined and nested. The textual structure of a program should directly reflect its flow of control.
+        Niklaus Wirth, in Impact of Software Engineering Research on Modern Programming Languages (ACM Transactions on Software Engineering and Methodology, Vol. 14, No. 4, October 2005, p. 431-477)
+
+    In 1965 Dijkstra wrote his famous Notes on Structured Programming and declared programming as a discipline in contrast to a craft. Also in 1965 Hoare published an important paper about data structuring. These ideas had a profound influence on new programming language, in particular Pascal. Languages are the vehicles in which these ideas were to be expressed. Structured programming became supported by a structured programming language.
+        Niklaus Wirth, in A Brief History of Software Engineering (IEEE Annals of the History of Computing, vol.30, no. 3, July–September 2008, p. 32-39)
+
+    The notion of the concurrent program as a means for writing parallel programs without regard for the underlying hardware was first introduced by Edsger Dijkstra (1968). Moti Ben-Ari (1982) elegantly summed up Dijkstra's idea in three sentences: ‘Concurrent programming is the name given to programming notation and techniques for expressing potential parallelism and solving the resulting synchronization and communication problems. Implementation of parallelism is a topic in computer systems (hardware and software) that is essentially independent of concurrent programming. Concurrent programming is important because it provides an abstract setting in which to study parallelism without getting bogged down in the implementation details.’
+        John W. McCormick, Frank Singhoff, Jérôme Hugues (2011). Building Parallel, Embedded, and Real-Time Applications with Ada (Cambridge University Press), p. 5
+
+    The revolution in views of programming started by Dijkstra's iconoclasm led to a movement known as structured programming, which advocated a systematic, rational approach to program construction. Structured programming is the basis for all that has been done since in programming methodology, including object-oriented programming. As the first book on the topic [Structured Programming by Dijkstra, Ole-Johan Dahl, and Tony Hoare] shows, structured programming is about much more than control structures and the goto. Its principal message is that programming should be considered a scientific discipline based on mathematical rigor.
+        Bertrand Meyer (2009), in Touch of Class: Learning to Program Well with Objects and Contracts. (Springer), p. 188.
+
+    Since the early work of E.W. Dijkstra (1965), who introduced the mutual exclusion problem, the concept of a process, the semaphore object, the notion of a weakest precondition, and guarded commands (among many other contributions), synchronization is no longer a catalog of tricks but a domain of computing science with its own concepts, mechanisms, and techniques whose results can be applied in many domains. This means that process synchronization has to be a major topic of any computer science curriculum.
+        Michel Raynal (2013), in Concurrent Programming: Algorithms, Principles, and Foundations (Springer), p. vi.
+
+    Although Dijkstra will always be remembered for structured programming, and for his style and approach, he also invented many other of the standard ideas of programming. If you are struggling with multi-threaded programming you may have encountered the semaphore, and the idea of the "deadly embrace". These, and more, are the result of Dijkstra's work on concurrent programming. He showed how this particularly difficult area of programming could be made relatively safe.
+        Mike James (2013), in Edsger Dijkstra - The Poetry of Programming, by website i-programmer.info
+
+    While concurrent program execution had been considered for years, the computer science of concurrency began with Edsger Dijkstra's seminal 1965 paper that introduced the mutual exclusion problem. (...) The first scientific examination of fault tolerance was Dijkstra's seminal 1974 paper on self-stabilization. (...) The ensuing decades have seen a huge growth of interest in concurrency—particularly in distributed systems. Looking back at the origins of the field, what stands out is the fundamental role played by Edsger Dijkstra, to whom this history is dedicated.
+        Leslie Lamport, in Turing Lecture: The Computer Science of Concurrency: The Early Years (Communications of the ACM, Vol. 58 No. 6, June 2015)
+
+    We generally trace the idea of building computer systems in layers back to a 1967 paper that the Dutch computer scientist Edsger Dijkstra gave to a joint IEEE Computer Society/ACM conference. Prior to this paper, engineers had struggled with the problem of how to organize software. If you look at early examples of programs, and you can find many in the electronic library of the Computer Society, you will find that most code of that era is complicated, difficult to read, hard to modify, and challenging to reuse. In his 1967 paper, Dijkstra described how software could be constructed in layers and gave an example of a simple operating system that used five layers. He admitted that this system might not be a realistic test of his ideas but he argued that the "larger the project, the more essential the structuring!" The idea of using layers to control complexity has become a mainstay of software architecture. We see it in many forms and apply it to many problems. We see it in the hierarchy of classes in object-oriented programming and in the structure of Service-Oriented Architecture (SOA). SOA is a relatively recent application of layering in computer science. It was articulated in 2007 as a means of controlling complexity in business systems, especially distributed systems that make substantial use of the Internet. Like Dijkstra's plan for system development, its layering system is called the SOA Solution Stack or S3. The S3's nine layers are: 1) operational systems, 2) service components, 3) services, 4) business processes, 5) consumer actions, 6) system integration, 7) quality control and assurance, 8) information architecture, and 9) system governance and policies.
+        David Alan Grier, in Closer Than You Might Think: Layers upon Layers. (IEEE Computer Society)
+
+
+* Knuth
+
+** Quotes
+
+    Beware of bugs in the above code; I have only proved it correct, not tried it.
+        Donald Knuth's webpage states the line was used to end a memo entitled Notes on the van Emde Boas construction of priority deques: An instructive use of recursion (1977)
+
+    I can’t be as confident about computer science as I can about biology. Biology easily has 500 years of exciting problems to work on. It’s at that level.
+        Computer Literacy Bookshops Interview Computer Literacy Bookshops Interview (1993)
+            On why bioinformatics is very exciting
+
+    The psychological profiling [of a programmer] is mostly the ability to shift levels of abstraction, from low level to high level. To see something in the small and to see something in the large.
+        Jack Woehr. An interview with Donald Knuth. Dr. Dobb's Journal, pages 16-22 (April 1996)
+
+    The important thing, once you have enough to eat and a nice house, is what you can do for others, what you can contribute to the enterprise as a whole.
+        Jack Woehr. An interview with Donald Knuth. Dr. Dobb's Journal, pages 16-22 (April 1996)
+
+    The whole thing that makes a mathematician’s life worthwhile is that he gets the grudging admiration of three or four colleagues.
+        Jack Woehr. An interview with Donald Knuth. Dr. Dobb's Journal, pages 16-22 (April 1996)
+
+    Science is what we understand well enough to explain to a computer. Art is everything else we do.
+        Foreword to the book A=B (1996)
+
+    A mathematical formula should never be "owned" by anybody! Mathematics belong to God.
+        Digital Typography, ch. 1, p. 8 (1999)
+
+    I define UNIX as 30 definitions of regular expressions living under one roof.
+        Digital Typography, ch. 33, p. 649 (1999)
+
+    I can’t go to a restaurant and order food because I keep looking at the fonts on the menu.
+        Knuth, Donald (2002). "All Questions Answered" (PDF). Notices of the AMS 49 (3): 321.
+
+    Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration.
+        Knuth versus Email
+
+    How can you own [...] numbers? Numbers belong to the world.
+        In his video account on the creation of TeX, he comments that Xerox offered to allow him to use their equipment, but that the fonts he created would belong to them.
+
+    In fact, my main conclusion after spending ten years of my life working on the TEX project is that software is hard. It’s harder than anything else I’ve ever had to do.
+        Knuth, Donald (2002). "All Questions Answered" (PDF). Notices of the AMS 49 (3): 320.
+
+    If you find that you're spending almost all your time on theory, start turning some attention to practical things; it will improve your theories. If you find that you're spending almost all your time on practice, start turning some attention to theoretical things; it will improve your practice.
+        Donald Knuth, quoted in: Arturo Gonzalez-Gutierrez (2007) Minimum-length Corridors: Complexity and Approximations. p. 99
+
+    In a way, you'd say my life is a convex combination of English and mathematics. ... And not only that, I want my kids to be that way: use left brain, right brain at the same time – you got a lot more done. That was part of the bargain.
+        Algorithms, Complexity, Life, and The Art of Computer Programming. AI Podcast (December 30, 2019).
+
+    A good technical writer, trying not to be obvious about it, but says everything twice: formally and informally. Or maybe three times.
+        Algorithms, Complexity, Life, and The Art of Computer Programming. AI Podcast (December 30, 2019).
+
+    I am assuming that God exists and I am glad that there is no way to prove this. [Because] I would run through the proof once, and then I'd forget it, and I would never speculate about spiritual things and mysteries otherwise. And, I think, my life would be very incomplete.
+        Algorithms, Complexity, Life, and The Art of Computer Programming. AI Podcast (December 30, 2019).
+
+    I came to philosophy finally phrased as "0.8 is enough". … If I had a way to rate happiness, I think it's a good design to have an organism that's happy about 80% of the time. If it was 100% of the time, it would be like everybody's on drugs and everything collapses and nothing works because everybody is just too happy. … There are times when I am down and I know that I've actually been programmed to be depressed a certain amount of time.
+        Algorithms, Complexity, Life, and The Art of Computer Programming. AI Podcast (December 30, 2019).
+
+    Let's face it, if there were 10 people like me in the world, we wouldn't have time to read each other's books.
+        "All Questions Answered" by Donald Knuth. GoogleTechTalks. YouTube (May 29, 2011).
+
+*** The Art of Computer Programming (1968–2011)
+
+    By understanding a machine-oriented language, the programmer will tend to use a much more efficient method; it is much closer to reality.
+        Vol. I, preface (October 1967) to the first edition. (p. x 1973, p. ix 1997)
+
+    An algorithm must be seen to be believed.
+        Vol. I, Fundamental Algorithms, Section 1.1 (1968)
+
+    People who are more than casually interested in computers should have at least some idea of what the underlying hardware is like. Otherwise the programs they write will be pretty weird.
+        Vol. I Fasc. 1, "MMIX, a RISC computer for the new millennium"
+
+    Random numbers should not be generated with a method chosen at random
+        Vol. II, Seminumerical Algorithms
+
+    The sun comes up just about as often as it goes down, in the long run, but this doesn't make its motion random.
+        Vol. II, Seminumerical Algorithms, Section 3.3.2 part B, first paragraph (1969)
+
+    The reason is not to glorify "bit chasing"; a more fundamental issue is at stake here: Numerical subroutines should deliver results that satisfy simple, useful mathematical laws whenever possible. [...] Without any underlying symmetry properties, the job of proving interesting results becomes extremely unpleasant. The enjoyment of one's tools is an essential ingredient of successful work.
+        Vol. II, Seminumerical Algorithms, Section 4.2.2 part A, final paragraph [Italics in source]
+
+    Any inaccuracies in this index may be explained by the fact that it has been sorted with the help of a computer.
+        Vol. III, Sorting and Searching, End of index (1973)
+
+    Trees sprout up just about everywhere in computer science...
+        Vol. IV - A, Combinatorial Algorithms, Section 4.2.1.6 (2011)
+
+*** Computer Programming as an Art (1974)
+
+1974 Turing Award Lecture, Communications of the ACM 17 (12), (December 1974), pp. 667–673
+
+    Science is knowledge which we understand so well that we can teach it to a computer; and if we don't fully understand something, it is an art to deal with it.
+        p. 668
+
+    In this sense, we should continually be striving to transform every art into a science: in the process, we advance the art.
+        p. 669 [italics in source]
+
+    The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming.
+        p. 671
+
+        Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.
+            Variant in Knuth, "Structured Programming with Goto Statements". Computing Surveys 6:4 (December 1974), pp. 261–301, §1. doi:10.1145/356635.356640
+
+        Knuth refers to this as "Hoare's Dictum" 15 years later in "The Errors of Tex", Software—Practice & Experience 19:7 (July 1989), pp. 607–685. However, the attribution to C. A. R. Hoare is doubtful.[1]
+            All three of these papers are reprinted in Knuth, Literate Programming, 1992, Center for the Study of Language and Information ISBN 0937073806
+
+    To summarize: We have seen that computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better. Therefore we can be glad that people who lecture at computer conferences speak of the state of the Art.
+        p. 673 [italics in source]
+
+*** Literate Programming (1984)
+
+    Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
+        "Literate Programming", The Computer Journal 27 (1984), p. 97. (Reprinted in Literate Programming, 1992, p. 99.)
+
+** Quotes about Donald Knuth
+
+    For his major contributions to the analysis of algorithms and the design of programming languages, and in particular for his contributions to the "art of computer programming" through his well-known books in a continuous series by this title.
+        1974 Turing Award Citation[2]
+
+* Unix philosophy
+  
+** McIlroy：A Quarter Century of Unix
+
+道格拉斯·麦克罗伊是Unix系统上管道机制的发明者，也是Unix文化的缔造者之一。他归纳的Unix哲学如下：
+
+    程序应该只关注一个目标，并尽可能把它做好。让程序能够互相协同工作。应该让程序处理文本数据流，因为这是一个通用的接口。
+
+更加简化的版本是：做一件事，做好它。虽然只有第三条是特指Unix系统的，但Unix开发者们常常同时强调这三个信条。
+
+** Pike：Notes on Programming in C
+
+罗勃·派克在他的《Notes on Programming in C》中提到了以下格言。虽然这些规则是关于程序设计的，但作为Unix哲学丝毫不为过：
+
+- 规则一：你永远不会知道你的程序会在什么地方耗费时间。程序的瓶颈常常出现在意想不到的地方，因此在你确信找到瓶颈后再动手优化代码吧。
+- 规则二：测试代码。只有在你详细测试了代码，并且发现一部分代码耗费了绝大部分的运行时间时再对程序作速度优化。
+- 规则三：功能全面的算法（fancy algorithm）在处理小规模问题时效率很低，这是因为算法时间效率中的常量很大，而问题往往规模很小。除非你知道你遇到的常常是复杂的情况，否则就让代码丑陋但是简单而高效吧。（即使问题规模确实很大，也首先尝试第二条规则。）
+- 规则四：功能全面的算法比简单的算法更容易产生Bug，更难实现。尽量使用简单的算法和数据结构。
+- 规则五：数据决定一切。如果选择的数据结构能很好的管理数据，算法部分往往不言自明。记住，数据结构，而非算法，才是编程的关键。
+- 规则六：没有第六条规则。
+
+Pike的第一、二条规则重申了高德纳的著名格言：“过早的优化是一切罪恶的根源。”[2] Pike的第三、四条规则被肯·汤普逊改述成：“疑惑不定之时最适合穷举。”事实上，这两条规则也是KISS原则的具体表现。规则五在之前Fred Brooks的人月神话中也被提及。Jon Bentley的《Programming Pearls》中也有一章阐述了相同的设计哲学。此规则作为“如果你的数据结构很好，那么控制它的算法就无关痛痒了”的例子常常被简化成“简约地写代码，聪明地用数据”。第六条规则当然只是Pike针对蒙提·派森之小品Bruces sketch的幽默发挥而已了。
+
+** Mike Gancarz的《UNIX哲学》
+
+1994年，X窗口系统开发组的成员Mike Gancarz根据他自己的Unix系统经验以及和其他领域使用Unix系统的资深程序员们的讨论结果，写成了The UNIX Philosophy，提出了9条训格之言：
+
+   - 一：小即是美。
+   - 二：让程序只做好一件事。
+   - 三：尽可能早地创建原型。
+   - 四：可移植性比效率更重要。
+   - 五：数据应该保存为文本文件。
+   - 六：尽可能地榨取软件的全部价值。
+   - 七：使用shell脚本来提高效率和可移植性。
+   - 八：避免使用可定制性低下的用户界面。
+   - 九：所有程序都是数据的过滤器。
+
+此外还有十条原则则并不为所有人认同，甚至还是争论的焦点（如宏内核和微内核之争）：
+
+   - 一：应该允许用户定制操作环境。
+   - 二：让操作系统核心小而轻。
+   - 三：使用小写字母并尽量简短。
+   - 四：节约纸张，保护树林。
+   - 五：沉默是金。
+   - 六：并行地思考。
+   - 七：部分加部分大于整体。
+   - 八：寻找问题的帕雷托法则。
+   - 九：程序随需求而增长（Worse is better）。
+   - 十：层级地思考。
+
+** 糟糕的更好
+
+Richard P. Gabriel 提议Unix的一个关键优势是他称作“糟糕的更好”的设计哲学。在“糟糕的更好”的设计风格下，接口和实现的简单性比系统的任何其他属性都更重要，包括准确性、一致性和完整性。Gabriel主张这种设计风格拥有关键的进化优势，尽管他也怀疑一些结果的质量。 
+
+
+* Worse is better
+
+Worse is better, also called New Jersey style,[1] was conceived by Richard P. Gabriel in an essay "Worse is better" to describe the dynamics of software acceptance, but it has broader application. It is the subjective idea that quality does not necessarily increase with functionality—that there is a point where less functionality ("worse") is a preferable option ("better") in terms of practicality and usability. Software that is limited, but simple to use, may be more appealing to the user and market than the reverse.
+
+As to the oxymoronic title, Gabriel calls it a caricature, declaring the style bad in comparison with "The Right Thing". However he also states that "it has better survival characteristics than the-right-thing" development style and is superior to the "MIT Approach" with which he contrasted it in the original essay.[2]
+
+The essay was included into the 1994 book The Unix-Haters Handbook.
+
+** Origin
+
+Gabriel was a Lisp programmer when he formulated the concept in 1989, presenting it in his essay "Lisp: Good News, Bad News, How to Win Big". A section of the article, titled "The Rise of 'Worse is Better'", was widely disseminated beginning in 1991, after Jamie Zawinski found it in Gabriel's files at Lucid Inc. and e-mailed it to friends and colleagues.[2]
+
+** Description
+
+In The Rise of Worse is Better, Gabriel claimed that "Worse-is-Better" is a model of software design and implementation which has the following characteristics (in approximately descending order of importance):
+
+- Simplicity
+    The design must be simple, both in implementation and interface. It is more important for the implementation to be simple than the interface. Simplicity is the most important consideration in a design.
+- Correctness
+    The design should be correct in all observable aspects, but It is slightly better to be simple than correct.
+- Consistency
+    The design must not be overly inconsistent. Consistency can be sacrificed for simplicity in some cases, but it is better to drop those parts of the design that deal with less common circumstances than to introduce either complexity or inconsistency in the implementation.
+- Completeness
+    The design must cover as many important situations as is practical. All reasonably expected cases should be covered. Completeness can be sacrificed in favor of any other quality. In fact, completeness must be sacrificed whenever implementation simplicity is jeopardized. Consistency can be sacrificed to achieve completeness if simplicity is retained; especially worthless is consistency of interface.
+
+Gabriel argued that early Unix and C, developed by Bell Labs, are examples of this design approach. He also calls them "the ultimate computer viruses".
+
+*** The MIT approach
+
+Gabriel contrasted his philosophy with what he called the "MIT/Stanford style of design" or "MIT approach" (also known as "the Right Thing"), which he described as follows. Contrasts are in bold:
+
+- Simplicity
+    The design must be simple, both in implementation and interface. It is more important for the interface to be simple than the implementation.
+- Correctness
+    The design must be correct in all observable aspects. Incorrectness is simply not allowed.
+- Consistency
+    The design must be consistent. A design is allowed to be slightly less simple and less complete to avoid inconsistency. Consistency is as important as correctness.
+- Completeness
+    The design must cover as many important situations as is practical. All reasonably expected cases must be covered. Simplicity is not allowed to overly reduce completeness.
+
+** Effects
+
+Gabriel argued that "Worse is better" produced more successful software than the MIT approach: As long as the initial program is basically good, it will take much less time and effort to implement initially and it will be easier to adapt to new situations. Porting software to new machines, for example, becomes far easier this way. Thus its use will spread rapidly, long before a program developed using the MIT approach has a chance to be developed and deployed (first-mover advantage). Once it has spread, there will be pressure to improve its functionality, but users have already been conditioned to accept "worse" rather than the "right thing". "Therefore, the worse-is-better software first will gain acceptance, second will condition its users to expect less, and third will be improved to a point that is almost the right thing. In concrete terms, even though Lisp compilers in 1987 were about as good as C compilers, there are many more compiler experts who want to make C compilers better than want to make Lisp compilers better."[3]
+
+Gabriel credits Jamie Zawinski for excerpting the worse-is-better sections of "Lisp: Good News, Bad News, How to Win Big" and e-mailing them to his friends at Carnegie Mellon University, who sent them to their friends at Bell Labs, "who sent them to their friends everywhere". He apparently connected these ideas to those of Richard Stallman and saw related ideas that are important in the design philosophy of Unix, and more generally in the open-source movement, both of which were central to the development of Linux.
+
+Gabriel later answered his earlier essay with one titled Worse Is Better Is Worse[4] under the pseudonym "Nickieben Bourbaki" (an allusion to Nicolas Bourbaki). 
+
+* 计算机科学箴言集
+
+程序员常常需要转换时间单位。比如说，一个程序每秒钟能处理100条记录，那它处理一百万条记录要多少时间？用除法一算，我们就知道要花10000秒，按每小时3600秒计算，差不多3个小时。然而一年又有多少秒呢？如果我直接告诉你，一共有3.155×107秒，你可能很快就忘了。事实上，要记住这个很简单，在误差不超过0.5%的约束下：π秒就是一个纳世纪。——Tom  Duff，贝尔实验室
+
+所以，如果你的程序要运行107秒，你就要准备等上4个月。
+
+1985年2月的《ACM通讯》曾向读者征集与计算有关的一句话箴言。读者来稿中有一些是没有争议的，比如Duff法则就是一种很方便的记忆常数的方法。而下面这个关于程序测试方法的法则中的数字则不那么绝对了（回归测试方法保存老版本的输入/输出数据，以确保新版本程序能得出同样的输出）。回归测试能将测试区间减半。——Larry  Bernstein，贝尔通信研究院
+
+Bernstein的观点中所说的数可能是30%也可能是70%，然而可以确定的是，这些测试节约了开发时间。不怎么定量的忠告也存在问题。相信大家都会同意
+
+小别胜新婚。——佚名
+
+但也说眼不见，心不烦。——佚名第6章57
+
+计算机科学箴言集最后这句话对每个人都适用，对这些话本身则不适用。本章中的很多箴言也存在类似的矛盾。尽管每句话都有真理存焉，
+
+我们还是应该有所保留地看待它们。关于这些箴言的出处，我不得不声明一下。箴言下 的名字基本上都是最早把这句话发给我的人，即使事实上这句话可能出自于他们的堂兄弟。在一些地方我列出了更早的参考文献以及作者的单位（1985年9月时的情况，那正是本章内容最初发表的时候）。我知道我这样做对不起那些最早说出这句话的人，我只能用下面这句话表达遗憾了：剽窃即是最诚恳的恭维。——佚名
+
+闲话不说了，我直接把这些箴言分成几个大类，依次列出来。
+
+** 编码
+
+如果还没想清楚，就用蛮力算法吧。——Ken  Thompson，贝尔实验室
+
+- 不要使用反正弦和反余弦函数——你总能用优美的恒等式，或者是计算向量点积来更好地解决这些问题。——Jim  Conyngham，Arvin/Calspan高级技术中心
+
+- 在存储日期中的年份的时候，请使用四位数字：千禧年快要到了。——David  Martin，宾夕法尼亚州诺里斯敦
+
+- 避免不对称结构。——Andy  Huber，Data  General公司
+
+- 代码写得越急，程序跑得越慢。——Roy  Carlson，威斯康星大学
+
+- 你用英语都写不出来的东西就别指望用代码写了。——Peter Halpern，纽约州布鲁克林
+
+- 注意细节。——Peter  Weinberger，贝尔实验室
+
+- 如果代码和注释不一致，那很可能两者都错了。——Norm  Schryer，贝尔实验室
+
+- 如果你发现特殊情况太多，那你肯定是用错方法了。——Craig  Zerouni，Computer  FX公司（英国伦敦）
+
+- 先把数据结构搞清楚，程序的其余部分自现。——David  Jones，荷兰阿森
+
+** 用户界面
+
+-【最小惊异原则】尽可能让用户界面风格一致和可预测。——几位读者提出
+
+计算机生成的输入通常会让一个原本设计接受手工输入的程序不堪重负。——Dennis Ritchie，贝尔实验室
+
+- 手工填写的表单中有20%都包含坏数据。——Vic  Vyssotsky 贝尔实验室
+
+- 80%的表单会要你回答没有必要的问题。——Mike  Garey，贝尔实验室
+
+- 不要让用户提供那些系统已经知道的信息。——Rick  Lemons，Cardinal数据系统公司
+
+- 所有数据集  的80%中，有95%的信息量都可以用清晰的图表示。——William  S.  Cleveland，贝尔实验室
+
+** 调试
+
+- 在我所有的程序错误中，80%是语法错误。剩下的20%里，80%是简单的逻辑错误。在剩下的4%里，80%是指针错误。只有余下的0.8%才是困难的问题。——Marc  Donner，IBM沃森研究中心
+
+- 在系统测试阶段找出并修正错误， 要比开发者自己完成这一工作多付出2倍的努力。而当系统已经交付使用之后找出并修正一个错误，要比系统测试阶段多付出9倍的努力。因此，请坚持让开发者进行单元测试吧 ——Larry  Bernstein，贝尔通信研究院
+
+- 不要站着调试程序。那会使得你的耐心减半，你需要的是全神贯注。——Dave  Storer
+
+- 艾奥瓦州锡达拉皮兹别在注释里陷得太深——注释很可能会误导你的，你要调试的只是代码。——Dave  Storer
+
+- 艾奥瓦州锡达拉皮兹测试只能证明程序有错误，而不能证明程序没有错误。——Edsger  W.  Dijkstra
+
+- 得克萨斯大学新系统的每一个新用户都可能发现一类新的错误。——Brian  Kernighan，贝尔实验室
+
+- 东西没坏，就别乱修。——罗纳德〃里根，加州圣巴巴拉
+
+- 【维护者箴言】如果我们没能力修好它，我们就会告诉你它根本就没坏。——Walt  Weir，美国陆军中校
+
+- 修正程序错误的第一步是要先重现这个错误。——Tom  Duff，贝尔实验室
+
+** 性能
+
+-【程序优化第一法则】不要优化。
+
+-【程序优化第二法则——仅对专家适用】还是不要优化。——Michael  Jackson，Michael  Jackson系统公司
+
+- 对于那些快速算法，我们总是可以拿一些速度差不多但是更容易理解的算法来替代它们。——Douglas  W.  Jones，艾奥瓦大学
+
+- 在一些机器上，间接寻址比基址寻址要慢，所以请把结构体或记录中最常用的成员放在最前面  。——Mike  Morton，马萨诸塞州波士顿
+
+- 在一个非I/O密集型的程序中，超过一半的运行时间是花在不足4%的代码上的。——Don  Knuth，斯坦福大学
+
+- 在优化一个程序之前，请先用性能监视工具找到程序的“热点”。——Mike  Morton，马萨诸塞州波士顿
+
+-【代码规模守恒定律】当你为了加速，把一页代码变成几条简单的指令时，请不要忘了增加注释，以使源码的行数保持为一个常量。——Mike  Morton，马萨诸塞州波士顿
+
+- 如果程序员自己模拟实现一个构造比编译器本身实现那个构造还要快，那编译器的作者也太失败了。——Guy  L.  Steele,Jr.，Tartan实验室
+
+- 要加速一个I/O密集型的程序，请首先考虑所有的I/O。消除那些不必要的或冗余的I/O，并使余下的部分尽可能地快。——David  Martin，宾夕法尼亚州诺里斯敦
+
+- 最快的I/O就是不I/O。——Nils-Peter  Nelson，贝尔实验室
+
+- 那些最便宜、最快而且可靠性最高的计算机组件压根儿就不存在。——Gordon  Bell，Encore计算机公司
+
+- 大多数的汇编语言都有循环操作，用一条机器指令进行一次比较并分支；尽管这条指令是为循环设计的，但在做普通的比较时往往也能派上用场，而且很有效。——Guy  L.  Steele,Jr.，Tartan实验室
+
+-【编译器作者箴言——优化步骤】把一个本来就错了的程序变得更糟绝不是你的错。——Bill  McKeeman，王安公司
+
+- 电每纳秒传播一英尺。——Grace  Murray  Hopper，美国海军准将
+
+- Lisp程序员知道所有东西的值，却不知道那些东西的计算成本。——Alan  Perlis，耶鲁大学
+
+** 文档【否定测试】
+
+- 如果一句话反过来就必然不成立，那就根本没必要把这句话放进文档。——Bob  Martin，AT&T公司
+
+- 当你试图解释一条命令、一个语言特性或是一种硬件的时候，请首先说明它要解决什么问题。——David  Martin，宾夕法尼亚州诺里斯敦
+
+-【一页原则】一个{规格说明、设计、过程、测试计划}如果不能在一页8.5英寸×11英寸的纸①上写明白，那么这个东西别人就没办法理解。——Mark  Ardis，王安公司
+
+- 纸上的工作没结束，整个工作也就还没结束。——佚名
+
+** 软件管理
+
+- 系统的结构反映出构建该系统的组织的结构。——Richard E. Fairley，王安公司
+
+- 别坚持做那些没用的事。——佚名
+
+-【90—90法则】前90%的代码占用了90%的预定开发时间，余下的10%代码又花费了90%的预定开发时间②。——Tom  Cargill，贝尔实验室
+
+- 只有不到10%的代码用于完成这个程序表面上的目的，余下的都在处理输入输出、数据验证、数据结构维护等家务活。——Mary  Shaw，卡内基—梅隆大学
+
+- 正确的判断来源于经验，然而经验来源于错误的判断。——Fred  Brooks，北卡罗来纳大学
+
+- 如果有人基本上做出了你想要做的东西，你就没必要自己写一个新程序。就算你非写不可，也请尽可能多地利用现有的代码。——Richard  Hill，惠普公司（瑞士日内瓦）
+
+- 代码能借用就借用。——Tom  Duff，贝尔实验室
+
+- 与客户保持良好的关系可以使生产率加倍。——Larry  Bernstein
+
+- 贝尔通信研究院把一个现有成熟程序转移到一种新语言或者新平台，只需要原来开发的十分之一的时间、 人力、 成本。——Douglas  W.Jones，艾奥瓦大学
+
+- 那些用手做就已经很快了的事情，就不要用计算机去做了。——Richard  Hill，惠普公司（瑞士日内瓦）
+
+- 那些能用计算机迅速解决的问题，就别用手做了。——Tom  Duff，贝尔实验室
+
+- 我想写的程序不只是程序，而且是会写程序的程序。——Dick  Sites，DEC公司
+
+- 【Brooks原型定律】计划好抛弃一个原型，这是迟早的事。——Fred  Brooks，北卡罗来纳大学
+
+- 如果开始就打算抛弃一个原型，那恐怕你得抛弃两个。——Craig  Zerouni，Computer  FX公司（英国伦敦）
+
+- 原型方法可以将系统开发的工作量减少40%。——Larry  Bernstein，贝尔通信研究院
+
+- 【Thompson望远镜学徒定律】先做一个4英尺镜片的（望远镜），再做一个6英尺镜片的，这比直接做6英尺镜片的更省时间。——Bill  McKeeman，王安公司
+
+- 拼命干活无法取代理解。——H.H.Williams，加州奥克兰
+
+- 做事应该先做最难的部分。如果最难的部分无法做到，那还在简单的部分上浪费时间干嘛？一旦困难的地方搞定了，那你就胜利在望了。做事应该先做最简单的部分。你开始所预想的简单部分，做起来可能是很有难度的。一旦你把简单的部分都做好了，你就可以全力攻克最难的部分了。——Al  Schapira，贝尔实验室
+
+** 其他
+
+- 【Sturgeon定律——在科幻小说和计算机科学中同等适用】毫无疑问，90%的软件都没什么用。这是因为对任何东西而言，其中的90%都是没什么用的。——Mary  Shaw
+
+- 卡内斯—梅隆大学对计算机撒谎是要受到惩罚的。——Perry  Farrar，马里兰州
+
+- 如果不要求系统可靠，它可能做任何事情。——H.H.Williams，加州奥克兰
+
+- 一个人的常量是另一个人的变量。——Susan  Gerhart，Microelectronicsand  Computer  Technology公司
+
+- 一个人的数据就是另一个人的程序。——Guy  L.  Steele,Jr.，Tartan实验室
+
+- 【KISS法则】用最简单、最笨的方法做事①。——佚名
+
+** 原理看到这里，你一定会接受下面这条不错的箴言：
+
+- 别轻信那些看似聪明的法则。——Joe  Condon，贝尔实验室
+
+* 其他
+
+** 程序员编程语录
+
+1. 一个好的程序员是那种过单行线马路都要往两边看的人。(Doug Linder)
+
+2. 程序有问题时不要担心。如果所有东西都没问题，你就失业了。(软件工程的Mosher定律)
+
+3. 程序员的麻烦在于，你无法弄清他在捣腾什么，当你最终弄明白时，也许已经晚了。(超级计算机之父Seymour Cray)
+
+4. 我想大部分人都知道通常一个程序员会具有的美德。当然了，有三种：懒惰，暴躁，傲慢。(Perl语言发明者Larry Wall)
+
+5. 编程时要保持这种心态：就好象将来要维护你这些代码的人是一位残暴的精神病患者，而且他知道你住在哪。(MartinGolding)
+
+6. 一个人写的烂软件将会给另一个人带来一份全职工作。(Jessica Gaston)
+
+7. 如果建筑工人像程序员写软件那样盖房子，那第一只飞来的啄木鸟就能毁掉人类文明。(Gerald Weinberg)
+
+8. 这世界最有可能毁灭的方式——大多数专家都同意——是次意外。这就是为什么会有我们，我们是计算机专家，我们创造意外。(Nathaniel Borenstein)
+
+9. 我们这个行业有个特别奇怪的现象：不仅我们不从失败里吸取教训，同时也不从成功中学习经验。 (Keith Braithwaite)
+
+10. 一种新技术一旦开始流行，你要么坐上压路机，要么成为铺路石。(Stewart Brand)
+
+11. 如果没能一次成功，那就叫它1.0版吧。(unknown)
+
+12. 所有的程序员都是编剧，所有的计算机都是烂演员。(Anonymous Hack Actor)
+
+13. 工作进度上越早落后，你就会有越充足的时间赶上。(Anonymous Scheduler)
+
+14. 当有这样的一种编程语言出现：它能让程序员用简单的英语编程，你将会发现，程序员都开始不会说英语。(Anonymous Linguist)
+
+15. 为什么我们没有时间把事情做对，却总有时间把事情做过头？(Anonymous)
+
+16. 傻瓜都能写出计算机能理解的程序。优秀的程序员写出的是人类能读懂的代码。
+
+17. 任何你写的代码，超过6个月不去看它，当你再看时，都像是别人写的。(Eagleson’s law)
+
+** 编程/软件开发语录
+
+1. 按代码行数来评估软件开发的进度，就如同按重量来评估飞机建造的进度。(比尔-盖茨)
+
+2. 软件就像做爱。一次犯错，你需要用余下一生来维护支持。(Michael Sinz)
+
+3. 在水上行走和按需求文档开发软件都很容易——前提是它们都是冻结状态。(Edward V Berard)
+
+4. 最初90%的代码用去了最初90%的开发时间…余下10%的代码用去了另外90%的开发时间。(Tom Cargill)
+
+5. 注释代码很像清洁你的厕所——你不想干，但如果你做了，这绝对会给你和你的客人带来更愉悦的体验。(Ryan Campbell)
+
+6. 如今的编程是一场程序员和上帝的竞赛，程序员要开发出更大更好、傻瓜都会用到软件。而上帝在努力创造出更大更傻的傻瓜。目前为止，上帝是赢的。(Rick Cook)
+
+7. 软件设计最困难的部分…是阻挡新功能的引入。(Donald Norman)
+
+8. 为了理解递归，我们首先要理解的是递归。(Anonymous)
+
+9. 世上只有两类编程语言：那些拥有被人诟病的和那些没人用的。(Bjarne Stroustrup)
+
+10. The best thing about a boolean is even if you are wrong, you are only off by a bit. (Anonymous)
+
+11. 如果Java能实现真的垃圾回收，那大部分的程序都会在执行时删除自己。(Robert Swell)
+
+12. 理论上，理论和实践是没有差异的。但实践中，是有的。(Jan L. A. van de Snepscheut)
+
+13. 预备，开火，瞄准：这是最快的软件开发方法。预备，瞄准，瞄准，瞄准，瞄准：这是最慢的软件开发方法。(Anonymous)
+
+14. 编程是10%的科学，20%天份，和70%的让这天份符合科学。(Anonymous)
+
+15. 评估一个事情要比去理解你评估了什么容易。(Anonymous)
+
+16. 测评不会撒谎，但测评的人会。(Anonymous)
+
+17. 培养员工，即使他们有跳槽的风险。什么都不做而留他们在公司，这样风险更大。(Anonymous)
+
+18. 计算机科学的目标是做出一个东西，并且保证它至少能坚持到我们将它开发完成。(Anonymous)
+
+19. Java之于JavaScript如同Car之于Carpet。 (Chris Heilmann)
+
+20. 起初就把事情做对是完全没必要的。但最后要把事情做对是绝对必要的。(Andrew Hunt and DavidThomas)
+
+21. 数组的起始索引应该从0开始还是从1开始？我的0.5的折中提议被他们未经认真考虑到拒绝了——我认为是这样的。(Stan Kelly-Bootle)
+
+22. 程序必须是为了给人看而写，给机器去执行只是附带任务。 (Abelson / Sussman)
+
+23. 编程可以很有趣，你可以用它做密码学研究，但两者绝对不能合二为一。(Kreitzberg and Shneiderman)
+
+24. 拷贝-粘贴是一种设计错误。(David Parnas)
+
+25. 计算机善于遵循指令，但不善于理解你的思维。(Donald Knuth)
+
+** 软件纠错语录
+
+1. 删除的代码是没有bug的代码。(Jeff Sickel)
+
+2. 如果纠错是消除软件bug的过程，那编程一定是把它们放进去的过程。(Edsger Dijkstra)
+
+3. 代码纠错要比新编写代码困难一倍。因为，如果你写出了最聪明的代码，按此推算，你将没有更大的智慧来debug它。
+
+4. 想在自己的代码里找出一个错误是十分困难的。而当你认为你的代码没有错误时，那就更难了。(Steve McConnel)
+
+** 软件bug语录
+
+1. 这不是个bug——这一个未注明的功能特征。(Anonymous)
+
+2. 没有需求或设计，编程就是一种将bug添加到一个空文本文件里的艺术。(Louis Srygley)
+
+3. 烂代码并不烂，只是被误解了。(Anonymous Code Behaviorist)
+
+4. 有两种方法能写出没有错误的程序；但只有第三种好用。(Alan J. Perlis)
+
+5. 小心上面代码中的bug；我只知道这些代码是正确的，但没有试过。(Donald Knuth)
+
+** 软件产品/成品语录
+
+1. 软件能够复用前，它必须要可用。(Ralph Johnson)
+
+2. 软件通常在beta测试完成不久后发布。Beta在拉丁语中是“还不能用”的意思。(Anonymous)
+
+3. 最好的性能改进是将软件从不能用的状态变成可用。(J. Osterhout)
+
+4. 最廉价、最快速、最可信赖的组件是那些还未出现的组件。(Gordon Bell)
+
+5. I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing. (Oktal)
+
+6. 软件和教堂非常相似——建成之后我们就在祈祷。(Sam Redwine)
+
+7. 除非最后一个用户死掉，软件是不会有完工的时候的。(Anonymous)
+
+8. 如今的大部分软件都非常像埃及金字塔，由成千上万的石块一个摞一个构成，没有结构上的集成，是由暴力强制和成千上万的奴隶完成。(Alan Kay)

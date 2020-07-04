@@ -345,3 +345,92 @@ G.add_edge((0, 0), (2, 2), weight=5)
 G.add_edge((0, 1), (2, 2), weight=(5, None))
 
 print set([[1, 2], [2, 3]])
+
+## tensorflow
+
+### first diagram
+
+import tensorflow as tf
+
+x = tf.Variable(3, name='x')
+y = tf.Variable(4, name='y')
+
+f = x * x * y + y + 2
+
+### way1
+
+sess = tf.Session()
+sess.run(x.initializer)
+sess.run(y.initializer)
+result = sess.run(f)
+
+print(result)
+sess.close()
+
+### way2
+
+with tf.Session() as sess:
+    x.initializer.run()
+    y.initializer.run()
+    result = f.eval()
+print(result)
+
+### way3
+
+init = tf.global_variables_initializer()
+with tf.Session() as sess:
+    init.run()
+    result = f.eval()
+    print(result)
+
+### way4
+
+x1 = tf.Variable(1)
+print(x1.graph is tf.get_default_graph())
+
+graph = tf.Graph()
+with graph.as_default():
+    x1 = tf.Variable(2)
+
+### Keras
+
+mnist = tf.keras.datasets.mnist
+
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+x_train, x_test = x_train / 255.0, x_test / 255.0
+
+print(len(x_train))
+
+print(type(x_train))
+
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation=tf.nn.relu),
+    tf.keras.layers.Dropout(0.2),
+    tf.keras.layers.Dense(10, activation=tf.nn.softmax)
+])
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+model.fit(x_train, y_train, epochs=5)
+
+print(model.evaluate(x_test, y_test))
+
+print(x_test[0,])
+
+### my first neural network: basic classification
+
+from __future__ import absolute_import, division, print_function
+
+import tensorflow as tf
+from tensorflow import keras
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+### ggplot
+
+import pandas as pd
+import ggplot
+
+import plotnine

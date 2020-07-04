@@ -119,3 +119,43 @@ current rent price for the current house:
 ~ $4200: https://www.zillow.com/homedetails/833-Columba-Ln-Foster-City-CA-94404/15629197_zpid/
 - So yearly cost is still 15K + 12K + 3K = 30K
 - Will generate probably 4K per month (pre-tax) when I am 50
+
+### install dependency
+
+#### https://bioconductor.org/install/
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.11")
+
+BiocManager::install(c('ggplot2', 'plyr', 'dplyr', 'reshape2'))
+
+BiocManager::install(c('lintr'))
+
+install.packages("https://cran.r-project.org/src/contrib/Archive/ascii/ascii_2.1.tar.gz")
+
+library(ascii)
+
+### ggplot
+library(ggplot2)
+
+BiocManager::install(c('patchwork'))
+
+library(ggplot2)
+library(patchwork)
+
+p1 <- ggplot(mtcars) + geom_point(aes(mpg, disp))
+p2 <- ggplot(mtcars) + geom_boxplot(aes(gear, disp, group = gear))
+
+p1 + p2
+
+p3 <- ggplot(mtcars) + geom_smooth(aes(disp, qsec))
+p4 <- ggplot(mtcars) + geom_bar(aes(carb))
+
+(p1 | p2 | p3) /
+      p4
+
+((p1 | p2) / (p3 | p4))
+
+a <- 1
+
+xdf = data.frame(a=1, b='a')

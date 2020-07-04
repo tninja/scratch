@@ -32,3 +32,43 @@ What are you going to do today
 We thank the maker of the emacs
 
 kang_tu@apple 
+
+* The refactor of trending job
+
+#+name: refactor.trending
+#+begin_src plantuml :session *scratch.org* :cache yes :exports results :file trending.2.design.png
+  @startuml
+
+  partition TrendingArticlesPieSparkJob {
+  "Event and pipeline data" --> "TrendingAlgoWithConfig1"
+  --> "Article list 1\n in Hdfs folder 1"
+  "Event and pipeline data" --> "TrendingAlgoWithConfig2"
+  --> "Article list 2\n in Hdfs folder 2"
+  "Event and pipeline data" --> "IssueTrendingAlgoWithConfig3"
+  --> "Issue article list 3\n in Hdfs folder 3"
+  }
+  
+  partition ServiceApplication {
+  "Article list 1\n in Hdfs folder 1" -->[refresh_by] "TrendingService"
+  "Article list 2\n in Hdfs folder 2" -->[refresh_by] "TrendingService"
+  "Issue article list 3\n in Hdfs folder 3" -->[refresh_by] "TrendingService"
+  }
+  "Client" -->[request_in_json] "TrendingService"
+  "TrendingService" -->[article_list] "Client"
+  "TrendingService" -->[map_of_article_list\nassemble_config] "AssembleAlgorithm"
+  "AssembleAlgorithm" --> [article_list] "TrendingService"
+
+  partition TestEnvironment {
+  "Article list 1\n in Hdfs folder 1" -->[load_by] "TestAssembleJenkinsJob"
+  "Article list 2\n in Hdfs folder 2" -->[load_by] "TestAssembleJenkinsJob"
+  "Issue article list 3\n in Hdfs folder 3" -->[load_by] "TestAssembleJenkinsJob"
+  "Assemble config" -->[load_by] "TestAssembleJenkinsJob"
+  "TestAssembleJenkinsJob" -->[map_of_article_list\nassemble_config] "AssembleAlgorithm"
+  "AssembleAlgorithm" --> [article_list] "TestAssembleJenkinsJob"
+  "TestAssembleJenkinsJob" --> [assembled\narticle_list] "Jenkins output page"
+  }
+  @enduml
+#+end_src
+
+#+results[6ad376b53ae1a3ed9a2692378b300762f961ffe5]: refactor.trending
+[[file:trending.2.design.png]]

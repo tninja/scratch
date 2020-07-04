@@ -1,0 +1,783 @@
+#+TITLE: simplicity
+#+DATE: <2020-07-04 Sat>
+#+AUTHOR: wikipedia以及其它网站
+
+* Wikipedia
+
+** Simplicity
+
+Simplicity is the state or quality of being simple. Something easy to understand or explain seems simple, in contrast to something complicated. Alternatively, as Herbert A. Simon suggests, something is simple or complex depending on the way we choose to describe it.[1] In some uses, the label "simplicity" can imply beauty, purity, or clarity. In other cases, the term may suggest a lack of nuance or complexity relative to what is required.
+
+The concept of simplicity is related to the field of epistemology and philosophy of science (e.g., in Occam's razor). Religions also reflect on simplicity with concepts such as divine simplicity. In human lifestyles, simplicity can denote freedom from excessive possessions or distractions, such as having a simple living style.
+
+*** Uncomplicated
+
+In some contextual uses, "simplicity" can imply beauty, purity, or clarity. In other cases, the term may have negative connotations, as when referring to people as simpletons.
+
+Simplicity is the greatest form of sophistication, to think simply is to understand the benefit of a simpler approach first. Like Sherlock Holmes "the simplest explanation is often the most plausible". When confronting a crime scene at face value. [2]
+
+*** In philosophy of science
+	
+This article needs attention from an expert in philosophy. Please add a reason or a talk parameter to this template to explain the issue with the article. WikiProject Philosophy may be able to help recruit an expert. (May 2018)
+
+The concept of simplicity has been related to in[clarification needed] the field of epistemology[clarification needed] and philosophy of science.[clarification needed]
+
+According to Occam's razor, all other things being equal, the simplest theory is most likely true. In other words, simplicity is a meta-scientific criterion by which scientists evaluate competing theories.
+
+A distinction is often made by many persons.[by whom?] between two senses of simplicity: syntactic simplicity (the number and complexity of hypotheses), and ontological simplicity (the number and complexity of things postulated). These two aspects of simplicity are often referred to as elegance and parsimony respectively.[3]
+
+John von Neumann defines simplicity as important esthetic criteria of scientific models:
+
+    [...] (scientific model) must satisfy certain esthetic criteria - that is, in relation to how much it describes, it must be rather simple. I think it is worth while insisting on these vague terms - for instance, on the use of word rather. One cannot tell exactly how "simple" simple is. [...] Simplicity is largely a matter of historical background, of previous conditioning, of antecedents, of customary procedures, and it is very much a function of what is explained by it.[4]
+
+*** In religion
+
+Simplicity is a theme in the Christian religion. According to St. Thomas Aquinas, God is infinitely simple. The Roman Catholic and Anglican religious orders of Franciscans also strive for personal simplicity. Members of the Religious Society of Friends (Quakers) practice the Testimony of Simplicity, which involves simplifying one's life to focus on what is important and disregard or avoid what is least important. Simplicity is tenet of Anabaptistism, and some Anabaptist groups like the Bruderhof, make an effort to live simply.[5][6]
+
+*** Lifestyle
+
+Main article: Simple living
+
+In the context of human lifestyle, simplicity can denote freedom from excessive material consumption and psychological distractions. 
+
+** Divine simplicity
+
+In theology, the doctrine of divine simplicity says that God is without parts. The general idea can be stated in this way: The being of God is identical to the "attributes" of God. Characteristics such as omnipresence, goodness, truth, eternity, etc., are identical to God's being, not qualities that make up that being, nor abstract entities inhering in God as in a substance; in other words we can say that in God both essence and existence are one and the same.[1]
+
+Varieties of the doctrine may be found in Jewish, Christian, and Muslim philosophical theologians, especially during the height of scholasticism, although the doctrine's origins may be traced back to ancient Greek thought, finding apotheosis in Plotinus' Enneads as the Simplex.[2][3][4]
+
+*** In Jewish thought
+
+See also: Tzimtzum, Negative theology § In the Jewish tradition, Jewish principles of faith, Free will in Theology § In Jewish thought, and Kuzari § Question of attributes
+
+In Jewish philosophy and in Kabbalah, divine simplicity is addressed via discussion of the attributes (תארים) of God, particularly by Jewish philosophers within the Muslim sphere of influence such as Saadia Gaon, Bahya ibn Paquda, Yehuda Halevi, and Maimonides, as well by Raabad III in Provence. A classic expression of this position is found in Maimonides' Guide to the Perplexed,[5]
+
+    If, however, you have a desire to rise to a higher state, viz., that of reflection, and truly to hold the conviction that God is One and possesses true unity, without admitting plurality or divisibility in any sense whatever, you must understand that God has no essential attribute in any form or in any sense whatever, and that the rejection of corporeality implies the rejection of essential attributes. Those who believe that God is One, and that He has many attributes, declare the unity with their lips, and assume plurality in their thoughts.
+
+According to Maimonides, then, there can be no plurality of faculties, moral dispositions, or essential attributes in God. Even to say that God is all-knowing, all-powerful, and all-good is to introduce plurality, if one means thereby that these qualities are separate attributes. Maimonides therefore concludes that it is not true to say that God's power is greater than ours, that God's life is more permanent than ours, or that God's knowledge is broader than ours. Maimonedes believed that statements such as "God lives" or "God is powerful" are nonsense if they are interpreted in the normal fashion, but they can be understood if one analyzes them as disguised negations. Still, Maimonedes also believed that negation is objectionable to the degree that it introduces complexity: God is neither this nor that, and ultimately any kind of verbal expression fails us. Citing Psalm 65, Maimonides concludes that the highest form of praise we can give God is silence.[6]
+
+Some[who?] identify divine simplicity as a corollary of Divine Creation: "In the beginning God created the heaven and the earth" (Genesis 1:1). God, as creator is by definition separate from the universe and thus free of any property (and hence an absolute unity); see Negative theology.
+
+For others, conversely, the axiom of Divine Unity (see Shema Yisrael) informs the understanding of divine simplicity. Bahya ibn Paquda (Duties of the Heart 1:8) points out that God's Oneness is "true oneness" (האחד האמת) as opposed to merely "circumstantial oneness" (האחד המקרי). He develops this idea to show that an entity which is truly one must be free of properties and thus indescribable – and unlike anything else. (Additionally such an entity would be absolutely unsubject to change, as well as utterly independent and the root of everything.) [1]
+
+The implication – of either approach – is so strong that the two concepts are often presented as synonymous: "God is not two or more entities, but a single entity of a oneness even more single and unique than any single thing in creation… He cannot be sub-divided into different parts — therefore, it is impossible for Him to be anything other than one. It is a positive commandment to know this, for it is written (Deuteronomy 6:4) '…the Lord is our God, the Lord is one'." (Maimonides, Mishneh Torah, Mada 1:7.)
+
+Despite its apparent simplicity, this concept is recognised as raising many difficulties. In particular, insofar as God's simplicity does not allow for any structure — even conceptually — divine simplicity appears to entail the following dichotomy.
+
+    On the one hand, God is absolutely simple, containing no element of form or structure, as above.
+    On the other hand, it is understood that God's essence contains every possible element of perfection: "The First Foundation is to believe in the existence of the Creator, blessed be He. This means that there exists a Being that is perfect (complete) in all ways and He is the cause of all else that exists." (Maimonides 13 principles of faith, First Principle).
+
+The resultant paradox is famously articulated by Moshe Chaim Luzzatto (Derekh Hashem I:1:5), describing the dichotomy as arising out of our inability to comprehend the idea of absolute unity:
+
+    God’s existence is absolutely simple, without combinations or additions of any kind. All perfections are found in Him in a perfectly simple manner. However, God does not entail separate domains — even though in truth there exist in God qualities which, within us, are separate… Indeed the true nature of His essence is that it is a single attribute, (yet) one that intrinsically encompasses everything that could be considered perfection. All perfection therefore exists in God, not as something added on to His existence, but as an integral part of His intrinsic identity… This is a concept that is very far from our ability to grasp and imagine…
+
+The Kabbalists address this paradox by explaining that “God created a spiritual dimension… [through which God] interacts with the Universe... It is this dimension which makes it possible for us to speak of God’s multifaceted relationship to the universe without violating the basic principle of His unity and simplicity” (Aryeh Kaplan, Innerspace). The Kabbalistic approach is explained in various Chassidic writings; see for example, Shaar Hayichud, below, for a detailed discussion.
+
+*** In Christian thought
+
+See also: Classical theism, Trinity, and Nontrinitarianism
+
+In Western Christian classical theism, God is simple, not composite, not made up of thing upon thing. Thomas Morris notes that divine simplicity can mean any or all of three different claims:
+
+ - God has no spatial parts (spatial simplicity).
+ - God has no temporal parts (temporal simplicity).
+ - God is without the sort of metaphysical complexity where God would have different parts which are distinct from himself (property simplicity).
+
+In other words, property simplicity (or metaphysical simplicity) states that the characteristics of God are not parts of God that together make up God. God is simple; God is those characteristics. For example, God does not have goodness but simply is goodness.
+
+Spatial simplicity is endorsed by the vast majority of traditional Christian theists (who do not consider God to be a physical object). Temporal simplicity is endorsed by many theists but is highly controversial among Christian theologians. Morris describes Property simplicity as the property of having no properties, and this area is more controversial still.[7]
+
+In the medieval era, theologians and philosophers held to a view called "constituent ontology" whereby natures were actual constituents of things. Following Aquinas, an individual nature was more like a concrete object than an abstract object. Thus, one person's humanity was not, in this sense, the same as another person's humanity; each had his own individual human nature which was individuated by the matter (materia signata) out of which each man was composed. For entities which are immaterial such as angels, there is no matter to individuate their natures, so each one just is its nature. Each angel is therefore literally one of a kind, although, this claim proved controversial.[8]
+
+Theologians holding the doctrine of property simplicity tend to distinguish various modes of the simple being of God by negating any notion of composition from the meaning of terms used to describe it. Thus, in quantitative or spatial terms, God is simple as opposed to being made up of pieces, present in entirety everywhere, if in fact present anywhere. In terms of essences, God is simple as opposed to being made up of form and matter, or body and soul, or mind and act, and so on. If distinctions are made when speaking of God's attributes, they are distinctions of the "modes" of God's being, rather than real or essential divisions. And so, in terms of subjects and accidents, as in the phrase "goodness of God", divine simplicity allows that there is a conceptual distinction between the person of God and the personal attribute of goodness, but the doctrine disallows that God's identity or "character" is dependent upon goodness, and at the same time the doctrine dictates that it is impossible to consider the goodness in which God participates separately from the goodness which God is.[citation needed]
+
+Furthermore, according to some[who?] [Kant, The Critique of Pure Reason?], as creatures our concepts are all drawn from the creation (the assumption of empiricism); it follows from this and divine simplicity that God's attributes can only be spoken of by analogy, since it is not true of any created thing that its properties are identical to its being. Consequently, when Christian Scripture is interpreted according to the guide of divine simplicity, when it says that God is good for example, it should be taken to speak of a likeness to goodness as found in humanity and referred to in human speech. God's essence is inexpressible; this likeness is nevertheless truly comparable to God who simply is goodness, because humanity is a complex being composed by God "in the image and likeness of God."[citation needed]
+
+**** Criticism
+
+The doctrine has been criticized by many Christian theologians, including John S. Feinberg, Thomas Morris, William Lane Craig, and Alvin Plantinga, who in his essay Does God Have a Nature? calls it "a dark saying indeed."[9] Plantinga gives three arguments against divine simplicity. First, he argues our concepts can apply univocally to God, even if our language to describe God is limited, fragmentary, halting, and inchoate.[10] He argues that when we have a concept of something like being a horse, we know what it is for something to be a horse. The concept applies to an object if that object is, in fact, a horse. If none of our concepts apply to God, then it is sheer confusion to say there is such a person as God, and yet God does not have properties such as wisdom, being the creator, and being almighty. In fact, God would not have any properties for which we have concepts. God would not even have properties such as existing, being self-identical, or even being the referent of the term 'God.' If God transcends human experience, then we cannot say something univocal about God, since such a claim presupposes that we know what it means to transcend human experience, and that it applies to God.
+
+The claim that God can only be described analogically is, as Plantinga describes, a double-edged sword. If we cannot use univocal language to describe God and argue against simplicity, we are equally handicapped when it comes to the arguments for divine simplicity. If we cannot rely on our usual modes of inference in reasoning about God, we cannot argue for the conclusion that God is not distinct from his properties. Plantinga concludes "This way of thinking begins in a pious and commendable concern for God's greatness and majesty and augustness, but it ends in agnosticism and in incoherence."[11]
+
+Plantinga also gives three criticisms of the doctrine of metaphysical simplicity directly, stating that it is exceedingly hard to grasp or construe the doctrine, and it is difficult to see why anyone would be inclined to accept it. First, the Thomist doctrine of simplicity states that all abstract objects are identical with God's essence and hence God himself. Plantinga states that this seems to clash with the obvious fact that the property of being a horse is distinct from the property of being a turkey and both are distinct from God and his essence.[12]
+
+Secondly, Plantinga argues, if one restricts the realm of abstract objects that are identical with God to only the properties that God exemplifies, the doctrine is still problematic. Metaphysical simplicity states that God has no accidental (i.e. contingent) properties. Yet, it clearly does seem that God has accidental properties such as having created Adam, and knowing that Adam sinned. Some of God's characteristics characterize him in every possible world and some do not.[13] Plantinga also argues that the conflation of God's actuality with his potentiality inherits all the problems of the essence-accident complexity and is furthermore vexed in its own right. Just as it seems there are characteristics that God has but could have lacked, it also seems the case that there are characteristics that God lacks but could have had. No doubt God has not created all the persons he will create. If so, there is at least one individual essence such that God does not now have, but will have the characteristic of causing that essence to be instantiated. If so, God has potentiality with respect to that characteristic.[14]
+
+Plantinga's third critique challenges the very heart of simplicity. Metaphysical simplicity claims that there is no divine composition, meaning that there is no complexity of properties in God and that he is identical with his nature and each of his properties. There are two difficulties with this view. First, if God is identical with each of his properties, then each of his properties is identical with each of his other properties, so God has only one property. This flies in the face of the idea that God has both power and mercifulness, neither of which is identical with the other. Secondly, if God is identical with his properties, then, since each of God's properties is a property, it follows that God is a property as well. In this case, God has just one property: himself. The problem is that properties do not in and of themselves cause anything. No property could have created the world, and no property could know anything at all. If God is a property, then he isn't a person but a mere abstract object, having no power, life, love, or even awareness.[15]
+
+Craig calls property simplicity "philosophically and theologically unacceptable." He also states that divine simplicity is open to powerful objections. On the doctrine of divine simplicity, God is absolutely similar in all possible worlds. Since the statement "God knows x" is equivalent to "x is true," it becomes inexplicable why those worlds vary if in every one God knows, loves, and wills the same things.[8] Morris states that it is an idea whose implications are difficult to defend and whose advantages can be had in other ways. It is also an idea whose motivation, under close scrutiny, is not so convincing.[16] John S. Feinberg concludes: "These philosophical problems plus the biblical considerations raised earlier lead me to conclude that simplicity is not one of the divine attributes. This doesn't mean that God has physical parts, but that the implications of the doctrine of metaphysical simplicity are too problematic to maintain the doctrine."[17]
+
+*** In Islamic thought
+
+Rigorous views of divine simplicity were championed by the Mu'tazili, which resulted in a radically apophatic theology. By postulating a distinction between Existence and Essence for all created beings, which was perceived to be uniquely absent in God, Al-Farabi established another model of divine simplicity. Ibn Sinā supported and elaborated this position, Al-Ghazali contested this identification of Divine essence and existence, but still saw all Divine attributes and acts as enveloped in and indistinct from the Divine Essence, this latter view of divine simplicity was shared with some of the most trenchant critics of the Muslim philosophical writers, like Ibn Taymiyyah.[18] 
+
+** Elegance
+
+Elegance is beauty that shows unusual effectiveness and simplicity.
+
+Elegance is frequently used as a standard of tastefulness, particularly in visual design, decorative arts, literature, science, and the aesthetics of mathematics.
+
+Elegant things often exhibit refined grace and suggest maturity, and in the case of mathematics, a deep understanding into the subject matter.[1][2]
+
+*** General concept
+
+Essential components of the concept include simplicity and consistency of design, focusing on the essential features of an object. In art of any kind one might also require dignified grace, or restrained beauty of style.
+
+Visual stimuli are frequently considered elegant, if a small number of colors and stimuli are used, emphasizing the remainder.[3]
+
+*** In philosophy of science
+
+In the philosophy of science, there are two concepts referring to two aspects of simplicity: elegance (syntactic simplicity), which means the number and complexity of hypotheses, and parsimony (ontological simplicity), which is the number and complexity of things postulated.[4]
+
+*** In mathematics
+
+In mathematical problem solving, the solution to a problem (such as a proof of a mathematical theorem) exhibits mathematical elegance if it is surprisingly simple and insightful yet effective and constructive. Such solutions might involve a minimal amount of assumptions and computations, while outlining an approach that is highly generalizable.[1] Similarly, a computer program or algorithm is elegant if it uses a small amount of code to great effect.[5][6]
+
+*** In engineering
+
+In engineering, a solution may be considered elegant if it uses a non-obvious method to produce a solution which is highly effective and simple. An elegant solution may solve multiple problems at once, especially problems that are not thought to be inter-related.[7] Elegance can arguably be measured for engineering problems as the ratio of problem complexity to that of solution complexity.[8] Thus a simple (low complexity) solution to a problem of high complexity is seen as elegant. This measure does not advise of process to produce elegant solutions, and is merely a way of comparing between multiple solutions for elegance assessment.
+
+*** In chemistry
+
+In chemistry, chemists might look for elegance in theory, method, technique and procedure. For example, elegance might comprise creative parsimony and versatility in the utilization of resources, in the manipulation of materials, and in the effectiveness in syntheses and analysis.
+
+*** In pharmacy
+
+In pharmacy, elegance in formulation is important for quality as well as for effectiveness in dosage form design, a major component of pharmaceutics. 
+
+** 简单生活
+
+简单生活（Simple living），或译简朴生活、简易生活、简约生活、自求简朴（Voluntary simplicity）等，是一种极力减少追求财富及消费的生活风格。其追随者奉行简单生活的原因各有不同，如灵性、健康、增加与家人和朋友相处的宝贵时光、降低压力、个人喜好或崇尚俭朴。
+
+其他人所提出的社会或政治目标符合反消费主义运动，包括保育伦理、社会正义和可持续发展。杜安·艾尔金曾说：“我们可以将自求简朴称为一种外在越俭朴，内心越富有的生活方式，一种最真实、最活生生的方式，带给我们与生活直接且有意识的接触。”[1]
+
+简单生活作为一种概念，有别于那种受迫于贫困的生活，是一种自愿选择的生活方式。虽然禁欲主义也宣扬简朴的生活，抛弃奢侈与放纵，但不是所有简单生活的追随者都是禁欲主义者。
+
+*** 历史
+
+“自求简朴”的发展与禁欲主义息息相关，最早可追溯自印度铁器时代的沙门。释迦牟尼和圣经中的拿细耳人（尤其是圣若翰洗者）是早期禁欲主义者。许多著名人物曾表示心灵上的激励使他们崇尚简单生活的生活型态，如圣方济各[2]、艾蒙·汉纳西（Ammon Hennacy）、泰戈尔和圣雄甘地。
+
+雅典哲学家伊比鸠鲁所提倡的伊比鸠鲁主义在公元前4世纪至公元3世纪间十分兴盛。伊比鸠鲁主义主张无忧无虑的生活为快乐的典范，要借由仔细选择与逃避来达成。伊比鸠鲁特别指出，维持奢侈生活所引起的烦恼比所得到的快乐还要多。因此，他做出结论，快乐的必要条件是生理上的舒适以及维持最低花费的生活，而其他事物则应该减少或避免。[3]
+
+震教徒、门诺会、阿米希人、哈摩尼协会（Harmony Society）等宗教团体和部分贵格会以宗教或哲学理由，实行（某种形式上）排除财富和科技的生活方式，已有数个世纪之久。
+
+北美博物学家及作家梭罗在1854年的《湖滨散记》，被视为是提倡简朴与可持续生活的著名无宗派著作。英国维多利亚时代的亨利·史蒂文斯·索尔特（Henry Stephens Salt），梭罗的崇拜者，提倡“简朴－较理智的生活方式”。[4]英国其他的简单生活提倡者有艾德华·卡本特（Edward Carpenter）、威廉·莫里斯和新生活联谊会（The Fellowship of the New Life）的成员。[5]查尔斯·罗伯特·阿什比（C.R. Ashbee）和其追随者也实践这些想法，因此将简单生活的概念与工艺美术运动连结在一起。[6]英国小说家约翰·考柏·波伊斯（John Cowper Powys）在1933年的著作《A Philosophy of Solitude》中提倡简单生活。[7][8]
+
+博物学家、矿物学家、发展评论家（Development criticism）、作家、艺术家乔治·罗伦佐·诺伊斯（George Lorenzo Noyes）过着荒野生活，他以简单生活提倡可持续生活和对自然的敬畏。在1920和1930年代，美国南部的南方重农派（Southern Agrarians）主张以传统且可持续性的农业价值为中心的生活型态与文化，反对当时统治西方的都市工业主义。
+
+从1920年代到1960年代，一些著名的现代作家皆阐述简单生活的理论与实践，如理查·葛瑞格（Richard Gregg）、经济学家拉尔夫·柏索迪（Ralph Borsodi）和史考特·聂尔宁（Scott Nearing）、人类学诗人盖瑞·施耐德，和乌托邦小说作家欧尼斯特·克伦巴（Ernest Callenbach）。葛瑞格在1936年推出著作《The Value of Voluntary Simplicity》，数十年后，杜安·艾尔金在1981年出版影响深远的《自求简朴》。今日美国与加拿大的生态无政府主义团体宣扬简朴的生活形式。英国的慈悲生活运动（Movement for Compassionate Living）主张不使用动物制品，宣传简单生活与自立更生，作为剥削人类、动物与地球的补救措施。
+
+*** 实践
+
+有些人实践自求简朴，以降低购买物品或服务的需求，进而减少以时间换取金钱。有些人会将多出来的空闲时间留给家庭或其他人。其他人则用来提升生活品质，例如追求艺术或手工艺等创造性活动。克伦巴在1972年的非小说类书籍《Living Poor with Style》中检视了这些选择背后的哲学理念。另外，书中有数百页内容是简单生活的技巧与指南，提供给自愿或非自愿的实践者。
+阿米什人使用马车、不用电和自来水的村庄。
+法国设计师的极简屋，使用最少太阳能和人力电。
+
+另一个方式是专注在购买与消费的根本动机。[9]虽然我们所处的社会，时常追求购买快乐，但唯物主义却常常无法满足我们，反而增加生活的压力。有人说：“赚钱与事物的堆积，不应该扼杀我们灵魂的纯净、心灵的生活、家庭的凝聚或社会的良善。”[10]
+
+1995年成立的英国“全国慢生活周”（National Downshifting Week）是一个草根式的宣传活动，鼓励参加者“积极拥抱简朴的生活”。活动发起人，英国作家，及慢生活（Downshifting）和可持续生活宣传者崔西·史密斯（Tracey Smith）曾说：“你花越多钱，你就必须花更多时间去赚取金钱，而你就越没有时间去做自己想做的事。”“全国减速生活周”鼓励参加者“减速与绿化”（Slow Down and Green Up），还有一份对个人、企业、儿童和学校的建议清单，以助于采纳绿色或有益于生态的政策或习惯，发展公共场所的全体社会与环境责任，并分别创立工作的生态协议和全国课程。
+
+另一个实践方式是采取简化的饮食。像是生素食主义等饮食方式可简化国内食物生产与消费。
+
+*** 现代范例和实验
+
+密歇根大学英语文学系的新英格兰文学课程（New England Literature Program）是一个试验性的文学与写作课程，始于1970年代，由艾伦·豪斯（Alan Howes）和华特·克拉克（Walter Clark）教授所设立。他们采用了梭罗对于自然、自主与社区的理想而创立这个学术课程。今日，学生在缅因州雷蒙塞巴哥湖（Sebago Lake）研读梭罗和其他19到20世纪的新英格兰作家的著作。选修此课程的学生必须承诺在这段期间不接触毒品与酒，生活中也不能使用手机或电脑，电力与热源的使用须降至最低，作为他们的经验与研究新英格兰文学、历史与文化的一部分。
+
+*** 政治
+
+许多绿党也主张自求简朴。因此，他们在政策上反对基因改造、核能和其它他们认为有危险的科技。绿人支持简朴是建立在减少使用自然资源和降低环境的影响上。这概念体现在克伦巴所提，由生态、节俭和健康所构成的“绿三角”（Green triangle）中。
+
+许多类似观点并未纳入绿色政治之中，转而支持绿色无政府主义，试图在较小的规模上实现信念，如生态村。并且时常批评全球化为帝国主义或新自由主义式的“新殖民主义”。
+
+经济成长与为了控制、开采自然或人力资源的战争之间的关连，被认为是宣传简单生活的好理由。避免助长“资源诅咒”（Resource curse）也是许多简单生活追随者的目标。部分人为了减少税务负担而采取简单生活。[11]
+
+*** 科技
+
+虽然简单生活常属于世俗上的追求，但仍须重新思考个人对“适当科技”的定义，如同阿米希人和门诺会等再洗礼派所作的。避免使用现代科技的人常被认为是卢德运动或新卢德主义（Neo-Luddism）的追随者。[12]
+
+实践简单生活的人，对于科技所扮演的角色有多样的见解。像是柯克帕特里克·塞尔等人强力抨击科技[12]，而有些人将网络视为未来的简单生活中的关键要素，包括透过远距工作减少个人的碳足印和降低对纸张的依赖。自求简朴可能会使用高科技要素，像是电脑、网络、太阳能板、风力发动机和水轮发电机，以及其他让简单生活在主流文化中更容易且更有可持续性的尖端科技。
+
+食物里程（Food miles）意指食材从农场到餐桌上所经过的路途长度。简单生活采纳其概念，支持本地生产的食物。这想法目前已获得民众的赞同，造成《百哩饮食》（The 100-Mile Diet）和芭芭拉·金索夫（Barbara Kingsolver）的《自耕自食·奇迹的一年》等书籍的热卖。这两本书的作者花了一年的时间，借由食用当地食物减少了他们的碳足迹。[13]
+
+广告被批评为激励民众消费主义的心态。许多自求简朴的提倡者同意停止或减少收看电视是简单生活的关键要素。一些人将网络、播客、社区电台和地下电台视为可替代的选择。
+
+*** 经济
+
+从1972年联合国环境会议后，新经济运动兴起。[14]《只有一个地球》、《增长的极限》和《生存蓝图》于同年出版，《小即是美－以人为念的经济学》在隔年发行。[15]
+
+最近，大卫·汪（David Wann）引进了“简单繁荣”（Simple prosperity）的概念，可用于可持续性生活中。根据他的观点，以及作为（他称为）真正可持续性的出发点：“重要的是要问自己三个基本问题：我们通勤和消费是为了什么？经济为的是什么？最后，为什么我们现在比当初开始追求富足时更不快乐？”[16]因此，简单生活反对现代对富裕的追求，以至于不再专注于数量，而是注重城市、传统和自然的保存。
+
+詹姆士·罗伯森（James Robertson）的“永续发展的新经济”（A New Economics of Sustainable Development）有涉及到新经济的观点。[15]根据罗伯森的说法，要转移至可持续性，需要广泛地从增加收入移转至减少支出。
+
+罗伯森所设立的新经济的原则有：
+
+ - 有系统地赋与人权力（反对依赖），作为以人为中心发展的基础。
+ - 有系统地保存资源和环境，作为环境方面持续性发展的基础。
+ - 从“国家财富”的模型进化到世界一体的模型，从今日的国内经济进化成生态永续、分权、多层次的单一世界经济系统。
+ - 恢复政治与伦理在经济生活和思想的中心地位。
+ - 尊重品质的价值，而不只是数量的价值。
+ - 尊重女性价值，而不只是男性价值。[15]
+
+** Wikiquote
+  
+Simplicity is the property, condition, or quality of being simple or un-combined. It often denotes beauty, purity, or clarity. Simple things are usually easier to explain and understand than complicated ones. It is also a term used to denote candor, guilelessness, innocence, straightforwardness, and freedom from duplicity.
+
+*** Quotes
+
+    Alphabetized by author or source
+
+- Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art. ~ Frédéric Chopin
+- Simplicity is the keynote of all true elegance. ~ Coco Chanel
+- The rose has told In one simplicity. That never life Relinquishes a bloom But to bestow An ancient confidence.~ Nathalia Crane
+- If our love were but more simple,
+- We should take Him at His word;
+- And our lives would be all sunshine
+- In the sweetness of the Lord. ~ Frederick William Faber
+- Nature has a great simplicity and, therefore, a great beauty. ~ Richard Feynman
+- Plurality ought never be posited without necessity. ~ William of Occam
+- Human subtlety...will never devise an invention more beautiful, more simple or more direct than does nature, because in her inventions nothing is lacking, and nothing is superfluous. ~ Leonardo da Vinci
+
+    Simplicity is the most deceitful mistress that ever betrayed man.
+        Henry Adams, The Education of Henry Adams (1907).
+
+    Do nothing but what is necessary. ... By this rule a man has the double pleasure of making his actions good and few into the bargain. For the greater part of what we say and do, being unnecessary, if this were but taken away, we should have both more leisure and less disturbance. And therefore before a man sets forward, he should ask himself this question, "Am I not upon the verge of something unnecessary?"
+        Marcus Aurelius Antonius, Meditations, Book 4
+
+    Clancy got a very simple view of the world. Good versus evil. Evil seems to get the upper hand. Good triumphs with vastly superior automatic weapons!
+        Bill Bailey, as quoted in "Spooks, Kooks, Spies and Lies" by Les Marcott in Scene4 Magazine (May 2007).
+
+    'Tis the gift to be simple, 'tis the gift to be free.
+        Joseph Brackett, Simple Gifts (1848).
+
+    When true simplicity is gain'd
+    To bow and to bend we shan't be asham'd,
+    To turn, turn will be our delight
+    'Till by turning, turning we come round right.
+        Joseph Brackett, Simple Gifts (1848).
+
+    I was particularly won over by his sweet disposition, by his general kindness, by his simplicity, and by his friendliness.
+        Louis de Broglie, on the character of Albert Einstein, New Perspectives in Physics, p. 182.
+
+    Less is more.
+        Robert Browning, Andrea del Sarto (1855) Also utilized by Ludwig Mies van der Rohe as precept for minimalist architecture
+
+    Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art.
+        Frédéric Chopin, as quoted in If Not God, Then What? (2007) by Joshua Fost, p. 93.
+
+    Simplicity is the keynote of all true elegance.
+        Coco Chanel, interview in Harper's Bazaar (1923).
+
+    Simplify, then add lightness
+        Colin Chapman, Lotus philosophy
+
+    The rose has told In one simplicity.
+    That never life
+    Relinquishes a bloom
+    But to bestow
+    An ancient confidence.
+        Nathalia Crane, "Tadmore", Venus Invisible and Other Poems (1928).
+
+    Simplicity is the shortest path to a solution.
+        Ward Cunningham, "The Simplest Thing that Could Possibly Work" (19 January 2004).
+
+    Simplicity is prerequisite for reliability.
+        Edsger W. Dijkstra, How do we tell truths that might hurt? (1975).
+
+    Everything should be made as simple as possible, but no simpler.
+        Attributed to Albert Einstein. Possibly paraphrased from remarks in "On the Method of Theoretical Physics", Herbert Spencer Lecture, Oxford (10 June 1933), Philosophy of Science, Vol. 1, No. 2 (April 1934), pp. 163-169, p. 165.
+
+    My views are near to those of Spinoza: admiration for the beauty of and belief in the logical simplicity of the order and harmony which we can grasp humbly and only imperfectly. I believe that we have to content ourselves with our imperfect knowledge and understanding and treat values and moral obligations as a purely human problem — the most important of all human problems.
+        Albert Einstein, in a letter to Murray W. Gross (26 April 1947), quoted in Einstein and Religion (1999).
+
+    What I'm really interested in is whether God could have made the world in a different way; that is, whether the necessity of logical simplicity leaves any freedom at all.
+        Albert Einstein, as quoted by Erner Gabor Strauss, his assistant from 1944 - 1948, as translated in The Scientific Imagination: Case Studies (1978) by Gerald Holton, p. xii.
+        Variant translation: What I am really interested in is knowing whether God could have created the world in a different way; in other words, whether the requirement of logical simplicity admits a margin of freedom.
+            As quoted in Einstein and Religion (1999) by Max Jammer, p. 124.
+
+    I am very conscious of the fact that our feelings and strivings are often contradictory and obscure and that they cannot be expressed in easy and simple formulas.
+        Albert Einstein, Why Socialism? (1949)
+
+    Nothing is more simple than greatness; indeed, to be simple is to be great.
+        Ralph Waldo Emerson, Literary Ethics (1838).
+
+    Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher.
+        It seems that perfection is attained not when there is nothing more to add, but when there is nothing more to remove.
+        Antoine de Saint Exupéry, L'Avion
+        Variant translations:
+        Perfection is finally attained not when there is no longer anything to add, but when there is no longer anything to take away.
+            As translated by Lewis Galantière
+        Perfection is attained not when no more can be added, but when no more can be removed.
+
+    Nature has a great simplicity and, therefore, a great beauty.
+        Richard Feynman, The Character of Physical Law.
+
+    Generally nature hangs out a sign of simplicity in the face of a fool.
+        Thomas Fuller, The Holy State and the Profane State (1642), Of Natural Fools, Maxim I.
+
+    Anselm: Stop being so God Damn humble … You know God damn well that … that humility is defiance … simplicity today is sophisticated … simplicity is the ultimate sophistication today.
+        William Gaddis, The Recognitions (1955) p. 457; "Simplicity is the ultimate sophistication" was also used as an early slogan at Apple Computer in 1977 (introduction of the Apple II personal computer), and has also been attributed to Leonardo Da Vinci, but no published occurrence of such an attribution has yet been located prior to one in Wisdom Through the Ages : Book Two (2003) by Helen Granat, p. 225.
+
+    In a country as hot as India, a person really requires very few essentials in order to live: one vegetarian meal a day, bread rice, vegetables and lentils, two pieces of clothing to wear, a mat, a blanket, a lota, a water container - just enough to fulfill our bodily requirements. In fact, we don't have a bathroom, shower or toilet here but have to go down to the river to wash, and for everything else we squat among the stones. Cooking takes place outside on an open fire and we sleep on the floor, tucked up on a mat in any place we can find. There is no need for shoes, for it is better to walk barefoot, nor a suitcase because it is sufficient to wrap one's clothes up in a bundle. Mother India is a great teacher of simplicity.
+        Gaura Devi (2001). Fire of Transformation. My life with Babaji. P. 74
+
+    To me more dear, congenial to my heart,
+    One native charm, than all the gloss of art.
+        Oliver Goldsmith, The Deserted Village (1770), line 253.
+
+    All religions are incorporated in the principle of Truth, Simplicity and Love.
+        Haidakhan Babaji, The Teachings of Babaji, 25 December 1981.
+
+    Keep it simple, stupid.
+        Kelly Johnson, KISS principle reported in Ben R. Rich, Clarence Leonard (Kelly) Johnson 1910—1990: A Biographical Memoir (1995), National Academy of Sciences.
+
+    The greatest truths are the simplest: and so are the greatest men.
+        J. C. and A. W. Hare, Guesses at Truth; reported in Hoyt's New Cyclopedia Of Practical Quotations (1922), p. 710.
+
+    Christianity does not proceed from the simple in order then to become interesting, witty, profound, a poet, a philosopher, etc. No it is just the opposite: here one begins and then becomes more and more simple, arrives at the simple.
+        The Point of View On My Work As An Author by Soren Kierkegaard (finished 1848) published by Peter Christian Kierkegaard 1859 translated by Howard and Edna Hong 1998 Princeton University Press P. 7
+
+    If you wish to be like a little child, study what a little child could understand — nature; and do what a little child could do — love.
+        Charles Kingsley, in notes of August 1842, published in Charles Kingsley : His Letters and Memories of His Life (1883) edited by Frances Eliza Grenfell Kingsley, p. 65.
+
+    To gain freedom is to gain simplicity.
+        Joan Miró, Joan Miró Foundation[specific citation needed]
+
+    Numquam ponenda est pluralitas sine necessitate.
+        Plurality ought never be posited without necessity.
+        William of Occam, Quaestiones et decisiones in quattuor libros Sententiarum Petri Lombardi (ed. Lugd., 1495), i, dist. 27, qu. 2, K.
+        Commonly paraphrased as Occam's razor:
+            Entia non sunt multiplicanda praeter necessitatem.
+                Entities should not be multiplied beyond necessity.
+
+    I would have written a shorter letter, but I did not have the time.
+        Blaise Pascal in Provincial Letters: Letter XVI; similar statements have been attributed to Mark Twain, T.S. Eliot, Cicero, and others besides.
+
+    If you can't reduce a difficult engineering problem to just one 8-1/2 x 11-inch sheet of paper, you will probably never understand it.
+        Ralph Brazelton Peck, as quoted in Ralph B. Peck, Educator and Engineer — The Essence of the Man (2007) by John Dunnicliff and Nancy Peck Young, p. 114.
+
+    Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
+        Alan Perlis, Epigrams in Programming.
+
+    Beauty of style and harmony and grace and good rhythm depend on simplicity—I mean the true simplicity of a rightly and nobly ordered mind and character, not that other simplicity which is only a euphemism for folly.
+        Plato, The Republic, Book 3
+
+    Simplicity — the art of maximizing the amount of work not done — is essential.
+        Principles behind the Agile Manifesto (2001).
+
+    Meryon succeeded in reaching the heights of his art, and achieved both splendour and simplicity through breadth of vision allied to technical skill.
+        Claude Roger-Marx, Graphic Art : The 19th Century (1962), p. 86.
+
+    Kirk: The more complex the mind, the greater the need for the simplicity of play.
+        Theodore Sturgeon, "Shore Leave", Star Trek: The Original Series, December 29, 1966.
+
+    I do not dispute that arguments should be simplified to their maximum... but people often confuse complex ideas that cannot be simplified into a media-friendly statement as symptomatic of a confused mind. ...MBAs tend to blow up in financial markets, as they are trained to simplify... beyond... requirement. (...I am myself the unhappy holder of the degree.)
+        Nassim Nicholas Taleb, Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (2001) Two: A Bizarre Accounting Method | George Will is No Solon: On Counterintuitive Truths | Humiliated in Debates
+
+    [S]implicity is not so simple to attain.
+        Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (2012) Prologue, p. 11.
+
+    Our life is frittered away by detail. … Simplicity, simplicity, simplicity! I say, let your affairs be as two or three, and not a hundred or a thousand; instead of a million count half a dozen, and keep your accounts on your thumb-nail. … Simplify, simplify.
+        Henry David Thoreau, Walden (1854), Ch. 2 : Where I Lived, and What I Lived For.
+
+    Human subtlety...will never devise an invention more beautiful, more simple or more direct than does nature, because in her inventions nothing is lacking, and nothing is superfluous.
+        Leonardo da Vinci, The Notebooks of Leonardo da Vinci.
+
+    Simplicity is a state of mind.
+        Charles Wagner, Simple Life (1895), Chapter II.
+
+    A man is simple when his chief care is the wish to be what he ought to be, that is honestly and naturally human.
+        Charles Wagner, Simple Life (1895), Chapter II.
+
+    Humanity lives and always has lived on certain elemental provisions.
+        Charles Wagner, Simple Life (1895), Chapter III.
+
+*** Dictionary of Burning Words of Brilliant Writers (1895)
+
+    Quotes reported in Josiah Hotchkiss Gilbert, Dictionary of Burning Words of Brilliant Writers (1895).
+
+    If our love were but more simple,
+    We should take Him at His word;
+    And our lives would be all sunshine
+    In the sweetness of the Lord.
+        Frederick William Faber, p. 545.
+
+    "Blessed are the poor in spirit." Blessed are they who are stripped of every thing, even of their own wills, that they may no longer belong to themselves.
+        François Fénelon, p. 544.
+
+    God would behold in you a simplicity which will contain so much the more of His wisdom as it contains less of your own.
+        François Fénelon, p. 544.
+
+    As to our friend, I pray God to bestow upon him a simplicity that shall give him peace. Happy are they indeed who can bear their sufferings in the enjoyment of this simple peace and perfect acquiesence in the will of God.
+        François Fénelon, p. 545.
+
+    True simplicity regards God alone; it has its eye fixed upon Him, and is not drawn toward self; and it is as pleased to say humble as great things. All our uneasy feelings and reflections arise from self-love, whatever appearance of piety they may assume. The lack of simplicity inflicts many wounds. Go where we will, if we remain in ourselves, we shall carry everywhere our sins and our distresses. If we would live in peace, we must lose sight of self, and rest in the infinite and unchangeable God.
+        Madame Guyon, p. 544.
+
+    Simplicity and purity are the two wings by which a man is lifted above all earthly things. Simplicity is in the intention — purity in the affection. Simplicity tends to God,— purity apprehends and tastes Him.
+        Thomas à Kempis, p. 545.
+
+    He sows June fields with clover, and the world
+    Broadcasts with little common kindnesses.
+    The plain good souls He sends us, who fulfill
+    Life's homely duties in the daily path
+    With cheerful heart, ambitious of no more
+    Than to supply the wants of friend and kin,
+    Yet serve God's higher love to human hearts;
+    Giving a secret sweetness to the home,
+    The hidden fragrance of a kindly heart,
+    The simple beauty of a useful life,
+    That never dazzles, and that never tires.
+        Samuel Longfellow, p. 544.
+
+    Simpler manners, purer lives; more self-denial; more earnest sympathy with the classes that lie below us, nothing short of that can lay the foundations of the Christianity which is to be hereafter, deep and broad.
+        Frederick William Robertson, p. 545.
+
+** Wikiversity
+
+*** Introduction
+
+Simplicity is the virtue of removing the unrelated things to reveal the essence. Simplicity is the direct alignment with reality and it is the opposite of false and its various manifestations including pretension, prevarication, bloviating, masquerading, exaggeration, denial, grandiloquence, falsehood, or misunderstanding.[1] Simplicity is the opposite of excess, and its various manifestations including opulence, extravagance, gaudiness, ostentatiousness, and waste. Simplicity is also the opposite of indirect, and its various manifestations including oblique, roundabout, convoluted, devious, and circuitous. Simplicity fully enjoys the magnificent essence it has revealed.
+
+Simplicity is not simple-mindedness, nor is it simplistic. Simplicity grasps the essence that organizes what is apparently complex. It reveals an elegance that often is only understood after examining and comprehending immense complexity. Simplistic ideas are false because they take invalid short-cuts that misrepresent the complexities, subtleties, and full scope of reality.
+
+Because we value simplicity we find humor in the Rube Goldberg machine.
+
+“Everything is both simpler that we can imagine,” says Goethe, “and more entangled that we can conceive.”[2]
+
+Simplicity is not about a life of poverty, but a life of purpose.[3] It is not asceticism it is authenticity.
+
+In choosing between two plausible theories, scientists generally favor the simpler one. According to Occam's razor, all other things being equal, the simplest theory is the most likely to be true. The similar concept of parsimony is used in philosophy of science. The simpler explanation of a phenomenon is more highly valued.
+
+*** The Virtue of Simplicity
+
+Simplicity reveals what is directly without pretense or exaggeration. It is a mean between excess and deficiency. Paraphrasing Albert Einstein, “Everything should be made as simple as possible, but no simpler.”
+
+*** Everyday Simplicity
+
+Practice the virtue of simplicity every day in these ways:
+
+- Truth is simple, lies and cover-ups are complex. Speak directly, candidly, and straightforwardly.
+- Acceptance is simple (but not often easy), denial is complex. Embrace what is.
+- Think clearly, and then speak clearly. Speak less while saying more.
+- Making excuses is complex, doing what you say you will do is simple.
+- Avoid jewelry, elaborate makeup or hairstyling, tattoos, body piercings, and pretentious fashions. Dress and groom simply.
+- Eschew obfuscation!
+- Remove the obvious, add the meaningful. [4]
+- Simplify bureaucracies to focus on adding value while reducing activity.
+- Eat food, not too much, mostly plants. [5]
+- Shed your burdens and distractions.
+- Resolve destructive emotions, and overcome addictions.
+- Clean out your closets, attic, basement, and garage.[6]
+- Value silence and sanctuary. Create silence in your life and take time to enjoy it. Lean to quiet your mind.
+- Actively listen to great music.
+- Walk more, drive less.
+- Fix it yourself rather than calling the plumber, gardener, or handyman.
+- Want what you have. Focus on what matters.
+- Align your worldview to correspond with the real world as it truly is. Adopt a global perspective.
+  - Transcend dogma.
+- Embrace who you are; explore the essence of “I am” Unmask your True Self.
+
+You may choose to evolve toward Voluntary simplicity which is a way of living that is outwardly simple and inwardly rich. [7]
+
+Simplicity is surprisingly difficult. You may have to progress toward many of the virtues listed earlier to prepare yourself for simplicity.
+
+*** Assignment
+
+- Part 1: Examine your beliefs, speech, habits, clothing, jewelry, furnishings, and other possessions to identify any that are pretentious, ostentatious, false, extraneous, cumbersome, obsolete, or merely clutter.
+
+- Part 2: Decide how you can improve your life by removing something you are holding onto.
+
+- Part 3: Do so!
+
+- Part 4: Pledge to make “no excuses” for your behavior over the next week or month. Notice if this helps move you toward simplicity. Note, we are not suggesting a moratorium on sincere apology, instead if your habit is to arrive late to the meeting, smile awkwardly, and make up some flimsy excuse, try simply arriving on time. 
+
+* C2
+
+** Do The Simplest Thing That Could Possibly Work
+   
+- (if you're not sure what to do yet) Beware: The history and therefore meaning of this phrase is lost on many people who wield it. The 'if you're not sure what to do yet' part tends to be forgotten. See: http://www.artima.com/intv/simplest3.html
+
+Particularly:
+
+I think the advice got turned into a command: "Do the simplest thing that could possibly work." That's a little more confusing, because there isn't this notion that as soon as you've done it, we'll evaluate it. People ask, "Well, how do you know it's the simplest?" In my case, we didn't know. We were just going to get it on the screen and look at it. But as soon as it becomes a command, then we have to analyze it and ask, "Is that the simplest?" And all of a sudden it becomes complicated. What is or isn't simple?
+
+Please note that the article quoted is ten years old (from 2004) and mentions Smalltalk as a primary driver for a lot of the experimentation done by the principles working on the project. Software engineering has come a long way in the last decade. "All that is complex is not useful. All that is useful is simple." -- MikhailKalashnikov Resist being so greedy when seeking the 'simplest' thing today that the 'simplest thing' tomorrow becomes AddingEpicycles. DoSimpleThings in ExtremeProgramming. This enables design via two rules:
+
+First, implement a new capability in the simplest [SimplestOrEasiest?] way you can think of that "could possibly work". Don't build a lot of amazing superstructure, don't do anything fancy, just put it in. Use an if statement, even. Make the code pass the UnitTests for the new feature (and all features, as always).
+
+Second, and this is critical to the rule, refactor the system to be the simplest possible code including all the features it now has. Follow the rule of OnceAndOnlyOnce and the other code quality rules to make the system as clean as it can possibly be.
+
+With each increment of an IterativeDevelopment, one should do the simplest thing that could possibly work. To do this, you have to know at least two ways to do the thing. That way, you can at least pick the simpler, if not the simplest.
+
+Know that the ways could possibly work. We do not mean will work, we mean could possibly work. You need to be pretty sure it will work, but you don't have to prove it. Why? Because when you try to implement it, your implementation will tell you whether it does work. Your tests will run, or they won't. It will feel good, or it won't. (Contrast this with the EinsteinPrinciple.)
+
+We're not looking for the quickest way; we're looking for the simplest result. So, we first break the existing method into pieces. That leaves the existing test cases running. Then we modify (simply, now) one of the little methods to handle the next test case. (KB)
+
+Occam's razor. (JWRC)
+
+Simplest does, however, mean a minimal solution. Don't build a giant super-efficient object, sorted and hashed and linked together, if an Array will do the job.
+
+Simplest might mean "just use a Dictionary". It might mean "create a little object". It might mean "refactor the part hierarchy so that entitlements and deductions both have positive balance when they are normal".
+
+What it does mean, however, is to pick something you can do and do quickly, so that you can get on with the other things you really need to do. Then do that thing professionally and well, complete with all appropriate refactoring.
+
+As for the things you're gonna need: YouArentGonnaNeedIt. [But don't forget when YouAreGonnaNeedIt.]
+
+One final note: ExtremeProgramming rests, I believe, on the assumption that developers want to do well, and that when they know what is expected, they will do well. We do, as a team, require that our rules about testing and other key processes be followed. In almost every case, that works just fine. If a developer doesn't follow the rules, we correct or remove them.
+
+    <humour>The developer? Or the rules?</humour> 
+
+Combine the SimplestThingThatCouldPossiblyWork with extremely broad-spectrum goals and you get a UnifiedModelOfEverything. Remember that you can't make anything simple (or, more accurately, simplest) until you fully understand it; therefore, to truly DoTheSimplestThingThatCouldPossiblyWork, you need to know everything there is to know about the problem, which means BigResearchUpFront. However, what most people think or intend when they hear or say "DoTheSimplestThingThatCouldPossiblyWork" is: take the simplest approach you can think (right now!) for solving the immediate problem, paying no attention to how a simple solution to the immediate problem might affect the overall complexity of the surrounding context. I.e. it references a greedy heuristic for creating a plan by taking a bunch of 'simple steps', despite the fact that all those simple steps might ultimately form a path that is considerably more complex and potentially far less efficient than doing a bit of BigDesignUpFront and either scaling the daunting walls or blasting straight through the mountain. This is often combined with refactoring to some good effect, as abstractions and simplifications arise from the morass of greedily written code. However, the 'SimplestThingThatCouldPossiblyWork' almost never involves writing a BoostLibrary or inventing and implementing a DataModel or creating an entirely new programming language before you start on the core of your project, no matter how much simpler your overall project (including the associated complexities of the pre-implementation labor) becomes after having implemented it.
+
+There is great beauty and elegance in SimpleThings, but those who scoff at BigDesignUpFront, arguing YouArentGonnaNeedIt, would never see it - at least not without the aide of giants with big thoughts and bigger designs. YouArentGonnaNeedIt won't ever get a compiler built. That said, once the big design is running and simplifies everything else, the YouArentGonnaNeedIt guys will grab it and run because that becomes the SimplestThingThatCouldPossiblyWork.
+
+Of course, there are other reasons for DoTheSimplestThingThatCouldPossiblyWork in the greedy fashion typically intended by use of the phrase. From a management perspective, it is far easier to parallelize than is BigDesignUpFront. Giants with big thoughts and bigger designs tend to be singular, slow entities that often can and are willing to take years to get everything right. One cannot allow programmers to wait on these behemoths, no matter how world-shaking their creations may become. And management should be doubly wary of supposed 'great designs' after considering the false positives - the consultants and the charlatans, the people who believe they are movers and shakers (possessing an ego that could battle any giant bloody) and those who just want you to believe that they are. Either of them will sell you snake-oil in a cellophane package (though only the charlatans will actually know they're doing so). There are second order effects to asking yourself "What is the simplest thing that could possibly work?" -- KentBeck
+
+    You get done sooner
+
+    Your work is easier to communicate
+
+    Duplication is obvious, so the needs and means for refactoring are clearer
+
+    Tests are easier to write
+
+    The code is easier to performance tune Or, at least, there will be more scope for tuning performance
+
+    You feel less stress, which enhances all of the above 
+
+This began as a question, maybe too long for WikiCase?
+
+So when I asked [KentBeck], "What's the simplest thing that could possibly work?" I wasn't even sure. I wasn't asking, "What do you know would work?" I was asking, "What's possible? What is the simplest thing we could say in code, so that we'll be talking about something that's on the screen, instead of something that's ill-formed in our mind?" I was saying, "Once we get something on the screen, we can look at it. If it needs to be more, we can make it more.
+
+From the third page of this interview bit: http://www.artima.com/intv/simplest.html. Also see SomethingOnTheScreen. Maybe more exact title would be MakeTheSimplestThingThatCouldPossiblyWork. I'm happy to see that for more and more architects, DTSTTCPW leaves out object orientation.
+
+Recently, I rewrote some C++ code that was part of a controller. It consisted of two inherited classes, 40 functions, and 1,500 lines of code. The result is written in C and has no classes, six functions, and 300 lines of code. I find it remarkable that, when confronted with evidence to the contrary, progress in OO continues. -- ThomasNiemann
+
+Any evidence that actually supports the benefit of procedural code vs OO, as opposed to the original code being written by an idiot and your code not? Quality is terribly important in payroll. Airplanes won't fall out of the sky, but the factory could go on strike, and you could make tens of thousands of people very angry. There is no reason why simplicity and quality are in conflict: in my experience, they go hand in hand. -- RonJeffries
+
+Remember, however, that "quality" is probably impossible to fully define. Accuracy in a payroll system is only valuable up to a point. No one expects a US payroll system to accurately deduct income taxes; it is expected that each employee will have to make a manual adjustment with his yearly income tax filing. Variation, however, is usually not accepted. Depending upon the system, one usually expects a consistent total amount from period to period or expects a consistent pay rate from period to period. Increased accuracy in withheld taxes would probably be judged as lower quality if it lead to wider variation in the amounts on pay checks. In the end, the "quality" of a software based system must be sufficient to meet the expectations of the users; the purpose of the system is really immaterial to the argument. [Please note, the intent of this is not to denigrate accounting systems, but rather to highlight the subjective nature of "quality".] -- WayneMack
+
+Not so. Phil Crosby developed an entire school of thought on defining quality in non-fuzzy terms. Quality, very simply, is conformance to requirements. You can measure how far out of conformance your system is, so you know if it is a "good" system or not. The hard part is establishing the measurements, but domain-knowledgeable people can always find a way to do that.
+
+Crosby measured this stuff in terms of cost: the price of conformance (what it takes to make sure your system is conforming), the price of non-conformance (what it costs your business to have a crappy product), and the overall cost of quality. Crosby showed that QualityIsFree for every product and system that Phil Crosby Associates ever analyzed. Legions of acolytes have done the same in proceeding decades. Be sure to see the ShakerQuote that starts, "If it is not useful or necessary, free yourself from imagining that you need to make it."
+
+WhatIsSimplest is a very interesting question to me. -- MichaelFeathers
+
+DoSimpleThings is a simple answer, speaking to one's awesome power to be complex. -- PCP
+
+Isn't this just SmallIsBeautiful applied to programming? -- HelmutLeitner
+
+See DrawingHand for a response to the concerns about simplicity possibly resulting in FlimsyAndBarelyFunctional software.
+
+Suggested as related are SimplestThingReplyFromJamesCollins; SimplestThingReplyFromRonJeffries; XpSimplicityRules; GoldilocksSolution; ManagingEvolutionaryDesign; EvolutionaryArchitecture
+
+I think DTSTTCPW and XP look like a TetrisAnalogy. -- FrancisTownsend
+
+One little step at a time, lest I be presumptuous, lest I hurt myself, lest I hurt others. -- JoanHalifax
+
+It means one knows everything about programming there is to, but only applies one technique at a time.
+
+I tell a story about discovering the extremeness of DTSTTCPW at SimplestVersusRight. -- MitchellModel
+
+Where I am having difficulty here is that 'simplest' has no metric. So "the fewest programming environment operations to get the next test case running" could actually be what is meant. Or, "fewest lines of source code". Or, "source code using the what-I-consider simplest types of operations". -- AlistairCockburn
+
+The 'do' in DoTheSimplestThingThatCouldPossiblyWork isn't how you get to the design; it's what is done in the design. "The fewest programming environment operations to get the next test case running" is a possible way to get to a design. It's almost irrelevant in discussion of the simplicity of a design itself. -- rj
+
+I DoTheSimplestThingThatCouldPossiblyWork when I adhere to ComputerLinguisticMonism when designing an ArtificialIntelligence. -- RobertGoodwin
+
+At each iteration in the evolution of the design, Fewest may well be Simplest. But CruftMultiplies and that simplest way to get from Design N to Design N + 1 is not as simple. -- KielHodges
+
+DoTheSimplestThingThatCouldPossiblyWork entails two (2) steps: first, implement the thing in a simple straightforward way; second, refactor the code to produce the simplest system including the new thing. In XP, we have an explicit rule and practice to keep cruft from multiplying. When we do this (and of course we can screw up), it seems to me that fewest is simplest. I was asking you to support FewestIsntSimplest in the XP context. -- rj
+
+Refactoring lets one go faster; I've long been convinced of that. But one also goes faster by initially implementing the thing in a simple straightforward way. I - and probably others - need to let go and allow myself to do that. -- KielHodges It occurred to me that DTSTTCPW has a near relative, SimplifyTheRequirements. Of course, once you have simplified the requirements, you can still DTSTTCPW. However, you might not think to simplify the requirements - most people don't explore the dimensions of negotiation in them. -- AlistairCockburn This concept has been churning in my mind for a number of days. I can definitely see advantages with minimizing the risk of over-engineering the code. The subsystem builder in me is a little bothered however. What I'd be concerned about is that by concentrating on the simplest thing possible you might be painting yourself into a corner. I am having trouble coming up with a good example however. I think the word simplest is bringing up the wrong connotations in my mind. I'm equating simplest with quickest, which I don't think is what this is about. Perhaps a better way of saying this is "implement the simplest architecture that could possibly work". -- GlenStampoultzis
+
+We're saying more than that, or less. We're saying consider all solutions to your task that could possibly work. Implement the simplest solution. Refactor from there if and when needed. We're saying that if you build your objects properly you won't ever paint yourself into a corner. And we're saying that when you do enhance the simple solution (and you generally will), you will always wind up with a system that is just right for what it does so far. And we're saying that that is just where you want to be. Everything just right, nothing added that isn't needed. -- RonJeffries
+
+Moreover, the cost of recovery from painting yourself into a corner is arguably (much!) less than the cost of big up-front design which tries to cover lots of contingencies. It depends on the corner, but I bet it'll take less time to recover from an average corner than it'll take to complete an average big up-front design. Obviously, average is a very loaded word in this context. -- BrentNewhall
+
+I have found the opposite to be the case. I have found that I am much more likely to paint myself into a corner when I try to do an expansive design. It is far easier to add something to a simple design, when needed, than having to tear apart an extensive design that is not quite right. Too many times, what looks right on paper now has obvious problems when someone tries to use it a year later. Here's a way to really ground the DTSTTCPW concept:
+
+Customer: We Want It We Don't Want It
+
+Departing Programmer: I did it my way
+
+Customer: We Want It We Don't Want It We Want It
+
+Departing Programmer: I did it my way
+
+Customer: We Don't Want It We Want It We Don't Want It
+
+Departing Programmer: I did it my way
+
+Customer: We Want It We Don't Want It
+
+Departing Programmer: I did it my way
+
+Customer: We Want It We Don't Want It ...
+
+Repeat, ad infinitum.
+
+The worst case is that each of these programmers implements half of their giant superstructure according to their tastes during their time on the project. The 3rd programmer sees a confused muddle.
+
+Best case is they each DTSTTCPW. Is DTSTTCPW another way to say "elegance"? I have to admit that good code gets cleaner and simpler as it evolves, but evolution takes effort. I'm afraid that "extreme programming" will be just a synonym for the usual boneheaded 24/7 DeathMarch, in the wrong hands. -- DaveOshel
+
+No, it's saying if you're not sure what to do yet, do the simplest thing you can think of.
+
+Is there a methodology that would prevent a project from becoming a DeathMarch in the wrong hands? -- SteveConover
+
+'Yes: Keep it out of the wrong hands. How ? Buy asserting the truism that simple results do not result from simple minds, and that simple does not mean easy ' --MarcGrundfest WhenOneLeafDiesBuyaWholeTree has some interesting and relevant stories.
+
+(quote moved to TimeToMakeItShort) Argument against DoTheSimplestThingThatCouldPossiblyWork: A technician came to install a water purifier system under our sink. In the process of bolting it in, he/she blocked access to the garbage-disposal power access plug. Later, our garbage-disposal stopped working, but we cannot replace it without unbolting the water purifier first to unplug the disposal, which is not a simple task due to the odd angle. Common sense would dictate at least putting in an extension cord for the disposal plug.
+
+How many people looked at the original installation and did not see a problem? Yes, it is easy to see in hindsight what might have been a better way, but that does not mean it would have been obvious at the time. At the time of installation, it appears no-one considered access to either the garbage disposal or the water purifier system mounting bolts. The problem is not the definition of "the simplest thing" but rather "could possibly work". The definition of "could possibly work" has changed since the installation. For a mechanical change like this, it might have been cost-effective to plan for more eventualities; however, for software systems, there are really no analogies to "blocked access" or "odd angles". The cost and effort to change things in software is very low and (arguably) it is lower than the cost of planning, and the changes rarely lead to scraped knuckles.
+
+An extreme example is to not put safe-guards for nuclear missile launch panels UNTIL the world has been charred. I believe it is reasonable to have a rule, "don't block plugs (outlets)" even if a specific problem with it has not been identified. It is similar to "don't hardwire the same constant in multiple spots in a program". I disagree with DTST. SoftwareDevelopmentIsGambling, or perhaps better stated as "investing". Some future-proofing can pay off if you know how to manage it right. It is a matter of understanding the trade-offs and risks. Investors take risks knowing, or hoping, that in the end the total benefits exceed the problems. Perhaps when you are green, DTST is a safer mode, but if you have experience, dammit, use it! -- top
+
+There are reasons for the experienced to hold back. DTST is also a good way to get very experienced people to work together without spending endless hours explaining their great ideas to each other at the whiteboard. Real systems get complex enough just solving real problems without revisiting every greybeard's ancient history. -- WardCunningham
+
+I find it sometimes helpful to distinguish between "the first", "the easiest", and "the simplest" thing that could possibly work. It often takes years of evolution for a design to finally acquire "the simplest" form - I think this is why we have refactoring browsers and unit tests. Similarly, one difference between a "greybeard" and a "rookie" is the former's intuitive insight into "simple" solutions that work. MarkTwain is alleged to have written to a friend "I didn't have time to write the short letter I promised, and so I've written a long one instead." -- TomStambaugh (see TimeToMakeItShort)
+
+MarkTwain may have said something to the effect as well, but I believe BlaisePascal is the original author of that statement (see http://palimpsest.stanford.edu/byform/mailing-lists/exlibris/2003/07/msg00105.html and TimeToMakeItShort). It seems to me that this will cause software development to become very boring. I can't speak for anyone else, but I find repeatedly blasting database values onto the screen in the simplest way possible to be MindNumbinglyRepetitiveWork. Saying to DoTheSimplestThingThatCouldPossiblyWork sounds to me like saying you should put on blinders, turn your brain off and become a CodeMonkey. It seems to take away the excitement of playing around with ideas that are bigger than 'create another boring e-commerce site'... While I recognize that ComplexityForTheSakeOfComplexity has no business value, there has to be some point at which code that doesn't directly accomplish the task at hand is justified... Doesn't there?
+
+As an example, I am working on a web application to help judge the success of marketing through different channels. The project uses JakartaStruts, and there are a lot of standard CrudScreen JavaServerPages/ActionForm/Action sets for populating and reporting on the system's various business objects. It's the same kind of stuff that I've done on countless other projects... The code to validate a bunch of user input and throw it into the database, or take it out of the database and throw it to the client follows the same patterns I've done a hundred times.
+
+Now, TheSimplestThing would just be to implement these actions according to spec and get it done with. But that doesn't help when in a month I get another project that does similar things. Now, I've spent X times 2 units of time writing this CRUD code. Realizing this, I abstracted a lot of the code into a CRUD framework that greatly reduces the amount of code in the Struts actions. This is now part of my company's IP, and can be used to shorten development time on future projects.
+
+Obviously, this was not the 'simplest' thing that I could have done, nor was it mandated by the requirements for this project. But it has value, and made the project more interesting for myself. It would never have happened if I only did the simplest thing that could work. Am I an EvilProgrammer for wasting the customer's money like this, or am I just not understanding this principle very well?
+
+-- SeanKleinjung
+
+You probably had used DoTheSimplestThingThatCouldPossiblyWorkFirst. -- knocte
+
+You can only reuse what you can use. Get to 'use' with DoTheSimplestThingThatCouldPossiblyWork. Refactor if you have the same problem again, as reuse would be the simplest thing. D.
+
+I agree: Refactoring does not have to be only on a per-project basis. If your group is working on multiple projects that are unrelated, but you find that you are violating DontRepeatYourself, then I see ReFactoring into a shared library the answer to DTSTTCPW. There are limits though to inter-project refactoring, I suspect, due to library size or number of libraries required. The point is, the shared library is a simpler solution than duplicate code (fulfilling the same purpose in multiple projects) and the complexity is hidden behind a common interface that is now group, department, company, or industry wide. Hence standard libraries will, and should evolve, but remember the old adage "KISS" - Keep it simple [insert favorite ending here].
+
+-- WyattMatthews A counter example is wiki.
+
+It's the simplest that will work, but most people find the syntax frustrating or if they aren't programmers, incomprehensible.
+
+It's the simplest thing to a programmer.
+
+Simple may be relative to the usage. People may prefer bbCode, HTML, or other emphasis techniques instead of WikiML, because they are familiar with it. Assuming DTSTTCPW was followed, would it be easier to replace the edit engine or would it be more complicated to support both? I am assuming that DTSTTCPW and OAOO would require that there is a single entry point for rendering a page written in WikiML, a simple addition or change to the function calls made in that module may be all that's needed to support N editing styles or completely replace the one we currently use. -- WyattMatthews DoTheSimplestThingThatCouldPossiblyWork because ThisAintTheRightPlaceToMuckAround. DoTheSimplestThingThatCouldPossiblyWork, then Refactor implies a rewrite; I think it has connections with PlanToThrowOneAway and to some extend, WorseIsBetter. -- Astrobe Sorry, but DoTheSimplestThingThatCouldPossiblyWork is too long of a page name. It could be simpler. This page disobeys the law. See AhSimple. Another possible name for this could be BetterSorryThanSafe. I like this page a lot. -- EricMangham Different people find different things simple vs. complex. A program built to be simple for someone who thinks logically but not inductively will be very different from a program built to be simple for someone who is the reverse. -- JonGrover I live by two rules summed up by the two following quotes. -- JonathanCrossland
+
+"Simplicity is the ultimate sophistication" - Leonardo DaVinci
+
+"Everything should be made as simple as possible, but not simpler" - Albert Einstein 
+   
+** Do Simple Things
+   
+DST is the root rule of which DoTheSimplestThingThatCouldPossiblyWork is the specialized rule for source code polishing.
+
+    Spiderman does not walk up to an ATM and thwip web strands at it just to get his money out.
+    Superman does not reverse time just because he bit his tongue.
+
+You are a programmer, and that means you are very smart and capable of quite complex things. Don't do them. Keep your true identity a secret and your tricks up your sleeve. Learn to use your powers for good. Be SimpleMinded: just solve the task at hand, simply.
+
+As I try to tell programmers who work with me: "There's a fine line between fishing and standing on the shore looking like an idiot." -- Steven Wright
+
+The LazyProgrammer does not use "clever" code because everyone who ever reads it or tries to change it will have to be just as clever, every time. -- RichardCHaven
+
+A programmer implemented some very simple reports using memory mapped file technology. It was really cool; one could format data on each report page by manipulating CeeLanguage character pointers. But...
+
+    - The code was kinda complex and obscure.
+    - Doing "tail -f" on the output file, as it was being produced, displayed nothing but pages and pages of empty lines... because tail would read the pages before the writer finished formatting them and happened to flush the dirty pages.
+    - It was almost impossible to eliminate trailing spaces from lines.
+
+It was the trailing spaces that killed us: These were big reports, and fully 2/3 of the characters in each report file were meaningless space characters... AT THE ENDS OF LINES. Nightly cycles kept failing because our print queues would run out of disk space. Customers called and complained because their serial printers printed those reports more slowly than others.
+
+So I changed the program to use CeeLanguage/UnixOs FILE streams. It was a simple change, as each report had only page headers every N lines, and one-to-one printing of records as lines. Problems solved.
+
+Lesson learned: Why use memory mapped files, when all you really need to do is open a stream and write some data to it?
+
+-- JeffGrigg
+
+What about ComplexityIsBugs?
+
+Another way to see this is if you did simple things first and those did not work well, then you should do the simplest thing in the rest of more complicated ones, and like this recursively to the infinitum... -- ManuelVidaurre
+
+Person A was writing a CeeLanguage program that was to copy a data reference file from an external directory into the main data directory of his application only if the imported file would be more recent than the file currently in the main data directory. He worked 6 hours on the thing because of difficulties with file date comparisons and testing.
+
+Person B solved the problem in 30 minutes:
+
+    - 5 minutes listening to Person A and looking at the code.
+    - 5 minutes implementing the solution (just use "make") and testing it, for test's sake, with touched files.
+    - 20 minutes convincing Person A that the solution was OK.
+        No, "make" was NotInventedHere; so what?
+        Yes, "make" was a "system tool"; so what?
+        and so on.
+
+Sometimes simple things hurt people.
+
+It would require maybe 5-10 lines of nicely formatted CeeLanguage code to call stat() on two files and compare the timestamps of each (since "make" is available, I assume this is on a UnixOS system). Maybe 10 more lines of CeePreprocessor goo if it had to be portable to non-PosixStandard systems. I can't imagine what problem Guy A was having with that task, other than possibly having never used Unix before (which seems likely if he's writing a C program to compare and copy files).
+
+Make programs supplied with some systems are sufficiently buggy that they cannot always compare the timestamps on two files and figure out which is newer correctly (sad, but true). Make itself has complex and sometimes surprising behavior which tends to appear only during disasters. For example, if the copy of the new file failed, you probably will have no data file in the main directory at all, or you'll have an incorrect file with a newer timestamp (so it won't be updated if you repeat make again).
+
+It does take two or three lines of code on a Unix system to update a file correctly, assuming you have the appropriate tools:
+
+#+name: sh
+#+begin_src sh :session *simplicity.org* :cache yes :exports both :results output none :eval never
+ #!/bin/bash
+ rm -f $internalFile.tmp
+ # Note: if your 'test' ('[') program does not implement '-nt'
+ # ("newer than"), then write the equivalent five line C program,
+ # and use that program instead.
+ # If externalFile newer than internalFile, make a copy of the file
+ # and (iff the copy is successful) replace the application data file.
+ [ $externalFile -nt $internalFile ] && cp $externalFile $internalFile.tmp &&
+  mv -f $internalFile.tmp $internalFile
+#+end_src
+
+or import the appropriate tool from somewhere else:
+
+ rsync -tu $externalFile $internalFile
+
+or maybe just read the file from the external directory in the first place.
+
+However, that's not the point of the anecdote.
+
+    Superman does not reverse time just because he bit his tongue.
+
+I'll reverse the time if I bit my tongue off; I think it's hard to live without a tongue, you know.
+
+If Superman bit his tongue, would it hurt? His teeth or his tongue? Think about it...
+
+** Complexity Is Bugs
+
+Not long ago I said "Complexity hides bugs." I no longer think that's true.
+
+If it were true, then when I was simplifying code while looking for a bug, I would expect there to be a point where the bug was visible in the newly simplified code. I haven't seen that happen.
+
+What I have seen is that the code, now simplified, no longer contains the bug.
+
+Therefore, I offer you this pithy one-liner for your enjoyment, derision, and dissection:
+
+    Complexity is bugs.
+
+-- WayneConrad
+
+You're probably not seeing the bugs because you are mentally reverse engineering the code back to its requirements, where the bugs don't exist. If you did a more rigorously code-based translation, you'd be more likely to see them. By the way, that reverse engineering step might let in some bugs of its own. For example, when a feature is hiding in some complex code such that you didn't see it, and your new simplified version doesn't have it.
+
+I think your earlier pronouncement was more accurate. The bed is not the bedbug, but to be certain, throw them both out.
+
+-- WaldenMathews If bug is defined as code failing (dumping core, crashing, etc), then the title is correct. Bugs in requirements can produce code that is wonderfully simple, clean, clear, and robust, but wrong. --PeteHardie
+
+This is very like the DoTheSimplestThingThatCouldPossiblyWork isn't it? --MatthewTheobalds
+
+There must be a corollary to MooresLaw about the growth in complexity.
+
+All the flavors of Unix, and the OperatingSystems from vendors such as Microsoft, Apple, and Cisco keep growing in both size and complexity. It gets to the point where you have to buy new hardware because the new OS requires more resources. This is why I find PlanNineFromBellLabs to be a refreshing leap in the opposite direction: Each time those guys (the InventorsOfUnix) fix something, it gets smaller and simpler. --ChrisGarrod
+
+Maybe Metcalfe's Law: The number of edges in a network of nodes (n) is n(n − 1)/2, i.e. is proportional to n^2
+
+-- John Tait
+
+I would say that complexity and bugs come from the same root problem, lack of understanding. If you do not understand a problem or do not understand how to resolve it, your solution will likely be unfocused and complex. Also, if you do not understand, your solution will likely have bugs. This is merely a restatement of the concept of QualityIsFree. --WayneMack But the real heart of programming is exactly discovering that understanding -- only as you build the solution do you begin to truly understand the problem. If we truly even understood the problem beforehand, programming would be an exercise in mechanical translation. (Implementing yet another hashtable, B-Tree, or XML parser using the same algorithms as another may have its pedantic beauty, but is very far from the true challenge of most programs that I find myself writing these days.) So I think DoTheSimplestThingThatCouldPossiblyWork is about arriving at the most fundamental understanding of a problem. The solution to that problem is almost a side-effect of the understanding. --AndrewGeweke You could also say "complexity is a bug", referring to the complexity of a given solution that exceeds the essential complexity of the problem. The reasoning is that a "bug" is an instance of poor quality, translated concretely to someone's dissatisfaction. And excess complexity is a source of dissatisfaction to anyone seeking control over the quality of a solution. Accepting unnecessary complexity, therefore, is itself a "bug", an error in judgment, and one that leads to derivative "bugs" in the product.
+
+--WaldenMathews
+
+I like this idea. -- WayneConrad
+
+. Buggy things fail, complex things can also fail. Complexity can lead to bugs which eventually leads to the failure. . [ feature + bugs ] --(wrapped-in)--> complexity . [ feature + bugs ] --(unwrap)--> feature (keep) + bugs (throw)
+
+-- Prash 
