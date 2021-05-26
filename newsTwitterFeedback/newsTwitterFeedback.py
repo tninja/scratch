@@ -1,0 +1,3 @@
+
+class NewsTwitterFeedback(object):
+    pass

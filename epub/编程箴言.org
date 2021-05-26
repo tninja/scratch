@@ -727,6 +727,104 @@ A picture may be worth a thousand words, a formula is worth a thousand pictures.
     For his major contributions to the analysis of algorithms and the design of programming languages, and in particular for his contributions to the "art of computer programming" through his well-known books in a continuous series by this title.
         1974 Turing Award Citation[2]
 
+
+* Alan Kay
+
+** 1970s
+
+    The best way to predict the future is to invent it.
+        Alan Kay (1971) at a 1971 meeting of PARC
+        Similar remarks are attributed to Peter Drucker and Dandridge M. Cole.
+        Cf. Dennis Gabor, Inventing the Future (1963): "The future cannot be predicted, but futures can be invented."
+            Nigel Calder reviewed Gabor's book and wrote, "we cannot predict the future, but we can invent it..."
+
+    [ Computing ] is just a fabulous place for that, because it's a place where you don't have to be a Ph.D. or anything else. It's a place where you can still be an artisan. People are willing to pay you if you're any good at all, and you have plenty of time for screwing around.
+        Alan Kay (1972) in 1972 Rolling Stone article
+
+** 1980s
+
+    People who are really serious about software should make their own hardware.
+        talk at Creative Think seminar, 20 July 1982
+
+    A change in perspective is worth 80 IQ points.
+        Perspective is worth 80 IQ points.
+        Point of view is worth 80 IQ points
+        Talk at Creative Think seminar, 20 July 1982
+
+    Technology is anything that wasn't around when you were born.
+        Hong Kong press conference in the late 1980s
+
+    The future is not laid out on a track. It is something that we can decide, and to the extent that we do not violate any known laws of the universe, we can probably make it work the way that we want to.
+        1984 in Alan Kay's paper Inventing the Future which appears in The AI Business: The Commercial Uses of Artificial Intelligence, edited by Patrick Henry Winston and Karen Prendergast. As quoted by Eugene Wallingford in a post entiteled ALAN KAY'S TALKS AT OOPSLA on November 06, 2004 9:03 PM at the website of the Computer Science section of the University of Northern Iowa.
+
+** 1990s
+
+    I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nano-Dijkstras.
+        The Computer Revolution hasn't happened yet — 1997 OOPSLA Keynote
+
+    Actually I made up the term "object-oriented", and I can tell you I did not have C++ in mind.
+        The Computer Revolution hasn't happend yet — 1997 OOPSLA Keynote
+        Alternative: I invented the term Object-Oriented, and I can tell you I did not have C++ in mind.
+        Attributed to Alan Kay in: Peter Seibel (2005) Practical Common Lisp. p.189
+
+** 2000s
+
+If you don't fail at least 90 percent of the time, you're not aiming high enough.
+By the time I got to school, I had already read a couple hundred books. I knew in the first grade that they were lying to me because I had already been exposed to other points of view. School is basically about one point of view — the one the teacher has or the textbooks have.
+Simple things should be simple, complex things should be possible.
+
+    ... greatest single programming language ever designed. (About the Lisp programming language.)
+        2003. Daddy, Are We There Yet? A Discussion with Alan Kay
+
+    I finally understood that the half page of code on the bottom of page 13 of the Lisp 1.5 manual was Lisp in itself. These were “Maxwell’s Equations of Software!”
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+*** A Conversation with Alan Kay, 2004–05
+
+    Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    Perl is another example of filling a tiny, short-term need, and then being a real problem in the longer term. Basically, a lot of the problems that computing has had in the last 25 years comes from systems where the designers were trying to fix some short-term thing and didn’t think about whether the idea would scale if it were adopted. There should be a half-life on software so old software just melts away over 10 or 15 years.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    Basic would never have surfaced because there was always a language better than Basic for that purpose. That language was Joss, which predated Basic and was beautiful. But Basic happened to be on a GE timesharing system that was done by Dartmouth, and when GE decided to franchise that, it started spreading Basic around just because it was there, not because it had any intrinsic merits whatsoever.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    Computing spread out much, much faster than educating unsophisticated people can happen. In the last 25 years or so, we actually got something like a pop culture, similar to what happened when television came on the scene and some of its inventors thought it would be a way of getting Shakespeare to the masses. But they forgot that you have to be more sophisticated and have more perspective to understand Shakespeare. What television was able to do was to capture people as they were. So I think the lack of a real computer science today, and the lack of real software engineering today, is partly due to this pop culture.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    Sun Microsystems had the right people to make Java into a first-class language, and I believe it was the Sun marketing people who rushed the thing out before it should have gotten out.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    If the pros at Sun had had a chance to fix Java, the world would be a much more pleasant place. This is not secret knowledge. It’s just secret to this pop culture.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    I fear —as far as I can tell— that most undergraduate degrees in computer science these days are basically Java vocational training. I’ve heard complaints from even mighty Stanford University with its illustrious faculty that basically the undergraduate computer science program is little more than Java certification.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    Most creativity is a transition from one context into another where things are more surprising. There’s an element of surprise, and especially in science, there is often laughter that goes along with the “Aha.” Art also has this element. Our job is to remind us that there are more contexts than the one that we’re in — the one that we think is reality.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    I hired finishers because I’m a good starter and a poor finisher.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+    The flip side of the coin was that even good programmers and language designers tended to do terrible extensions when they were in the heat of programming, because design is something that is best done slowly and carefully.
+        ACM Queue A Conversation with Alan Kay Vol. 2, No. 9 - Dec/Jan 2004-2005
+
+** 2010s
+
+    However, I am no big fan of Smalltalk either, even though it compares very favourably with most programming systems today (I don’t like any of them, and I don’t think any of them are suitable for the real programming problems of today, whether for systems or for end-users).
+        2010 for Computerworld Australia
+
+    Possibly the only real object-oriented system in working order. (About Internet)
+        2010 for Computerworld Australia
+
+    The Internet was done so well that most people think of it as a natural resource like the Pacific Ocean, rather than something that was man-made. When was the last time a technology with a scale like that was so error-free? The Web, in comparison, is a joke. The Web was done by amateurs.
+        2012 Dr. Dobb's Interview with Alan Kay
+
+    Object-oriented [programming] never made it outside of Xerox PARC; only the term did.
+        Alan Kay - Rethinking Design, Risk, and Software
+
 * Unix philosophy
   
 ** McIlroy：A Quarter Century of Unix
@@ -829,6 +927,7 @@ Gabriel argued that "Worse is better" produced more successful software than the
 Gabriel credits Jamie Zawinski for excerpting the worse-is-better sections of "Lisp: Good News, Bad News, How to Win Big" and e-mailing them to his friends at Carnegie Mellon University, who sent them to their friends at Bell Labs, "who sent them to their friends everywhere". He apparently connected these ideas to those of Richard Stallman and saw related ideas that are important in the design philosophy of Unix, and more generally in the open-source movement, both of which were central to the development of Linux.
 
 Gabriel later answered his earlier essay with one titled Worse Is Better Is Worse[4] under the pseudonym "Nickieben Bourbaki" (an allusion to Nicolas Bourbaki). 
+
 
 * 计算机科学箴言集
 
@@ -1003,6 +1102,7 @@ Bernstein的观点中所说的数可能是30%也可能是70%，然而可以确�
 ** 原理看到这里，你一定会接受下面这条不错的箴言：
 
 - 别轻信那些看似聪明的法则。——Joe  Condon，贝尔实验室
+
 
 * 其他
 

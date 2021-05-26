@@ -125,11 +125,10 @@ current rent price for the current house:
 #### https://bioconductor.org/install/
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
+
 BiocManager::install(version = "3.11")
 
-BiocManager::install(c('ggplot2', 'plyr', 'dplyr', 'reshape2'))
-
-BiocManager::install(c('lintr'))
+BiocManager::install(c('ggplot2', 'plyr', 'dplyr', 'reshape2', 'lintr', 'gganimate'))
 
 install.packages("https://cran.r-project.org/src/contrib/Archive/ascii/ascii_2.1.tar.gz")
 
@@ -138,7 +137,7 @@ library(ascii)
 ### ggplot
 library(ggplot2)
 
-BiocManager::install(c('patchwork'))
+biocmanager::install(c('patchwork'))
 
 library(ggplot2)
 library(patchwork)
@@ -159,3 +158,66 @@ p4 <- ggplot(mtcars) + geom_bar(aes(carb))
 a <- 1
 
 xdf = data.frame(a=1, b='a')
+
+BiocManager::install(c('gganimate'))
+
+BiocManager::install(c('magick'))
+
+library(ggplot2)
+library(gganimate)
+
+anim <- ggplot(mtcars, aes(mpg, disp)) +
+  transition_states(gear, transition_length = 2, state_length = 1) +
+  enter_fade() +
+  exit_fade()
+
+# Explicitly animate using default (same as just printing the animation)
+animate(anim)
+
+# Change duration and framerate
+animate(anim, fps = 20, duration = 15)
+
+# Make the animation pause at the end and then rewind
+animate(anim, nframes = 100, end_pause = 10, rewind = TRUE)
+
+# Use a different renderer
+animate(anim, renderer = file_renderer('~/animation/'))[1:6]
+
+# Specify device dimensions and/or resolution
+animate(anim, height = 2, width = 3, units = "in", res = 150)
+
+library(ggplot2)
+##devtools::install_github('thomasp85/gganimate')
+library(gganimate)
+
+p <- ggplot(mtcars, aes(factor(cyl), mpg)) + 
+    geom_boxplot() + 
+    ## Here comes the gganimate code
+    transition_states(
+        gear,
+        transition_length = 2,
+        state_length = 1
+    ) +
+    enter_fade() + 
+    exit_shrink() +
+    ease_aes('sine-in-out')
+
+anim <- animate(p)
+magick::image_write(anim, path="myanimation.gif")
+
+## gganimate example
+
+BiocManager::install(c('patchwork', 'gapminder', 'magick'))
+
+library(gapminder)
+
+ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country)) +
+  geom_point(alpha = 0.7, show.legend = FALSE) +
+  scale_colour_manual(values = country_colors) +
+  scale_size(range = c(2, 12)) +
+  scale_x_log10() +
+  facet_wrap(~continent) +
+  # Here comes the gganimate specific bits
+  labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
+  transition_time(year) +
+  ease_aes('linear')
