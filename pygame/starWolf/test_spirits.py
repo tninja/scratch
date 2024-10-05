@@ -13,6 +13,7 @@ class PyGameSpiritsTestCase(TestCase):
     """Test case for Pygame spirits."""
 
     def setUp(self):
+        """Set up the Pygame environment for testing."""
         pygame.init()
         pygame.mixer.init()
         self.width = 1200
