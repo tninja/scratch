@@ -10,7 +10,7 @@ class Cell(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         self.x = x
         self.y = y
-        self.image = pygame.Surface([size, size])
+        self.image = pygame.Surface((size, size))
         self.image.fill(color)
         self.rect = self.image.get_rect()
         self.rect.topleft = (x * size, y * size)
@@ -29,18 +29,8 @@ class PyGameOfLife(object):
         return PyGameOfLife(board)
 
     def buildCellList(self, board, color=None):
-        cellList = []
         height, width = self.gol.getDim(board)
-        for y in range(height):
-            for x in range(width):
-                lifeValue = board[y][x]
-                if lifeValue == 1:
-                    if color is None:
-                        cell = Cell(x, y, self.cellSize)
-                    else:
-                        cell = Cell(x, y, self.cellSize, color=color)
-                    cellList.append(cell)
-        return cellList
+        return [Cell(x, y, self.cellSize, color) for y in range(height) for x in range(width) if board[y][x] == 1]
 
     def initSpirites(self, board):
         sprites = pygame.sprite.Group()
@@ -62,18 +52,12 @@ class PyGameOfLife(object):
         justDeadCellBoard = self.getJustDeadCellBoard(board, nextBoard)
         nextCellList = self.buildCellList(nextBoard)
         justDeadCellList = self.buildCellList(justDeadCellBoard, color=(64, 0, 0))
-        for cell in cellList:
-            sprites.remove(cell)
-        print("removed %i old cells" % len(cellList))
-        for cell in nextCellList:
-            sprites.add(cell)
-        print("added %i live cells" % len(nextCellList))
-        for cell in justDeadCellList:
-            sprites.add(cell)
-        print("added %i just dead cells" % len(justDeadCellList))
-        totalCellList = nextCellList.copy()
-        totalCellList.extend(justDeadCellList)
-        return nextBoard, sprites, totalCellList
+        sprites.empty()
+        sprites.add(nextCellList + justDeadCellList)
+        print(f"removed {len(cellList)} old cells")
+        print(f"added {len(nextCellList)} live cells")
+        print(f"added {len(justDeadCellList)} just dead cells")
+        return nextBoard, sprites, nextCellList + justDeadCellList
 
     def getJustDeadCellBoard(self, board, nextBoard):
         height, width = self.gol.getDim(board)
@@ -106,14 +90,14 @@ class PyGameOfLife(object):
         sprites, cellList = self.initSpirites(board)
         sprites.draw(screen)
         finished = False
-        import time
+        clock = pygame.time.Clock()
         while not finished:
             print("==========")
             self.gol.printBoard(board)
             for event in pygame.event.get():
                 if event.type == QUIT:
                     finished = True
-            time.sleep(1)
+            clock.tick(1)  # 控制帧率为1帧/秒
             board, sprites, cellList = self.updateSpritesWithNextRoundAndJustDead(board, sprites, cellList)
             self.clearScreenAndPlot(screen, sprites)
             if len(cellList) == 0:
