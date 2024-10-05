@@ -7,99 +7,20 @@ from pygame.locals import *
 import time
 import random
 
-class Monster(pygame.sprite.Sprite):
-    def __init__(self, x, y, size=32, dx=0, dy=0, img='./wolf.png'):
-        pygame.sprite.Sprite.__init__(self)
-        self.x = x
-        self.y = y
-        self.dx = dx
-        self.dy = dy
-        self.rect = pygame.Rect(x, y, size, size)
-        image = pygame.image.load(img)
-        self.image = pygame.transform.scale(image, (size, size))
-        self.hit = False
-
-    def move(self):
-        self.x = self.x + self.dx
-        self.y = self.y + self.dy
-        self.rect.topleft = (self.x, self.y)
-
-    @staticmethod
-    def getRndDxDy(maxstep, minimal):
-        dx = dy = 0
-        while (abs(dx) + abs(dy) < minimal):
-            dx = int(random.uniform(-maxstep, maxstep))
-            dy = int(random.uniform(-maxstep, maxstep))
-        return dx,dy
-
-    @staticmethod
-    def getRndInitXY(width, height):
-        x = int(random.uniform(0, 1) * width)
-        y = int(random.uniform(0, 1) * height)
-        return x, y
-
-    @staticmethod
-    def buildWolf(width, height, maxstep):
-        x, y = Monster.getRndInitXY(width, height)
-        dx, dy = Monster.getRndDxDy(maxstep, 2)
-        size = int(random.uniform(0, 1) * 30) + 30
-        wolf = Monster(x, y, size, dx, dy, './wolf.png')
-        wolf.lv = 1
-        wolf.type = 'wolf'
-        return wolf
-
-    @staticmethod
-    def buildTiger(width, height, maxstep):
-        x, y = Monster.getRndInitXY(width, height)
-        dx, dy = Monster.getRndDxDy(maxstep, 2)
-        size = int(random.uniform(0, 1) * 70) + 70
-        tiger = Monster(x, y, size, dx, dy, './small_tiger.jpg')
-        tiger.lv = 2
-        tiger.type = 'tiger'
-        return tiger
-        
-class Tractor(Monster):
-    def __init__(self, x, y, dx=0, dy=0, board_width=1200, board_height=900):
-        pygame.sprite.Sprite.__init__(self)
-        self.x = x
-        self.y = y
-        self.dx = dx
-        self.dy = dy
-        self.board_width = board_width
-        self.board_height = board_height
-        width = 180
-        height = 240
-        self.image_width = width
-        self.image_height = height
-        self.rect = pygame.Rect(x, y, width, height)
-        image = pygame.image.load("./small_tractor.jpg")
-        self.image = pygame.transform.rotate(image, 270)
-        self.image = pygame.transform.scale(self.image, (width, height))
-        self.lv = 3
-        self.hit = False
-        self.type = 'tractor'
-
-    def move(self):
-        if self.x < 0 and self.dx < 0:
-            self.dx = - self.dx
-        if self.y < 0 and self.dy < 0:
-            self.dy = - self.dy
-        if self.x + self.image_width > self.board_width and self.dx > 0:
-            self.dx = - self.dx
-        if self.y + self.image_height > self.board_height and self.dy > 0:
-            self.dy = - self.dy
-        self.x = self.x + self.dx
-        self.y = self.y + self.dy
-        self.rect.topleft = (self.x, self.y)
+from monsters import Monster, Tractor
 
 class PyGameSpiritsTestCase(TestCase):
+    """Test case for Pygame spirits."""
 
     def setUp(self):
         pygame.init()
         pygame.mixer.init()
         self.width = 1200
         self.height = 900
-        image = pygame.image.load("./galaxy.wiki.jpg")
+        try:
+            image = pygame.image.load("./galaxy.wiki.jpg")
+        except pygame.error as e:
+            raise FileNotFoundError(f"Image file not found: ./galaxy.wiki.jpg") from e
         self.background = pygame.transform.scale(image, (self.width, self.height))
         screen_res = [self.width, self.height]
         self.screen = pygame.display.set_mode(screen_res)
@@ -158,18 +79,25 @@ class PyGameSpiritsTestCase(TestCase):
             if monster2.lv < monster1.lv:
                 monster1, monster2 = monster2, monster1
             if monster1.lv < monster2.lv:
-                monster1.dx = (monster2.dx - monster1.dx) * 3
-                maxSpeed = 1000
-                if abs(monster1.dx) > maxSpeed:
-                    monster1.dx = self.sign(monster1.dx) * maxSpeed
-                monster1.dy = (monster2.dy - monster1.dy) * 3
-                if abs(monster1.dy) > maxSpeed:
-                    monster1.dy = self.sign(monster1.dy) * maxSpeed
-                monster1.hit = True
-                if monster1.type == 'wolf':
-                    self.playWolf()
-                elif monster1.type == 'tiger':
-                    self.playTiger()
+                self.update_movement(monster1, monster2)
+                self.play_sound(monster1)
+
+    def update_movement(self, monster1, monster2):
+        maxSpeed = 1000
+        monster1.dx = (monster2.dx - monster1.dx) * 3
+        monster1.dx = self.clamp(monster1.dx, maxSpeed)
+        monster1.dy = (monster2.dy - monster1.dy) * 3
+        monster1.dy = self.clamp(monster1.dy, maxSpeed)
+        monster1.hit = True
+
+    def clamp(self, value, max_value):
+        return max(-max_value, min(value, max_value))
+
+    def play_sound(self, monster):
+        if monster.type == 'wolf':
+            self.playWolf()
+        elif monster.type == 'tiger':
+            self.playTiger()
 
     def sign(self, x):
         if x == 0:
@@ -202,3 +130,5 @@ class PyGameSpiritsTestCase(TestCase):
         pygame.mixer.music.play(loops=-1)  # loop forever
 
     
+MAX_SPEED = 1000
+MAX_STEP = 7
