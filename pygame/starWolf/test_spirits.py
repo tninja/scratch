@@ -9,6 +9,7 @@ import random
 
 from monsters import Monster, Tractor
 
+
 class PyGameSpiritsTestCase(TestCase):
     """Test case for Pygame spirits."""
 
@@ -129,7 +130,3 @@ class PyGameSpiritsTestCase(TestCase):
         pygame.mixer.music.load('./terran1.mp3')
         pygame.mixer.music.set_volume(0.3)
         pygame.mixer.music.play(loops=-1)  # loop forever
-
-    
-MAX_SPEED = 1000
-MAX_STEP = 7
