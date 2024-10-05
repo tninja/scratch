@@ -26,24 +26,31 @@ class Game:
         spirit_list.append(tractor)
         return sprites, spirit_list
 
+    def update_and_draw_sprites(self, sprites, spirit_list, maxstep):
+        if int(random.uniform(0, 100)) <= 10:
+            wolf = Monster.buildWolf(self.width, self.height, maxstep)
+            sprites.add(wolf)
+            spirit_list.append(wolf)
+        if int(random.uniform(0, 100)) <= 3:
+            tiger = Monster.buildTiger(self.width, self.height, maxstep)
+            sprites.add(tiger)
+            spirit_list.append(tiger)
+        self.refreshBackground()
+        sprites.draw(self.screen)
+        pygame.display.update()
+        for monster in spirit_list:
+            monster.move()
+        self.collideDetection(spirit_list)
+
     def play(self, maxstep=7):
         self.playBgm()
         pygame.display.set_caption("Galaxy Tractor")
 
         sprites, spirit_list = self.initialize_game(maxstep)
+
         finished = False
         while not finished:
-            if int(random.uniform(0, 100)) <= 10:
-                wolf = Monster.buildWolf(self.width, self.height, maxstep)
-                sprites.add(wolf)
-                spirit_list.append(wolf)
-            if int(random.uniform(0, 100)) <= 3:
-                tiger = Monster.buildTiger(self.width, self.height, maxstep)
-                sprites.add(tiger)
-                spirit_list.append(tiger)
-            self.refreshBackground()
-            sprites.draw(self.screen)
-            pygame.display.update()
+            self.update_and_draw_sprites(sprites, spirit_list, maxstep)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     finished = True
@@ -54,9 +61,6 @@ class Game:
                         self.playWolf()
                     elif event.key == pygame.K_RIGHT:
                         self.playTiger()
-            for monster in spirit_list:
-                monster.move()
-            self.collideDetection(spirit_list)
             time.sleep(0.1)
         pygame.quit()
 
