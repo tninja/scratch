@@ -16,10 +16,7 @@ class Game:
         self.background = pygame.transform.scale(image, (self.width, self.height))
         self.screen = pygame.display.set_mode([self.width, self.height])
 
-    def play(self, maxstep=7):
-        self.playBgm()
-        pygame.display.set_caption("Galaxy Tractor")
-
+    def initialize_game(self, maxstep):
         sprites = pygame.sprite.Group()
         spirit_list = []
         x, y = self.getRndInitXY()
@@ -27,6 +24,13 @@ class Game:
         tractor = Tractor(x, y, dx, dy, self.width, self.height)
         sprites.add(tractor)
         spirit_list.append(tractor)
+        return sprites, spirit_list
+
+    def play(self, maxstep=7):
+        self.playBgm()
+        pygame.display.set_caption("Galaxy Tractor")
+
+        sprites, spirit_list = self.initialize_game(maxstep)
         finished = False
         while not finished:
             if int(random.uniform(0, 100)) <= 10:
