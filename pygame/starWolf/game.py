@@ -42,6 +42,19 @@ class Game:
             monster.move()
         self.collideDetection(spirit_list)
 
+    def handle_events(self):
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return True
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    self.playDudu()
+                elif event.key == pygame.K_LEFT:
+                    self.playWolf()
+                elif event.key == pygame.K_RIGHT:
+                    self.playTiger()
+        return False
+
     def play(self, maxstep=7):
         self.playBgm()
         pygame.display.set_caption("Galaxy Tractor")
@@ -51,16 +64,7 @@ class Game:
         finished = False
         while not finished:
             self.update_and_draw_sprites(sprites, spirit_list, maxstep)
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    finished = True
-                elif event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_SPACE:
-                        self.playDudu()
-                    elif event.key == pygame.K_LEFT:
-                        self.playWolf()
-                    elif event.key == pygame.K_RIGHT:
-                        self.playTiger()
+            finished = self.handle_events()
             time.sleep(0.1)
         pygame.quit()
 
