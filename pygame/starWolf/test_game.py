@@ -13,5 +13,5 @@ class PyGameTestCase(TestCase):
         self.height = 900
         self.game = Game(self.width, self.height)
 
-    def test_spikeSprite(self):
+    def test_play(self):
         self.game.spikeSprite()

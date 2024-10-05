@@ -16,7 +16,7 @@ class Game:
         self.background = pygame.transform.scale(image, (self.width, self.height))
         self.screen = pygame.display.set_mode([self.width, self.height])
 
-    def spikeSprite(self, maxstep=7):
+    def play(self, maxstep=7):
         self.playBgm()
         pygame.display.set_caption("Galaxy Tractor")
 
