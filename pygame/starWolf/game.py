@@ -1,6 +1,7 @@
 import pygame
 import random
 import time
+from monsters import Monster, Tractor
 
 class Game:
     def __init__(self, width, height):
