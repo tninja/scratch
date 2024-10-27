@@ -1,3 +1,6 @@
 [submodule "scratch/ios.scratch"]
 	path = scratch/ios.scratch
 	url = ./scratch/ios.scratch/
+[submodule "pygame/battleship"]
+	path = pygame/battleship
+	url = ./pygame/battleship/
