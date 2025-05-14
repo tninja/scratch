@@ -13,10 +13,10 @@ async def local_search(keyword: str) -> str:
     """Search given locale files with grep.
 
     Args:
-        keyword: text to search in the files
+        keyword: text to search in the given files
     """
-    # 使用全局文件列表进行搜索
-    # 这里可以添加搜索逻辑
+    ## use grep -n -A 7 "keyword" 文件1 文件2 文件3 ... for the
+    ## file_list. return the grep output for this function
     
     return ""
 
@@ -24,7 +24,6 @@ async def local_search(keyword: str) -> str:
 if __name__ == "__main__":
     import sys
     import argparse
-    
     # 创建参数解析器
     parser = argparse.ArgumentParser(description="Local search server")
     parser.add_argument("--filenames", type=str, default="", 
@@ -34,6 +33,5 @@ if __name__ == "__main__":
     # 更新全局文件列表
     if args.filenames:
         file_list = [filename.strip() for filename in args.filenames.split(',')]
-    
     # Initialize and run the server
     mcp.run(transport='stdio')
