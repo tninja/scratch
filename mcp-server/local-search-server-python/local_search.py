@@ -1,5 +1,3 @@
-from typing import Any
-import httpx
 from mcp.server.fastmcp import FastMCP
 
 # Initialize FastMCP server
@@ -11,23 +9,19 @@ file_list = []
 @mcp.tool()
 async def local_search(keyword: str) -> str:
     """Search given locale files with grep.
-
     Args:
         keyword: text to search in the given files
     """
-    import subprocess
-    import shlex
-    
+
     if not file_list:
         return "No files specified for search. Please provide filenames when starting the server."
-    
     try:
+        import subprocess
+        import shlex
         # 构建 grep 命令
         cmd = ["grep", "-n", "-A", "7", keyword] + file_list
-        
         # 执行命令并获取输出
         result = subprocess.run(cmd, capture_output=True, text=True)
-        
         # 如果有输出，返回它；否则返回未找到的消息
         if result.stdout:
             return result.stdout
