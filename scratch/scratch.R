@@ -221,3 +221,15 @@ ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country)) +
   labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
   transition_time(year) +
   ease_aes('linear')
+
+library(lintr)
+
+ls()
+
+BiocManager::install(c('lintr'))
+
+BiocManager::install(c('knitr', 'bookdown'))
+
+setwd('/Users/tninja/git/py4ds-CN')
+
+bookdown::render_book("index.Rmd", "bookdown::epub_book")

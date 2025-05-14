@@ -118,3 +118,11 @@ piano_motif1 | d8 e8 d4
 # 我爱我的幼儿园，幼儿园里朋友多
 piano_motif1 | d8 e8 c4
 # 又唱歌来又跳舞，大家一起真快乐
+
+## Old MacDonald 
+piano_motif1 = c4 c4 c4 <g4 a4 a4 g4 r4> | e4 e4 d4 d4 c4 r4 r4
+piano_motif2 = <g8 g8> c4 c4 c4 
+piano:
+    piano_motif1
+    <g4> piano_motif1
+    piano_motif2 piano_motif2 piano_motif2 r4

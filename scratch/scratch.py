@@ -1,4 +1,22 @@
 
+def fibonacci(n):
+    """Return the nth Fibonacci number"""
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    a, b = 0, 1
+    for _ in range(2, n+1):
+        a, b = b, a + b
+    return b
+
+def hello_world():
+    """Print 'Hello, World!' message"""
+    print("Hello, World!")
+
+# Example usage:
+# hello_world()
+
 # 557. Reverse Words in a String III
 
 class Solution(object):
@@ -63,6 +81,8 @@ result = max_ss * 1.0 / k
 
 equation = "x+5-3+x=6+x-2"
 
+import pandas as pd
+
 import re
 re.findall('[+|-][0-9|x]+', 'x+5-3+x')
 
@@ -93,12 +113,12 @@ right_withx, right_withoutx = extract_withx_withoutx(right)
 left_x = left_withx; left_x.extend([-x for x in right_withx])
 right_n = right_withoutx; right_n.extend([-n for n in left_withoutx])
 
-        if sum_left_x != 0:
-            return 'x=' + str(sum(right_n) / sum(left_x))
-        elif sum_right_n != 0:
-            return "No solution"
-        else: # sum_right_n == 0
-            return "Infinite solutions"
+if sum_left_x != 0:
+    return 'x=' + str(sum(right_n) / sum(left_x))
+elif sum_right_n != 0:
+    return "No solution"
+else: # sum_right_n == 0
+    return "Infinite solutions"
 
 # 638. Shopping Offers
 
@@ -431,6 +451,72 @@ import matplotlib.pyplot as plt
 ### ggplot
 
 import pandas as pd
+
+import seaborn
+
 import ggplot
 
 import plotnine
+
+## write another hello world function, AI!
+
+def hello_world2():
+    """Print 'Hello, World!' (second version)"""  # Use a different function name to avoid redefinition
+    print("Hello, World! (second version)")
+
+# 约翰福音3:16这节经文非常著名，意思是：“上帝如此爱世人，甚至把他的独生子赐给他们，叫一切信他的人不至灭亡，反得永生。”这表达了基督教核心信念之一，即上帝之爱和通过耶稣基督获得救赎的可能。
+
+def hello_world():
+    """Print 'Hello, World!' message"""
+    print("Hello, World!")
+
+
+
+(setq aider-todo-keyword-pair '("AI!" . "comment line ending with string: AI!"))
+
+(setq aider-todo-keyword-pair '("TODO" . "comment line START with string: TODO:"))
+
+## write a fib function, AI!
+
+def fib(n):
+    """Return a list containing the first n Fibonacci numbers"""  # Calculate Fibonacci list
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    seq = [0, 1]
+    for i in range(2, n):
+        seq.append(seq[-1] + seq[-2])
+    return seq
+
+## TODO: write one add two function
+
+def add_two(a, b):
+    """Return the sum of two numbers"""  # Compute the sum of two numbers
+    return a + b
+
+class DemoClass:
+    def __init__(self, value):
+        self.value = value
+
+    def show_module(self):
+        # Accessing the __module__ attribute via the instance's class
+        print(f"DemoClass is defined in module: {self.__class__.__module__}")
+
+def demo_function():
+    # Accessing the __module__ attribute for a function
+    print(f"demo_function is defined in module: {demo_function.__module__}")
+
+def main():
+    print("Demonstration of __module__ attribute:\n")
+
+    # Demonstrate for a function
+    demo_function()
+
+    # Demonstrate for a class instance and the class itself
+    instance = DemoClass(100)
+    instance.show_module()
+    print(f"DemoClass is defined in module (accessed directly): {DemoClass.__module__}")
+
+if __name__ == '__main__':
+    main()

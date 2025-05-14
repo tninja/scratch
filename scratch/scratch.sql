@@ -16,7 +16,7 @@ drop table tdm_utf8;
 
 \l+ tninja;
 
-\d+
+\d+;
 
 \d+ hoteldata_utf8
 
@@ -89,10 +89,98 @@ SELECT COUNT(*) FROM redfin;
 
 SELECT sale_type, city, address, favorite, price FROM redfin LIMIT 10;
 
-\d+
+\d+ import.p262*
+
+\dt import.*
+
+\dn
 
 \c sandbox
 
 \l+
 
-SELECT 1, 'a'
+SELECT 1, 'a';
+
+\conninfo
+
+SELECT * FROM import.p1527;
+
+-- CREATE TABLE test(a INTEGER NOT NULL);
+
+\d+ import.p1132_actions;
+
+select
+    sum(pg_column_size(user_id)) as total_size,
+    sum(pg_column_size(user_id)) * 100.0 / pg_relation_size('import.p1132_actions') as percentage
+from import.p1132_actions;
+
+SELECT * FROM import.p1132_actions;
+
+with recursive r(a, b, i) as (
+  select 0::bigint, 1::bigint, 0::bigint
+  union all
+  select b, a + b, i+1 from r -- where b < 4000
+)
+select * from r LIMIT 100;
+
+\d+;
+
+-- Check IMAP
+
+-- https://multicorn.org/foreign-data-wrappers/#idimap-foreign-data-wrapper
+
+CREATE EXTENSION IF NOT EXISTS multicorn;
+
+CREATE SERVER imap_srv foreign data wrapper multicorn options (
+    wrapper 'multicorn.imapfdw.ImapFdw'
+);
+
+-- https://multicorn.org/
+
+-- DROP FOREIGN TABLE if EXISTS tninja_gmail;
+
+-- create foreign table tninja_gmail (
+--     "Message-ID" character varying,
+--     "From" character varying,
+--     "Subject" character varying,
+--     "payload" character varying,
+--     "flags" character varying[],
+--     "To" character varying) server imap_srv options (
+--         host 'imap.gmail.com',
+--         port '993',
+--         payload_column 'payload',
+--         flags_column 'flags',
+--         ssl 'True',
+--         login 'tninja',
+--         password 'Yp841225'
+-- );
+
+
+-- SELECT * FROM tninja_gmail LIMIT 3;
+
+SELECT 1;
+
+DROP FOREIGN TABLE if EXISTS tninja1980_hotmail;
+
+create foreign table tninja1980_hotmail (
+    "Message-ID" character varying,
+    "From" character varying,
+    "Subject" character varying,
+    "payload" character varying,
+    "flags" character varying[],
+    "To" character varying) server imap_srv options (
+        host 'imap-mail.outlook.com',
+        port '993',
+        payload_column 'payload',
+        flags_column 'flags',
+        ssl 'True',
+        login 'tninja1980@hotmail.com',
+        password 'tk5611450',
+        imap_server_charset 'US-ASCII'
+);
+
+SELECT COUNT(1) FROM tninja1980_hotmail LIMIT 1;
+
+SELECT COUNT(1) FROM embedding;
+
+SELECT * FROM embedding;

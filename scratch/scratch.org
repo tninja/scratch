@@ -24,3 +24,72 @@ Gen 1:5 "God called the light Day, and the darkness he called Night. And
 there was evening and there was morning, the first day."
 
 神称光为“昼”，称暗为“夜”。有晚上，有早晨，这是头一日。
+
+**** EIN
+
+#+NAME: DFE8A4E3-1217-4C9F-985A-E8BEEA0D920C
+#+BEGIN_SRC ein-python :session localhost :files test_ein.png :eval never
+  import numpy, math, matplotlib.pyplot as plt
+  %matplotlib inline
+  x = numpy.linspace(0, 2*math.pi)
+  plt.plot(x, numpy.sin(x))
+#+END_SRC
+
+#+results: DFE8A4E3-1217-4C9F-985A-E8BEEA0D920C
+: [....]
+
+**** normal python code block
+
+- Example: https://github.com/dfeich/org-babel-examples/blob/master/python3/python3-babel.org
+
+#+begin_src python :exports both :results value raw :return tabulate(df, headers=df.columns, tablefmt='orgtbl')
+  from tabulate import tabulate
+  import pandas as pd
+  df = pd.DataFrame({
+      "a": [1,2,3],
+      "b": [4,5,7]
+  })
+#+end_src
+
+#+results:
+|   | a | b |
+|---+---+---|
+| 0 | 1 | 4 |
+| 1 | 2 | 5 |
+| 2 | 3 | 6 |
+
+**** TDD with python code block
+
+- cannot run TDD here directly.. since unit-test cannot find file. might need to tangle
+
+#+begin_src python :exports both :results value raw :return tabulate(df, headers=df.columns, tablefmt='orgtbl')
+  from unittest import TestCase
+
+  from tabulate import tabulate
+  import pandas as pd
+
+  class SolutionTestCase(TestCase):
+      def testTabulate(self):
+          df = pd.DataFrame({
+              "a": [1,2,3],
+              "b": [4,5,6]
+          })
+          print(tabulate(df, headers=df.columns, tablefmt='orgtbl'))
+#+end_src
+
+**** Figure
+
+#+begin_src python :results file :exports both
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4,2))
+x=numpy.linspace(-15,15)
+plt.plot(numpy.sin(x)/x)
+fig.tight_layout()
+plt.savefig('python3-matplot-fig.png')
+return 'python3-matplot-fig.png' # return filename to org-mode
+#+end_src
+
+#+results:
+[[file:python3-matplot-fig.png]]

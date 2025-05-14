@@ -1,1 +1,107 @@
-["l","p(4)(4)","v","c","i","k(2)","y","a(4)(2)","t","a","e","e(1)(4)","p","p(1)","s","z","s(1)","q(2)(1)","r(1)","m","b(3)","u(2)","j","p(2)","t(1)","s(2)","g","o","o(1)","b(3)(3)","k","w(2)(3)","q","a(1)","z(1)","t(4)(4)","s(2)(1)","c(1)","w","u","h","g(1)","b","r","c(1)(1)","v(1)","n(1)","r(2)(1)","u(1)","t(2)(3)","p(3)","m(3)(1)","h(1)","o(2)","y(1)","n","s(3)","z(2)","k(2)(1)","x(4)","l(1)(4)","g(2)","u(3)","t(2)","m(1)","c(2)","t(3)","g(3)","c(3)","a(2)","r(2)","d","y(2)","b(1)","p(4)","m(2)","w(2)(4)","v(2)","t(4)(2)","x","e(4)(1)","h(2)","f","z(3)","e(1)(4)(1)","t(4)","b(1)(1)","x(4)(1)","m(3)","j(2)(4)","s(3)(2)","z(4)","l(1)","p(2)(2)","g(3)(2)","q(1)(4)","h(1)(1)","h(3)","o(3)","h(4)","f(1)","n(4)","s(4)","g(4)","s(5)","r(3)","n(1)(1)","x(3)","r(4)","f(3)(1)","e(1)","j(1)","s(6)","g(5)","d(1)","l(2)","g(6)","o(4)(3)","x(4)(2)","u(2)(4)","x(1)","t(5)","f(2)","j(1)(1)","v(2)(1)","w(1)","v(3)","t(2)(2)","l(3)","o(1)(1)","a(3)","y(3)","q(4)","m(1)(2)","i(1)","u(4)","l(4)","c(1)(2)","g(7)","l(2)(1)","p(1)(1)","k(1)","d(2)","l(5)","o(4)","m(4)","i(1)(1)","j(2)","i(2)","f(3)","y(4)","b(2)","k(3)","z(5)","n(2)","t(6)","c(2)(1)","y(5)","q(1)","b(4)","t(7)","m(5)","g(1)(1)","r(5)","m(6)","l(6)","s(7)","n(3)","j(4)(4)","m(3)(3)","n(5)","n(2)(3)","s(8)","t(8)","l(7)","e(2)","p(5)","q(2)","v(4)","v(5)","b(5)","w(2)","m(7)","p(6)","g(8)","h(2)(1)","n(1)(2)","q(3)","x(4)(3)","q(2)(4)","s(2)(2)","w(3)","k(4)","f(4)","v(6)","n(6)","q(5)","w(4)","y(3)(1)","a(4)(1)","r(1)(1)","r(6)","f(4)(2)","l(8)","f(2)(3)","p(7)","o(5)","h(5)","t(9)","i(3)","r(7)","k(5)","p(8)","l(9)","o(3)(4)","f(1)(1)","j(4)","f(3)(4)","o(2)(1)","j(3)","k(2)(2)","k(6)","x(4)(4)","s(3)(4)","p(1)(3)","y(6)","r(2)(2)","i(3)(4)","j(5)","p(4)(3)","e(3)","j(4)(1)","g(4)(2)","x(2)","l(10)","x(5)","g(9)","w(5)","o(6)","t(2)(4)","s(9)","f(5)","o(7)","h(6)","h(2)(4)","z(4)(2)","w(6)","l(11)","n(7)","q(6)","w(7)","l(12)","a(4)","o(8)","v(7)","h(7)","b(6)","v(8)","b(7)","k(7)","x(2)(1)","r(2)(1)(1)","g(2)(1)","c(4)(3)","w(1)(1)","g(4)(1)","z(6)","i(3)(2)","r(8)","e(4)","p(9)","z(4)(2)(1)","s(10)","c(1)(3)","h(8)","l(13)","j(3)(4)","x(1)(2)","a(5)","b(8)","t(10)","c(4)"]
+
+@rromoli
+Description
+rromoli
+opened on Apr 10, 2025
+
+I use spacemacs, and add this to my config file:
+
+(use-package aider
+  :config
+  ;; GEMINI model
+  (setq aider-args '("--model" "gemini-2.5-pro-exp-03-25"))
+  (setenv "GEMINI_API_KEY" "my-api-key")
+  ;; Optional: Set a key binding for the transient menu
+  (global-set-key (kbd "C-c a") 'aider-transient-menu)
+  )
+
+I installed aider and from terminal all works but when I try the same command (/ask) from within emacs using aieder.el, I get this error:
+
+litellm.APIConnectionError: No module named 'google'
+Traceback (most recent call last):
+  File "/home/r/.local/share/uv/tools/aider-chat/lib/python3.12/site-packages/litellm/main.py", line 2453, in 
+completion
+    model_response = vertex_chat_completion.completion(  # type: ignore
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/home/r/.local/share/uv/tools/aider-chat/lib/python3.12/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google
+_ai_studio_gemini.py", line 1255, in completion
+    _auth_header, vertex_project = self._ensure_access_token(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/home/r/.local/share/uv/tools/aider-chat/lib/python3.12/site-packages/litellm/llms/vertex_ai/vertex_llm_base.py", 
+line 138, in _ensure_access_token
+    self._credentials, cred_project_id = self.load_auth(
+                                         ^^^^^^^^^^^^^^^
+  File 
+"/home/r/.local/share/uv/tools/aider-chat/lib/python3.12/site-packages/litellm/llms/vertex_ai/vertex_llm_base.py", 
+line 40, in load_auth
+    import google.auth as google_auth
+ModuleNotFoundError: No module named 'google'
+
+You need to: pip install google-generativeai
+
+The model I use is gemini-2.5-pro-exp-03-25
+Activity
+tninja
+tninja commented on Apr 10, 2025
+tninja
+on Apr 10, 2025
+Owner
+
+The error msg said it require: pip install google-generativeai.
+
+I see similar issue before. Seems that gemini model required additional python library.
+
+BTW. Aider use gemini-exp alias for gemini/gemini-2.5-pro-exp-03-25: https://github.com/Aider-AI/aider/blob/main/HISTORY.md#aider-v0811
+rromoli
+rromoli commented on Apr 10, 2025
+rromoli
+on Apr 10, 2025
+Author
+
+When I use aider from within gnome terminal, not from within emacs, it work and give me no errors
+tninja
+tninja commented on Apr 10, 2025
+tninja
+on Apr 10, 2025 via email
+Owner
+Hmm I am wondering if they are using same python.. maybe emacs started a
+different Python installation which don’t have library installed.
+…
+tninja
+tninja commented on Apr 10, 2025
+tninja
+on Apr 10, 2025
+Owner
+
+Would you mind try aider inside emacs eshell and see how it does, so that we know if aider in emacs works?
+rromoli
+rromoli commented on Apr 10, 2025
+rromoli
+on Apr 10, 2025
+Author
+
+    Would you mind try aider inside emacs eshell and see how it does, so that we know if aider in emacs works?
+
+Tried aieder from within emacs using both eshell and v term and the same /ask command. Both works well as in gnome terminal with no errors.
+tninja
+tninja commented on Apr 11, 2025
+tninja
+on Apr 11, 2025 · edited by tninja
+Owner
+
+In aider.el, aider process started with this line: https://github.com/tninja/aider.el/blob/main/aider-core.el#L236. LLM said it won't include things inside .bashrc or .zshrc. Is there special PATH or PYTHONPATH variable setting there about library or uv? If there is, LLM suggest to set them in emacs, for example:
+
+
+(setenv "PATH" (concat "/home/r/.local/share/uv/tools/aider-chat/bin:" (getenv "PATH")))
+(setenv "PYTHONPATH" "/home/r/.local/share/uv/tools/aider-chat/lib/python3.12/site-packages")
+
+BTW, I do confirmed that gemini-exp works well on my laptop.
+rromoli
+rromoli commented on Apr 14, 2025
+rromoli
+on Apr 14, 2025
+Author
+
+I do not have any special PATH, but I still try to add the ones you suggest me, but I still get the error

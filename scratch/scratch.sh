@@ -1,3 +1,6 @@
+
+## in the future this file is just for Mac OS X. Ubuntu should use scratch_ubuntu.sh
+
 ls -ltr
 
 cd ~/Downloads
@@ -9,7 +12,8 @@ ls -ltr
 ls
 
 pushd ~/local/bin
-wget -O pgfutter https://github.com/lukasmartinelli/pgfutter/releases/download/v1.1/pgfutter_darwin_amd64
+wget -O pgfutter https://github.com/lukasmartinelli/pgfutter/releases/download/v1.2/pgfutter_darwin_amd64
+
 chmod +x pgfutter
 
 which pgfutter
@@ -454,7 +458,11 @@ youtube-dl --all-subs --write-auto-sub --skip-download https://www.youtube.com/w
 
 youtube-dl --all-subs --write-auto-sub --skip-download --sub-lang en,zh-Hans,zh-Hant https://www.youtube.com/watch?v=bVzZu-l1Xoo
 
-brew cask upgrade calibre
+brew upgrade calibre --cask 
+
+ls /usr/local/Caskroom/calibre/
+
+df -h
 
 ebook-viewer
 
@@ -515,8 +523,6 @@ aspell
 pip3 install jedi rope importmagic virtualenv
 
 rm -rf ~/.minikube
-
-brew cleanup
 
 df -h
 
@@ -627,6 +633,21 @@ brew uninstall haskell-platform
 brew update
 
 brew upgrade
+
+brew reinstall --cask --force calibre
+
+brew doctor
+
+sudo mkdir -p /usr/local/sbin
+
+sudo chown -R $(whoami) /usr/local/sbin
+
+brew untap homebrew/cask
+
+brew untap homebrew/core
+
+brew link jpeg-turbo --overwrite
+
 
 brew unlink poppler
 
@@ -765,7 +786,9 @@ brew link  \
 
 brew install docker
 
-brew cask install docker
+brew link docker
+
+brew install --cask docker
 
 brew upgrade youtube-dl
 
@@ -784,3 +807,955 @@ brew update
 brew install pycharm-ce
 
 brew uninstall pycharm-ce
+
+sudo apt install -y jq
+
+sudo apt install -y r-base r-base-html
+
+apt-cache search cran
+
+apt-cache search tuxpaint
+
+sudo apt install -y gtypist
+
+sudo apt install -y gcompris gamine
+
+sudo apt install -y tuxpaint tuxtype tuxmath
+
+sudo apt install -y curl
+ 
+curl https://celestia.space/packages/celestia.key | sudo apt-key add -
+
+echo deb https://celestia.space/packages focal main | sudo tee /etc/apt/sources.list.d/celestia.list
+
+cat /etc/apt/sources.list.d/celestia.list
+
+ls -ltr /etc/apt/
+
+cat /etc/apt/sources.list
+
+sudo apt update && sudo apt dist-upgrade -y
+
+sudo apt dist-upgrade -y
+
+sudo apt install -y celestia
+
+sudo apt install -y googleearth-package
+
+apt-cache search google | grep earth
+
+wget -O ~/Downloads/google-earth.deb https://dl.google.com/dl/earth/client/current/google-earth-pro-stable_current_amd64.deb
+
+sudo dpkg -i ~/Downloads/google-earth.deb
+
+apt-cache search displaylink
+
+apt-cache search spotify
+
+## bible study tool
+
+sudo add-apt-repository ppa:pkgcrosswire/ppa
+
+sudo apt update
+
+sudo apt install xiphos
+
+apt-cache search pandoc
+
+sudo apt install pandoc
+
+apt-cache search pylint
+
+apt-cache search mypy
+
+sudo apt install pylint python3-mypy
+
+sudo apt install lm-sensors 
+
+sudo sensors-detect
+
+sensors
+
+psql -version
+
+## install postgresql 13 on ubuntu 20.04
+### https://computingforgeeks.com/how-to-install-postgresql-13-on-ubuntu/
+
+sudo apt -y install vim bash-completion wget
+
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
+echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+
+sudo apt update
+
+sudo apt install postgresql-13 postgresql-client-13
+
+systemctl status postgresql.service 
+
+systemctl is-enabled postgresql
+
+## postgresql related
+
+brew update
+
+brew uninstall postgresql
+
+brew rm postgrest postgresql
+
+brew upgrade postgresql
+
+brew reinstall postgresql
+
+ls /usr/local/opt/postgresql/
+
+rm -rf /usr/local/opt/android-ndk/
+
+brew cleanup -s
+
+brew style --fix
+
+pip3 install psycopg2
+
+pip3 install sqlalchemy
+
+pip3 install pandas
+
+df -h
+
+psql --version
+
+### setup postgresql
+
+createuser -s postgres
+
+psql postgres
+
+brew services restart postgresql
+
+ls -ltr /usr/local/Cellar/ | grep postgres
+
+rm -rf postgresql@10
+
+rm -rf postgresql@9.6
+
+brew postgresql-upgrade-database
+
+ls -ltr /usr/local/var/postgres
+
+rm -rf /usr/local/var/postgres
+
+rm -rf /usr/local/var/postgres.old
+
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+
+ls ~/Library/LaunchAgents
+
+alias pg_start="launchctl load ~/Library/LaunchAgents"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents"
+
+pg_start
+
+ps -aux | grep postgres
+
+brew install pgfutter
+
+## ubuntu postgres install
+
+sudo -u postgres createuser tninja
+
+apt-cache search psycopg2
+
+apt-cache search sqlalchemy
+
+apt-cache search bible
+
+sudo apt install python3-psycopg2 python3-sqlalchemy python3-pandas
+
+echo 'localhost:*:*:tninja:111111' > ~/.pgpass
+chmod 600 ~/.pgpass
+
+sudo apt install csvkit
+
+## download mp3
+
+brew upgrade youtube-dl
+
+brew link --overwrite youtube-dl
+
+mkdir -p ~/Downloads/mp3/danjiang/Ecclesiastes
+cd ~/Downloads/mp3/danjiang/Ecclesiastes
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=prgGzJxxIDE&list=PLe-YK1dmFUsKnUr0wDdSwls3ZKJha8bTv&index=1&t=9s
+
+df -h
+
+mkdir -p ~/Downloads/mp3/danjiang/Proverbs
+cd ~/Downloads/mp3/danjiang/Proverbs
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=akIZMSN8U6Q&list=PLe-YK1dmFUsKOS6inXkaHGZ-NhmCy-kHy
+
+mkdir -p ~/Downloads/mp3/danjiang/GospelOfMatthew
+cd ~/Downloads/mp3/danjiang/GospelOfMatthew
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=Q7qd4ujjW70&list=PLe-YK1dmFUsIBVG3cnI2cLS-66wX-vnD8
+
+brew update
+
+brew tap --repair
+
+brew upgrade postgresql
+
+brew search postgres
+
+brew unlink xpdf
+
+brew upgrade
+
+pip3 install elpy
+
+sudo apt install cmake libtool libtool-bin
+
+brew unlink glew
+
+brew link --overwrite guile
+
+brew link --overwrite gnutls
+
+git --version
+
+brew style --fix
+
+brew cleanup -s
+
+df -h
+
+pip3 install --upgrade psycopg2 pandas
+
+pip3 install mypy
+
+
+mkdir -p ~/Downloads/mp3/属灵操练礼赞
+cd ~/Downloads/mp3/属灵操练礼赞
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/playlist?list=PLeBFtkBTiKZgg_CzWtoEbxVzDR1y4JAfK
+
+
+cd ~/git
+git clone https://github.com/leewaiho/Clean-Architecture-zh.git
+
+cd ~/git/Clean-Architecture-zh
+
+npm install --global yarn
+
+yarn docs:build
+
+pip3 install 'python-language-server[all]'
+
+pip3 uninstall 'python-language-server[all]'
+
+pip3 install 'python-language-server[yapf]'
+
+pip3 uninstall python-language-server
+
+pip3 uninstall python-lsp-server
+
+pip3 uninstall python-language-server
+
+go get github.com/lighttiger2505/sqls
+
+go help get
+
+go install github.com/lighttiger2505/sqls@latest
+
+go list sqls
+
+ls -la /usr/local/Cellar/go/1.17.2/libexec/src/
+
+pip3 install --upgrade pytest
+
+pip install pytest
+
+pytest
+
+py.test
+
+pip3 install pytest-sugar pytest-cov pytest-instafail pytest-tldr pytest-icdiff pytest-clarity
+
+mkdir -p /Users/tninja/Document/ebooks/宗教和心理学/敬虔的丈夫
+
+cd /Users/tninja/Document/ebooks/宗教和心理学/敬虔的丈夫
+
+wget -r -np -l 1 -A zip "https://www.yanjinggongju.com/H"
+
+brew install --cask dbeaver-community
+
+df -h
+
+##### 老婆要的王菲专辑
+
+mkdir -p ~/Downloads/mp3/王菲
+cd ~/Downloads/mp3/王菲
+
+brew upgrade youtube-dl ##--force
+
+brew link --overwrite youtube-dl
+
+brew unlink ctags
+
+brew cleanup -s
+
+df -h
+
+## 王菲 2001《王菲》同名專輯
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=NTWnCijKbKc
+
+## 王菲 1998《唱遊》專輯
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=eq7w2KRgfzs
+
+## 王菲 2000《寓言》專輯
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=QYC9pG2T7yk
+
+## 王菲 2003《將愛》專輯
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=BZ57AtDZbzI
+
+##### 一些三国mv
+
+mkdir -p ~/Downloads/mp3/三国演义
+cd ~/Downloads/mp3/三国演义
+
+## 青史传名
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=74wZrekluh8
+
+## 故人嘆
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=mWeaRWemp1w
+
+##### 基督教
+
+mkdir -p ~/Downloads/mp3/基督教音乐
+cd ~/Downloads/mp3/基督教音乐
+
+## 诗篇51篇
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=Qw7ldPE5s18&list=RDGMEMCMFH2exzjBeE_zAHHJOdxg&start_radio=1&rv=UVEDBXCht48
+
+## 摩西的祷告
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=GjYSMGjyghc
+
+chmod -R a+w /Applications
+
+
+brew install --cask intellij-idea-ce --force
+
+brew upgrade --cask intellij-idea-ce
+
+brew uninstall intellij-idea
+
+brew cleanup -s
+
+brew remove make
+
+brew install make
+
+brew install global
+
+## install go
+
+brew update
+
+brew install go
+
+go install golang.org/x/tools/gopls@latest
+
+go install github.com/kisielk/errcheck@latest
+
+go get -u github.com/cweill/gotests/...
+
+go get github.com/stretchr/testify/assert
+
+go install github.com/stretchr/testify/assert
+
+brew install --cask openoffice
+
+## install multicorn
+
+brew search pgxn
+
+brew install pgxnclient
+
+## install imap plugin
+
+pgxn install multicorn
+
+cd ~/git
+
+git clone git://github.com/Kozea/Multicorn.git
+
+## https://stackoverflow.com/questions/70663523/the-unauthenticated-git-protocol-on-port-9418-is-no-longer-supported
+
+git config --global url."https://".insteadOf git://
+
+cd Multicorn
+
+make && make install
+
+cd ~/Downloads
+ls -ltr | grep multicorn
+
+unzip multicorn-1.4.0.zip
+
+cd multicorn-1.4.0
+
+make
+
+# src/errors.c:71:35: error: too many arguments to function call, expected 2, have 5
+
+brew search postgres
+
+brew uninstall postgresql
+
+brew uninstall postgresql@9.6
+
+brew uninstall postgresql@13
+
+brew uninstall postgresql@10
+
+brew reinstall postgresql@12
+
+brew info postgresql
+
+brew link postgresql@12
+
+psql --help
+
+brew services start postgresql@12
+
+pip3 install imapclient
+
+brew install alda
+
+brew link --overwrite alda
+
+brew install homebrew/emacs/pdf-tools
+
+brew search lilypond
+
+brew reinstall lilypond
+
+brew link --overwrite lilypond
+
+which lilypond
+
+whereis lilypond
+
+pushd /usr/local/Cellar/lilypond/2.24.3
+
+ls /usr/local/Cellar/lilypond
+
+find . -iname "*.el"
+
+brew install timidity
+
+brew install eawpats
+
+brew install ghostscript
+
+brew link --overwrite ghostscript
+
+brew search redis
+
+brew install redis
+
+## install anaconda3
+
+brew upgrade --cask anaconda
+
+df -h
+
+which conda
+
+conda install scikit-learn-intelex
+
+which python
+
+which ipython
+
+conda install elpy
+
+conda install jedi autopep8 yapf black flake8  
+
+pip install --upgrade pylint
+
+pip install --upgrade spyder
+
+conda install tabulate
+
+brew install node@17
+
+brew install nvm
+
+mkdir ~/.nvm
+
+export NVM_DIR="$HOME/.nvm"
+    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
+nvm install 17
+
+nvm use 17
+
+brew cleanup -s
+
+pip3 install revChatGPT --upgrade
+
+pip install revChatGPT --upgrade
+
+brew upgrade python3
+
+/usr/local/anaconda3/bin/pip3 install revChatGPT --upgrade
+
+df -h
+
+### try https://github.com/joshcho/ChatGPT.el
+
+which pip
+
+/usr/local/anaconda3/bin/pip install epc
+
+/usr/local/anaconda3/bin/pip install git+https://github.com/mmabrouk/chatgpt-wrapper
+
+pkill firefox
+
+/usr/local/anaconda3/bin/chatgpt install
+
+/usr/local/anaconda3/bin/playwright install
+
+ln -s /usr/local/anaconda3/bin/chatgpt /usr/local/bin/chatgpt
+
+### modify copilot source code
+
+cd ~/git/
+ls -ltr
+
+git clone https://github.com/tninja/copilot.el
+
+# rm -rf copilot.el
+
+brew tap lencx/chatgpt https://github.com/lencx/ChatGPT.git
+
+brew install --cask chatgpt --no-quarantine
+
+curl --version
+
+/usr/bin/curl --version
+
+brew upgrade curl
+
+brew install curl
+
+whereis curl
+
+brew link curl
+
+### to open xlsx..
+
+brew install gnumeric
+
+gnumeric
+
+df -h
+
+
+
+brew info --json=v1 | jq -j '.[] | .caskroom_path + "/" + .name + "\n" + .installed[].version + "\n" + (.installed[].sum | tostring) + "\n"' | while read cask; do read version; read sum; echo "$(du -sh \"${cask}\/$version\/\") $cask $version (${sum})"; done
+
+brew cleanup -s
+
+df -h
+
+for pkg in `brew list --formula -1 | egrep -v '\.|\.\.'`
+  do echo $pkg `brew info $pkg | egrep '[0-9]* files, ' | sed 's/^.*[0-9]* files, \(.*\)).*$/\1/' | awk '{print $1;}/[0-9]$/{s+=$1};/[mM][bB]$/{s+=$1*(1024*1024);next};/[kK][bB]$/{s+=$1*1024;next} END { suffix=" KMGT"; for(i=1; s>1024 && i < length(suffix); i++) s/=1024; printf "\t(all versions: %0.1f%s)",s,substr(suffix, i, 1), $3; }'`
+done
+
+brew update
+
+brew upgrade
+
+brew uninstall emacs
+
+brew uninstall pdf-tools
+
+brew uninstall hadoop
+
+sysctl -n hw.physicalcpu
+
+该命令将显示Macbook上的物理CPU数量，即每个CPU插槽上的芯片数量。
+
+sysctl -n hw.logicalcpu
+
+brew install htop
+
+brew update
+
+brew link htop
+
+sudo chmod -R a+w /usr/local/share
+
+git config --global --add safe.directory /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
+
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow
+
+ git config --global --add safe.directory /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask
+
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow
+
+### on macbooks, how do i know if the xcode is already installed? how do i install it through command line?
+
+xcode-select --install
+
+### when i run "brew update" on macosx, it complains "No remote 'origin' in /usr/local/Homebrew, skipping update!" How should i fix that?
+
+
+### 当我在MacOSX上运行“brew update”时，它抱怨“/ usr / local / Homebrew中没有远程'origin'，跳过更新！”我该如何解决？
+
+pushd /usr/local/Homebrew
+
+git init
+
+git remote add origin https://github.com/Homebrew/brew.git
+
+git config --global --add safe.directory /usr/local/Homebrew
+
+popd
+
+brew search openjdk
+
+brew install openjdk
+
+brew install --cask anaconda
+
+which pip3
+
+pip3 install pyright
+
+/usr/local/anaconda3/bin/pip3 install pyright
+
+brew install nodejs npm
+
+npm install pyrigh
+
+pyright
+
+npm install copilot
+
+npm audit fix
+
+node
+
+pip install proselint
+
+cd ~/
+
+tar -czvf mbp.emacs.tar.gz .emacs.d .emacs
+
+brew search global
+
+brew install global
+
+## download 海底小纵队
+
+pip install --upgrade youtube-dl
+
+pip uninstall youtube-dl
+
+mkdir -p ~/Download/海底小纵队
+
+cd ~/Download/海底小纵队
+
+youtube-dl -U
+
+/usr/local/bin/youtube-dl --verbose https://www.youtube.com/watch?v=hTaNMCy8xwk
+
+youtube-dl --verbose https://www.youtube.com/watch?v=hTaNMCy8xwk&list=PLMimNX_5368dCjFMHAHX43iMY2SSaygho&index=1
+
+youtube-dl --verbose https://www.youtube.com/watch?v=hTaNMCy8xwk&list=PLMimNX_5368dCjFMHAHX43iMY2SSaygho&index=2
+
+youtube-dl --verbose https://www.youtube.com/watch?v=hTaNMCy8xwk&list=PLMimNX_5368dCjFMHAHX43iMY2SSaygho&index=3
+
+youtube-dl --verbose https://www.youtube.com/watch?v=hTaNMCy8xwk&list=PLMimNX_5368dCjFMHAHX43iMY2SSaygho&index=4
+
+youtube-dl --verbose https://www.youtube.com/watch?v=hTaNMCy8xwk&list=PLMimNX_5368dCjFMHAHX43iMY2SSaygho&index=5
+
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+whereis youtube-dl
+
+brew reinstall youtube-dl
+
+rm /usr/local/bin/youtube-dl
+
+/usr/local/bin/youtube-dl
+
+sudo brew unlink python@3.11
+
+
+brew unlink python@3.11 && brew link python@3.11
+
+rm -rf /usr/local/Cellar/python@3.11/3.11.3
+
+ls -ltr /usr/local/Cellar/python@3.11
+
+sudo chown -R $(whoami) /usr/local/*
+
+brew doctor
+
+brew link --overwrite pygments six python@3.11
+
+ls /usr/local/bin/youtube-dl
+
+
+## generate some pdf for testing ai purpose
+
+pandoc /Users/tninja/Document/ebooks/文学历史哲学/三国演义.epub -s -o /Users/tninja/Document/ebooks/文学历史哲学/三国演义.pdf
+
+brew install pandoc
+
+brew install mactex
+
+brew uninstall mactex
+
+brew install --cask mactex-no-gui
+
+brew reinstall mactex-no-gui
+
+brew remove mactex-no-gui
+
+## install chatgpt required library
+
+pip install --upgrade transformers torch
+
+which pip
+
+brew install git-delta
+
+brew install --cask mactex
+
+brew install pdflatex
+
+brew install basictex
+
+# brew install --cask basictex
+
+which pdflatex
+
+ls /
+
+brew install bash
+
+## convert safaribooks to epub
+### https://github.com/lorenzodifuccia/safaribooks
+
+cd ~/git
+ls -ltr
+
+# rm -rf safaribooks
+
+git clone https://github.com/lorenzodifuccia/safaribooks.git
+
+cd safaribooks/
+
+pip3 install -r requirements.txt
+
+ls -ltr
+
+## Head First Software Architecture: 9781098134341
+
+## Get Your Hands Dirty on Clean Architecture - Second Edition: 9781805128373
+
+python3 safaribooks.py --cred "kang_tu@apple.com:Tk5611450" --kindle 9781098134341 --no-cookies
+
+# python3 safaribooks.py --login --kindle 9781098134341
+
+brew search freeciv
+
+brew install freeciv
+
+which freeciv
+
+brew search racket
+
+brew search scheme
+
+brew search guile
+
+brew install guile
+
+brew install chezscheme
+
+brew install mit-scheme
+
+brew search postgresql
+
+brew --version
+
+brew list | grep postgres
+
+brew info postgresql
+
+brew install postgresql
+
+brew services start postgresql
+
+psql --version
+
+brew install texlive
+
+brew install pdftk-java
+
+pip3 install ropemacs
+
+python -m pip install --user --editable "git+https://github.com/python-rope/ropemacs.git#egg=ropemacs"
+
+sudo port install tuxtype
+
+sudo pip3 install requests beautifulsoup4
+
+sudo pip3 install selenium
+
+## emacs 29？
+
+brew tap d12frosted/emacs-plus
+
+brew install emacs-plus@29 --with-ctags --with-dbus --with-debug --with-mailutils --with-xwidgets --with-imagemagick --with-native-comp
+
+brew install emacs-plus@29 --with-ctags --with-debug --with-imagemagick --with-native-comp
+
+brew install emacs-plus@29 --with-native-comp
+
+brew link --overwrite jpeg --force
+
+brew reinstall libgccjit
+
+brew reinstall gcc
+
+brew reinstall autoconf
+
+brew install automake
+
+brew uninstall libgccjit
+
+## try https://github.com/d12frosted/homebrew-emacs-plus/issues/485#issuecomment-1206748102, not working
+
+brew uninstall emacs-plus
+
+brew tap homebrew/core --force
+
+cd "$(brew --repository)/Library/Taps/homebrew/homebrew-core/Formula"
+
+brew uninstall libgccjit gcc # in case you already had the updated gcc and libgccjit installed
+
+git log libgccjit.rb # examine recent commits for libgccjit.rb
+
+git reset --hard 9ae475cc6c82beaa61402dcfffdea5c75f321d4a # reset clone to last known-good commit for libgccjit
+
+git checkout -b libgccjit-downgrade-11.3.0_1 # prevent brew from autorefreshing local master
+
+brew install libgccjit gcc
+
+brew install emacs-plus@29 --with-ctags --with-debug --with-imagemagick --with-native-comp
+# brew install emacs-plus # with options
+
+brew pin libgccjit gcc emacs-plus
+
+brew link --overwrite emacs-plus@29
+
+git checkout master
+
+brew update
+
+### different way..
+
+brew tap railwaycat/emacsmacport
+
+brew install emacs-mac --with-emacs-sexy-icon --with-librsvg --with-mac-metal --with-native-compilation --with-starter 
+
+### https://github.com/jimeh/emacs-buildso
+
+cd
+
+brew tap jimeh/emacs-builds
+
+brew install --cask emacs-app
+
+### shell-gpt: https://github.com/TheR1D/shell_gpt
+
+pip3 install shell-gpt
+
+pip install shell-gpt
+
+sgpt "What is the fibonacci sequence"
+
+brew install w3m
+
+brew install gabotechs/taps/musicgpt
+
+musicgpt "Create a relaxing LoFi song"
+
+musicgpt "Create the RYU theme in street fighter 2 game"
+
+musicgpt "Create happy birthday song" --model medium --secs 30
+
+### install python2
+
+brew search python2
+
+brew update
+
+brew tap newren/tap
+
+brew install python@2
+
+brew install pyenv
+
+pyenv install 2.7.18
+
+# Installed Python-2.7.18 to /Users/tninja/.pyenv/versions/2.7.18
+
+/Users/tninja/.pyenv/versions/2.7.18/bin/pip2 install pygame==1.9.6
+
+/Users/tninja/.pyenv/versions/2.7.18/bin/python2 /Users/tninja/Download/solarwolf-1.5/solarwolf.py
+
+brew install sdl sdl_image sdl_mixer sdl_ttf
+
+brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf
+
+pip install cocos
+
+brew install p7zip
+
+7z --help
+
+# You can find MAME game ROMs at various websites, but make sure to check the legality of downloading them in your region. Some popular sources include:
+# - https://archive.org/details/mame
+# - https://www.emuparadise.me/
+# - https://romsmania.cc/
+# - https://www.romsdownload.net/
+
+brew install pcsx2
+
+## install cursor editor
+
+brew install --cask cursor
+
+## format usb drive
+
+diskutil list
+
+diskutil unmountDisk /dev/disk2
+
+sudo diskutil eraseDisk exFAT samsung64G /dev/disk2
+
+## install universal ctags with homebrew
+# brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+
+brew install universal-ctags

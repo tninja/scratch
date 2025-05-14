@@ -1,1 +1,294 @@
-["l","p(4)(4)","v","c","i","k(2)","y","a(4)(2)","t","a","e","e(1)(4)","p","p(1)","s","z","s(1)","q(2)(1)","r(1)","m","b(3)","u(2)","j","p(2)","t(1)","s(2)","g","o","o(1)","b(3)(3)","k","w(2)(3)","q","a(1)","z(1)","t(4)(4)","s(2)(1)","c(1)","w","u","h","g(1)","b","r","c(1)(1)","v(1)","n(1)","r(2)(1)","u(1)","t(2)(3)","p(3)","m(3)(1)","h(1)","o(2)","y(1)","n","s(3)","z(2)","k(2)(1)","x(4)","l(1)(4)","g(2)","u(3)","t(2)","m(1)","c(2)","t(3)","g(3)","c(3)","a(2)","r(2)","d","y(2)","b(1)","p(4)","m(2)","w(2)(4)","v(2)","t(4)(2)","x","e(4)(1)","h(2)","f","z(3)","e(1)(4)(1)","t(4)","b(1)(1)","x(4)(1)","m(3)","j(2)(4)","s(3)(2)","z(4)","l(1)","p(2)(2)","g(3)(2)","q(1)(4)","h(1)(1)","h(3)","o(3)","h(4)","f(1)","n(4)","s(4)","g(4)","s(5)","r(3)","n(1)(1)","x(3)","r(4)","f(3)(1)","e(1)","j(1)","s(6)","g(5)","d(1)","l(2)","g(6)","o(4)(3)","x(4)(2)","u(2)(4)","x(1)","t(5)","f(2)","j(1)(1)","v(2)(1)","w(1)","v(3)","t(2)(2)","l(3)","o(1)(1)","a(3)","y(3)","q(4)","m(1)(2)","i(1)","u(4)","l(4)","c(1)(2)","g(7)","l(2)(1)","p(1)(1)","k(1)","d(2)","l(5)","o(4)","m(4)","i(1)(1)","j(2)","i(2)","f(3)","y(4)","b(2)","k(3)","z(5)","n(2)","t(6)","c(2)(1)","y(5)","q(1)","b(4)","t(7)","m(5)","g(1)(1)","r(5)","m(6)","l(6)","s(7)","n(3)","j(4)(4)","m(3)(3)","n(5)","n(2)(3)","s(8)","t(8)","l(7)","e(2)","p(5)","q(2)","v(4)","v(5)","b(5)","w(2)","m(7)","p(6)","g(8)","h(2)(1)","n(1)(2)","q(3)","x(4)(3)","q(2)(4)","s(2)(2)","w(3)","k(4)","f(4)","v(6)","n(6)","q(5)","w(4)","y(3)(1)","a(4)(1)","r(1)(1)","r(6)","f(4)(2)","l(8)","f(2)(3)","p(7)","o(5)","h(5)","t(9)","i(3)","r(7)","k(5)","p(8)","l(9)","o(3)(4)","f(1)(1)","j(4)","f(3)(4)","o(2)(1)","j(3)","k(2)(2)","k(6)","x(4)(4)","s(3)(4)","p(1)(3)","y(6)","r(2)","i(3)(4)","j(5)","p(4)(3)","e(3)","j(4)","g(4)(2)","x(2)","l(10)","x(5)","g(9)","w(5)","o(6)","t(2)(4)","s(9)","f(5)","o(7)","h(6)","h(2)(4)","z(4)(2)","w(6)","l(11)","n(7)","q(6)","w(7)","l(12)","a(4)","o(8)","v(7)","h(7)","b(6)","v(8)","b(7)","k(7)","x(2)(1)","r(2)(1)(1)","g(2)(1)","c(4)(3)","w(1)(1)","g(4)(1)","z(6)","i(3)(2)","r(8)","e(4)","p(9)","z(4)(2)(1)","s(10)","c(1)(3)","h(8)","l(13)","j(3)(4)","x(1)(2)","a(5)","b(8)","t(10)","c(4)"]
+
+This is my English. It is not very good.
+
+Welcome to DALL-E shell
+
+  Type help and press RET for details.
+
+  Like this package? Consider ✨sponsoring✨
+
+
+<shell-maker-failed-command>
+DALL-E(v3)> please plot a chart for a 6 year old boy actively working on his english reading homework, and be able to finish them?
+<shell-maker-end-of-prompt>
+
+/var/folders/pm/rj4rl8nj6gncypt07mwchjp80000gp/T/1703981831.png
+
+Create an image depicting a cheerful Caucasian 6-year-old boy diligently working on his English reading homework at a desk. The scene should convey his determination to finish all the tasks. The surroundings should be kid-friendly with age-appropriate stationery. The desk on which he works is cluttered with colorful pencils, erasers, notebooks, and English textbooks. An English alphabet chart can be spotted on the wall of the room.
+
+
+DALL-E(v3)> 
+
+More than 1 million vehicles were stolen in the United States in 2022, according to the National Insurance Crime Bureau, and nearly 500,000 vehicles were reported stolen in the first half of 2023. Nobody, regardless of where we live or the deterrents we put in place, is immune to this kind of crime. So what can we do to keep our wheels safe?
+/Users/tninja/tmp/dall-e-image/1704046999.png 
+/Users/tninja/tmp/dall-e-image/1704046910.png
+
+/Users/tninja/tmp/dall-e-image/1704047071.png
+
+A U.S. Navy vessel destroyed three boats carrying pro-Iranian Yemeni rebels after they attacked a Danish-owned containership early Sunday, the latest in a string of assaults that have disrupted maritime traffic in the Red Sea. Meanwhile, Israeli forces raided what they described as a key Hamas command post in Khan Younis on Saturday, gathering intelligence as Israel searches for Hamas leaders and underground tunnels in the militant group’s southern stronghold, currently the focus of Israel’s ground campaign in the Gaza Strip.
+/Users/tninja/tmp/dall-e-image/1704047106.png 
+
+
+We'are not running away! Right, masked royal? You mean it? You and us? We'll battle the revengers together? Of course we will! Won't we, torracat??
+/Users/tninja/tmp/dall-e-image/1704070313.png
+ 
+
+    def loadAndResizeImageFile(self, frame):
+        imageFileList = ['bluebird-upflap.png', 'bluebird-midflap.png', 'bluebird-downflap.png', 'bluebird-midflap.png']
+        assert frame >= 0 and frame < 4
+        imageFile = imageFileList[frame]
+        image = pygame.image.load(imageFile)
+        image = self.resizeImage(image, self.height)
+        if flop:
+            image = pygame.transform.flip(image, True, False)
+        self.image_cache[key] = image
+        return image
+
+    def warmCache(self):
+        self.imageCache = {}
+        for frame in range(0, 3):
+            image = self.loadAndResizeImageFile(frame)
+            for dx in range(-1, 2):
+                for dy in range(-1, 2):
+                    if not (dx == 0 and dy == 0):
+                        image_rotated = self.rotateImage(image, dx, dy)
+                        self.imageCache[(frame, dx, dy)] = image_rotated
+
+
+
+约翰福音 3:16 是基督教《圣经》中的一节经文。其主要内容是神对人类的爱，并通过派遣祂的独生子耶稣基督来实现救赎。具体来说，这节经文强调了信仰耶稣能够带来永生。中文翻译通常是：“神爱世人，甚至将他的独生子赐给他们，叫一切信他的，不至灭亡，反得永生。” 这表达了基督教核心的信仰内容，即通过信仰耶稣，人们可以获得永恒的生命。
+
+
+约翰福音 3:16 is a verse from the Christian Bible. Its main theme is God's love for humanity, manifested through the sending of His only Son, Jesus Christ, to achieve salvation. Specifically, the verse emphasizes that faith in Jesus can bring eternal life. The typical Chinese translation is: "神爱世人，甚至将他的独生子赐给他们，叫一切信他的，不至灭亡，反得永生." This expresses the core Christian belief that by having faith in Jesus, people can attain eternal life.
+
+1237 / 18354 = ? / 100
+
+Apple Stepping Up Plans to Expand News App to More Countries
+Tuesday January 7, 2025 2:01 am PST by Tim Hardwick
+
+Apple plans to scale up its News app by adding new countries to the platform beyond the US, Canada, the UK, and Australia, according to the Financial Times.
+
+apple news banner
+The plans reportedly include building its locally focused news coverage in the UK, as well as bringing its puzzles section to the country which is currently limited to the US and Canada.
+
+Apple News and Apple News+, the app's free and subscription-based versions, provide a blend of curated and personalized content, including stories from magazines and newspapers, as well as games, podcasts, and newsletters. The free service makes money purely through advertising, while the subscription service costs $12.99 a month in the US and £12.99 in the UK.
+
+The renewed push comes alongside Apple's efforts to improve its advertising effectiveness, and aims to grow Apple's role as a source of revenue for publishers. Apple News currently reaches about 125 million people every month and feeds into the company's growing services business that includes Apple TV+ and Apple Pay, which is collectively worth about $96 billion a year.
+
+The move comes amid significant drops in digital revenues across media groups, following Meta's decision to downplay news coverage as well as changes to Google's algorithms, which has decreased traffic from search, alongside the impact of AI summaries of news and search requests.
+
+According to FT's sources, Apple's own research has shown that Apple News reaches a different audience to the readers for most publishers. The audience tends to trend towards a more wealthy demographic, one media boss told the newspaper, adding that it was "well read in the corridors of power in Westminster and Washington."
+
+But the impact of Apple News has been a mixed blessing for publishers. Some groups have received significant business through the platform. However, attempts to monetise articles have been made more difficult by Apple's strict data protection rules that prevent advertisers from targeting readers using third-party data or IP addresses.
+
+苹果加紧计划将新闻应用程序扩展到更多国家
+太平洋标准时间 2025 年 1 月 7 日星期二凌晨 2:01 作者：Tim Hardwick
+
+据英国《金融时报》报道，苹果计划通过在美国、加拿大、英国和澳大利亚以外的平台上添加新的国家来扩大其新闻应用程序的规模。
+
+苹果新闻横幅
+据报道，这些计划包括在英国建立以当地为中心的新闻报道，并将其拼图部分带到目前仅限于美国和加拿大的国家。
+
+Apple News 和 Apple News+ 是该应用程序的免费和订阅版本，提供精选和个性化的内容，包括杂志和报纸的故事，以及游戏、播客和时事通讯。免费服务纯粹通过广告赚钱，而订阅服务在美国每月收费 12.99 美元，在英国每月收费 12.99 英镑。
+
+新的举措与苹果公司提高广告效果的努力同时进行，旨在增强苹果公司作为出版商收入来源的作用。 Apple News 目前每月覆盖约 1.25 亿人，并为该公司不断增长的服务业务提供支持，其中包括 Apple TV+ 和 Apple Pay，这些业务每年的总价值约为 960 亿美元。
+
+此举发生之际，媒体集团的数字收入大幅​​下降，原因是 Meta 决定淡化新闻报道以及谷歌算法的变化，这减少了搜索流量，同时还受到人工智能新闻摘要和搜索请求的影响。
+
+据英国《金融时报》消息人士透露，苹果自己的研究表明，Apple News 所吸引的受众与大多数出版商的读者不同。一位媒体老板告诉该报，观众往往倾向于更富有的人群，并补充说，这本书“在威斯敏斯特和华盛顿的权力走廊上很受欢迎”。
+
+但 Apple News 的影响对于出版商来说却是喜忧参半。一些团体通过该平台获得了大量业务。然而，由于苹果严格的数据保护规则阻止广告商使用第三方数据或 IP 地址来定位读者，因此通过文章货币化的尝试变得更加困难。
+
+
+ [讨论] emacs AI辅助编程的方法论
+
+思考了一下利用AI辅助编程的流程，把我自己的心得发在这里了
+
+AI辅助编程是个比较新的话题，也许现在也没有统一成熟的方法论。如果各位有不同看法或者建议，或者有新的想法，请不吝赐教，谢谢。
+
+[Discussion] Emacs AI Assisted Programming Workflow (with aider)
+
+Think about the process of using AI auxiliary programming to send my own experience here
+
+Most likely is a combination of AI + Agile
+
+
+AI assisted programming (in emacs) is a relatively new topic, and maybe there is no unified and mature methodology now. If you have different views or suggestions, or have new ideas, please give me a lecture, thank you.
+
+To develop new features effectively with aider.el, follow these steps:
+
+    Start an Aider session specific to your current git repository by running the command “aider-run-aider”. This links your session to your project context.
+    Add relevant files to the session using commands such as “aider-add-current-file”, “aider-add-files-in-current-window”, etc, so that the AI has access to the complete codebase.
+    Use the in-place implementation commands—for example, “aider-implement-todo” to implement requirements directly in comments or “aider-function-or-region-refactor” to make code change or refactor existing code—since these approaches are preferred for feature development as they apply minimal, context-aware changes.
+        For inline one-line comment implementations: For example, if you have the following Python code snippet:
+
+        # TODO: Implement a function that checks if a number is prime
+                
+
+Place the cursor on the TODO comment line and run “aider-implement-todo”. This command will send only that inline comment to Aider, which will then generate new code—for example, a complete implementation of an is_prime function—while leaving existing code unchanged. A possible generated output might be:
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+        
+
+        This example demonstrates using aider-implement-todo to generate entirely new code rather than modifying existing code.
+
+        Actually, this function can also help writing document.
+            If you are not satisfied with the change aider suggested. You can enter N to refuse accept that, and then use Ask Question (or /ask in aider session buffer) to ask aider modify the change given your more specific requirement. When you satisfy with that, use “Go Ahead” (or “go ahead” in aider session buffer)
+        When you need to adjust an existing function, class, or code block, do the following:
+            If you wish to change only a part of the code, select that region; otherwise, simply place the cursor inside the target function or block.
+            Run “aider-function-or-region-refactor”.
+            When prompted, enter a clear code change / refactoring instruction (for example, “Rename variable ‘temp’ to ‘result’” or “Make the function static”).
+            Aider will process your instruction and return a revised version of the code with your changes applied in place while preserving the overall structure.
+            Review the output and, if needed, refine your instructions further (e.g., by using “Ask Question”) to get the desired result.
+        aider-architect-discussion and aider-code-change are also helpful, but it is less context aware than the above two commands.
+    Validate and evolve your feature with test-driven commands like “aider-write-unit-test” and “aider-fix-failing-test-under-cursor” as needed.
+
+AI-generated code is beneficial for quickly implementing features but can sometimes introduce subtle bugs or inconsistencies. That’s why Unit Test (or even more, Test-Driven Development) is critical: by writing tests before and after integrating AI-generated changes, you ensure that each incremental improvement is validated immediately. Implement your tests in small iteration steps—running your full test suite after each change—to catch issues early and maintain robust control over your codebase.
+
+Right now I am using projectile function to jump between main code and test code, and add them to session. It would be better if there is a way to easily add test code to session.
+AI辅助编程（在EMACS中）是一个相对较新的话题，也许现在没有统一和成熟的方法。如果您有不同的观点或建议，或者有新想法，请给我讲座，谢谢。
+
+要使用aider.el有效地开发新功能，请按照以下步骤：
+
+    通过运行命令“ Aider-Run-Aider”来启动针对当前GIT存储库的AIDE会话。这将您的会话链接到您的项目上下文。
+    使用诸如“ aider-add-current-file”，“ aider-add-files in-current-window”等命令将相关文件添加到会话中，以便AI可以访问完整的代码库。
+    使用现场实现命令（例如，“ Aider-Implement-todo”）直接在注释或“ Aider-unction-orction-or-grigion-Refactor”中实现要求，以使代码更改或重构现有代码，因为这些方法是首选对于特征开发，它们应用了最小的上下文感知变化。
+        对于内联一行注释实现：例如，如果您有以下Python代码段：
+
+        ＃todo：实现一个函数，该函数检查数字是否是prime
+                
+
+将光标放在托多评论行上，并运行“ aider-implement-todo”。此命令只会将该内联注释发送给Aider，然后将生成新代码（例如，完全实现IS_PRIME函数），而将现有代码保持不变。可能生成的输出可能是：
+
+def is_prime（n）：
+    如果n <= 1：
+        返回false
+    对于范围（2，int（n ** 0.5） + 1）：
+        如果n％i == 0：
+            返回false
+    返回true
+        
+
+        此示例演示了使用AIDER-IMPLEMENT-TODO生成全新的代码，而不是修改现有代码。
+
+        实际上，此功能还可以帮助编写文档。
+            如果您对建议的更改不满意。您可以输入n以拒绝接受，然后使用询问问题（或 /询问Aider会话缓冲区）以要求Aider修改给定更具体要求的更改。当您满足时，请使用“继续”（或在AIDER会话缓冲区中“继续”）
+        当您需要调整现有函数，类或代码块时，请执行以下操作：
+            如果您只想更改代码的一部分，请选择该区域；否则，只需将光标放在目标函数或块中即可。
+            运行“ Aider-unction-或Region-Refactor”。
+            提示时，输入清晰的代码更改 /重构指令（例如，“重命名变量'temp”为“结果”或“使函数静态”）。
+            Aider将处理您的说明，并返回代码的修订版，并在保留整体结构的同时进行更改。
+            查看输出，如果需要，请进一步完善您的说明（例如，使用“问问题”）以获得所需的结果。
+        Aider-Architect-Discussion和Aider-Code-Change也很有帮助，但与上述两个命令相比，它的上下文意识少。
+    根据需要，使用“ Aider-Write-Unit测试”和“ Aider-Write-unit测试”和“ Aider-Failing-Failing-tew-tew-cursor”验证和进化您的功能。
+
+AI生成的代码对快速实施功能是有益的，但有时可能引入细微的错误或不一致之处。这就是为什么单位测试（甚至更多，测试驱动的开发）至关重要的：通过在整合AI生成的更改之前和之后编写测试，您可以确保立即验证每个增量改进。按小型迭代步骤（每次更改后都会运行完整的测试套件）以尽早发现问题并保持对代码库的强大控制。
+
+现在，我使用弹丸功能在主代码和测试代码之间跳跃，并将它们添加到会话中。如果有一种方法可以轻松地将测试代码添加到会话中，那就更好了。
+
+之前在使用AI辅助编程的时候，在自己手工编程 / AI编程之间切换，手忙脚乱，而且要特别小心AI生成代码的正确性。
+
+思考了一下利用AI辅助编程的流程，目前的想法大概是
+
+    生成新代码 / 修改现有功能
+    生成测试 / 修改并运行测试 / 确保AI生成的代码是对的
+    重构代码和测试
+
+When I used AI assisted programming, switch between my handwriting programming / AI programming, kind of a mess to switch context, and have to be careful of the correctness of AI to generate code.
+
+After thinking about the process of using AI assisted programming, the current idea is probably
+
+    Generate new code / modify existing functions
+    Generate test / modification and run test / ensure that the code generated by AI is right
+    Refactor code and test
+
+在aider提供的命令行操作之上，这个library提供了什么额外的价值？
+
+    菜单操作，少敲几个按键，直接在代码上操作，不用切换; 自动管理git repo aider session.
+    aider.el会把emacs编辑的上下文发给aider, 比如，现在关心哪个函数或者类？当前选定了哪些内容？这会让用户少敲键盘。
+    aider是核心的引擎，这个软件包针对的是程序员关心的日常应用层面的问题。比如，如何新增/修改代码; 如何测试AI代码的正确性; 如何阅读别人的代码; 以及以后想加强的，如何debug exception.
+
+Recently, the Cursor editor has been gaining popularity. As a long-time Emacs user, I don't want to switch to Cursor just because of AI. Currently, Aider only has plugins for Vim and VSCode, but Emacs has a tradition of integrating command-line tools. So I decided to write my own, as a humble attempt.
+
+What additional value does this library provide above the command line operations provided by aider?
+
+- Menu operation, tap a few less keys, operate directly on the code without switching; automatically manage git repo aider session.
+- aider.el will send the context of emacs editing to aider, for example, which function or class is concerned about now? What are currently selected? This will allow the user to type less keyboard.
+- aider is the core engine, and this software package is aimed at daily application issues that programmers are concerned about. For example, how to add/modify code; how to test the correctness of AI code; how to read other people's code; and how to debug exception if you want to strengthen in the future.
+
+
+John 3:16
+
+好的，以下是对《约翰福音》3章16节的详细分析，用简体中文：
+
+**经文:**
+
+"神爱世人，甚至将他的独生子赐给他们，叫一切信他的，不至灭亡，反得永生。" (约翰福音 3:16)
+
+**含义分析:**
+
+这句话是基督教信仰的核心，也是福音的高度浓缩。它包含以下几个关键信息：
+
+*   **神的爱 (神爱世人):**  强调神对全人类普遍的、无条件的爱。这里的“世人”并非指特定的人群，而是指世界上所有的人，包括好人和坏人，义人和罪人。  神并非只爱那些爱祂的人，而是主动地、先于我们行动地爱我们。
+*   **爱的深度 (甚至将他的独生子赐给他们):** 这份爱是极其伟大的，达到了牺牲自己独生子的程度。耶稣是神唯一的儿子，将他赐给世人是神付出最大的代价。这表明了神对世人的救赎有着多么强烈的意愿。
+*   **礼物的本质 (他的独生子):** 指的是耶稣基督，他是神与人之间的中保。他来到世上是为了完成救赎的工作。
+*   **接受的方法 (叫一切信他的):**  得救的途径是“信”耶稣。  这种“信”不仅仅是理智上的相信，更是包含着信任、依靠和委身。  
+*   **结果 (不至灭亡，反得永生):**  信的结果有两个方面：避免灭亡和获得永生。“灭亡”指的是与神永远分离，而“永生”指的是与神永远同在，享受丰盛的生命，不仅指死后的生命，也指今生与神建立的亲密关系带来的属灵生命。
+
+**上下文分析:**
+
+*   **尼哥底母的拜访 (约翰福音 3:1-21):**  这段经文出自耶稣与尼哥底母的对话。尼哥底母是一位法利赛人，也是犹太人的官。他夜里来拜访耶稣，寻求关于天国的真理。耶稣向他解释了“重生”的重要性，指出人必须从水和圣灵重生才能进入神的国。3:16 是耶稣对尼哥底母所讲的关于救恩的真理的总结和核心。
+*   **之前的内容:** 耶稣通过行神迹奇事来显明自己的身份和权柄，吸引了尼哥底母前来求教。
+*   **之后的内容:**  耶稣继续阐述信他的重要性，并警告人们不信的后果。 约翰福音3章的其余部分以及之后的章节都进一步解释了信耶稣的意义，以及圣灵在信徒生命中的作用。
+
+**关键主题:**
+
+*   **神的爱:**  这是最重要的主题。神主动地、无条件地爱着世人。
+*   **救恩:**  通过耶稣基督，人可以得到救赎，免于灭亡。
+*   **信心:**  得救的途径是相信耶稣基督。
+*   **永生:**  信耶稣的人可以得到永生，与神永远同在。
+*   **重生:**  要想进入神的国，必须经历从水和圣灵的重生。
+
+**总结:**
+
+《约翰福音》3章16节是一句充满盼望和应许的经文。它告诉我们，神爱世人，并为我们的救赎付出了极大的代价。只要我们相信耶稣基督，就可以得到永生，与神建立永远的关系。 这节经文是基督教信仰的基石，也是福音的核心信息。 它强调了神的爱， 救恩的必要性， 以及通过信心的回应。
+
+Recently, I noticed that after I use /ask to request aider to look into some problem, It answered me with several solution. such as:
+
+I have several ways!
+
+Solution 1, code change xxxx
+Solution 2, code change yyyy
+Solution 3, code change zzzz
+
+It seems that I can follow up with sth like: go ahead with your solution 2! to choose the way I want to go.
+
+(Sometime same thing happens in chatgpt app, it ask me to choose answer)
+
+The above conversation with aider made the diff / smerge-mode based accept not quite straight forward, in my opinion.
+
+最近，我注意到我使用 /要求Aider调查一些问题后，它通过几种解决方案回答了我。例如：
+
+我有几种方法！
+
+解决方案1，代码更改xxxx
+解决方案2，代码更改yyyy
+解决方案3，代码更改zzzz
+
+看来我可以跟进STH，例如：继续您的解决方案2！选择我想走的方式。
+
+（有时候同一件事发生在chatgpt应用中，它要求我选择答案）
+
+我认为，上述与Aider的对话使基于diff / smerge模式的对话不太直接。
+
+    Git repository-specific Aider session management
+    Integrating context (buffer / things under cursor / region) with aider, semi-automatically build up prompt. easy search / reuse previous prompt with helm
+    Menu items for AI-assistant programming workflow. TDD style loop to reduce potential AI introduced error
+    Aider prompt file to organize relative large code change task, and make it reproducible. Interacting with aider session from it following ESS way. Yasnippet support to reuse good prompts from community.
+

@@ -14,4 +14,4 @@ class PyGameTestCase(TestCase):
         self.game = Game(self.width, self.height)
 
     def test_play(self):
-        self.game.spikeSprite()
+        self.game.play()

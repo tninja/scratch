@@ -208,3 +208,65 @@ c d e
 midi-breath-noise: c d e
 
 midi-melodic-tom: c d e f g
+
+
+# 超级飞侠: https://www.52cmajor.com/tab/72415747615047690
+
+piano:
+# page 1
+    e8 f8 g8 g8~g4 g4 | a4 g8 f8~f8 g8 a4 | f8 g8 a8 a8~a4 a4
+    g8 g8 a8 g8~g4 g4 | a4 a8 a8~a4 a4 | g4 g8 >c8 c4< r4
+    a8 a8 a8 a8 a8 b8 >c8 c8< | b8 b8 >c8 d8~d4 d4< | r4 r4 r4 r4
+    r4 r4 r4 r4 | g8 g8 g8 e8~e8 f8 g4 | r4 r4 g8 g8 g8 e8~e8 f8 g4 r4 r4 | r4 r4 r4 r4 | r4 r4 r4 r4 |
+    a4 b4 >c4< a4 | b8 >c4 d8~d4 d4< | r4 r4 r4 r4
+
+piano:
+    >c4 c4< g4 >c4< | >d4.< a8~a4 a4 | b4 b4 >d4 d4<
+    >c4 d4 e4 e4< | >c4 c4< g4 >c4< | >d4.< a8~a4 a4
+    b4 >d4 d4 c8 c8< | b4 b4 >c4 d4< | >d4 c4 c4 c4<
+# second
+
+piano:
+    e8 f8 g8 g8~g4 g4 |
+
+piano:  c d e
+
+# melody of life: https://www.everyonepiano.cn/Number-8144-1-%E7%94%9F%E5%91%BD%E7%9A%84%E6%97%8B%E5%BE%8B-Melodies-of-Life-%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B39%E4%B8%BB%E9%A2%98%E6%9B%B2%E5%8F%8C%E6%89%8B%E7%AE%80%E8%B0%B1%E9%A2%84%E8%A7%881.html
+
+piano: 
+
+# 小猪佩奇
+
+## https://puduoduo123.com/34870.html
+
+motif1 = [ >g4 e8 c8 d4< g4 | g8 b8 >d8 f8 e4 c4< ]
+piano:
+    motif1 | >e4. e8 g2< |
+    motif1 | >e4. e8 d2< |
+    motif1 | >e4. e8 >c2<< |
+    >g4. g8 >c2<<
+
+piano:  c4
+
+## 双手谱: https://www.qupucn.com/qitaqupu/jianpudaquan/128934.html
+
+motif11 = >g4 e8 c8 d4< g4 | g8 b8 >d8 f8 e4 c4<
+motif21 = <c8 g8 e8 g8 <b8> g8 d8 g8> | <<b8> g8 d8 g8 c8 g8 e8 g8>
+
+piano:
+    r8 motif11
+    r8 e8/g8 r8 e8/g8 r8 e8/g8 r8 e8/g8 | r8 f8/g8 r8 f8/g8 r8 f8/g8 r8 f8/g8
+    motif11
+midi-piano:
+    motif21
+    <c4 <g4> c4 <g4>> | <d4 <g4> d4 <g4>>
+    motif21
+
+###
+
+piano:
+    r4 g4 [>c8< a8] g4 g4 | [e8 g8] [a8 >c8<] g4 g4 
+    a4 [g8 e8] d4 d4 | e4 [g8 e8] [d8 e8] c4
+guitar:
+    c4 r4 r4 <g4> | c4 r4 r4 <e4>
+    <a4> r4 r4 <g4> | <c4> r4 r4 <d8 e8>
