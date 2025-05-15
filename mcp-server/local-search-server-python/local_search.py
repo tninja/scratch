@@ -22,7 +22,7 @@ def execute_search_on_file_list(keyword, files):
         import subprocess
         import shlex
         # 构建 grep 命令
-        cmd = ["grep", "-n", "-A", "7" "-B" "3", keyword] + files
+        cmd = ["grep", "-i", "-n", "-A", "7", "-B", "3", keyword] + files
         # 执行命令并获取输出
         result = subprocess.run(cmd, capture_output=True, text=True)
         # 如果有输出，返回它；否则返回未找到的消息
@@ -49,6 +49,7 @@ def execute_search_on_dir_list(keyword: str, directories: list) -> str:
         # 构建 ag 命令，搜索 java、python 和 sql 文件
         cmd = [
             "ag",
+            "-i",
             "-G",
             '\.(java|py|sql|scala|org|md)$',
             keyword,
